@@ -1,0 +1,35 @@
+# Configuration for i18n workflow.
+
+# This will copy each source language to a new directory at the end of the i18n generate step
+# How did we select those languages? We picked those languages that are ~50%+
+# translated on https://www.transifex.com/open-edx/edx-platform/dashboard/
+locales:
+    - ca  # Catalan
+    - de_DE  # German (Germany)
+    - es_ES  # Spanish (Spain)
+    - fr_CA # French (Canada)
+    - hr  # Croatian
+    - id  # Indonesian
+    - ja_JP  # Japanese (Japan)
+    - ka # Georgian
+    - pl  # Polish
+    - sv  # Swedish
+    - sw  # Swahili
+    - tr_TR  # Turkish (Turkey)
+    - uk  # Ukranian
+    - vi  # Vietnamese
+    - zh_TW  # Chinese (Taiwan)
+
+# Copied from edx-platform/conf/locale/config.yaml
+generate_merge:
+    django.po:
+        - django-partial.po
+        - django-studio.po
+        - mako.po
+        - mako-studio.po
+        - wiki.po
+    djangojs.po:
+        - djangojs-partial.po
+        - djangojs-studio.po
+        - underscore.po
+        - underscore-studio.po

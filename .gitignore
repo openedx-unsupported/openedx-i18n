@@ -1,0 +1,5 @@
+*/*/*/LC_MESSAGES/*
+!*/*/*/LC_MESSAGES/django.mo
+!*/*/*/LC_MESSAGES/django.po
+!*/*/*/LC_MESSAGES/djangojs.po
+!*/*/*/LC_MESSAGES/djangojs.mo
