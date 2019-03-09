@@ -1,5 +1,6 @@
-*/*/*/LC_MESSAGES/*
-!*/*/*/LC_MESSAGES/django.mo
-!*/*/*/LC_MESSAGES/django.po
-!*/*/*/LC_MESSAGES/djangojs.po
-!*/*/*/LC_MESSAGES/djangojs.mo
+transifexrc
+/edx-platform/locale/*/LC_MESSAGES/*
+!/edx-platform/locale/*/LC_MESSAGES/django.mo
+!/edx-platform/locale/*/LC_MESSAGES/django.po
+!/edx-platform/locale/*/LC_MESSAGES/djangojs.po
+!/edx-platform/locale/*/LC_MESSAGES/djangojs.mo

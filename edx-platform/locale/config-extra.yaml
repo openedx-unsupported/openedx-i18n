@@ -1,5 +1,7 @@
 # Configuration for i18n workflow.
 
+root_dir: /openedx/edx-platform
+
 # This will copy each source language to a new directory at the end of the i18n generate step
 # How did we select those languages? We picked those languages that are ~50%+
 # translated on https://www.transifex.com/open-edx/edx-platform/dashboard/

@@ -1,28 +1,32 @@
+.DEFAULT_GOAL := help
+
 PWD ?= $$(pwd)
 USERID ?= $$(id -u)
 
 DOCKER_RUN=docker run --rm -it \
-	-e USERID=$(USERID) \
-	-e SETTINGS=locale \
-	-v $(PWD)/edx-platform/locale.py:/openedx/edx-platform/lms/envs/locale.py \
 	-v $(PWD)/edx-platform/locale/:/openedx/edx-platform/conf/locale/ \
-	regis/openedx:hawthorn
+	openedx-i18n
 
-all: download compile clean ## Download and compile translations from transifex
+all: build download validate compile ## Download and compile translations from transifex
 
 shell:
 	$(DOCKER_RUN) bash
 
-download:
+build: ## Build the docker image that contains translations
+	docker build -t openedx-i18n --build-arg USERID=$(USERID) ./docker
+
+download: ## Download i18n files from transifex
 	$(DOCKER_RUN) i18n_tool transifex --config=conf/locale/config-extra.yaml pull
 
-compile:
+validate: ## Check for errors in translation files
+	$(DOCKER_RUN) i18n_tool validate --config=conf/locale/config-extra.yaml
+
+compile: ## Compile i18n files
 	$(DOCKER_RUN) bash -c "\
 		cd conf/locale && i18n_tool generate -v --config=./config-extra.yaml"
 
-# TODO remove me
-compilemessages:
-	$(DOCKER_RUN) bash -c "cd conf/locale && django-admin.py compilemessages -v1"
-
-clean:
+clean: ## Clean useless i18n files
 	git clean -Xfd -- edx-platform/
+
+help: ## generate this help
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
