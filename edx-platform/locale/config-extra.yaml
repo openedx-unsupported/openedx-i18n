@@ -4,15 +4,19 @@
 # How did we select those languages? We picked those languages that are ~50%+
 # translated on https://www.transifex.com/open-edx/edx-platform/dashboard/
 locales:
+    - ar  # Arabic
     - ca  # Catalan
     - de_DE  # German (Germany)
+    - es_419  # Spanish (Latin America)
     - es_ES  # Spanish (Spain)
+    - fr  # French
     - fr_CA # French (Canada)
     - hr  # Croatian
     - id  # Indonesian
     - ja_JP  # Japanese (Japan)
     - ka # Georgian
     - pl  # Polish
+    - pt_BR  # Portuguese (Brazil)
     - sv  # Swedish
     - sw  # Swahili
     - tr_TR  # Turkish (Turkey)
