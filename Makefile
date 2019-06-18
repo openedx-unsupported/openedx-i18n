@@ -29,5 +29,5 @@ clean:
 	git clean -Xfd -- edx-platform/
 
 
-xblocks:
+pull_translations:
 	$(DOCKER_RUN) python xblocks/xblocks.py
