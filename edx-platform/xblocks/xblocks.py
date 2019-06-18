@@ -27,12 +27,11 @@ def pull_translations():
 
         branch = 'i18n-bot/{time}'.format(time=time.strftime('%Y-%m-%d-%H%M%S'))
 
-        # check_call(['git', 'clone', config['upstream_repo'], config['name']], cwd=repos_dir)
-        # check_call(['git', 'remote', 'add', 'local', config['local_repo']], cwd=repo_dir)
-        # TODO: check_call(['git', 'fetch', '--all'], cwd=repo_dir)
+        check_call(['git', 'clone', config['upstream_repo'], config['name']], cwd=repos_dir)
+        check_call(['git', 'remote', 'add', 'local', config['local_repo']], cwd=repo_dir)
         check_call(['git', 'checkout', '-b', branch, 'master'], cwd=repo_dir)
 
-        for step in config['pull_steps']:  #  + config['requirement_steps']:
+        for step in config['pull_steps'] + config['requirement_steps']:
             check_call(step.split(' '), cwd=repo_dir)
         #
         # # TODO: Change to something owned by the Open edX team
