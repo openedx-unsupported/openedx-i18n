@@ -1,11 +1,9 @@
 PWD ?= $$(pwd)
-USERID ?= $$(id -u)
 
 DOCKER_RUN=docker run --rm -it \
-	-e USERID=$(USERID) \
 	-e SETTINGS=locale \
 	-v $(PWD)/edx-platform/locale.py:/openedx/edx-platform/lms/envs/locale.py \
-	-v $(PWD)/edx-platform/xblocks:/openedx/edx-platform/xblocks \
+	-v $(PWD)/edx-platform/xblocks/:/openedx/edx-platform/xblocks/ \
 	-v $(PWD)/edx-platform/locale/:/openedx/edx-platform/conf/locale/ \
 	regis/openedx:hawthorn
 
