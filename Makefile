@@ -10,6 +10,9 @@ DOCKER_RUN=docker run --rm -it \
 
 all: download compile clean ## Download and compile translations from transifex
 
+chown:
+	sudo chown -R $(USER) -- $(PWD)
+
 shell:
 	$(DOCKER_RUN) bash
 
@@ -29,7 +32,8 @@ clean:
 
 
 pull_translations:
-	sudo rm -rf edx-platform/xblocks/repos/*
+#	sudo rm -rf edx-platform/xblocks/repos/*
 	$(DOCKER_RUN) python xblocks/xblocks.py
+	make chown
 	find edx-platform/xblocks/repos/ -maxdepth 1 -mindepth 1 -type d \
-		-exec bash -c 'cd {} && git push'
+		-exec bash -c 'cd {} && git push --set-upstream local $(shell rev-parse --abbrev-ref HEAD)' \;
