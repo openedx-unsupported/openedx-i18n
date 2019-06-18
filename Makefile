@@ -5,6 +5,7 @@ DOCKER_RUN=docker run --rm -it \
 	-e USERID=$(USERID) \
 	-e SETTINGS=locale \
 	-v $(PWD)/edx-platform/locale.py:/openedx/edx-platform/lms/envs/locale.py \
+	-v $(PWD)/edx-platform/xblocks:/openedx/edx-platform/xblocks \
 	-v $(PWD)/edx-platform/locale/:/openedx/edx-platform/conf/locale/ \
 	regis/openedx:hawthorn
 
@@ -26,3 +27,7 @@ compilemessages:
 
 clean:
 	git clean -Xfd -- edx-platform/
+
+
+xblocks:
+	$(DOCKER_RUN) python xblocks/xblocks.py
