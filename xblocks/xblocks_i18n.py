@@ -5,23 +5,30 @@ from __future__ import print_function, unicode_literals
 
 from yaml import safe_load
 from subprocess import check_call
-from shutil import rmtree
-from os import system, mkdir
 from os import path
 import time
 
 XBLOCKS_DIR = path.dirname(__file__)
 
-def xblock_configs():
-    with open(path.join(XBLOCKS_DIR, 'config.yaml'), 'r') as config_file:
-        config = safe_load(config_file)
-
-    for xblock in config['xblocks']:
-        yield xblock
+XBLOCK_CONFIGS = [{
+    'push_script': 'make push_translations',
+    'local_repo': 'git@github.com:appsembler/xblock-poll.git',
+    'upstream_repo': 'https://github.com/open-craft/xblock-poll.git',
+    'name': 'xblock-poll',
+    'pull_script': 'make pull_translations',
+    'requirements_script': 'make requirements'
+}, {
+    'push_script': 'make extract_translations; make push_translations',
+    'local_repo': 'git@github.com:appsembler/xblock-drag-and-drop-v2.git',
+    'upstream_repo': 'https://github.com/edx-solutions/xblock-drag-and-drop-v2.git',
+    'name': 'xblock-drag-and-drop-v2',
+    'pull_script': 'make pull_translations',
+    'requirements_script': 'pip install -r requirements.txt'
+}]
 
 
 def pull_translations():
-    for config in xblock_configs():
+    for config in XBLOCK_CONFIGS:
         repos_dir = path.join(XBLOCKS_DIR, 'repos')
         repo_dir = path.join(repos_dir, config['name'])
 
@@ -31,7 +38,7 @@ def pull_translations():
         check_call(['git', 'remote', 'add', 'local', config['local_repo']], cwd=repo_dir)
         check_call(['git', 'checkout', '-b', branch, 'master'], cwd=repo_dir)
 
-        # check_call(config['requirements_script'], shell=True, cwd=repo_dir)
+        check_call(config['requirements_script'], shell=True, cwd=repo_dir)
         check_call(config['pull_script'], shell=True, cwd=repo_dir)
 
         # TODO: Change to something owned by the Open edX team

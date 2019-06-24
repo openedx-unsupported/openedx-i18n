@@ -4,7 +4,6 @@ DOCKER_RUN=docker run --rm -it \
 	-e SETTINGS=locale \
 	-v ~/.transifexrc:/root/.transifexrc \
 	-v $(PWD)/edx-platform/locale.py:/openedx/edx-platform/lms/envs/locale.py \
-	-v $(PWD)/edx-platform/xblocks/:/openedx/edx-platform/xblocks/ \
 	-v $(PWD)/edx-platform/locale/:/openedx/edx-platform/conf/locale/ \
 	regis/openedx:hawthorn
 
@@ -32,8 +31,14 @@ clean:
 
 
 pull_translations:
-	sudo rm -rf edx-platform/xblocks/repos/*
-	$(DOCKER_RUN) python xblocks/xblocks_i18n.py
+	sudo rm -rf xblocks/repos/*
+
+	docker run --rm -it \
+	-v ~/.transifexrc:/root/.transifexrc \
+	-v $(PWD)/xblocks/:/xblocks/ \
+	    python:2.7.16 \
+	    python /xblocks/xblocks_i18n.py
+
 	make chown
-	find edx-platform/xblocks/repos/ -maxdepth 1 -mindepth 1 -type d \
+	find xblocks/repos/ -maxdepth 1 -mindepth 1 -type d \
 		-exec bash -c 'cd {} && git push --set-upstream local $(shell rev-parse --abbrev-ref HEAD)' \;
