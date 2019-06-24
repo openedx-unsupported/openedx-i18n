@@ -3,7 +3,6 @@ Push and pull the latest sources of XBlocks to Transifex in batch.
 """
 from __future__ import print_function, unicode_literals
 
-from yaml import safe_load
 from subprocess import check_call
 from os import path
 import time

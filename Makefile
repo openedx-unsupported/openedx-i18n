@@ -41,4 +41,4 @@ pull_translations:
 
 	make chown
 	find xblocks/repos/ -maxdepth 1 -mindepth 1 -type d \
-		-exec bash -c 'cd {} && git push --set-upstream local $(shell rev-parse --abbrev-ref HEAD)' \;
+		-exec bash -c 'cd {} && git push --set-upstream local $(shell git rev-parse --abbrev-ref HEAD)' \;
