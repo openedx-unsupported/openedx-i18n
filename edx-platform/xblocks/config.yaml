@@ -1,21 +1,21 @@
 xblocks:
-#  - name: xblock-drag-and-drop-v2
-#    upstream_repo: https://github.com/edx-solutions/xblock-drag-and-drop-v2.git
-#    local_repo: git@github.com:appsembler/xblock-drag-and-drop-v2.git
-#    requirement_steps:
-#      - pip install -r requirements.txt
-#    extract_steps:
-#      - make extract_translations
-#      - make push_translations
-#    pull_steps:
-#      - make pull_translations
-
   - name: xblock-poll
     upstream_repo: https://github.com/open-craft/xblock-poll.git
     local_repo: git@github.com:appsembler/xblock-poll.git
-    requirement_steps:
-      - make requirements
-    push_steps:
-      - make push_translations
-    pull_steps:
-      - make pull_translations
+    requirements_script: |
+      make requirements
+    push_script: |
+      make push_translations
+    pull_script: |
+      make pull_translations
+
+  - name: xblock-drag-and-drop-v2
+    upstream_repo: https://github.com/edx-solutions/xblock-drag-and-drop-v2.git
+    local_repo: git@github.com:appsembler/xblock-drag-and-drop-v2.git
+    requirements_script: |
+      pip install -r requirements.txt
+    push_script: |
+      make extract_translations
+      make push_translations
+    pull_script: |
+      make pull_translations

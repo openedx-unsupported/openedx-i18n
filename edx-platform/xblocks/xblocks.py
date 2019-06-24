@@ -31,10 +31,10 @@ def pull_translations():
         check_call(['git', 'remote', 'add', 'local', config['local_repo']], cwd=repo_dir)
         check_call(['git', 'checkout', '-b', branch, 'master'], cwd=repo_dir)
 
-        for step in config['pull_steps'] + config['requirement_steps']:
-            check_call(step.split(' '), cwd=repo_dir)
-        #
-        # # TODO: Change to something owned by the Open edX team
+        # check_call(config['requirements_script'], shell=True, cwd=repo_dir)
+        check_call(config['pull_script'], shell=True, cwd=repo_dir)
+
+        # TODO: Change to something owned by the Open edX team
         check_call(['git', 'config', 'user.name', 'Open edX i18n Bot'], cwd=repo_dir)
         check_call(['git', 'config', 'user.email', 'omar+openedx-i18n-bot@appsembler.com'],
                    cwd=repo_dir)
