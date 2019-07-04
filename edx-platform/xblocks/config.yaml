@@ -19,3 +19,88 @@ xblocks:
       make push_translations
     pull_script: |
       make pull_translations
+
+  - name: xblock-free-text-response
+    upstream_repo: https://github.com/Stanford-Online/xblock-free-text-response.git
+    local_repo: git@github.com:OmarIthawi/xblock-free-text-response.git
+    requirements_script: |
+      make requirements
+    push_script: |
+      make push_translations
+    pull_script: |
+      make pull_translations
+
+  - name: xblock-done
+    upstream_repo: https://github.com/pmitros/DoneXBlock.git
+    local_repo: git@github.com:pmitros/DoneXBlock.git
+    requirements_script: |
+      make requirements
+    push_script: |
+      make push_translations
+    pull_script: |
+      make pull_translations
+
+  - name: xblock-done
+    upstream_repo: https://github.com/pmitros/DoneXBlock.git
+    local_repo: git@github.com:pmitros/DoneXBlock.git
+    requirements_script: |
+      make requirements
+    push_script: |
+      make push_translations
+    pull_script: |
+      make pull_translations
+
+  - name: xblock-lti-consumer
+    upstream_repo: https://github.com/edx/xblock-lti-consumer.git
+    local_repo: git@github.com:appsembler/xblock-lti-consumer.git
+    requirements_script: |
+      make install
+    push_script: |
+      echo "Not supported"
+      false
+    pull_script: |
+      tx pull -f --mode=reviewed -l en,ar,es_419,fr,fr_CA,he,hi,ko_KR,pt_BR,ru,zh_CN,ja_JP
+
+  - name: xblock-google-drive
+    upstream_repo: https://github.com/edx-solutions/xblock-google-drive.git
+    local_repo: git@github.com:appsembler/xblock-google-drive.git
+    requirements_script: |
+      make requirements
+    push_script: |
+      make push_translations
+    pull_script: |
+      make pull_translations
+
+  - name: xblock-pdf
+    upstream_repo: https://github.com/appsembler/pdfXBlock.git
+    local_repo: git@github.com:appsembler/pdfXBlock.git
+    requirements_script: |
+      make requirements
+    push_script: |
+      make push_translations
+    pull_script: |
+      make pull_translations
+
+  - name: xblock-ubcpi
+    upstream_repo: https://github.com/ubc/ubcpi.git
+    local_repo: git@github.com:appsembler/ubcpi.git
+    requirements_script: |
+      make deps
+    push_script: |
+      make extract
+      tx push -s
+    pull_script: |
+      tx pull -f --mode=reviewed -l en,ar,es_419,fr,fr_CA,he,hi,ko_KR,pt_BR,ru,zh_CN,ja_JP
+      make compile
+
+  - name: xblock-problem-builder
+    upstream_repo: https://github.com/open-craft/problem-builder.git
+    local_repo: git@github.com:appsembler/problem-builder.git
+    requirements_script: |
+      make requirements
+    push_script: |
+      make extract_translations
+      make push_translations
+    pull_script: |
+      make pull_translations
+      make compile_translations
