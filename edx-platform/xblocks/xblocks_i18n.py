@@ -1,11 +1,11 @@
 """
 Push and pull the latest sources of XBlocks to Transifex in batch.
 """
-from __future__ import print_function, unicode_literals
+from __future__ import print_function
 
-from yaml import safe_load, dump
+from yaml import safe_load, safe_dump
 from subprocess import check_call
-from os import path, walk
+from os import getenv, path, walk
 from os.path import join, relpath
 import time
 
@@ -34,6 +34,10 @@ def xblock_configs():
 
 def pull_translations():
     for config in xblock_configs():
+        only = getenv('XBLOCK_NAME')
+        if only and only != config['name']:
+            continue
+
         repos_dir = path.join(XBLOCKS_DIR, 'repos')
         repo_dir = path.join(repos_dir, config['name'])
 
@@ -78,7 +82,7 @@ def pull_translations():
 
 if __name__ == '__main__':
     errors = list(pull_translations())
-    raise Exception(dump({
+    raise Exception(safe_dump({
         'description': 'The following errors have happened while pull translations from Transifex',
         'details': errors,
     }))
