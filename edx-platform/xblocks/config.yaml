@@ -40,16 +40,6 @@ xblocks:
     pull_script: |
       make pull_translations
 
-  - name: xblock-done
-    upstream_repo: https://github.com/pmitros/DoneXBlock.git
-    local_repo: git@github.com:pmitros/DoneXBlock.git
-    requirements_script: |
-      make requirements
-    push_script: |
-      make push_translations
-    pull_script: |
-      make pull_translations
-
   - name: xblock-lti-consumer
     upstream_repo: https://github.com/edx/xblock-lti-consumer.git
     local_repo: git@github.com:appsembler/xblock-lti-consumer.git
