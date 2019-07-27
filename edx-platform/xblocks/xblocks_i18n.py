@@ -3,8 +3,8 @@ Push and pull the latest sources of XBlocks to Transifex in batch.
 """
 from __future__ import print_function
 
-from ruamel.yaml import round_trip_load as ruamel_load, dump as ruamel_dump
-from subprocess import check_call, CalledProcessError, STDOUT, Popen, call
+from yaml import safe_load
+from subprocess import CalledProcessError, STDOUT, check_call
 from os import getenv, path, walk
 from os.path import join, relpath
 import time
@@ -25,12 +25,12 @@ def read_prob_files(root):
 
 
 def execute(cmd, **kwargs):
-    call(cmd, stderr=STDOUT, **kwargs)
+    check_call(cmd, stderr=STDOUT, **kwargs)
 
 
 def xblock_configs():
     with open(path.join(XBLOCKS_DIR, 'config.yaml'), 'r') as config_file:
-        config = ruamel_load(config_file)
+        config = safe_load(config_file)
 
     for xblock in config['xblocks']:
         yield xblock

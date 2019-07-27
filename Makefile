@@ -35,7 +35,7 @@ clean:
 
 pull_translations:
 	sudo rm -rf edx-platform/xblocks/repos/*
-	$(DOCKER_RUN) bash -c 'pip install ruamel.yaml==0.15.35 && python xblocks/xblocks_i18n.py'
+	$(DOCKER_RUN) python xblocks/xblocks_i18n.py
 	make chown
 	find edx-platform/xblocks/repos/ -maxdepth 1 -mindepth 1 -type d \
 		-exec bash -c 'cd {} && git push --set-upstream local $(shell git rev-parse --abbrev-ref HEAD)' \;
