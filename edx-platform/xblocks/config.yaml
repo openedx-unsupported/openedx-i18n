@@ -87,7 +87,8 @@ xblocks:
     upstream_repo: https://github.com/open-craft/problem-builder.git
     local_repo: git@github.com:appsembler/problem-builder.git
     requirements_script: |
-      make requirements
+      pip install -r requirements.txt
+      pip install -r requirements-dev.txt
     push_script: |
       make extract_translations
       make push_translations

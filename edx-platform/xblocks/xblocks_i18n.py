@@ -12,16 +12,14 @@ import time
 XBLOCKS_DIR = path.dirname(__file__)
 
 
-def read_prob_files(root):
+def print_prob_files(root):
     for parent, dirs, files in walk(root):
         for f in files:
             if f.endswith('.prob'):
                 file_path = relpath(join(parent, f), root)
                 with open(file_path) as file_obj:
-                    yield {
-                        'path': file_path,
-                        'content': file_obj.read(),
-                    }
+                    print('=====', file_path, '=====')
+                    print(file_obj.read())
 
 
 def execute(cmd, **kwargs):
@@ -56,7 +54,7 @@ def pull_translations():
             execute(config['pull_script'], shell=True, cwd=repo_dir)
         except CalledProcessError as e:
             print('Errors in pulling "{xblock}" resources from Transifex'.format(xblock=config['name']))
-            print(ruamel_dump(list(read_prob_files(repo_dir))))
+            print_prob_files(repo_dir)
             raise
 
         execute(['git', 'config', 'user.name', 'Omar Al-Ithawi'], cwd=repo_dir)
