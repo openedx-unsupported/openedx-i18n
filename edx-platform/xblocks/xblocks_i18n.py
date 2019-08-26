@@ -3,7 +3,7 @@ Push and pull the latest sources of XBlocks to Transifex in batch.
 """
 from __future__ import print_function
 
-from yaml import safe_load
+from json import load
 from subprocess import CalledProcessError, STDOUT, check_call
 from os import getenv, path, walk
 from os.path import join, relpath
@@ -27,8 +27,8 @@ def execute(cmd, **kwargs):
 
 
 def xblock_configs():
-    with open(path.join(XBLOCKS_DIR, 'config.yaml'), 'r') as config_file:
-        config = safe_load(config_file)
+    with open(path.join(XBLOCKS_DIR, 'config.json'), 'r') as config_file:
+        config = load(config_file)
 
     for xblock in config['xblocks']:
         yield xblock
