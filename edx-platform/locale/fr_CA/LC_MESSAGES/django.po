@@ -10,6 +10,7 @@
 # Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
 # ClaudeCoulombe <claude.coulombe@gmail.com>, 2014
 # Daniel Le Berre, 2014-2015
+# David Truong <david.truong@edulib.org>, 2020
 # Delattre <mdelattre78@laposte.net>, 2015
 # derthy <derthiamj@gmail.com>, 2014
 # eddy01 <ngwa.edwin@yahoo.com>, 2014
@@ -146,6 +147,7 @@
 # Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
 # ClaudeCoulombe <claude.coulombe@gmail.com>, 2014
 # Daniel Le Berre, 2014-2015
+# David Truong <david.truong@edulib.org>, 2020
 # Delattre <mdelattre78@laposte.net>, 2015
 # derthy <derthiamj@gmail.com>, 2014
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
@@ -350,7 +352,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-04-27 09:12+0000\n"
+"POT-Creation-Date: 2020-05-03 20:42+0000\n"
 "PO-Revision-Date: 2018-07-24 22:14+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -12513,6 +12515,13 @@ msgstr ""
 "réinitialiser le mot de passe."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
+msgid ""
+"Your previous request is in progress, please try again in a few moments."
+msgstr ""
+"Votre demande précédente est en cours, veuillez réessayer dans quelques "
+"instants."
+
+#: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "Password reset unsuccessful"
 msgstr "Réinitialisation de mot de passe infructueuse"
 
@@ -12535,13 +12544,6 @@ msgstr ""
 "{html_start}Création du mot de passe terminée{html_end}Votre mot de passe a "
 "été créé.{bold_start}{email}{bold_end} est maintenant votre courriel de "
 "connexion principal."
-
-#: openedx/core/djangoapps/user_authn/views/password_reset.py
-msgid ""
-"Your previous request is in progress, please try again in a few moments."
-msgstr ""
-"Votre demande précédente est en cours, veuillez réessayer dans quelques "
-"instants."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "Some error occured during password change. Please try again"
@@ -17364,17 +17366,26 @@ msgid "Important Dates"
 msgstr ""
 
 #: lms/templates/courseware/dates.html
+msgid "You are auditing this course."
+msgstr ""
+
+#: lms/templates/courseware/dates.html
+msgid "This means that you are unable to participate in graded assignments."
+msgstr ""
+
+#: lms/templates/courseware/dates.html
+msgid ""
+"To complete graded assignments as part of this course, you can upgrade "
+"today."
+msgstr ""
+
+#: lms/templates/courseware/dates.html
 msgid "Due Today"
 msgstr ""
 
 #: lms/templates/courseware/dates.html
 msgid "Verified Only"
 msgstr "Vérifié seulement"
-
-#: lms/templates/courseware/dates.html
-msgid ""
-"{a_start}Upgrade{a_end}{space}to a Verified Certificate for full access."
-msgstr ""
 
 #: lms/templates/courseware/error-message.html
 msgid ""

@@ -163,7 +163,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-04-27 09:12+0000\n"
+"POT-Creation-Date: 2020-05-03 20:42+0000\n"
 "PO-Revision-Date: 2019-11-22 15:57+0000\n"
 "Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
@@ -12449,6 +12449,13 @@ msgstr ""
 "Passwort nicht zurücksetzen."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
+msgid ""
+"Your previous request is in progress, please try again in a few moments."
+msgstr ""
+"Ihre vorherige Anfrage ist in Bearbeitung, bitte versuchen Sie es in wenigen"
+" Augenblicken erneut."
+
+#: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "Password reset unsuccessful"
 msgstr "Zurücksetzen des Passworts nicht erfolgreich"
 
@@ -12470,13 +12477,6 @@ msgid ""
 msgstr ""
 "{html_start}Passworterstellung abgeschlossen{html_end}Ihr Passwort wurde "
 "erstellt. {bold_start}{email}{bold_end} ist nun Ihre primäre Anmelde E-Mail."
-
-#: openedx/core/djangoapps/user_authn/views/password_reset.py
-msgid ""
-"Your previous request is in progress, please try again in a few moments."
-msgstr ""
-"Ihre vorherige Anfrage ist in Bearbeitung, bitte versuchen Sie es in wenigen"
-" Augenblicken erneut."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "Some error occured during password change. Please try again"
@@ -17369,19 +17369,26 @@ msgid "Important Dates"
 msgstr "Wichtige Termine"
 
 #: lms/templates/courseware/dates.html
+msgid "You are auditing this course."
+msgstr ""
+
+#: lms/templates/courseware/dates.html
+msgid "This means that you are unable to participate in graded assignments."
+msgstr ""
+
+#: lms/templates/courseware/dates.html
+msgid ""
+"To complete graded assignments as part of this course, you can upgrade "
+"today."
+msgstr ""
+
+#: lms/templates/courseware/dates.html
 msgid "Due Today"
 msgstr "Heute fällig"
 
 #: lms/templates/courseware/dates.html
 msgid "Verified Only"
 msgstr "Nur verifiziert"
-
-#: lms/templates/courseware/dates.html
-msgid ""
-"{a_start}Upgrade{a_end}{space}to a Verified Certificate for full access."
-msgstr ""
-"{a_start}Aktualisieren Sie{a_end}{space}auf ein verifiziertes Zertifikat, um"
-" vollen Zugriff zu erhalten."
 
 #: lms/templates/courseware/error-message.html
 msgid ""
