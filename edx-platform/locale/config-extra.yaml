@@ -2,6 +2,9 @@
 
 root_dir: /openedx/edx-platform
 
+edx_lang_map:
+    zh_CN: zh_HANS
+
 # This will copy each source language to a new directory at the end of the i18n generate step
 # How did we select those languages? We picked those languages that are ~50%+
 # translated on https://www.transifex.com/open-edx/edx-platform/dashboard/
@@ -21,7 +24,7 @@ locales:
     - uk  # Ukranian
     - vi  # Vietnamese
     - zh_TW  # Chinese (Taiwan)
-
+    - zh_CN # Chinese Simplified
 # Copied from edx-platform/conf/locale/config.yaml
 generate_merge:
     django.po:
