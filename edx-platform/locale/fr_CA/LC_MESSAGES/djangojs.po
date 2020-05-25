@@ -13,7 +13,7 @@
 # Daniel Le Berre, 2014-2015
 # David Truong <david.truong@edulib.org>, 2020
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
-# Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
+# b37bd6faa8631249767025c90cffb237_c33f832 <d0bf341d6cab6374cbc873fbbf166cb5_105987>, 2013
 # Eric Fortin, 2014,2016
 # Françoise Docq, 2014
 # Hélène Tindon <helene.tindon@gmail.com>, 2015
@@ -67,8 +67,9 @@
 # Bertrand Marron <bertrand.marron@gmail.com>, 2014
 # Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
 # Daniel Le Berre, 2014-2015
+# David Truong <david.truong@edulib.org>, 2020
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
-# Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
+# b37bd6faa8631249767025c90cffb237_c33f832 <d0bf341d6cab6374cbc873fbbf166cb5_105987>, 2013
 # Eric Fortin, 2014,2016
 # Françoise Docq, 2014
 # Hélène Tindon <helene.tindon@gmail.com>, 2015
@@ -129,7 +130,7 @@
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
 # eddy01 <ngwa.edwin@yahoo.com>, 2014
 # Emmanuel Olégine <olegine@gmail.com>, 2015
-# Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
+# b37bd6faa8631249767025c90cffb237_c33f832 <d0bf341d6cab6374cbc873fbbf166cb5_105987>, 2013
 # Eric Fortin, 2014,2016
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
@@ -168,7 +169,7 @@
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2019
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2020
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
@@ -213,7 +214,7 @@
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
 # eddy01 <ngwa.edwin@yahoo.com>, 2014
 # Emmanuel Olégine <olegine@gmail.com>, 2015
-# Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
+# b37bd6faa8631249767025c90cffb237_c33f832 <d0bf341d6cab6374cbc873fbbf166cb5_105987>, 2013
 # Eric Fortin, 2014,2016
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
@@ -281,7 +282,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-03 20:42+0000\n"
+"POT-Creation-Date: 2020-05-24 20:42+0000\n"
 "PO-Revision-Date: 2020-04-27 09:13+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -2704,8 +2705,8 @@ msgid "Not specific to a course"
 msgstr "Pas spécifique à un cours"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-#: lms/djangoapps/teams/static/teams/js/views/topic_card.js
-msgid "Topic"
+#: lms/static/js/instructor_dashboard/util.js
+msgid "Subject"
 msgstr "Sujet"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
@@ -2767,32 +2768,47 @@ msgid "Other"
 msgstr "Autre"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "What can we help you with, {username}?"
-msgstr "En quoi pouvons-nous vous aider, {username} ?"
+msgid "Course Discussion Forum"
+msgstr "Forum de discussions du cours"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
+msgid ""
+"While our support team is happy to assist with the edX platform, the course "
+"staff has the expertise for specific assignment questions, grading or the "
+"proper procedures in each course. Please post all course related questions "
+"within the Discussion Forum where the Course Staff can directly respond."
+msgstr ""
+"Bien que notre équipe de support soit heureuse de vous aider avec la "
+"plateforme EDUlib, l'équipe du cours est celle qui peut répondre à vos "
+"questions concernant les activités d'un cours, sa notation ainsi que ses "
+"procédures spéciales. Veuillez écrire toutes vos questions spécifiques à un "
+"cours dans le forum de discussion de ce dernier afin que l'équipe du cours "
+"puisse y répondre directement."
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Details"
 msgstr "Détails"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "The more you tell us, the more quickly and helpfully we can respond!"
-msgstr ""
-"Plus vous nous en dites, plus vite et utilement nous pouvons répondre!"
+msgid "the more quickly and helpfully we can respond!"
+msgstr "le plus rapidement et efficacement que nous pouvons répondre !"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Create Support Ticket"
-msgstr ""
+msgstr "Créer un billet de support"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
+msgid "What can we help you with, {username}?"
+msgstr "En quoi pouvons-nous vous aider, {username} ?"
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx
 msgid "Sign in to {platform} so we can help you better."
 msgstr "Connectez-vous à {platform} afin que nous puissions mieux vous aider."
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx
-msgid ""
-"If you are unable to access your account contact us via email using {email}."
-msgstr ""
-"Si vous ne parvenez pas à accéder à votre compte, contactez-nous par "
-"courrier électronique en utilisant {email}."
+#: lms/templates/student_account/form_field.underscore
+msgid "Need help logging in?"
+msgstr "Besoin d'aide pour vous connecter ?"
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid ""
@@ -2803,8 +2819,8 @@ msgstr ""
 "votre demande d'assistance."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid "Select a topic for your support request."
-msgstr ""
+msgid "Select a subject for your support request."
+msgstr "Sélectionnez un sujet pour votre demande d'assistance."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Enter some details for your support request."
@@ -2817,10 +2833,14 @@ msgid ""
 "appreciate your patience as we work to review each request. Please check the"
 " "
 msgstr ""
+"À cause de l'augmentation récente de l'intérêt dans l'éducation en ligne et "
+"notre plateforme, nous recevons une quantité de demandes de support "
+"anormalement élévés. Nous apprécions votre patience pendant que nous "
+"examinons chaque demande. Veuillez regarder le"
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid " as many questions may have already been answered."
-msgstr ""
+msgstr "parce que plusieurs questions ont probablement été déjà répondues."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 #: lms/djangoapps/support/static/support/jsx/success.jsx
@@ -2849,6 +2869,8 @@ msgid ""
 "Thank you for submitting a request! We appreciate your patience while we "
 "work to review your request."
 msgstr ""
+"Merci de nous avoir soumis une demande ! Nous apprécions votre patience "
+"pendant que nous examinons votre demande."
 
 #: lms/djangoapps/support/static/support/jsx/upload_progress.jsx
 msgid "Cancel upload"
@@ -3058,7 +3080,7 @@ msgstr "Confirmer"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "You already belong to another team in this team set."
-msgstr ""
+msgstr "Vous appartenez déjà à une autre équipe de cet ensemble d'équipe."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "This team is full."
@@ -3071,8 +3093,8 @@ msgstr "Impossible de rejoindre l'équipe dirigée par un instructeur"
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js
 msgid " Member"
 msgid_plural " Members"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Membre"
+msgstr[1] "Membres"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js
 msgid "All teams"
@@ -3088,7 +3110,7 @@ msgstr "Sujets"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "My Teams"
-msgstr ""
+msgstr "Mes équipes"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
@@ -3166,16 +3188,22 @@ msgid ""
 "by topic. Join an open public team to collaborate with other learners who "
 "are interested in the same topic as you are."
 msgstr ""
+"Voir toutes les équipes auxquelles vous appartenez et toutes les équipes "
+"publiques de votre cours, organisé par sujet. Joignez vous à une équipe "
+"publique ouverte pour collaborer avec d'autres apprenants qui sont "
+"intéressés dans le même sujet que vous."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic."
 msgstr ""
+"Voir toutes les équipes auxquelles vous appartenez et toutes les équipes "
+"publiques du cours, organisé par sujet."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "See all teams you belong to."
-msgstr ""
+msgstr "Voir toutes les équipes auxquelles vous appartenez."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore
@@ -3199,6 +3227,10 @@ msgid "{team_count} Team"
 msgid_plural "{team_count} Teams"
 msgstr[0] "{team_count} Équipe"
 msgstr[1] "{team_count} Équipes"
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js
+msgid "Topic"
+msgstr "Sujet"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "View Teams in the {topic_name} Topic"
@@ -4748,10 +4780,6 @@ msgstr ""
 " persiste."
 
 #: lms/static/js/instructor_dashboard/util.js
-msgid "Subject"
-msgstr "Sujet"
-
-#: lms/static/js/instructor_dashboard/util.js
 msgid "Sent By"
 msgstr "Envoyé par"
 
@@ -6265,12 +6293,12 @@ msgstr "Tous vos chapitres doivent avoir un nom et un asset"
 
 #: cms/static/js/models/uploads.js
 msgid ""
-"Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
-"<%= fileExtensions %> to upload."
+"Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
+"<%- (fileExtensions) %> to upload."
 msgstr ""
-"Seuls les fichiers de type <%= fileTypes %> peuvent être envoyés. Merci de "
-"sélectionner un fichier se terminant par <%= fileExtensions %> pour "
-"l'envoyer."
+"Seul les fichiers <%- fileTypes %>  peuvent être téléversés. Veuillez "
+"choisir un fichier finissant par <%- (fileExtensions) %> pour le "
+"téléversement."
 
 #: cms/static/js/models/uploads.js
 #: lms/templates/student_account/hinted_login.underscore
@@ -6456,8 +6484,8 @@ msgid "{selectedProvider} credentials saved"
 msgstr "{selectedProvider} identifiants sauvegardés"
 
 #: cms/static/js/views/edit_chapter.js
-msgid "Upload a new PDF to “<%= name %>”"
-msgstr "Téléverser un nouveau PDF appelé \"<%= name %>”"
+msgid "Upload a new PDF to “<%- name %>”"
+msgstr "Téléverser un nouveau PDF vers “<%- name %>”"
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Please select a PDF file to upload."
@@ -7071,18 +7099,18 @@ msgstr "Désolé, il y a eu une erreur"
 #: cms/static/js/views/utils/create_course_utils.js
 msgid ""
 "The combined length of the organization, course number, and course run "
-"fields cannot be more than <%=limit%> characters."
+"fields cannot be more than <%- limit %> characters."
 msgstr ""
 "La longueur combinée des champs organisation, numéro de cours et session ne "
-"peut être plus grande que <%=limit%> caractères."
+"peut être plus grande que <%- limit %> caractères."
 
 #: cms/static/js/views/utils/create_library_utils.js
 msgid ""
 "The combined length of the organization and library code fields cannot be "
-"more than <%=limit%> characters."
+"more than <%- limit %> characters."
 msgstr ""
-"La longueur totale des champs organisation et codes de bibliothèque ne doit "
-"pas dépasser <%=limit%> caractères."
+"La longueur combinée des champs organisation et codes de bibliothèque ne "
+"doit pas dépasser <%- limit %> caractères."
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Success! \"{displayName}\" has been moved."
@@ -7555,8 +7583,8 @@ msgstr "Mettre à jour le message"
 #, python-format
 msgid "Show Comment (%(num_comments)s)"
 msgid_plural "Show Comments (%(num_comments)s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Afficher le commentaire (%(num_comments)s)"
+msgstr[1] "Afficher les commentaires (%(num_comments)s)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a comment"
@@ -7712,7 +7740,7 @@ msgstr "Tous les messages"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Return to all posts"
-msgstr ""
+msgstr "Revenir à tous les messages"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "View discussion"
@@ -8081,7 +8109,7 @@ msgstr "Télécharger les inscriptions"
 
 #: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Error assigning team memberships"
-msgstr ""
+msgstr "Erreur à l'attribution des équipes"
 
 #: lms/djangoapps/teams/static/teams/templates/team-actions.underscore
 msgid "Are you having trouble finding a team to join?"
@@ -8179,33 +8207,29 @@ msgid "Remove unit %(unitName)s"
 msgstr "Supprimer l'unité %(unitName)s"
 
 #: lms/templates/commerce/provider.underscore
-#, python-format
 msgid ""
-"You still need to visit the %(display_name)s website to complete the credit "
+"You still need to visit the {display_name} website to complete the credit "
 "process."
 msgstr ""
-"Vous devez encore visiter le site web de %(display_name)s afinn de compléter"
-" le processus de crédit."
+"Vous devez toujours visiter le site web {display_name} afin de compléter le "
+"processus de crédit."
 
 #: lms/templates/commerce/provider.underscore
-#, python-format
 msgid ""
-"To finalize course credit, %(display_name)s requires %(platform_name)s "
-"learners to submit a credit request."
+"To finalize course credit, {display_name} requires {platform_name} learners "
+"to submit a credit request."
 msgstr ""
-"Pour finaliser l'obtention de crédit de cours, %(display_name)s demande aux "
-"apprenants de %(platform_name)s de soumettre une demande de crédit."
+"Pour finaliser l'obtention de crédit de cours, {display_name} demande aux "
+"apprenants de {platform_name} de soumettre une demande de crédit."
 
 #: lms/templates/commerce/provider.underscore
 msgid "Get Credit"
 msgstr "Obtenir un crédit"
 
 #: lms/templates/commerce/receipt.underscore
-#, python-format
 msgid ""
-"Thank you %(full_name)s! We have received your payment for %(course_name)s."
-msgstr ""
-"Merci %(full_name)s! Nous avons reçu votre paiement pour %(course_name)s."
+"Thank you {full_name}! We have received your payment for {course_name}."
+msgstr "Merci {full_name}! Nous avons reçu votre paiement pour {course_name}."
 
 #: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
@@ -8410,6 +8434,8 @@ msgid ""
 "The following information is already a part of your {platform} profile. "
 "We've included it here for your application."
 msgstr ""
+"Les informations suivantes étaient dans votre profil sur {platform}. Nous "
+"les avons inclus ici pour votre demande."
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Email address"
@@ -8813,14 +8839,6 @@ msgid "You can change sessions until {expiration_date}."
 msgstr "Vous pouvez changer de session jusqu'au {expiration_date}."
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
-msgid "Final Grade"
-msgstr "Note finale"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore
-msgid "for {courseName}"
-msgstr "pour {courseName}"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Archived Course"
 msgstr "Voir cours archivé"
 
@@ -9047,10 +9065,6 @@ msgstr "Revenir à la langue précédente"
 msgid "An error occurred. Please reload the page."
 msgstr "Une erreur est survenue. Merci de rafraîchir la page."
 
-#: lms/templates/student_account/form_field.underscore
-msgid "Need help logging in?"
-msgstr "Besoin d'aide pour vous connecter ?"
-
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
 msgid "Sign in"
@@ -9270,13 +9284,16 @@ msgstr "Ce dont vous aurez besoin"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Device with Camera"
-msgstr ""
+msgstr "Appareil avec caméra"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "You need a device that has a webcam. If you receive a browser prompt for "
 "access to your camera, please make sure to click 'Allow'."
 msgstr ""
+"Vous avez besoin d'un appareil équipé d'une caméra web. Si vous recevez une "
+"notification de votre navigateur pour permettre l'accès à la caméra, "
+"veuillez sélectionnez «Permettre»."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Photo Identification"
@@ -9285,6 +9302,8 @@ msgstr "Photo d'identité"
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "You need a valid ID that contains your full name and photo."
 msgstr ""
+"Vous avez besoin d'une pièce d'identité valide contenant votre nom complet "
+"et de votre photo."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -9296,6 +9315,8 @@ msgid ""
 "When your face is in position, use the Take Photo button {icon} below to "
 "take your photo."
 msgstr ""
+"Lorsque votre visage est en position, utilisez le bouton «Prendre une photo "
+"{icon}» ci-dessous pour prendre une photo."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "To take a successful photo, make sure that:"
@@ -9314,6 +9335,9 @@ msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
 msgstr ""
+"Pour prendre une photo de votre visage, utilisez le bouton «Prendre une "
+"photo {icon}». Si vous voulez la reprendre, cliquez sur «Reprendre les "
+"photos»."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9333,6 +9357,8 @@ msgid ""
 "We use your verification photos to confirm your identity and ensure the "
 "validity of your certificate."
 msgstr ""
+"Nous utilisons les photos de vérifications pour confirmer votre identité et "
+"assurer la validité de votre attestation."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9349,6 +9375,10 @@ msgid ""
 "review. Your photo and information are not saved or visible anywhere on "
 "%(platformName)s after the verification process is complete."
 msgstr ""
+"Nous encryptons sécuritairement vos photos et les envoyons à notre service "
+"d'authentification pour révisions. Vos photos et vos informations ne seront "
+"pas sauvegardées et ne seront pas disponibles sur %(platformName)s après que"
+" le processus de vérification soit complété."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9357,6 +9387,8 @@ msgid ""
 "What if I can't see the camera image, or if I can't see my photo do "
 "determine which side is visible?"
 msgstr ""
+"Que faire si je ne vois pas l'image de la caméra ou que je ne vois pas ma "
+"photo pour déterminer quel côté est visible?"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -9368,6 +9400,12 @@ msgid ""
 " (30-45 centimeters) from the camera, with your head centered relative to "
 "the computer screen. "
 msgstr ""
+"Vous pourriez compléter le processus de capture d'image sans assistance, "
+"mais vous pourriez avoir à le refaire plusieurs fois pour bien positionner "
+"la caméra. L'emplacement idéal varie d'un appareil à l'autre, mais "
+"généralement la meilleure position pour la photo du visage est "
+"approximativement de 30 à 45 centimètres (12 à 18 pouces) de la caméra, avec"
+" votre tête centrée relativement à celle-ci."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9377,6 +9415,10 @@ msgid ""
 "orientation to change the lighting angle.  The most common reason for "
 "rejection is inability to read the text on the ID card."
 msgstr ""
+"Si les photos que vous avez soumises sont rejetées, essayez de déplacer "
+"l'ordinateur ou la caméra afin que l'orientation de la lumière change. La "
+"raison de rejection la plus commune est l'incapacité de lire le texte sur la"
+" carte d'identité."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -9384,6 +9426,8 @@ msgid ""
 "What if I have difficulty holding my head in position relative to the "
 "camera?"
 msgstr ""
+"Que faire si j'ai de la difficulté à tenir ma tête en position relativement "
+"à la caméra ?"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9393,6 +9437,8 @@ msgid ""
 "If you require assistance with taking either photo for submission, contact "
 "%(platformName)s support for additional suggestions."
 msgstr ""
+"Si vous avez besoin d'assistance avec la prise des photos, contactez le "
+"support %(platformName)s pour des suggestions supplémentaires."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9409,12 +9455,15 @@ msgstr "Prenez une photo de votre pièce d'identité"
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Use your webcam to take a photo of your ID."
 msgstr ""
+"Utilisez votre caméra web pour prendre un photo de votre pièce d'identité."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "You need an ID with your name and photo. A driver's license, passport, or ID"
 " are all acceptable."
 msgstr ""
+"Vous avez besoin d'une pièce d'identité avec votre nom et votre photo. Un "
+"permis de conduire ou un passeport sont bons."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -9433,11 +9482,15 @@ msgstr ""
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
 msgstr ""
+"Lorsque vous êtes en position, utilisez le bouton «Prendre une photo {icon}»"
+" ci-dessous pour prendre une photo de votre pièce d'identité."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Use the Retake Photo button if you are not pleased with your photo"
 msgstr ""
+"Utilisez le bouton «Reprendre une photo» si vous n'êtes pas satisfait de "
+"votre photo"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
@@ -9445,6 +9498,10 @@ msgid ""
 "a photo ID. Our authorization service confirms your identity by comparing "
 "the photo you take with the photo on your ID."
 msgstr ""
+"Dans le cadre du processus de vérification, vous prenez une photo de votre "
+"visage et une photo d'une pièce d'identité gouvernementale. Notre service "
+"d'authentification confirme votre identité en comparant la photo que vous "
+"prenez avec la photo sur votre pièce d'identité."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
@@ -9455,11 +9512,19 @@ msgid ""
 "(20-30 centimeters) from the camera, with the ID card centered relative to "
 "the camera. "
 msgstr ""
+"Vous pourriez compléter le processus de capture d'image sans assistance, "
+"mais vous pourriez avoir à le refaire plusieurs fois pour bien positionner "
+"la caméra. L'emplacement idéal varie d'un appareil à l'autre, mais "
+"généralement la meilleure position pour la photo de la pièce d'identité est "
+"approximativement de 30 à 45 centimètres (12 à 18 pouces) de la caméra, avec"
+" votre pièce d'identité centrée relativement à votre caméra."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "What if I have difficulty holding my ID in position relative to the camera?"
 msgstr ""
+"Que faire si j'ai de la difficulté à tenir ma pièce d'identité en position "
+"relativement à la caméra ?"
 
 #: lms/templates/verify_student/image_input.underscore
 msgid "Preview of uploaded image"
@@ -9491,6 +9556,8 @@ msgstr "Soyez certain que tout votre visage est dans le cadre"
 msgid ""
 "Once in position, use the Take Photo button {icon} to capture your photo"
 msgstr ""
+"Lorsque vous êtes en position, utilisez le bouton «Prendre une photo {icon}»"
+" ci-dessous pour prendre une photo."
 
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Can we match the photo you took with the one on your ID?"
@@ -9755,11 +9822,11 @@ msgstr "Vérification d'identité en cours"
 msgid ""
 "We have received your information and are verifying your identity. You will "
 "see a message on your dashboard when the verification process is complete "
-"(usually within 1-2 days). In the meantime, you can still access all "
+"(usually within 5-7 days). In the meantime, you can still access all "
 "available course content."
 msgstr ""
 "Nous avons reçus vos informations et nous vérifions votre identité. Un "
-"message sera visible sur votre tableau de bord (1-2 jours de délai). Entre "
+"message sera visible sur votre tableau de bord (5-7 jours de délai). Entre "
 "temps, vous avez toujours accès à l'ensemble du cours."
 
 #: lms/templates/verify_student/reverify_success_step.underscore
@@ -11546,12 +11613,12 @@ msgid "Read more"
 msgstr "Lire plus"
 
 #: cms/templates/js/video-transcripts.underscore
-msgid "Show transcripts ({totalTranscripts})"
-msgstr "Afficher les transcriptions ({totalTranscripts})"
-
-#: cms/templates/js/video-transcripts.underscore
 msgid "No transcript uploaded."
 msgstr "Aucune transcription téléchargée."
+
+#: cms/templates/js/video-transcripts.underscore
+msgid "Show transcripts ({totalTranscripts})"
+msgstr "Afficher les transcriptions ({totalTranscripts})"
 
 #: cms/templates/js/xblock-access-editor.underscore
 msgid "Set Access"

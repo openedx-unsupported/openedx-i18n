@@ -118,7 +118,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-03 20:42+0000\n"
+"POT-Creation-Date: 2020-05-24 20:42+0000\n"
 "PO-Revision-Date: 2020-04-27 09:13+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
@@ -2517,9 +2517,9 @@ msgid "Not specific to a course"
 msgstr "Nicht kursbezogen"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-#: lms/djangoapps/teams/static/teams/js/views/topic_card.js
-msgid "Topic"
-msgstr "Thema"
+#: lms/static/js/instructor_dashboard/util.js
+msgid "Subject"
+msgstr "Betreff"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: lms/templates/student_account/account_settings.underscore
@@ -2580,22 +2580,32 @@ msgid "Other"
 msgstr "Anderer Abschluss"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "What can we help you with, {username}?"
-msgstr "Wie können wir Ihnen helfen, {username}?"
+msgid "Course Discussion Forum"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
+msgid ""
+"While our support team is happy to assist with the edX platform, the course "
+"staff has the expertise for specific assignment questions, grading or the "
+"proper procedures in each course. Please post all course related questions "
+"within the Discussion Forum where the Course Staff can directly respond."
+msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Details"
 msgstr "Details"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "The more you tell us, the more quickly and helpfully we can respond!"
+msgid "the more quickly and helpfully we can respond!"
 msgstr ""
-"Je mehr Sie uns von Ihrem Anliegen berichten, desto genauer und schneller "
-"können wir Ihnen helfen!"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Create Support Ticket"
 msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
+msgid "What can we help you with, {username}?"
+msgstr "Wie können wir Ihnen helfen, {username}?"
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx
 msgid "Sign in to {platform} so we can help you better."
@@ -2603,12 +2613,9 @@ msgstr ""
 "Melden Sie sich bei der {platform} an, damit wir Ihnen bei anderen Fragen "
 "helfen können."
 
-#: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx
-msgid ""
-"If you are unable to access your account contact us via email using {email}."
-msgstr ""
-"Wenn Sie keinen Zugang zu Ihrem Account haben, kontaktieren Sie uns via "
-"E-Mail {email}."
+#: lms/templates/student_account/form_field.underscore
+msgid "Need help logging in?"
+msgstr "Brauchen Sie Hilfe beim anmelden?"
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid ""
@@ -2619,7 +2626,7 @@ msgstr ""
 "Supportanfrage."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid "Select a topic for your support request."
+msgid "Select a subject for your support request."
 msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
@@ -3021,6 +3028,10 @@ msgid "{team_count} Team"
 msgid_plural "{team_count} Teams"
 msgstr[0] "{team_count} Team"
 msgstr[1] "{team_count} Teams"
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js
+msgid "Topic"
+msgstr "Thema"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "View Teams in the {topic_name} Topic"
@@ -4566,10 +4577,6 @@ msgstr ""
 "Problem weiterhin besteht."
 
 #: lms/static/js/instructor_dashboard/util.js
-msgid "Subject"
-msgstr "Betreff"
-
-#: lms/static/js/instructor_dashboard/util.js
 msgid "Sent By"
 msgstr "Absender"
 
@@ -6086,11 +6093,9 @@ msgstr "Alle Kapitel benötigen einen Namen und Inhalte"
 
 #: cms/static/js/models/uploads.js
 msgid ""
-"Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
-"<%= fileExtensions %> to upload."
+"Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
+"<%- (fileExtensions) %> to upload."
 msgstr ""
-"Nur <%= fileTypes %> Dateien können hochgeladen werden. Bitte wählen Sie "
-"eine Datei mit der Dateiendung <%= fileExtensions %> zum hochladen aus."
 
 #: cms/static/js/models/uploads.js
 #: lms/templates/student_account/hinted_login.underscore
@@ -6276,8 +6281,8 @@ msgid "{selectedProvider} credentials saved"
 msgstr "{selectedProvider} Anmeldeinformationen gespeichert"
 
 #: cms/static/js/views/edit_chapter.js
-msgid "Upload a new PDF to “<%= name %>”"
-msgstr "Neues PDf unter “<%= name %>” hochgeladen"
+msgid "Upload a new PDF to “<%- name %>”"
+msgstr ""
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Please select a PDF file to upload."
@@ -6902,18 +6907,14 @@ msgstr "Wir bitten um Entschuldigung, ein Fehler ist aufgetreten"
 #: cms/static/js/views/utils/create_course_utils.js
 msgid ""
 "The combined length of the organization, course number, and course run "
-"fields cannot be more than <%=limit%> characters."
+"fields cannot be more than <%- limit %> characters."
 msgstr ""
-"Die Gesamtlänge der Felder Organisation, Kursnummer und Kursablauf darf "
-"nicht mehr als <%=limit%> Zeichen betragen."
 
 #: cms/static/js/views/utils/create_library_utils.js
 msgid ""
 "The combined length of the organization and library code fields cannot be "
-"more than <%=limit%> characters."
+"more than <%- limit %> characters."
 msgstr ""
-"Die Gesamtlänge der Codefelder Organisation und Bibliothek darf nicht mehr "
-"als <%=limit%> Zeichen betragen."
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Success! \"{displayName}\" has been moved."
@@ -8003,34 +8004,25 @@ msgid "Remove unit %(unitName)s"
 msgstr "%(unitName)s Lerneinheit entfernen"
 
 #: lms/templates/commerce/provider.underscore
-#, python-format
 msgid ""
-"You still need to visit the %(display_name)s website to complete the credit "
+"You still need to visit the {display_name} website to complete the credit "
 "process."
 msgstr ""
-"Sie müssen noch die Website %(display_name)s besuchen, um den Credit-Prozess"
-" abzuschließen."
 
 #: lms/templates/commerce/provider.underscore
-#, python-format
 msgid ""
-"To finalize course credit, %(display_name)s requires %(platform_name)s "
-"learners to submit a credit request."
+"To finalize course credit, {display_name} requires {platform_name} learners "
+"to submit a credit request."
 msgstr ""
-"Um den Credit-Prozess abzuschließen, %(display_name)s müssen die Lernenden "
-"von %(platform_name)s einen Kreditantrag stellen."
 
 #: lms/templates/commerce/provider.underscore
 msgid "Get Credit"
 msgstr "Credit bekommen"
 
 #: lms/templates/commerce/receipt.underscore
-#, python-format
 msgid ""
-"Thank you %(full_name)s! We have received your payment for %(course_name)s."
+"Thank you {full_name}! We have received your payment for {course_name}."
 msgstr ""
-"Viele Dank %(full_name)s! Wir haben Ihre Zahlung für %(course_name)s "
-"erhalten."
 
 #: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
@@ -8640,14 +8632,6 @@ msgid "You can change sessions until {expiration_date}."
 msgstr "Sie können Sitzungen bis zum {expiration_date} ändern."
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
-msgid "Final Grade"
-msgstr "Finale Auswertung"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore
-msgid "for {courseName}"
-msgstr "für {courseName}"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Archived Course"
 msgstr "Archivierte Kurse anzeigen"
 
@@ -8873,10 +8857,6 @@ msgstr "Spracheinstellung zurücksetzen"
 #: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
 msgstr "Ein Fehler ist aufgetreten. Bitte lade die Seite erneut."
-
-#: lms/templates/student_account/form_field.underscore
-msgid "Need help logging in?"
-msgstr "Brauchen Sie Hilfe beim anmelden?"
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -9611,14 +9591,9 @@ msgstr "Verifikation Ihrer Identität in Bearbeitung"
 msgid ""
 "We have received your information and are verifying your identity. You will "
 "see a message on your dashboard when the verification process is complete "
-"(usually within 1-2 days). In the meantime, you can still access all "
+"(usually within 5-7 days). In the meantime, you can still access all "
 "available course content."
 msgstr ""
-"Wir haben Ihre Informationen erhalten und verifizieren Ihre Identität. Sie "
-"werden eine Meldung auf Ihrer 'Meine Kurse' Übersicht sehen, wenn der "
-"Verifikationsprozess abgeschlossen ist (normalerweise innerhalb von 1-2 "
-"Tagen). In der Zwischenzeit können Sie noch auf alle verfügbaren Kursinhalte"
-" zugreifen."
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Return to Your Dashboard"
@@ -11404,12 +11379,12 @@ msgid "Read more"
 msgstr "Mehr erfahren"
 
 #: cms/templates/js/video-transcripts.underscore
-msgid "Show transcripts ({totalTranscripts})"
-msgstr "Transkripte anzeigen ({totalTranscripts})"
-
-#: cms/templates/js/video-transcripts.underscore
 msgid "No transcript uploaded."
 msgstr "Kein Transkript hochgeladen."
+
+#: cms/templates/js/video-transcripts.underscore
+msgid "Show transcripts ({totalTranscripts})"
+msgstr "Transkripte anzeigen ({totalTranscripts})"
 
 #: cms/templates/js/xblock-access-editor.underscore
 msgid "Set Access"

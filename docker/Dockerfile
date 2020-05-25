@@ -26,7 +26,7 @@ USER openedx
 
 # Checkout code
 ARG EDX_PLATFORM_REPOSITORY=https://github.com/edx/edx-platform.git
-ARG EDX_PLATFORM_VERSION=open-release/juniper.rc2
+ARG EDX_PLATFORM_VERSION=open-release/juniper.rc3
 RUN mkdir -p /openedx/edx-platform && \
     git clone $EDX_PLATFORM_REPOSITORY --branch $EDX_PLATFORM_VERSION --depth 1 /openedx/edx-platform
 WORKDIR /openedx/edx-platform
@@ -34,7 +34,7 @@ WORKDIR /openedx/edx-platform
 # Install python requirements
 RUN $PYENV_ROOT/versions/$PYTHON_VERSION/bin/pyvenv /openedx/venv
 ENV PATH /openedx/venv/bin:${PATH}
-RUN pip install setuptools==39.0.1 pip==19.3.1
+RUN pip install setuptools==44.1.0 pip==20.0.2 wheel==0.34.2
 RUN pip install -r requirements/edx/development.txt
 
 COPY ./locale.py ./lms/envs/
