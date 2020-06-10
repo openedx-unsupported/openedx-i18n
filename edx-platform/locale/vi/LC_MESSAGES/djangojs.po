@@ -6,7 +6,7 @@
 # Translators:
 # NguyenTheTruong <41204219thetruong@gmail.com>, 2016
 # Anh Phan <vietnamesel10n@gmail.com>, 2013
-# Dinh Hung Tu <inactive+dinhhungtu@transifex.com>, 2015
+# 7b361a451bd8feeed2dbd9245f836232_a786ad5 <aefa5f09660e622131eca858f9656914_301034>, 2015
 # Hoang Doan <dthoang92@gmail.com>, 2014
 # Hoang Ha <halink0803@gmail.com>, 2014
 # Ha Ngoc Chung <ngocchung75@gmail.com>, 2013
@@ -65,7 +65,7 @@
 #
 # Translators:
 # NguyenTheTruong <41204219thetruong@gmail.com>, 2016
-# Dinh Hung Tu <inactive+dinhhungtu@transifex.com>, 2015
+# 7b361a451bd8feeed2dbd9245f836232_a786ad5 <aefa5f09660e622131eca858f9656914_301034>, 2015
 # Hoang Ha <halink0803@gmail.com>, 2014
 # Hoà Lê Thanh <hoa.lethanh@gmail.com>, 2017
 # Nguyen Don Binh <donbinhvn@gmail.com>, 2014
@@ -95,7 +95,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-24 20:42+0000\n"
+"POT-Creation-Date: 2020-06-07 20:42+0000\n"
 "PO-Revision-Date: 2020-04-27 09:13+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)\n"
@@ -781,7 +781,6 @@ msgstr "Xóa bảng"
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Description"
 msgstr "Mô tả"
@@ -2750,6 +2749,10 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "An error occurred. Try again."
 msgstr "Có lỗi xảy ra. Vui lòng thử lại."
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js
+msgid "No assignments for team"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
@@ -6925,7 +6928,6 @@ msgid "Unscheduled"
 msgstr ""
 
 #: cms/templates/js/course_info_update.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Date"
 msgstr "Ngày"
@@ -7580,6 +7582,10 @@ msgid "Join Team"
 msgstr "Tham gia nhóm"
 
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Team Assignments"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team Details"
 msgstr "Chi tiết nhóm"
 
@@ -7662,93 +7668,6 @@ msgstr ""
 #, python-format
 msgid "Remove unit %(unitName)s"
 msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"You still need to visit the {display_name} website to complete the credit "
-"process."
-msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"To finalize course credit, {display_name} requires {platform_name} learners "
-"to submit a credit request."
-msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid "Get Credit"
-msgstr "Lấy tín chỉ"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"Thank you {full_name}! We have received your payment for {course_name}."
-msgstr ""
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid ""
-"Please print this page for your records; it serves as your receipt. You will"
-" also receive an email with the same information."
-msgstr ""
-"Hãy in trang này để lưu trữ, nó phục vụ như là biên lai của bạn. Bạn cũng sẽ"
-" nhận được một email với các thông tin tương tự."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Order No."
-msgstr "Đơn hàng số"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Amount"
-msgstr "Số lượng"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Total"
-msgstr "Tổng cộng"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Please Note"
-msgstr "Xin lưu ý"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Crossed out items have been refunded."
-msgstr "Các mặt hàng gạch chéo là đã được hoàn trả."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Billed to"
-msgstr "Đã gửi hóa đơn cho"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "No receipt available"
-msgstr "Không biên nhận có sẵn"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
-msgid "Go to Dashboard"
-msgstr "Đi đến bảng điều khiển"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"If you don't verify your identity now, you can still explore your course "
-"from your dashboard. You will receive periodic reminders from {platformName}"
-" to verify your identity."
-msgstr ""
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Want to confirm your identity later?"
-msgstr "Bạn muốn xác nhận danh tính của bạn vào lúc khác?"
-
-#: lms/templates/commerce/receipt.underscore
-msgid "Verify Now"
-msgstr "Xác nhận ngay bây giờ"
 
 #: lms/templates/courseware/proctored-exam-controls.underscore
 msgid "Mark Exam As Completed"
@@ -7905,6 +7824,10 @@ msgid ""
 "Thank you for submitting your financial assistance application for "
 "{course_name}! You can expect a response in 2-4 business days."
 msgstr ""
+
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
+msgid "Go to Dashboard"
+msgstr "Đi đến bảng điều khiển"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Bulk Exceptions"
@@ -8455,6 +8378,10 @@ msgstr ""
 #: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
 msgstr "Có lỗi xảy ra. Hãy tải lại trang."
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Sign in with your company or school"
+msgstr ""
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -9034,6 +8961,11 @@ msgid "Check your email for an activation message."
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Total"
+msgstr "Tổng cộng"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Professional Certificate for {courseName}"
 msgstr ""
 
@@ -9071,6 +9003,38 @@ msgid "Thank you! We have received your payment for {courseName}."
 msgstr ""
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"Please print this page for your records; it serves as your receipt. You will"
+" also receive an email with the same information."
+msgstr ""
+"Hãy in trang này để lưu trữ, nó phục vụ như là biên lai của bạn. Bạn cũng sẽ"
+" nhận được một email với các thông tin tương tự."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Order No."
+msgstr "Đơn hàng số"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Amount"
+msgstr "Số lượng"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Please Note"
+msgstr "Xin lưu ý"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Crossed out items have been refunded."
+msgstr "Các mặt hàng gạch chéo là đã được hoàn trả."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Billed to"
+msgstr "Đã gửi hóa đơn cho"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "No receipt available"
+msgstr "Không biên nhận có sẵn"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next Step: Confirm your identity"
 msgstr "Bước tiếp theo: "
 
@@ -9104,6 +9068,10 @@ msgstr ""
 "Nếu bạn không xác minh danh tính của bạn bây giờ, bạn vẫn có thể khám phá "
 "khóa học của bạn từ bảng điều khiển của bạn. Bạn sẽ nhận được nhắc nhở định "
 "kỳ từ %(platformName)s là để xác minh danh tính của bạn."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Want to confirm your identity later?"
+msgstr "Bạn muốn xác nhận danh tính của bạn vào lúc khác?"
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Identity Verification In Progress"

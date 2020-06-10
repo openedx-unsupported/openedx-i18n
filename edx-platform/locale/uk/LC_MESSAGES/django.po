@@ -19,12 +19,12 @@
 # Mykhailo Parfeniuk <sopyer@gmail.com>, 2016
 # Natalia Vynogradenko <tannaha@gmail.com>, 2017-2018
 # Nikolai Belochub, 2014
-# Oleksandr Pylypenko <inactive+opylypenko@transifex.com>, 2014
+# cc322e8fc6cc292f0f00d8b7420e7410_e468d09 <95dee59251c2de5d1d21e213a66df19d_243275>, 2014
 # olexiim <olexiim@gmail.com>, 2014-2015
 # Olga Filipova <chudaol@gmail.com>, 2015-2017
 # Olga Filipova <olga.filipova@feedzai.com>, 2016,2018
 # Zapadenska <oruda@ymail.com>, 2014
-# Sergii <inactive+felytic@transifex.com>, 2014
+# b05b3114c658f75176891a498d64259e_fde2d81 <2bbdcf581dfc2149465c711c88b61acb_243008>, 2014
 # Tsybulska Karolina <kirakivuk@gmail.com>, 2014
 # Volodymyr Matskiv <xxwolfsilver@gmail.com>, 2014
 # Waheed Ahmed <waheed@edx.org>, 2019
@@ -63,16 +63,16 @@
 # Galya Galkina <galyagalkina11@gmail.com>, 2015
 # Irene Korotkova <irca.gav@gmail.com>, 2017
 # IvanPrimachenko <jastudent1@gmail.com>, 2014-2015
-# junnyml <inactive+junnyml@transifex.com>, 2014
+# aed7ad9d75d010b63d79e2c3891aea63_fb18719 <8b0617f0cc0569340367bf1571e18cac_188092>, 2014
 # Mykhailo Kolianko, 2016
 # Natalia Vynogradenko <tannaha@gmail.com>, 2017-2018
 # 557b934119df08e2e59a177854f0e6ac, 2014
-# Oleksandr Pylypenko <inactive+opylypenko@transifex.com>, 2014
+# cc322e8fc6cc292f0f00d8b7420e7410_e468d09 <95dee59251c2de5d1d21e213a66df19d_243275>, 2014
 # olexiim <olexiim@gmail.com>, 2014-2015
 # Olga Filipova <chudaol@gmail.com>, 2014-2016
 # Olga Filipova <olga.filipova@feedzai.com>, 2018
 # Radmila Segol <geroneja@yahoo.com>, 2016
-# Sergii <inactive+felytic@transifex.com>, 2015
+# b05b3114c658f75176891a498d64259e_fde2d81 <2bbdcf581dfc2149465c711c88b61acb_243008>, 2015
 # Zoriana Zaiats, 2015
 # Tetiana Korshun, 2014
 # Евгений Мовсесов <yevgeniy.movsesov@gmail.com>, 2020
@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-24 20:42+0000\n"
+"POT-Creation-Date: 2020-06-07 20:42+0000\n"
 "PO-Revision-Date: 2019-03-05 13:08+0000\n"
 "Last-Translator: Валентина Пицик <lushalusha007@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/open-edx/edx-platform/language/uk/)\n"
@@ -6030,57 +6030,6 @@ msgstr ""
 "Користувач {username} ({email}) подав запит на повернення коштів. Для "
 "обробки цього запиту, будь ласка, перейдіть по посиланню (посиланням) нижче."
 
-#: lms/djangoapps/commerce/views.py
-msgid "Receipt"
-msgstr "Квитанція"
-
-#: lms/djangoapps/commerce/views.py
-msgid "Payment Failed"
-msgstr "Платіж не виконано"
-
-#: lms/djangoapps/commerce/views.py
-msgid "There was a problem with this transaction. You have not been charged."
-msgstr ""
-"З цією операцією виникла проблема. Грошові кошти не були зняті з рахунку."
-
-#: lms/djangoapps/commerce/views.py
-msgid ""
-"Make sure your information is correct, or try again with a different card or"
-" another form of payment."
-msgstr ""
-"Переконайтеся в правильності введеної інформації, спробуйте скористатися "
-"іншою картою або оплатити іншим способом."
-
-#: lms/djangoapps/commerce/views.py
-msgid ""
-"A system error occurred while processing your payment. You have not been "
-"charged."
-msgstr ""
-"Під час обробки вашого платежу виникла помилка. Грошові кошти не були зняті "
-"з рахунку."
-
-#: lms/djangoapps/commerce/views.py
-msgid "Please wait a few minutes and then try again."
-msgstr "Будь ласка, спробуйте ще раз через декілька хвилин."
-
-#: lms/djangoapps/commerce/views.py
-#, python-brace-format
-msgid "For help, contact {payment_support_link}."
-msgstr "Зверніться за допомогою в {payment_support_link}."
-
-#: lms/djangoapps/commerce/views.py
-msgid "An error occurred while creating your receipt."
-msgstr "При створенні квитанції про оплату сталася помилка."
-
-#: lms/djangoapps/commerce/views.py
-#, python-brace-format
-msgid ""
-"If your course does not appear on your dashboard, contact "
-"{payment_support_link}."
-msgstr ""
-"Якщо курс не з'явиться на вашій панелі керування, напишіть "
-"{payment_support_link}."
-
 #: lms/djangoapps/course_goals/models.py
 msgid "Earn a certificate"
 msgstr "Отримайте сертифікат"
@@ -9086,14 +9035,6 @@ msgid "View and regenerate certificates."
 msgstr "Переглянути повторно і створити сертифікати."
 
 #: lms/djangoapps/support/views/index.py
-msgid "Manual Refund"
-msgstr " Повернення вручну"
-
-#: lms/djangoapps/support/views/index.py
-msgid "Track refunds issued directly through CyberSource."
-msgstr "Відстеження відшкодувань, виданих безпосередньо через CyberSource."
-
-#: lms/djangoapps/support/views/index.py
 msgid "Enrollment"
 msgstr "Зарахування на курс"
 
@@ -9165,39 +9106,6 @@ msgstr "Користувача Ввімкнено Успішно"
 #: lms/djangoapps/support/views/manage_user.py
 msgid "User Disabled Successfully"
 msgstr "Обліковий запис заблоковане успiшно"
-
-#: lms/djangoapps/support/views/refund.py
-msgid "Email Address"
-msgstr "Поштова скринька"
-
-#: lms/djangoapps/support/views/refund.py
-#: openedx/core/djangoapps/schedules/admin.py
-msgid "Course ID"
-msgstr "ID курсу"
-
-#: lms/djangoapps/support/views/refund.py
-msgid "User not found"
-msgstr "Користувач не знайдений"
-
-#: lms/djangoapps/support/views/refund.py
-#, python-brace-format
-msgid "Course {course_id} not past the refund window."
-msgstr "Для курса {course_id} ще діє повернення коштів."
-
-#: lms/djangoapps/support/views/refund.py
-#, python-brace-format
-msgid "No order found for {user} in course {course_id}"
-msgstr "Замовлення користувача {user} на курс {course_id} не знайдено"
-
-#: lms/djangoapps/support/views/refund.py
-#, python-brace-format
-msgid "Unenrolled {user} from {course_id}"
-msgstr "Користувач {user} відрахований з курсу {course_id}"
-
-#: lms/djangoapps/support/views/refund.py
-#, python-brace-format
-msgid "Refunded {cost} for order id {order_id}"
-msgstr "Повернуто {cost} за замовлення № {order_id}"
 
 #: lms/djangoapps/survey/utils.py
 msgid "You must complete a survey"
@@ -10726,6 +10634,10 @@ msgid "Configuration may not be specified at more than one level at once."
 msgstr ""
 "Конфігурація не може бути вказана одночасно на більш ніж одному рівні."
 
+#: openedx/core/djangoapps/content/learning_sequences/apps.py
+msgid "Learning Sequences"
+msgstr ""
+
 #: openedx/core/djangoapps/content_libraries/models.py
 msgid "Administer users and author content"
 msgstr ""
@@ -11151,6 +11063,10 @@ msgstr "Всі"
 #: openedx/core/djangoapps/schedules/admin.py
 msgid "Experience"
 msgstr "Досвід"
+
+#: openedx/core/djangoapps/schedules/admin.py
+msgid "Course ID"
+msgstr "ID курсу"
 
 #: openedx/core/djangoapps/schedules/apps.py
 #: openedx/core/djangoapps/schedules/models.py
@@ -12139,6 +12055,18 @@ msgid ""
 msgstr ""
 "Ім'я користувача, створене для інтеграції  відео конвєєра , наприклад, "
 "veda_service_user"
+
+#: openedx/core/djangoapps/video_pipeline/models.py
+msgid "Oauth client name of VEM service."
+msgstr ""
+
+#: openedx/core/djangoapps/video_pipeline/models.py
+msgid "video encode manager API URL."
+msgstr ""
+
+#: openedx/core/djangoapps/video_pipeline/models.py
+msgid "Username created for VEM Integration, e.g. vem_service_user."
+msgstr ""
 
 #: openedx/core/djangoapps/waffle_utils/models.py
 msgid "Force On"
@@ -13827,21 +13755,6 @@ msgid ""
 msgstr ""
 
 #: lms/templates/dates_banner.html
-msgid "You are auditing this course,"
-msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid " which means that you are unable to participate in graded assignments."
-msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid ""
-" It looks like you missed some important deadlines based on our suggested "
-"schedule. To complete graded assignments as part of this course and shift "
-"the past due assignments into the future, you can upgrade today by visiting "
-msgstr ""
-
-#: lms/templates/dates_banner.html
 msgid ""
 "It looks like you missed some important deadlines based on our suggested "
 "schedule."
@@ -13855,6 +13768,25 @@ msgid ""
 msgstr ""
 
 #: lms/templates/dates_banner.html
+msgid "Reset my deadlines"
+msgstr ""
+
+#: lms/templates/dates_banner.html
+msgid "You are auditing this course,"
+msgstr ""
+
+#: lms/templates/dates_banner.html
+msgid " which means that you are unable to participate in graded assignments."
+msgstr ""
+
+#: lms/templates/dates_banner.html
+msgid ""
+" It looks like you missed some important deadlines based on our suggested "
+"schedule. Graded assignments and schedule adjustment are available to "
+"Verified Track learners."
+msgstr ""
+
+#: lms/templates/dates_banner.html
 msgid ""
 " It looks like you missed some important deadlines based on our suggested "
 "schedule. To complete graded assignments as part of this course and shift "
@@ -13862,22 +13794,18 @@ msgid ""
 msgstr ""
 
 #: lms/templates/dates_banner.html
+msgid "Upgrade to shift due dates"
+msgstr ""
+
+#: lms/templates/dates_banner.html
+msgid "Graded assignments are available to Verified Track learners."
+msgstr ""
+
+#: lms/templates/dates_banner.html
 msgid ""
 " To complete graded assignments as part of this course, you can upgrade "
 "today."
 msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid "Reset my deadlines"
-msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid "Upgrade to shift due dates"
-msgstr ""
-
-#: lms/templates/edit_unit_link.html
-msgid "View Unit in Studio"
-msgstr "Переглянути блок в Студії"
 
 #: lms/templates/email_change_failed.html lms/templates/email_exists.html
 msgid "E-mail change failed"
@@ -14153,11 +14081,9 @@ msgid "There has been an error on the {platform_name} servers"
 msgstr ""
 
 #: lms/templates/module-error.html
-#: lms/templates/courseware/courseware-error.html
 msgid ""
 "We're sorry, this module is temporarily unavailable. Our staff is working to"
-" fix it as soon as possible. Please email us at {tech_support_email} to "
-"report any problems or downtime."
+" fix it as soon as possible. "
 msgstr ""
 
 #: lms/templates/module-error.html
@@ -14197,7 +14123,15 @@ msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
 msgstr ""
 
 #: lms/templates/preview_menu.html
-msgid "View this unit in the new experience"
+msgid "View in the new experience"
+msgstr ""
+
+#: lms/templates/preview_menu.html
+msgid "View in Studio"
+msgstr ""
+
+#: lms/templates/preview_menu.html
+msgid "View in Insights"
 msgstr ""
 
 #: lms/templates/problem.html
@@ -15854,35 +15788,6 @@ msgstr ""
 msgid "About edX Certificates"
 msgstr ""
 
-#: lms/templates/commerce/checkout_cancel.html
-msgid "Checkout Cancelled"
-msgstr ""
-
-#: lms/templates/commerce/checkout_cancel.html
-msgid ""
-"Your transaction has been cancelled. If you feel an error has occurred, "
-"contact {email}."
-msgstr ""
-
-#: lms/templates/commerce/checkout_error.html
-msgid "Checkout Error"
-msgstr ""
-
-#: lms/templates/commerce/checkout_error.html
-msgid ""
-"An error has occurred with your payment. {b_start}You have not been "
-"charged.{b_end} Please try to submit your payment again. If this problem "
-"persists, contact {email}."
-msgstr ""
-
-#: lms/templates/commerce/checkout_receipt.html
-msgid "Loading Order Data..."
-msgstr ""
-
-#: lms/templates/commerce/checkout_receipt.html
-msgid "Please wait while we retrieve your order details."
-msgstr ""
-
 #: lms/templates/course_modes/_upgrade_button.html
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/_upgrade_button.html
@@ -16232,6 +16137,13 @@ msgstr ""
 msgid "Courseware"
 msgstr "Навчальна програма"
 
+#: lms/templates/courseware/courseware-error.html
+#: lms/templates/courseware/error-message.html
+msgid ""
+"We're sorry, this module is temporarily unavailable. Our staff is working to"
+" fix it as soon as possible."
+msgstr ""
+
 #: lms/templates/courseware/courseware.html
 msgid "Course Search"
 msgstr ""
@@ -16273,12 +16185,6 @@ msgstr ""
 
 #: lms/templates/courseware/dates.html
 msgid "Not yet released"
-msgstr ""
-
-#: lms/templates/courseware/error-message.html
-msgid ""
-"We're sorry, this module is temporarily unavailable. Our staff is working to"
-" fix it as soon as possible."
 msgstr ""
 
 #: lms/templates/courseware/gradebook.html
@@ -17914,14 +17820,6 @@ msgstr ""
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html
 msgid "Sysadmin"
 msgstr "Системний адміністратор"
-
-#: lms/templates/header/navbar-authenticated.html
-#: lms/templates/navigation/navbar-authenticated.html
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html
-#: lms/templates/shoppingcart/shopping_cart.html
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html
-msgid "Shopping Cart"
-msgstr ""
 
 #: lms/templates/header/navbar-not-authenticated.html
 msgid "Supplemental Links"
@@ -19815,6 +19713,10 @@ msgid "Purchase order number (if any)"
 msgstr ""
 
 #: lms/templates/shoppingcart/billing_details.html
+msgid "Email Address"
+msgstr ""
+
+#: lms/templates/shoppingcart/billing_details.html
 msgid "email@example.com"
 msgstr ""
 
@@ -20108,6 +20010,10 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: lms/templates/shoppingcart/shopping_cart.html
+msgid "Shopping Cart"
+msgstr ""
+
+#: lms/templates/shoppingcart/shopping_cart.html
 msgid "Cover Image"
 msgstr ""
 
@@ -20315,46 +20221,6 @@ msgstr ""
 
 #: lms/templates/support/program_enrollments_inspector.html
 msgid "Program Enrollments Inspector"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "About to refund this order:"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "Order Id:"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "Enrollment:"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "enrolled"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "unenrolled"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "Cost:"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "CertificateItem Status:"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "Order Status:"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "Fulfilled Time:"
-msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "Refund Request Time:"
 msgstr ""
 
 #: lms/templates/survey/survey.html
@@ -21155,12 +21021,8 @@ msgid "The page that you were looking for was not found."
 msgstr "Сторінку, яку ви шукали, не знайдено."
 
 #: cms/templates/404.html
-msgid ""
-"Go back to the {homepage} or let us know about any pages that may have been "
-"moved at {email}."
+msgid "Go back to the {homepage}."
 msgstr ""
-"Поверніться до  домашньої сторінки {homepage} або повідомте нам про будь-які"
-" сторінки, які могли бути переміщені, повідомленням на {email}."
 
 #: cms/templates/500.html
 msgid "{studio_name} Server Error"
@@ -21182,10 +21044,6 @@ msgstr ""
 msgid ""
 "We've logged the error and our staff is currently working to resolve this "
 "error as soon as possible."
-msgstr ""
-
-#: cms/templates/500.html
-msgid "If the problem persists, please email us at {email_link}."
 msgstr ""
 
 #: cms/templates/accessibility.html
@@ -21827,9 +21685,7 @@ msgstr ""
 #: cms/templates/error.html
 msgid ""
 "We're sorry. We couldn't find the {studio_name} page you're looking for. You"
-" may want to return to the {studio_name} Dashboard and try again. If you are"
-" still having problems accessing things, please feel free to "
-"{link_start}contact {studio_name} support{link_end} for further help."
+" may want to return to the {studio_name} Dashboard and try again."
 msgstr ""
 
 #: cms/templates/error.html
@@ -21840,9 +21696,7 @@ msgstr "На сервері виникла помилка"
 msgid ""
 "We're sorry. There was a problem with the server while trying to process "
 "your last request. You may want to return to the {studio_name} Dashboard or "
-"try this request again. If you are still having problems accessing things, "
-"please feel free to {link_start}contact {studio_name} support{link_end} for "
-"further help."
+"try this request again."
 msgstr ""
 
 #: cms/templates/error.html

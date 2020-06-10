@@ -25,7 +25,7 @@
 # Juan Rodríguez de Vera Mouliaá <jrodriguez@um.es>, 2016
 # juditseb <juditseb@hotmail.com>, 2014
 # Luis Contreras <jinchuika@gmail.com>, 2014
-# luistrenado <inactive+luistrenado@transifex.com>, 2014
+# 60b29e56ca7b4effed11265f860f4a21_1f56761 <db089ceb749da3170e0ed170eddb2428_199215>, 2014
 # Mariangeles Fernandez <mariangelesfm@gmail.com>, 2015
 # Marta Cuesta, 2016
 # Maxfer <maxfer@gmail.com>, 2015
@@ -97,7 +97,7 @@
 # Juan Rodríguez de Vera Mouliaá <jrodriguez@um.es>, 2016
 # Maria J Crespo, 2015
 # Mariangeles Fernandez <mariangelesfm@gmail.com>, 2015
-# Steven McArthur <inactive+legallyunemployed@transifex.com>, 2014
+# 66f5c4d4e8ace16104ebaac590f0e8a9_d69d777 <a834753243f7c7c72212b5b5e7b1714e_225467>, 2014
 # mercefan <mercefan@gmail.com>, 2016
 # Miguel Angel Cortizo Alvarez, 2020
 # MiguelSdP <miguelsdp@gmail.com>, 2014
@@ -128,7 +128,7 @@
 # Jose Antonio Sanchez Romero <isc.antonio.sr@gmail.com>, 2017
 # Juan Rodríguez de Vera Mouliaá <jrodriguez@um.es>, 2016
 # LUCIA GOMEZ TEIJEIRO <lucy._.y@hotmail.com>, 2015
-# Manuel García, 2015
+# 9b8d6eac3c8b46dd40922281c24b08e6_21a7d9f, 2015
 # María Gómez <marygvasco@gmail.com>, 2016
 # Mariangeles Fernandez <mariangelesfm@gmail.com>, 2015
 # Miguel Angel Cordova <miguel.angel.cordova.uned@gmail.com>, 2014
@@ -143,7 +143,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-24 20:42+0000\n"
+"POT-Creation-Date: 2020-06-07 20:42+0000\n"
 "PO-Revision-Date: 2020-04-27 09:13+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)\n"
@@ -817,7 +817,6 @@ msgstr ""
 
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Description"
 msgstr "Descripción"
@@ -2752,6 +2751,10 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "An error occurred. Try again."
 msgstr "Se ha producido un error, por favor inténtalo de nuevo."
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js
+msgid "No assignments for team"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
@@ -6704,7 +6707,6 @@ msgid "Unscheduled"
 msgstr ""
 
 #: cms/templates/js/course_info_update.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Date"
 msgstr "Fecha"
@@ -7355,6 +7357,10 @@ msgid "Join Team"
 msgstr ""
 
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Team Assignments"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team Details"
 msgstr ""
 
@@ -7437,93 +7443,6 @@ msgstr ""
 #, python-format
 msgid "Remove unit %(unitName)s"
 msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"You still need to visit the {display_name} website to complete the credit "
-"process."
-msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"To finalize course credit, {display_name} requires {platform_name} learners "
-"to submit a credit request."
-msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid "Get Credit"
-msgstr ""
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"Thank you {full_name}! We have received your payment for {course_name}."
-msgstr ""
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid ""
-"Please print this page for your records; it serves as your receipt. You will"
-" also receive an email with the same information."
-msgstr ""
-"Por favor imprime esta página para tu control; es válida como recibo. "
-"También recibirás un correo electrónico con esta información."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Order No."
-msgstr "Orden N.º"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Amount"
-msgstr "Cantidad"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Total"
-msgstr "Total"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Please Note"
-msgstr "Ten en cuenta, por favor"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Crossed out items have been refunded."
-msgstr "Los elementos eliminados han sido reembolsados."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Billed to"
-msgstr "Facturado a"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "No receipt available"
-msgstr "No hay recibo disponible"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
-msgid "Go to Dashboard"
-msgstr "Ir al Panel de gestión"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"If you don't verify your identity now, you can still explore your course "
-"from your dashboard. You will receive periodic reminders from {platformName}"
-" to verify your identity."
-msgstr ""
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Want to confirm your identity later?"
-msgstr "¿Deseas confirmar tu identidad más tarde?"
-
-#: lms/templates/commerce/receipt.underscore
-msgid "Verify Now"
-msgstr "Verifícate ahora."
 
 #: lms/templates/courseware/proctored-exam-controls.underscore
 msgid "Mark Exam As Completed"
@@ -7680,6 +7599,10 @@ msgid ""
 "Thank you for submitting your financial assistance application for "
 "{course_name}! You can expect a response in 2-4 business days."
 msgstr ""
+
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
+msgid "Go to Dashboard"
+msgstr "Ir al Panel de gestión"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Bulk Exceptions"
@@ -8232,6 +8155,10 @@ msgstr ""
 #: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
 msgstr "Hubo un error. Por favor carga la página de nuevo."
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Sign in with your company or school"
+msgstr ""
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -8817,6 +8744,11 @@ msgid "Check your email for an activation message."
 msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Total"
+msgstr "Total"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Professional Certificate for {courseName}"
 msgstr ""
 
@@ -8854,6 +8786,38 @@ msgid "Thank you! We have received your payment for {courseName}."
 msgstr ""
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"Please print this page for your records; it serves as your receipt. You will"
+" also receive an email with the same information."
+msgstr ""
+"Por favor imprime esta página para tu control; es válida como recibo. "
+"También recibirás un correo electrónico con esta información."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Order No."
+msgstr "Orden N.º"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Amount"
+msgstr "Cantidad"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Please Note"
+msgstr "Ten en cuenta, por favor"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Crossed out items have been refunded."
+msgstr "Los elementos eliminados han sido reembolsados."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Billed to"
+msgstr "Facturado a"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "No receipt available"
+msgstr "No hay recibo disponible"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next Step: Confirm your identity"
 msgstr "Siguiente paso: confirma tu identidad"
 
@@ -8887,6 +8851,10 @@ msgstr ""
 "Si no verificas tu identidad ahora, puedes explorar el curso desde el panel."
 " Recibirás recordatorios periódicos de %(platformName)s para que verifiques "
 "tu identidad."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Want to confirm your identity later?"
+msgstr "¿Deseas confirmar tu identidad más tarde?"
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Identity Verification In Progress"

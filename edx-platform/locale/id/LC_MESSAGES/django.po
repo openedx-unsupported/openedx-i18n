@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-24 20:42+0000\n"
+"POT-Creation-Date: 2020-06-07 20:42+0000\n"
 "PO-Revision-Date: 2019-09-16 13:42+0000\n"
 "Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>\n"
 "Language-Team: Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)\n"
@@ -5922,56 +5922,6 @@ msgstr ""
 "Permintaan pengembalian dana telah diajukan untuk {username} ({email}). "
 "Untuk memproses permintaan ini, silakan kunjungi tautan(s) di bawah ini."
 
-#: lms/djangoapps/commerce/views.py
-msgid "Receipt"
-msgstr "Tanda Terima"
-
-#: lms/djangoapps/commerce/views.py
-msgid "Payment Failed"
-msgstr "Pembayaran Gagal"
-
-#: lms/djangoapps/commerce/views.py
-msgid "There was a problem with this transaction. You have not been charged."
-msgstr "Ada masalah dengan transaksi ini. Anda belum dikenakan biaya."
-
-#: lms/djangoapps/commerce/views.py
-msgid ""
-"Make sure your information is correct, or try again with a different card or"
-" another form of payment."
-msgstr ""
-"Pastikan informasi Anda benar, atau coba lagi dengan kartu yang berbeda atau"
-" bentuk pembayaran lain."
-
-#: lms/djangoapps/commerce/views.py
-msgid ""
-"A system error occurred while processing your payment. You have not been "
-"charged."
-msgstr ""
-"Terjadi kesalahan sistem saat memproses pembayaran Anda. Anda belum dikenai "
-"biaya."
-
-#: lms/djangoapps/commerce/views.py
-msgid "Please wait a few minutes and then try again."
-msgstr "Harap tunggu sebentar dan kemudian coba kembali."
-
-#: lms/djangoapps/commerce/views.py
-#, python-brace-format
-msgid "For help, contact {payment_support_link}."
-msgstr "Untuk bantuan, kontak {payment_support_link}."
-
-#: lms/djangoapps/commerce/views.py
-msgid "An error occurred while creating your receipt."
-msgstr "Eror terjadi saat membuat bukti pembayaran Anda."
-
-#: lms/djangoapps/commerce/views.py
-#, python-brace-format
-msgid ""
-"If your course does not appear on your dashboard, contact "
-"{payment_support_link}."
-msgstr ""
-"Jika pelatihan tidak muncul di dasbor Anda, silahkan kontak "
-"{payment_support_link}."
-
 #: lms/djangoapps/course_goals/models.py
 msgid "Earn a certificate"
 msgstr "Dapatkan sertifikat"
@@ -8893,14 +8843,6 @@ msgstr "Anda tidak memiliki izin untuk melihat halaman ini."
 msgid "View and regenerate certificates."
 msgstr ""
 
-#: lms/djangoapps/support/views/index.py lms/templates/support/refund.html
-msgid "Manual Refund"
-msgstr "Panduan Pengembalian Dana"
-
-#: lms/djangoapps/support/views/index.py
-msgid "Track refunds issued directly through CyberSource."
-msgstr ""
-
 #: lms/djangoapps/support/views/index.py
 #: lms/templates/ccx/coach_dashboard.html lms/templates/ccx/enrollment.html
 #: lms/templates/support/enrollment.html
@@ -8978,45 +8920,6 @@ msgstr ""
 #: lms/djangoapps/support/views/manage_user.py
 msgid "User Disabled Successfully"
 msgstr ""
-
-#: lms/djangoapps/support/views/refund.py
-#: lms/templates/shoppingcart/billing_details.html
-msgid "Email Address"
-msgstr "Alamat Email"
-
-#: lms/djangoapps/support/views/refund.py
-#: openedx/core/djangoapps/schedules/admin.py
-#: cms/templates/maintenance/_force_publish_course.html
-#: lms/templates/sysadmin_dashboard_gitlogs.html
-#: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
-#: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
-#: lms/templates/support/feature_based_enrollments.html
-msgid "Course ID"
-msgstr "ID Kursus"
-
-#: lms/djangoapps/support/views/refund.py
-msgid "User not found"
-msgstr "Pengguna tidak ditemukan"
-
-#: lms/djangoapps/support/views/refund.py
-#, python-brace-format
-msgid "Course {course_id} not past the refund window."
-msgstr ""
-
-#: lms/djangoapps/support/views/refund.py
-#, python-brace-format
-msgid "No order found for {user} in course {course_id}"
-msgstr ""
-
-#: lms/djangoapps/support/views/refund.py
-#, python-brace-format
-msgid "Unenrolled {user} from {course_id}"
-msgstr "Membatalkan pendaftaran {user} dari {course_id}"
-
-#: lms/djangoapps/support/views/refund.py
-#, python-brace-format
-msgid "Refunded {cost} for order id {order_id}"
-msgstr "{cost} telah direfund untuk pesanan ID {order_id}"
 
 #: lms/djangoapps/survey/utils.py
 msgid "You must complete a survey"
@@ -10524,6 +10427,10 @@ msgstr ""
 msgid "Configuration may not be specified at more than one level at once."
 msgstr ""
 
+#: openedx/core/djangoapps/content/learning_sequences/apps.py
+msgid "Learning Sequences"
+msgstr ""
+
 #: openedx/core/djangoapps/content_libraries/models.py
 msgid "Administer users and author content"
 msgstr ""
@@ -10903,6 +10810,15 @@ msgstr "semua"
 #: openedx/core/djangoapps/schedules/admin.py
 msgid "Experience"
 msgstr "Pengalaman"
+
+#: openedx/core/djangoapps/schedules/admin.py
+#: cms/templates/maintenance/_force_publish_course.html
+#: lms/templates/sysadmin_dashboard_gitlogs.html
+#: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
+#: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
+#: lms/templates/support/feature_based_enrollments.html
+msgid "Course ID"
+msgstr "ID Kursus"
 
 #: openedx/core/djangoapps/schedules/apps.py
 #: openedx/core/djangoapps/schedules/models.py
@@ -11898,6 +11814,18 @@ msgstr ""
 #: openedx/core/djangoapps/video_pipeline/models.py
 msgid ""
 "Username created for Video Pipeline Integration, e.g. veda_service_user."
+msgstr ""
+
+#: openedx/core/djangoapps/video_pipeline/models.py
+msgid "Oauth client name of VEM service."
+msgstr ""
+
+#: openedx/core/djangoapps/video_pipeline/models.py
+msgid "video encode manager API URL."
+msgstr ""
+
+#: openedx/core/djangoapps/video_pipeline/models.py
+msgid "Username created for VEM Integration, e.g. vem_service_user."
 msgstr ""
 
 #: openedx/core/djangoapps/waffle_utils/models.py
@@ -13527,21 +13455,6 @@ msgid ""
 msgstr ""
 
 #: lms/templates/dates_banner.html
-msgid "You are auditing this course,"
-msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid " which means that you are unable to participate in graded assignments."
-msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid ""
-" It looks like you missed some important deadlines based on our suggested "
-"schedule. To complete graded assignments as part of this course and shift "
-"the past due assignments into the future, you can upgrade today by visiting "
-msgstr ""
-
-#: lms/templates/dates_banner.html
 msgid ""
 "It looks like you missed some important deadlines based on our suggested "
 "schedule."
@@ -13555,6 +13468,25 @@ msgid ""
 msgstr ""
 
 #: lms/templates/dates_banner.html
+msgid "Reset my deadlines"
+msgstr ""
+
+#: lms/templates/dates_banner.html
+msgid "You are auditing this course,"
+msgstr ""
+
+#: lms/templates/dates_banner.html
+msgid " which means that you are unable to participate in graded assignments."
+msgstr ""
+
+#: lms/templates/dates_banner.html
+msgid ""
+" It looks like you missed some important deadlines based on our suggested "
+"schedule. Graded assignments and schedule adjustment are available to "
+"Verified Track learners."
+msgstr ""
+
+#: lms/templates/dates_banner.html
 msgid ""
 " It looks like you missed some important deadlines based on our suggested "
 "schedule. To complete graded assignments as part of this course and shift "
@@ -13562,22 +13494,18 @@ msgid ""
 msgstr ""
 
 #: lms/templates/dates_banner.html
+msgid "Upgrade to shift due dates"
+msgstr ""
+
+#: lms/templates/dates_banner.html
+msgid "Graded assignments are available to Verified Track learners."
+msgstr ""
+
+#: lms/templates/dates_banner.html
 msgid ""
 " To complete graded assignments as part of this course, you can upgrade "
 "today."
 msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid "Reset my deadlines"
-msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid "Upgrade to shift due dates"
-msgstr ""
-
-#: lms/templates/edit_unit_link.html
-msgid "View Unit in Studio"
-msgstr "Tampilkan Unit dalam Studio"
 
 #: lms/templates/email_change_failed.html lms/templates/email_exists.html
 msgid "E-mail change failed"
@@ -13865,15 +13793,10 @@ msgid "There has been an error on the {platform_name} servers"
 msgstr "Terjadi kesalahan pada server {platform_name}"
 
 #: lms/templates/module-error.html
-#: lms/templates/courseware/courseware-error.html
 msgid ""
 "We're sorry, this module is temporarily unavailable. Our staff is working to"
-" fix it as soon as possible. Please email us at {tech_support_email} to "
-"report any problems or downtime."
+" fix it as soon as possible. "
 msgstr ""
-"Maaf, modul ini untuk sementara tidak tersedia. Staf kami sedang bekerja "
-"untuk memperbaikinya sesegera mungkin. Silahkan email kami di "
-"{tech_support_email} untuk melaporkan masalah atau terhenti."
 
 #: lms/templates/module-error.html
 msgid "Raw data:"
@@ -13912,7 +13835,15 @@ msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
 msgstr "Anda sekarang mengikuti kursus sebagai {i_start} {user_name} {i_end}."
 
 #: lms/templates/preview_menu.html
-msgid "View this unit in the new experience"
+msgid "View in the new experience"
+msgstr ""
+
+#: lms/templates/preview_menu.html
+msgid "View in Studio"
+msgstr ""
+
+#: lms/templates/preview_menu.html
+msgid "View in Insights"
 msgstr ""
 
 #: lms/templates/problem.html
@@ -15913,40 +15844,6 @@ msgstr ""
 msgid "About edX Certificates"
 msgstr "Tentang Sertifikat edX"
 
-#: lms/templates/commerce/checkout_cancel.html
-msgid "Checkout Cancelled"
-msgstr "Pemeriksaan Batal"
-
-#: lms/templates/commerce/checkout_cancel.html
-msgid ""
-"Your transaction has been cancelled. If you feel an error has occurred, "
-"contact {email}."
-msgstr ""
-"Transaksi Anda telah dibatalkan. Jika Anda merasa kesalahan telah terjadi, "
-"hubungi {email}."
-
-#: lms/templates/commerce/checkout_error.html
-msgid "Checkout Error"
-msgstr "Terjadi kesalahan saat checkout"
-
-#: lms/templates/commerce/checkout_error.html
-msgid ""
-"An error has occurred with your payment. {b_start}You have not been "
-"charged.{b_end} Please try to submit your payment again. If this problem "
-"persists, contact {email}."
-msgstr ""
-"Terjadi kesalahan dengan pembayaran Anda. {b_start}Anda belum "
-"ditagih.{b_end} Silakan ulangi pengiriman pembayaran Anda. Jika permasalahan"
-" tetap terjadi, hubungi {email}."
-
-#: lms/templates/commerce/checkout_receipt.html
-msgid "Loading Order Data..."
-msgstr "Memuat Permintaan Data..."
-
-#: lms/templates/commerce/checkout_receipt.html
-msgid "Please wait while we retrieve your order details."
-msgstr "Harap tunggu ketika kami mencari detil permintaan Anda."
-
 #: lms/templates/course_modes/_upgrade_button.html
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/_upgrade_button.html
@@ -16344,6 +16241,13 @@ msgstr "Kegunaan Kursus"
 msgid "Courseware"
 msgstr "Perangkat Kursus"
 
+#: lms/templates/courseware/courseware-error.html
+#: lms/templates/courseware/error-message.html
+msgid ""
+"We're sorry, this module is temporarily unavailable. Our staff is working to"
+" fix it as soon as possible."
+msgstr ""
+
 #: lms/templates/courseware/courseware.html
 msgid "Course Search"
 msgstr "Pencarian Kursus"
@@ -16390,12 +16294,6 @@ msgstr ""
 
 #: lms/templates/courseware/dates.html
 msgid "Not yet released"
-msgstr ""
-
-#: lms/templates/courseware/error-message.html
-msgid ""
-"We're sorry, this module is temporarily unavailable. Our staff is working to"
-" fix it as soon as possible."
 msgstr ""
 
 #: lms/templates/courseware/gradebook.html
@@ -18245,14 +18143,6 @@ msgstr "Temukan Baru"
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html
 msgid "Sysadmin"
 msgstr "Sysadmin"
-
-#: lms/templates/header/navbar-authenticated.html
-#: lms/templates/navigation/navbar-authenticated.html
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html
-#: lms/templates/shoppingcart/shopping_cart.html
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html
-msgid "Shopping Cart"
-msgstr "Troli Belanja"
 
 #: lms/templates/header/navbar-not-authenticated.html
 msgid "Supplemental Links"
@@ -20312,6 +20202,10 @@ msgid "Purchase order number (if any)"
 msgstr "Nomor pesanan pembelian (jika ada)"
 
 #: lms/templates/shoppingcart/billing_details.html
+msgid "Email Address"
+msgstr "Alamat Email"
+
+#: lms/templates/shoppingcart/billing_details.html
 msgid "email@example.com"
 msgstr "email@example.com"
 
@@ -20630,6 +20524,10 @@ msgstr[0] ""
 "{course_names} telah dihapus karena periode pendaftaran telah ditutup."
 
 #: lms/templates/shoppingcart/shopping_cart.html
+msgid "Shopping Cart"
+msgstr "Troli Belanja"
+
+#: lms/templates/shoppingcart/shopping_cart.html
 msgid "Cover Image"
 msgstr "Cover Image"
 
@@ -20850,46 +20748,6 @@ msgstr "Student Support: Kelola Pengguna"
 #: lms/templates/support/program_enrollments_inspector.html
 msgid "Program Enrollments Inspector"
 msgstr ""
-
-#: lms/templates/support/refund.html
-msgid "About to refund this order:"
-msgstr "Tentang pengembalian dana pesanan ini:"
-
-#: lms/templates/support/refund.html
-msgid "Order Id:"
-msgstr "Id Pesanan:"
-
-#: lms/templates/support/refund.html
-msgid "Enrollment:"
-msgstr "Pendaftaran:"
-
-#: lms/templates/support/refund.html
-msgid "enrolled"
-msgstr "Terdaftar"
-
-#: lms/templates/support/refund.html
-msgid "unenrolled"
-msgstr "Tidak terdaftar"
-
-#: lms/templates/support/refund.html
-msgid "Cost:"
-msgstr "Harga"
-
-#: lms/templates/support/refund.html
-msgid "CertificateItem Status:"
-msgstr "Status CertificateItem:"
-
-#: lms/templates/support/refund.html
-msgid "Order Status:"
-msgstr "Status Pesanan:"
-
-#: lms/templates/support/refund.html
-msgid "Fulfilled Time:"
-msgstr "Waktu yang terpenuhi:"
-
-#: lms/templates/support/refund.html
-msgid "Refund Request Time:"
-msgstr "Waktu Permintaan Pengembalian Dana:"
 
 #: lms/templates/survey/survey.html
 msgid "User Survey"
@@ -21772,12 +21630,8 @@ msgid "The page that you were looking for was not found."
 msgstr "Halaman yang Anda cari tidak ditemukan."
 
 #: cms/templates/404.html
-msgid ""
-"Go back to the {homepage} or let us know about any pages that may have been "
-"moved at {email}."
+msgid "Go back to the {homepage}."
 msgstr ""
-"Kembali ke {homepage} atau beri tahu kami tentang halaman yang mungkin "
-"dipindah ke {email}."
 
 #: cms/templates/500.html
 msgid "{studio_name} Server Error"
@@ -21800,10 +21654,6 @@ msgid ""
 msgstr ""
 "Kami telah mencatat kesalahannya dan staff kami saat ini bekerja untuk "
 "mengatasi masalah ini sesegera mungkin."
-
-#: cms/templates/500.html
-msgid "If the problem persists, please email us at {email_link}."
-msgstr "Jika permasalahan tetap terjadi, email kami di {email_link}"
 
 #: cms/templates/accessibility.html
 msgid "Studio Accessibility Policy"
@@ -22425,9 +22275,7 @@ msgstr "Halaman Yang Anda Minta Tidak Dapat Ditemukan"
 #: cms/templates/error.html
 msgid ""
 "We're sorry. We couldn't find the {studio_name} page you're looking for. You"
-" may want to return to the {studio_name} Dashboard and try again. If you are"
-" still having problems accessing things, please feel free to "
-"{link_start}contact {studio_name} support{link_end} for further help."
+" may want to return to the {studio_name} Dashboard and try again."
 msgstr ""
 
 #: cms/templates/error.html
@@ -22438,9 +22286,7 @@ msgstr "Server Mengalami Masalah"
 msgid ""
 "We're sorry. There was a problem with the server while trying to process "
 "your last request. You may want to return to the {studio_name} Dashboard or "
-"try this request again. If you are still having problems accessing things, "
-"please feel free to {link_start}contact {studio_name} support{link_end} for "
-"further help."
+"try this request again."
 msgstr ""
 
 #: cms/templates/error.html

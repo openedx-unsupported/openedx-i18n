@@ -6,7 +6,7 @@
 # Translators:
 # ahan <ahan.net@gmail.com>, 2014
 # ahan <ahan.net@gmail.com>, 2014
-# bhsfmiao <inactive+bhsfmiao@transifex.com>, 2014
+# 8cdb4758e2f8f89e1b6f455d24a57c7b_26aedc9 <d42fecad8431def0e25dc12221e713ed_169300>, 2014
 # 陳子琦 <christtabris@gmail.com>, 2014
 # hohomi <hohomi@gmail.com>, 2016
 # hohomi <hohomi@gmail.com>, 2016
@@ -21,7 +21,7 @@
 # lin31504 <lin31504@gmail.com>, 2014
 # Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013-2015
 # LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014-2015
-# bhsfmiao <inactive+bhsfmiao@transifex.com>, 2014
+# 8cdb4758e2f8f89e1b6f455d24a57c7b_26aedc9 <d42fecad8431def0e25dc12221e713ed_169300>, 2014
 # MOH CHIN LAM <chinlam91@gmail.com>, 2015
 # 區壬豪 <oldmon@livemail.tw>, 2014
 # Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013
@@ -50,7 +50,7 @@
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
-# bhsfmiao <inactive+bhsfmiao@transifex.com>, 2014
+# 8cdb4758e2f8f89e1b6f455d24a57c7b_26aedc9 <d42fecad8431def0e25dc12221e713ed_169300>, 2014
 # 陳子琦 <christtabris@gmail.com>, 2014
 # LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014
 # JEN-HAO HSIEH <orienthauz@gmail.com>, 2015
@@ -60,7 +60,7 @@
 # KUN-MIN SYU <qwer20108@gmail.com>, 2014
 # Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013-2015
 # LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014
-# bhsfmiao <inactive+bhsfmiao@transifex.com>, 2014
+# 8cdb4758e2f8f89e1b6f455d24a57c7b_26aedc9 <d42fecad8431def0e25dc12221e713ed_169300>, 2014
 # MOH CHIN LAM <chinlam91@gmail.com>, 2014-2015
 # Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013
 # Rainy Chang <7100014011s@gmail.com>, 2016
@@ -100,7 +100,7 @@
 #
 # Translators:
 # Andrew Lau <alau52@yahoo.com>, 2017
-# SatoshiLiang <inactive+SatoshiLiang@transifex.com>, 2015
+# 72fee0b9bce7ade7bd31e6d1c59e1ca0_a54641a <1fba743aef393f2e7e195539ef78e5b6_162150>, 2015
 # LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014
 # JEN-HAO HSIEH <orienthauz@gmail.com>, 2015
 # KUN-MIN SYU <qwer20108@gmail.com>, 2014
@@ -110,7 +110,7 @@
 # Mose Chen <mosechen@gmail.com>, 2017
 # myles <i@myles.hk>, 2016
 # Rainy Chang <7100014011s@gmail.com>, 2016
-# SatoshiLiang <inactive+SatoshiLiang@transifex.com>, 2015
+# 72fee0b9bce7ade7bd31e6d1c59e1ca0_a54641a <1fba743aef393f2e7e195539ef78e5b6_162150>, 2015
 # vincent <orzkng2007@yahoo.com.tw>, 2016
 # Xaver Y.R. Chen <yrchen@atcity.org>, 2014-2016
 # Yenling Chen <bugchen.chen@gmail.com>, 2016
@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-24 20:42+0000\n"
+"POT-Creation-Date: 2020-06-07 20:42+0000\n"
 "PO-Revision-Date: 2020-05-23 15:57+0000\n"
 "Last-Translator: 區壬豪 <oldmon@livemail.tw>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
@@ -789,7 +789,6 @@ msgstr ""
 
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Description"
 msgstr "敘述"
@@ -2707,6 +2706,10 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "An error occurred. Try again."
 msgstr "發生錯誤。 再試一次。"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js
+msgid "No assignments for team"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
@@ -6576,7 +6579,6 @@ msgid "Unscheduled"
 msgstr "未排程"
 
 #: cms/templates/js/course_info_update.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Date"
 msgstr "日期"
@@ -7224,6 +7226,10 @@ msgid "Join Team"
 msgstr "參與團隊"
 
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Team Assignments"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team Details"
 msgstr "團隊詳細資訊"
 
@@ -7306,91 +7312,6 @@ msgstr "刪除節%(subsectionDisplayName)s"
 #, python-format
 msgid "Remove unit %(unitName)s"
 msgstr "刪除單元 %(unitName)s"
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"You still need to visit the {display_name} website to complete the credit "
-"process."
-msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"To finalize course credit, {display_name} requires {platform_name} learners "
-"to submit a credit request."
-msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid "Get Credit"
-msgstr "獲得學分"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"Thank you {full_name}! We have received your payment for {course_name}."
-msgstr ""
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid ""
-"Please print this page for your records; it serves as your receipt. You will"
-" also receive an email with the same information."
-msgstr "請列印這個頁面作為您的紀錄；它可以當作您的收據。之後您也將收到一則電子郵件包含相同的訊息。"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Order No."
-msgstr "訂單編號"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Amount"
-msgstr "總額"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Total"
-msgstr "總數"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Please Note"
-msgstr "請注意"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Crossed out items have been refunded."
-msgstr "刪除項目已經退款。"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Billed to"
-msgstr "付款方"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "No receipt available"
-msgstr "無提供收據"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
-msgid "Go to Dashboard"
-msgstr "前往我的課程"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"If you don't verify your identity now, you can still explore your course "
-"from your dashboard. You will receive periodic reminders from {platformName}"
-" to verify your identity."
-msgstr ""
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Want to confirm your identity later?"
-msgstr "需要稍後再確認您的身分？"
-
-#: lms/templates/commerce/receipt.underscore
-msgid "Verify Now"
-msgstr "立即驗證"
 
 #: lms/templates/courseware/proctored-exam-controls.underscore
 msgid "Mark Exam As Completed"
@@ -7547,6 +7468,10 @@ msgid ""
 "Thank you for submitting your financial assistance application for "
 "{course_name}! You can expect a response in 2-4 business days."
 msgstr "感謝您提交{course_name}的經濟援助申請！經過2-4個工作日後盡快給予您回覆。"
+
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
+msgid "Go to Dashboard"
+msgstr "前往我的課程"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Bulk Exceptions"
@@ -8097,6 +8022,10 @@ msgstr ""
 #: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
 msgstr "錯誤發生。請重新載入頁面。"
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Sign in with your company or school"
+msgstr ""
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -8660,6 +8589,11 @@ msgid "Check your email for an activation message."
 msgstr "請檢查您的email以獲得啟用的訊息。"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Total"
+msgstr "總數"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Professional Certificate for {courseName}"
 msgstr "{courseName} 的專業證書"
 
@@ -8697,6 +8631,36 @@ msgid "Thank you! We have received your payment for {courseName}."
 msgstr ""
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"Please print this page for your records; it serves as your receipt. You will"
+" also receive an email with the same information."
+msgstr "請列印這個頁面作為您的紀錄；它可以當作您的收據。之後您也將收到一則電子郵件包含相同的訊息。"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Order No."
+msgstr "訂單編號"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Amount"
+msgstr "總額"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Please Note"
+msgstr "請注意"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Crossed out items have been refunded."
+msgstr "刪除項目已經退款。"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Billed to"
+msgstr "付款方"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "No receipt available"
+msgstr "無提供收據"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next Step: Confirm your identity"
 msgstr "下一步：確認您的身分"
 
@@ -8723,6 +8687,10 @@ msgid ""
 "from your dashboard. You will receive periodic reminders from "
 "%(platformName)s to verify your identity."
 msgstr "如果您現在不驗證您的身份，您仍然可以透過我的課程來探索您的課程。您會從 %(platformName)s 收到定期提醒來驗證您的身分。"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Want to confirm your identity later?"
+msgstr "需要稍後再確認您的身分？"
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Identity Verification In Progress"

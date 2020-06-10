@@ -151,11 +151,11 @@
 # c3424d9a1a39134ef6c845e87726a328, 2015
 # Laetitia Pfaender <l.pfaender@learning-tribes.com>, 2016
 # laurentFUN <laurent.at.fun@gmail.com>, 2014,2016
-# Leslie Bordonné <inactive+lbordonne@transifex.com>, 2015
+# 351b2f46d44029449d6cb5b8d390219a_52d59a5 <8569bfdd06aaa5bb95c4c8840e0be2af_243857>, 2015
 # Linda B.A <siria242@gmail.com>, 2016
 # madmarsu <madmarsu@gmail.com>, 2014
 # Maghjina <Maghjina@gmail.com>, 2014
-# mamby, 2014
+# 534ac094493543eb5618172d1b5b5f50_1b2ae6a, 2014
 # Manjari <mringuet@gmail.com>, 2014
 # Marco Morales, 2014
 # Marie-Andrée Coulombe <coulombe.ma@gmail.com>, 2014
@@ -235,11 +235,11 @@
 # c3424d9a1a39134ef6c845e87726a328, 2015
 # Laetitia Pfaender <l.pfaender@learning-tribes.com>, 2016
 # laurentFUN <laurent.at.fun@gmail.com>, 2014,2016
-# Leslie Bordonné <inactive+lbordonne@transifex.com>, 2015
+# 351b2f46d44029449d6cb5b8d390219a_52d59a5 <8569bfdd06aaa5bb95c4c8840e0be2af_243857>, 2015
 # Linda B.A <siria242@gmail.com>, 2016
 # madmarsu <madmarsu@gmail.com>, 2014
 # Maghjina <Maghjina@gmail.com>, 2014
-# mamby, 2014
+# 534ac094493543eb5618172d1b5b5f50_1b2ae6a, 2014
 # Manjari <mringuet@gmail.com>, 2014
 # Marco Morales, 2014
 # Marie-Andrée Coulombe <coulombe.ma@gmail.com>, 2014
@@ -282,7 +282,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-24 20:42+0000\n"
+"POT-Creation-Date: 2020-06-07 20:42+0000\n"
 "PO-Revision-Date: 2020-04-27 09:13+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -1004,7 +1004,6 @@ msgstr "Supprimer le tableau"
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Description"
 msgstr "Description"
@@ -3059,6 +3058,10 @@ msgstr "Voir {span_start} {team_name} {span_end}"
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "An error occurred. Try again."
 msgstr "Une erreur est survenue. Réessayez."
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js
+msgid "No assignments for team"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
@@ -7451,7 +7454,6 @@ msgid "Unscheduled"
 msgstr "Non programmé"
 
 #: cms/templates/js/course_info_update.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Date"
 msgstr "Date"
@@ -8120,6 +8122,10 @@ msgid "Join Team"
 msgstr "Rejoindre l'équipe"
 
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Team Assignments"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team Details"
 msgstr "Détails de l'équipe"
 
@@ -8205,100 +8211,6 @@ msgstr "Supprimer la sous-section %(subsectionDisplayName)s"
 #, python-format
 msgid "Remove unit %(unitName)s"
 msgstr "Supprimer l'unité %(unitName)s"
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"You still need to visit the {display_name} website to complete the credit "
-"process."
-msgstr ""
-"Vous devez toujours visiter le site web {display_name} afin de compléter le "
-"processus de crédit."
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"To finalize course credit, {display_name} requires {platform_name} learners "
-"to submit a credit request."
-msgstr ""
-"Pour finaliser l'obtention de crédit de cours, {display_name} demande aux "
-"apprenants de {platform_name} de soumettre une demande de crédit."
-
-#: lms/templates/commerce/provider.underscore
-msgid "Get Credit"
-msgstr "Obtenir un crédit"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"Thank you {full_name}! We have received your payment for {course_name}."
-msgstr "Merci {full_name}! Nous avons reçu votre paiement pour {course_name}."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid ""
-"Please print this page for your records; it serves as your receipt. You will"
-" also receive an email with the same information."
-msgstr ""
-"Veuillez imprimer et conserver cette page; elle vous servira de reçu. Vous "
-"recevrez également un courriel avec les mêmes informations."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Order No."
-msgstr "Commande N°"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Amount"
-msgstr "Montant"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Total"
-msgstr "Total"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Please Note"
-msgstr "Veuillez noter"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Crossed out items have been refunded."
-msgstr "Les éléments barrés ont été remboursés."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Billed to"
-msgstr "Facturé à"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "No receipt available"
-msgstr "Pas de reçu disponible"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
-msgid "Go to Dashboard"
-msgstr "Aller au tableau de bord"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"If you don't verify your identity now, you can still explore your course "
-"from your dashboard. You will receive periodic reminders from {platformName}"
-" to verify your identity."
-msgstr ""
-"Si vous ne vérifiez pas votre identité maintenant, vous pouvez toujours "
-"parcourir votre cours depuis votre tableau de bord. Vous recevrez des "
-"rappels régulier de {platformName} afin de vérifier votre identité."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Want to confirm your identity later?"
-msgstr "Voulez-vous confirmer votre identité plus tard?"
-
-#: lms/templates/commerce/receipt.underscore
-msgid "Verify Now"
-msgstr "Vérifier Maintenant"
 
 #: lms/templates/courseware/proctored-exam-controls.underscore
 msgid "Mark Exam As Completed"
@@ -8464,6 +8376,10 @@ msgid ""
 msgstr ""
 "Merci d'avoir soumis votre demande d'aide financière pour {course_name}! "
 "Vous aurez une réponse dans 2-4 jours ouvrables."
+
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
+msgid "Go to Dashboard"
+msgstr "Aller au tableau de bord"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Bulk Exceptions"
@@ -9064,6 +8980,10 @@ msgstr "Revenir à la langue précédente"
 #: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
 msgstr "Une erreur est survenue. Merci de rafraîchir la page."
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Sign in with your company or school"
+msgstr ""
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -9736,6 +9656,11 @@ msgid "Check your email for an activation message."
 msgstr "Vérifiez votre courriel pour un message d'activation."
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Total"
+msgstr "Total"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Professional Certificate for {courseName}"
 msgstr "Attestation professionnelle pour {courseName}"
 
@@ -9780,6 +9705,38 @@ msgid "Thank you! We have received your payment for {courseName}."
 msgstr "Merci. Nous avons reçu votre paiement pour {courseName}."
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"Please print this page for your records; it serves as your receipt. You will"
+" also receive an email with the same information."
+msgstr ""
+"Veuillez imprimer et conserver cette page; elle vous servira de reçu. Vous "
+"recevrez également un courriel avec les mêmes informations."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Order No."
+msgstr "Commande N°"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Amount"
+msgstr "Montant"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Please Note"
+msgstr "Veuillez noter"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Crossed out items have been refunded."
+msgstr "Les éléments barrés ont été remboursés."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Billed to"
+msgstr "Facturé à"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "No receipt available"
+msgstr "Pas de reçu disponible"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next Step: Confirm your identity"
 msgstr "Étape suivante : Confirmer votre identité"
 
@@ -9813,6 +9770,10 @@ msgstr ""
 "Si vous ne vérifiez pas votre identité maintenant, vous pouvez toujours "
 "parcourir vos cours depuis votre tableau de bord. Vous recevrez des rappels "
 "régulier de %(platformName)s pour vérifier votre identité."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Want to confirm your identity later?"
+msgstr "Voulez-vous confirmer votre identité plus tard?"
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Identity Verification In Progress"

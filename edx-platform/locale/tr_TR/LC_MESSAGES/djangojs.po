@@ -50,7 +50,7 @@
 # Kubilay <kubilayinceoren10@gmail.com>, 2015
 # msare <mervesareakin@gmail.com>, 2014
 # Onur Bektas <mustafaonurbektas@gmail.com>, 2013
-# serd@r <inactive+serince@transifex.com>, 2015
+# 169685c64da20f8565d5bb4b5fa14388_0122c8a <d6cdb6a8d55668108fbee6af67afa0d1_255939>, 2015
 # umit.dogan <umitgri@gmail.com>, 2014
 # ElektrikAkar <volkan.kumtepeli@gmail.com>, 2014
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-24 20:42+0000\n"
+"POT-Creation-Date: 2020-06-07 20:42+0000\n"
 "PO-Revision-Date: 2020-04-28 20:25+0000\n"
 "Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
@@ -816,7 +816,6 @@ msgstr "Tabloyu sil"
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Description"
 msgstr "Açıklama"
@@ -2839,6 +2838,10 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "An error occurred. Try again."
 msgstr "Bir hata oluştu. Tekrar deneyin."
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js
+msgid "No assignments for team"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
@@ -7023,7 +7026,6 @@ msgid "Unscheduled"
 msgstr "Planlanmamış"
 
 #: cms/templates/js/course_info_update.underscore
-#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Date"
 msgstr "Tarih"
@@ -7191,7 +7193,7 @@ msgstr "Cevabı güncelle"
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "%(author)s tarafından %(time_ago)s önce gönderildi"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing comment"
@@ -7337,15 +7339,15 @@ msgstr "Destekle"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unendorse"
-msgstr ""
+msgstr "Destekleme"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Mark as Answer"
-msgstr ""
+msgstr "Cevap olarak İşaretle"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unmark as Answer"
-msgstr ""
+msgstr "Cevap işaretini Kaldır"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Follow"
@@ -7681,6 +7683,10 @@ msgid "Join Team"
 msgstr "Takıma Katıl"
 
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Team Assignments"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team Details"
 msgstr "Takım Detayları"
 
@@ -7765,96 +7771,6 @@ msgstr "Altbölümü kaldır %(subsectionDisplayName)s"
 #, python-format
 msgid "Remove unit %(unitName)s"
 msgstr "Birimi kaldır %(unitName)s"
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"You still need to visit the {display_name} website to complete the credit "
-"process."
-msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid ""
-"To finalize course credit, {display_name} requires {platform_name} learners "
-"to submit a credit request."
-msgstr ""
-
-#: lms/templates/commerce/provider.underscore
-msgid "Get Credit"
-msgstr "Kredi Al"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"Thank you {full_name}! We have received your payment for {course_name}."
-msgstr ""
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid ""
-"Please print this page for your records; it serves as your receipt. You will"
-" also receive an email with the same information."
-msgstr ""
-"Lütfen kayıtlarınız için bu sayfanın çıktısını fatura olarak alın. Aynı "
-"bilgileri içeren bir de e-posta alacaksınız."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Order No."
-msgstr "Sipariş No."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Amount"
-msgstr "Miktar"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Total"
-msgstr "Toplam"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Please Note"
-msgstr "Lütfen Bildirin"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Crossed out items have been refunded."
-msgstr "Üzerinde çarpı işareti öğeler iade edilmiştir."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Billed to"
-msgstr "Faturalandı"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "No receipt available"
-msgstr "Fatura bulunamadı"
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
-msgid "Go to Dashboard"
-msgstr "Ana Panele Git"
-
-#: lms/templates/commerce/receipt.underscore
-msgid ""
-"If you don't verify your identity now, you can still explore your course "
-"from your dashboard. You will receive periodic reminders from {platformName}"
-" to verify your identity."
-msgstr ""
-"Şu an kimliğinizi onaylamasanız da, dersinize hâlâ panelinizden "
-"ulaşabilirsiniz. Kimliğinizi onaylamanız için, {platformName} size düzenli "
-"bildirimler gönderecek."
-
-#: lms/templates/commerce/receipt.underscore
-#: lms/templates/verify_student/payment_confirmation_step.underscore
-msgid "Want to confirm your identity later?"
-msgstr "Kimliğinizi daha sonra mı doğrulamak istersiniz?"
-
-#: lms/templates/commerce/receipt.underscore
-msgid "Verify Now"
-msgstr "Şimdi Doğrula"
 
 #: lms/templates/courseware/proctored-exam-controls.underscore
 msgid "Mark Exam As Completed"
@@ -8013,6 +7929,10 @@ msgid ""
 msgstr ""
 "{course_name} için mali yardım başvurunuzu gönderdiğiniz için teşekkürler ! "
 "2-4 iş günü içerisinde size geri döneceğiz. "
+
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
+msgid "Go to Dashboard"
+msgstr "Ana Panele Git"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Bulk Exceptions"
@@ -8459,7 +8379,7 @@ msgstr "Yeni Programları Keşfedin"
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Course"
 msgid_plural "Courses"
-msgstr[0] ""
+msgstr[0] "Ders"
 msgstr[1] "Dersler"
 
 #: lms/templates/learner_dashboard/program_card.underscore
@@ -8559,7 +8479,7 @@ msgstr "Derslerinizi bitirdikçe, burada listelenmiş halde göreceksiniz."
 #: lms/templates/learner_dashboard/program_details_view.underscore
 msgid ""
 "Complete courses on your schedule to ensure you stand out in your field!"
-msgstr ""
+msgstr "Alanınızda öne çıkmanızı sağlamak için derslerinizi tamamlayın!"
 
 #: lms/templates/learner_dashboard/program_header_view.underscore
 msgid "{organization}\\'s logo"
@@ -8592,6 +8512,10 @@ msgstr "Dili Geriye Döndür"
 #: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
 msgstr "Bir hata oluştu. Lütfen sayfayı tekrar yükleyin."
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Sign in with your company or school"
+msgstr ""
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -9185,6 +9109,11 @@ msgid "Check your email for an activation message."
 msgstr "Aktivasyon mesajı için e-postanızı kontrol edin."
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Total"
+msgstr "Toplam"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Professional Certificate for {courseName}"
 msgstr "{courseName} için Profesyonel Sertifika"
 
@@ -9229,6 +9158,38 @@ msgid "Thank you! We have received your payment for {courseName}."
 msgstr "Teşekkürler! {courseName} için olan ödemenizi aldık."
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"Please print this page for your records; it serves as your receipt. You will"
+" also receive an email with the same information."
+msgstr ""
+"Lütfen kayıtlarınız için bu sayfanın çıktısını fatura olarak alın. Aynı "
+"bilgileri içeren bir de e-posta alacaksınız."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Order No."
+msgstr "Sipariş No."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Amount"
+msgstr "Miktar"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Please Note"
+msgstr "Lütfen Bildirin"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Crossed out items have been refunded."
+msgstr "Üzerinde çarpı işareti öğeler iade edilmiştir."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Billed to"
+msgstr "Faturalandı"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "No receipt available"
+msgstr "Fatura bulunamadı"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next Step: Confirm your identity"
 msgstr "Sonraki Adım: Kimliğinizi doğrulayın"
 
@@ -9262,6 +9223,10 @@ msgstr ""
 "Eğer kimliğinizi şimdi doğrulamazsanız, hala daha ana panelinizden dersinizi"
 " keşfedebilirsiniz. Kimliğinizi doğrulamak için %(platformName)s üzerinden "
 "periyodik hatırlatma alacaksınız."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Want to confirm your identity later?"
+msgstr "Kimliğinizi daha sonra mı doğrulamak istersiniz?"
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Identity Verification In Progress"
