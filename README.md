@@ -19,10 +19,10 @@ If you are feeling really confident, you can try to update translations in one g
 
 Note that you will need a [Transifex API token](https://www.transifex.com/user/settings/api/) to download translations.
 
-It is quite likely that the downloaded transifex files will contain errors. After downloading the translation files (`make download`), you will then have detect the errors by running:
+It is quite likely that the downloaded transifex files will contain errors. After downloading the translation files (`make download`), you will then have to detect the errors by running:
 
     make validate
-    
+
 You will then have to fix the errors manually in each file. It is recommended to also fix them in Transifex.
 
 After all errors have been fixed, you may resume the processing:
