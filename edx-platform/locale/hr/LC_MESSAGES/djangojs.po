@@ -38,6 +38,7 @@
 # Dee Tokmadzic, 2020
 # Vedran Karačić <vedran@edx.org>, 2020
 # Franjo Pehar <fpehar@gmail.com>, 2020
+# Tea Horvatic <teahorvatic@yahoo.co.uk>, 2020
 #
 msgid ""
 msgstr ""
@@ -45,7 +46,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2020-06-02 20:40+0000\n"
 "PO-Revision-Date: 2020-05-28 18:04+0000\n"
-"Last-Translator: Franjo Pehar <fpehar@gmail.com>, 2020\n"
+"Last-Translator: Tea Horvatic <teahorvatic@yahoo.co.uk>, 2020\n"
 "Language-Team: Croatian (https://www.transifex.com/open-edx/teams/6205/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"

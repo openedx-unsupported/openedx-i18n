@@ -353,7 +353,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-07-12 20:42+0000\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
 "PO-Revision-Date: 2018-07-24 22:14+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -546,6 +546,7 @@ msgstr "Formation professionnelle"
 #: common/lib/xmodule/xmodule/conditional_module.py
 #: common/lib/xmodule/xmodule/html_module.py
 #: common/lib/xmodule/xmodule/library_content_module.py
+#: common/lib/xmodule/xmodule/library_sourced_block.py
 #: common/lib/xmodule/xmodule/lti_module.py
 #: common/lib/xmodule/xmodule/split_test_module.py
 #: common/lib/xmodule/xmodule/unit_block.py
@@ -976,6 +977,13 @@ msgstr ""
 "Il est prévu que les données seront fournies dans un format de fichier csv "
 "avec la première ligne étant l'en-tête et les colonnes seront les suivantes:"
 " user_id, username, email, course_id, is_verified, verification_date"
+
+#: common/djangoapps/student/models.py
+msgid ""
+"It expect that the data will be provided in a csv file format with"
+"                     first row being the header and columns will be as "
+"follows:                     course_id, username, mode"
+msgstr ""
 
 #: common/djangoapps/student/models.py
 msgid "Name of this user attribute."
@@ -2442,6 +2450,7 @@ msgstr "Données XML pour l'annotation"
 #: common/lib/xmodule/xmodule/html_module.py
 #: common/lib/xmodule/xmodule/library_content_module.py
 #: common/lib/xmodule/xmodule/library_root_xblock.py
+#: common/lib/xmodule/xmodule/library_sourced_block.py
 #: common/lib/xmodule/xmodule/poll_module.py
 #: common/lib/xmodule/xmodule/unit_block.py
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
@@ -2531,8 +2540,8 @@ msgid "Answered"
 msgstr "Répondu"
 
 #: common/lib/xmodule/xmodule/capa_base.py
-msgid "Attempted"
-msgstr "Tenté"
+msgid "Attempted or Past Due"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Closed"
@@ -2549,6 +2558,18 @@ msgstr "Correct ou en retard"
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "After Some Number of Attempts"
 msgstr "Après un certain nombre de tentatives"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "After All Attempts"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "After All Attempts or Correct"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Attempted"
+msgstr "Tenté"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Show Answer: Number of Attempts"
@@ -4261,6 +4282,28 @@ msgid "Enter the names of the advanced components to use in your library."
 msgstr ""
 "Entrer les noms des composants avancés à utiliser dans votre bibliothèque."
 
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid "Library Block"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid "Enter the IDs of the library XBlock that you wish to use."
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid ""
+"No XBlock has been configured for this component. Enter the target ID below "
+"or in the editor"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid "Open Editor"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid "Importing Library Block failed - are the IDs valid and readable?"
+msgstr ""
+
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
 "The display name for this component. Analytics reports may also use the "
@@ -4511,12 +4554,9 @@ msgstr ""
 msgid ""
 "Specify when the Show Answer button appears for each problem. Valid values "
 "are \"always\", \"answered\", \"attempted\", \"closed\", \"finished\", "
-"\"past_due\", \"correct_or_past_due\", and \"never\"."
+"\"past_due\", \"correct_or_past_due\", \"after_all_attempts\", "
+"\"after_all_attempts_or_correct\", \"attempted_no_past_due\", and \"never\"."
 msgstr ""
-"Spécifie quand le bouton Afficher la réponse apparait pour chaque problème. "
-"Les valeurs valides sont \"always\", \"answered\", \"attempted\", "
-"\"closed\", \"finished\", \"past_due\", \"correct_or_past_due\", et "
-"\"never\"."
 
 #. Translators: DO NOT translate the words in quotes here, they are
 #. specific words for the acceptable values.
@@ -6252,6 +6292,7 @@ msgstr "Numéro d'identification de l'attestation"
 
 #: lms/djangoapps/certificates/views/webview.py
 #: lms/templates/certificates/invalid.html
+#: lms/templates/certificates/url_unsupported.html
 #, python-brace-format
 msgid "About {platform_name} Certificates"
 msgstr "À propos des attestations {platform_name}"
@@ -6458,6 +6499,24 @@ msgstr "Explorez le cours"
 msgid "Not sure yet"
 msgstr "Pas encore certain"
 
+#: lms/djangoapps/course_home_api/outline/v1/views.py
+msgid ""
+"Please contact your degree administrator or edX Support if you have "
+"questions."
+msgstr ""
+
+#: lms/djangoapps/course_home_api/outline/v1/views.py
+msgid "'course_id' is required."
+msgstr ""
+
+#: lms/djangoapps/course_home_api/outline/v1/views.py
+msgid "Only 'course_id' is expected."
+msgstr ""
+
+#: lms/djangoapps/course_home_api/outline/v1/views.py
+msgid "Welcome message successfully dismissed."
+msgstr ""
+
 #: lms/djangoapps/course_wiki/tab.py lms/djangoapps/course_wiki/views.py
 #: lms/templates/wiki/base.html
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
@@ -6512,6 +6571,10 @@ msgstr "Vous devez être inscrits à ce cours"
 msgid "You must be logged in to see this course"
 msgstr "Vous devez être connectés pour voir ce cours"
 
+#: lms/djangoapps/courseware/access_response.py
+msgid "Please view your course in the existing experience"
+msgstr ""
+
 #: lms/djangoapps/courseware/course_tools.py
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
@@ -6524,6 +6587,32 @@ msgstr "Soutien Financier"
 #: lms/djangoapps/courseware/courses.py
 msgid "Assignment"
 msgstr "Devoir"
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Open Response Assessment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Self Assessment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Peer Assessment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Staff Assessment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Submission"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid ""
+"Open Response Assessment due dates are set by your instructor and can't be "
+"shifted."
+msgstr ""
 
 #. Translators: 'absolute' is a date such as "Jan 01,
 #. 2020". 'relative' is a fuzzy description of the time until
@@ -6740,11 +6829,9 @@ msgstr ""
 #: lms/djangoapps/courseware/masquerade.py
 #, python-brace-format
 msgid ""
-"There is no user with the username or email address u\"{user_identifier}\" "
+"There is no user with the username or email address \"{user_identifier}\" "
 "enrolled in this course."
 msgstr ""
-"Il n'y a pas d'utilisateur avec le nom d'utilisateur ou l'adresse courriel "
-"u\"{user_identifier}\" inscrit à ce cours."
 
 #: lms/djangoapps/courseware/masquerade.py
 msgid ""
@@ -9446,9 +9533,8 @@ msgstr "Vous ne pouvez pas rejoindre une équipe dirigée par un instructeur."
 
 #: lms/djangoapps/teams/views.py
 #, python-brace-format
-msgid "The user {username} is already a member of a team in this course."
+msgid "The user {username} is already a member of a team in this teamset."
 msgstr ""
-"L'utilisateur {username} est déjà membre d'une équipe au sein de ce cours."
 
 #: lms/djangoapps/teams/views.py
 #, python-brace-format
@@ -11017,6 +11103,10 @@ msgstr ""
 
 #: openedx/core/djangoapps/content/learning_sequences/apps.py
 msgid "Learning Sequences"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api.py
+msgid "Library cannot have more than {} XBlocks"
 msgstr ""
 
 #: openedx/core/djangoapps/content_libraries/models.py
@@ -12606,10 +12696,6 @@ msgstr ""
 msgid "Username created for VEM Integration, e.g. vem_service_user."
 msgstr ""
 
-#: openedx/core/djangoapps/video_pipeline/models.py
-msgid "Percentage of courses allowed to use VEM pipeline"
-msgstr ""
-
 #: openedx/core/djangoapps/waffle_utils/models.py
 msgid "Force On"
 msgstr "Forcer à On"
@@ -12718,30 +12804,34 @@ msgid "Subscribe to calendar updates"
 msgstr "S'inscrire aux mises-à-jour du calendrier"
 
 #: openedx/features/calendar_sync/utils.py
-msgid "Stay on Track"
-msgstr "Respectez les délais"
+#, python-brace-format
+msgid "Sync {course} to your calendar"
+msgstr ""
 
 #: openedx/features/calendar_sync/utils.py
 #, python-brace-format
 msgid ""
 "Sticking to a schedule is the best way to ensure that you successfully "
-"complete your self-paced course. This schedule of assignment due dates for "
-"{course} will help you stay on track!"
+"complete your self-paced course. This schedule for {course} will help you "
+"stay on track!"
 msgstr ""
-"Respecter un horaire est la meilleure façon de vous assurer de réussir un "
-"cours à votre rythme. Les échéanciers des devoirs pour {course} vous "
-"aideront à respecter les délais!"
 
 #: openedx/features/calendar_sync/utils.py
-#, python-brace-format
-msgid "Updates for Your {course} Schedule"
-msgstr "Mises-à-jour des échéanciers de {course}"
-
-#: openedx/features/calendar_sync/utils.py
-#, python-brace-format
 msgid ""
-"Your assignment due dates for {course} were recently adjusted. Update your "
-"calendar with your new schedule to ensure that you stay on track!"
+"Once you sync your course schedule to your calendar, any updates to the "
+"course from your instructor will be automatically reflected. You can remove "
+"the course from your calendar at any time."
+msgstr ""
+
+#: openedx/features/calendar_sync/utils.py
+#, python-brace-format
+msgid "{course} dates have been updated on your calendar"
+msgstr ""
+
+#: openedx/features/calendar_sync/utils.py
+msgid ""
+"You have successfully shifted your course schedule and your calendar is up "
+"to date."
 msgstr ""
 
 #: openedx/features/content_type_gating/models.py
@@ -12856,6 +12946,27 @@ msgstr ""
 "obtenir un accès illimité au cours tant qu'il existe sur le site. {a_open} "
 "Faites une mise à niveau maintenant {sronly_span_open} pour conserver "
 "l'accès après le {expiration_date}{span_close}{a_close}."
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid "'course_key' is required."
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid "Only 'course_key' is expected."
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid "View all dates"
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid ""
+"Your due dates have been successfully shifted to help you stay on track."
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid "Deadlines successfully reset."
+msgstr ""
 
 #: openedx/features/course_experience/plugins.py
 #: cms/templates/widgets/header.html
@@ -13011,6 +13122,14 @@ msgstr ""
 
 #: openedx/features/enterprise_support/api.py
 #, python-brace-format
+msgid ""
+"Your organization {bold_start}{enterprise_customer_name}{bold_end} uses a "
+"custom dashboard for learning. {link_start}Click here{link_end} to continue "
+"in that experience."
+msgstr ""
+
+#: openedx/features/enterprise_support/api.py
+#, python-brace-format
 msgid "Enrollment in {course_title} was not complete."
 msgstr "L'inscription à {course_title} n'était pas complète."
 
@@ -13061,6 +13180,18 @@ msgstr ""
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Continue"
 msgstr "Continuer"
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#: lms/templates/dates_banner.html
+msgid "Shift due dates"
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+msgid ""
+"To participate in this assignment, the suggested schedule for your course "
+"needs updating. Don’t worry, we’ll shift all the due dates for you and you "
+"won’t lose any of your progress."
+msgstr ""
 
 #: themes/red-theme/lms/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt
 #, python-format
@@ -13459,6 +13590,11 @@ msgstr "Sous-section"
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "File upload corrupted. Please try again"
 msgstr "Téléversement corrompu du fichier. S'il vous plaît essayer à nouveau"
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "Libraries cannot have more than {limit} components"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Invalid data"
@@ -14102,18 +14238,9 @@ msgstr "Envoyer un courriel à {email}"
 
 #: cms/templates/widgets/tabs-aggregator.html
 #: lms/templates/courseware/static_tab.html
-#: lms/templates/courseware/tab-view-v2.html
 #: lms/templates/courseware/tab-view.html
 msgid "name"
 msgstr "nom"
-
-#: cms/templates/widgets/user_dropdown.html lms/templates/user_dropdown.html
-msgid "Usermenu"
-msgstr "Menu de l'utilisateur"
-
-#: cms/templates/widgets/user_dropdown.html lms/templates/user_dropdown.html
-msgid "Usermenu dropdown"
-msgstr "Menu déroulant de l'utilisateur"
 
 #: cms/templates/widgets/user_dropdown.html
 #: lms/templates/header/user_dropdown.html lms/templates/user_dropdown.html
@@ -14396,10 +14523,6 @@ msgid ""
 "To keep yourself on track, you can update this schedule and shift the past "
 "due assignments into the future. Don't worry—you won't lose any of the "
 "progress you've made when you shift your due dates."
-msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid "Shift due dates"
 msgstr ""
 
 #: lms/templates/dates_banner.html
@@ -15290,6 +15413,10 @@ msgstr ""
 #: lms/templates/header/user_dropdown.html lms/templates/user_dropdown.html
 msgid "Dashboard for:"
 msgstr "Tableau de bord pour :"
+
+#: lms/templates/user_dropdown.html
+msgid "Usermenu"
+msgstr "Menu de l'utilisateur"
 
 #: lms/templates/user_dropdown.html
 msgid "More options"
@@ -16818,6 +16945,18 @@ msgid ""
 msgstr ""
 "Si toutes les informations sont correctes et que le problème persiste, "
 "contactez le support technique."
+
+#: lms/templates/certificates/url_unsupported.html
+msgid "URL Not Supported"
+msgstr ""
+
+#: lms/templates/certificates/url_unsupported.html
+msgid ""
+"This link is no longer valid. But don’t worry—this Verified Certificate is "
+"still valid and available to share. If this is your certificate, please "
+"visit your dashboard to get a new shareable link. If you're viewing someone "
+"else's certificate, please contact them to get an updated link."
+msgstr ""
 
 #: lms/templates/certificates/valid.html
 msgid "About edX Certificates"
@@ -18862,20 +19001,6 @@ msgstr "Merci de vous êtes inscrit à :"
 msgid "We hope you enjoy the course."
 msgstr "Nous espérons que vous appréciez le cours."
 
-#: lms/templates/enrollment/course_enrollment_message.html
-msgid ""
-"{platform_name} is a nonprofit bringing high-quality education to everyone, "
-"everywhere. Your help allows us to continuously improve the learning "
-"experience for millions and make a better future one learner at a time."
-msgstr ""
-"{platform_name} est à but non lucratif pour offrir a tous des enseignements "
-"de grande qualité dans le monde entier. Grâce à votre aide nous pouvons "
-"améliorer constamment l'expérience d'apprentissage pour des millions de gens"
-
-#: lms/templates/enrollment/course_enrollment_message.html
-msgid "Donation Actions"
-msgstr "Collectes de dons"
-
 #: lms/templates/financial-assistance/financial-assistance.html
 msgid "Financial Assistance Application"
 msgstr "Demande d'assistance financière"
@@ -18985,6 +19110,11 @@ msgstr "Découvrir les nouveautés"
 #: lms/templates/navigation/navbar-authenticated.html
 msgid "Sysadmin"
 msgstr "Administrateur système"
+
+#: lms/templates/header/navbar-logo-header.html
+#: lms/templates/header/user_dropdown.html
+msgid "{name} Dashboard"
+msgstr ""
 
 #: lms/templates/header/navbar-not-authenticated.html
 msgid "Supplemental Links"
@@ -19401,10 +19531,6 @@ msgstr ""
 " que {max_entries} réponses, essayez de générer le rapport chapitre par "
 "chapitre ou problème par problème, ou contactez votre administrateur de site"
 " pour augmenter la limite."
-
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html
-msgid "Download a CSV of problem responses"
-msgstr "Télécharger un fichier CSV des réponses aux problèmes"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Click to list certificates that are issued for this course:"

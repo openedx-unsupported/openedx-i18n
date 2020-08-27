@@ -282,7 +282,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-07-12 20:42+0000\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
 "PO-Revision-Date: 2020-06-14 20:45+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -293,6 +293,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.8.0\n"
 
+#: cms/static/cms/js/main.js cms/static/js/views/active_video_upload_list.js
+#: cms/static/js/views/video_transcripts.js
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr ""
+
 #: cms/static/cms/js/xblock/cms.runtime.v1.js
 #: cms/static/js/certificates/views/signatory_details.js
 #: cms/static/js/models/section.js cms/static/js/utils/drag_and_drop.js
@@ -302,8 +310,9 @@ msgstr ""
 #: cms/static/js/views/edit_textbook.js
 #: cms/static/js/views/list_item_editor.js
 #: cms/static/js/views/modals/edit_xblock.js cms/static/js/views/tabs.js
-#: cms/static/js/views/utils/xblock_utils.js lms/static/js/ccx/schedule.js
-#: lms/static/js/views/fields.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
+#: lms/static/js/ccx/schedule.js lms/static/js/views/fields.js
 msgid "Saving"
 msgstr "Sauvegarde en cours"
 
@@ -515,6 +524,7 @@ msgstr "Avertissement"
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 #: common/static/common/js/discussion/views/response_comment_view.js
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
 #: lms/static/js/student_account/views/FinishAuthView.js
 #: lms/static/js/verify_student/views/payment_confirmation_step_view.js
 #: lms/static/js/verify_student/views/step_view.js
@@ -526,6 +536,10 @@ msgstr "Erreur"
 #: common/lib/xmodule/xmodule/js/public/js/library_content_edit.js
 msgid "Updating with latest library content"
 msgstr "Mise à jour des derniers ajouts à la bibliothèque"
+
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
+msgid "Unable to update settings"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/split_test/public/js/split_test_author_view.js
 #: common/lib/xmodule/xmodule/js/public/js/split_test_author_view.js
@@ -2625,6 +2639,34 @@ msgstr[1] "%d ans"
 msgid "Select a section or problem"
 msgstr "Sélectionnez une section ou un problème"
 
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx
+msgid "Create a report of problem responses"
+msgstr ""
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
+msgid "Your report is being generated..."
+msgstr ""
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
+msgid "Your report has being successfully generated."
+msgstr ""
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
+msgid "View Report"
+msgstr ""
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
+msgid "There was an error generating your report."
+msgstr ""
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
+msgid "Unable to get report generation status."
+msgstr ""
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
+msgid "Unable to submit request to generate report."
+msgstr ""
+
 #: lms/djangoapps/support/static/support/js/views/certificates.js
 msgid "An unexpected error occurred.  Please try again."
 msgstr "Une erreur inattendue est apparue. S'il vous plaît essayer à nouveau."
@@ -3139,10 +3181,6 @@ msgid "Team Search"
 msgstr "Recherche d'équipe"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
-msgid "Showing results for \"{searchString}\""
-msgstr "Affichage des résultats pour \"{searchString}\""
-
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Create a New Team"
 msgstr "Créer une nouvelle équipe"
 
@@ -3179,6 +3217,10 @@ msgid ""
 msgstr ""
 "Vous pouvez retirer des membres de cette équipe, en particulier s'ils n'ont "
 "pas participé à l'activité de l'équipe."
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
+msgid "Showing results for \"{searchString}\""
+msgstr "Affichage des résultats pour \"{searchString}\""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Search teams"
@@ -5438,12 +5480,14 @@ msgstr ""
 "votre profil EDUlib."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
-msgid " Link"
-msgstr "Lien"
+msgid "{platform_display_name} Link"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
-msgid "Enter your "
-msgstr "Entrez votre"
+msgid ""
+"Enter your {platform_display_name} username or the URL to your "
+"{platform_display_name} page. Delete the URL to remove the link."
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/static/js/student_account/views/account_settings_view.js
@@ -5901,16 +5945,6 @@ msgstr "Accomplissements"
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "Profile"
 msgstr "Profil"
-
-#: cms/static/cms/js/main.js cms/static/js/views/active_video_upload_list.js
-#: cms/static/js/views/video_transcripts.js
-msgid ""
-"This may be happening because of an error with our server or your internet "
-"connection. Try refreshing the page or making sure you are online."
-msgstr ""
-"Cet incident vous affecte à cause d'une erreur sur notre serveur ou d'un "
-"problème de votre connexion internet. Essayez de rafraichir la page ou "
-"vérifiez que votre connexion est bien active."
 
 #: cms/static/cms/js/main.js
 msgid "Studio's having trouble saving your work"

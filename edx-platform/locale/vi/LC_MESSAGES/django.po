@@ -26,6 +26,7 @@
 # Ha Ngoc Chung <ngocchung75@gmail.com>, 2013
 # NGUYEN CONG NAM <congnam0409@gmail.com>, 2014
 # NGUYEN HOANG AN <neyugn2909@gmail.com>, 2014
+# Nguyen Lam <lamnguyen.cis@gmail.com>, 2020
 # Nguyen Nhat Quang <technicalmanager@gmail.com>, 2016
 # Nguyen Quang Huy <huynq23091@gmail.com>, 2013-2014
 # Nhan Nguyen <constfang@yahoo.com>, 2015
@@ -61,6 +62,7 @@
 # Minh Tue Vo <mvo@edx.org>, 2014
 # Ha Ngoc Chung <ngocchung75@gmail.com>, 2013
 # NGUYEN HOANG AN <neyugn2909@gmail.com>, 2014
+# Nguyen Lam <lamnguyen.cis@gmail.com>, 2020
 # Nguyen Quang Huy <huynq23091@gmail.com>, 2014
 # Anh Phan <vietnamesel10n@gmail.com>, 2013
 # Hung The Hung <hoangthehung92@gmail.com>, 2013
@@ -103,6 +105,7 @@
 # Nguyen D. Man <mannd@live.com>, 2013
 # Nguyen Don Binh <donbinhvn@gmail.com>, 2014
 # NGUYEN HOANG AN <neyugn2909@gmail.com>, 2014
+# Nguyen Lam <lamnguyen.cis@gmail.com>, 2020
 # Nguyen Nhat Quang <technicalmanager@gmail.com>, 2016
 # Nguyen Quang Huy <huynq23091@gmail.com>, 2013-2014
 # Nguyen Tan Kim <kimnt93@gmail.com>, 2018
@@ -181,7 +184,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-07-12 20:42+0000\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
 "PO-Revision-Date: 2020-07-08 06:46+0000\n"
 "Last-Translator: Le Minh Tri <trilm@hihexa.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)\n"
@@ -706,6 +709,13 @@ msgid ""
 "                     first row being the header and columns will be as "
 "follows:                     user_id, username, email, course_id, "
 "is_verified, verification_date"
+msgstr ""
+
+#: common/djangoapps/student/models.py
+msgid ""
+"It expect that the data will be provided in a csv file format with"
+"                     first row being the header and columns will be as "
+"follows:                     course_id, username, mode"
 msgstr ""
 
 #: common/djangoapps/student/models.py
@@ -1993,6 +2003,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/html_module.py
 #: common/lib/xmodule/xmodule/library_content_module.py
 #: common/lib/xmodule/xmodule/library_root_xblock.py
+#: common/lib/xmodule/xmodule/library_sourced_block.py
 #: common/lib/xmodule/xmodule/poll_module.py
 #: common/lib/xmodule/xmodule/unit_block.py
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
@@ -2072,7 +2083,7 @@ msgid "Answered"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
-msgid "Attempted"
+msgid "Attempted or Past Due"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -2089,6 +2100,18 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "After Some Number of Attempts"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "After All Attempts"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "After All Attempts or Correct"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Attempted"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -3507,6 +3530,28 @@ msgstr ""
 msgid "Enter the names of the advanced components to use in your library."
 msgstr ""
 
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid "Library Block"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid "Enter the IDs of the library XBlock that you wish to use."
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid ""
+"No XBlock has been configured for this component. Enter the target ID below "
+"or in the editor"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid "Open Editor"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+msgid "Importing Library Block failed - are the IDs valid and readable?"
+msgstr ""
+
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
 "The display name for this component. Analytics reports may also use the "
@@ -3707,7 +3752,8 @@ msgstr ""
 msgid ""
 "Specify when the Show Answer button appears for each problem. Valid values "
 "are \"always\", \"answered\", \"attempted\", \"closed\", \"finished\", "
-"\"past_due\", \"correct_or_past_due\", and \"never\"."
+"\"past_due\", \"correct_or_past_due\", \"after_all_attempts\", "
+"\"after_all_attempts_or_correct\", \"attempted_no_past_due\", and \"never\"."
 msgstr ""
 
 #. Translators: DO NOT translate the words in quotes here, they are
@@ -5145,6 +5191,7 @@ msgid "Certificate ID Number"
 msgstr ""
 
 #: lms/templates/certificates/invalid.html
+#: lms/templates/certificates/url_unsupported.html
 msgid "About {platform_name} Certificates"
 msgstr "Thông tin về các giấy chứng nhận của {platform_name}"
 
@@ -5326,6 +5373,24 @@ msgstr ""
 msgid "Not sure yet"
 msgstr ""
 
+#: lms/djangoapps/course_home_api/outline/v1/views.py
+msgid ""
+"Please contact your degree administrator or edX Support if you have "
+"questions."
+msgstr ""
+
+#: lms/djangoapps/course_home_api/outline/v1/views.py
+msgid "'course_id' is required."
+msgstr ""
+
+#: lms/djangoapps/course_home_api/outline/v1/views.py
+msgid "Only 'course_id' is expected."
+msgstr ""
+
+#: lms/djangoapps/course_home_api/outline/v1/views.py
+msgid "Welcome message successfully dismissed."
+msgstr ""
+
 #: lms/djangoapps/course_wiki/tab.py lms/djangoapps/course_wiki/views.py
 #: lms/templates/wiki/base.html
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
@@ -5380,6 +5445,10 @@ msgstr ""
 msgid "You must be logged in to see this course"
 msgstr ""
 
+#: lms/djangoapps/courseware/access_response.py
+msgid "Please view your course in the existing experience"
+msgstr ""
+
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
 msgstr "Nâng cấp lên trạng thái Đã xác thực"
@@ -5390,6 +5459,32 @@ msgstr ""
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Assignment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Open Response Assessment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Self Assessment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Peer Assessment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Staff Assessment"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Submission"
+msgstr ""
+
+#: lms/djangoapps/courseware/courses.py
+msgid ""
+"Open Response Assessment due dates are set by your instructor and can't be "
+"shifted."
 msgstr ""
 
 #. Translators: 'absolute' is a date such as "Jan 01,
@@ -5578,7 +5673,7 @@ msgstr ""
 #: lms/djangoapps/courseware/masquerade.py
 #, python-brace-format
 msgid ""
-"There is no user with the username or email address u\"{user_identifier}\" "
+"There is no user with the username or email address \"{user_identifier}\" "
 "enrolled in this course."
 msgstr ""
 
@@ -7915,7 +8010,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/views.py
 #, python-brace-format
-msgid "The user {username} is already a member of a team in this course."
+msgid "The user {username} is already a member of a team in this teamset."
 msgstr ""
 
 #: lms/djangoapps/teams/views.py
@@ -9297,6 +9392,10 @@ msgstr ""
 msgid "Learning Sequences"
 msgstr ""
 
+#: openedx/core/djangoapps/content_libraries/api.py
+msgid "Library cannot have more than {} XBlocks"
+msgstr ""
+
 #: openedx/core/djangoapps/content_libraries/models.py
 msgid "Administer users and author content"
 msgstr ""
@@ -10638,10 +10737,6 @@ msgstr ""
 msgid "Username created for VEM Integration, e.g. vem_service_user."
 msgstr ""
 
-#: openedx/core/djangoapps/video_pipeline/models.py
-msgid "Percentage of courses allowed to use VEM pipeline"
-msgstr ""
-
 #: openedx/core/djangoapps/waffle_utils/models.py
 msgid "Force On"
 msgstr ""
@@ -10740,27 +10835,34 @@ msgid "Subscribe to calendar updates"
 msgstr ""
 
 #: openedx/features/calendar_sync/utils.py
-msgid "Stay on Track"
+#, python-brace-format
+msgid "Sync {course} to your calendar"
 msgstr ""
 
 #: openedx/features/calendar_sync/utils.py
 #, python-brace-format
 msgid ""
 "Sticking to a schedule is the best way to ensure that you successfully "
-"complete your self-paced course. This schedule of assignment due dates for "
-"{course} will help you stay on track!"
+"complete your self-paced course. This schedule for {course} will help you "
+"stay on track!"
 msgstr ""
 
 #: openedx/features/calendar_sync/utils.py
-#, python-brace-format
-msgid "Updates for Your {course} Schedule"
-msgstr ""
-
-#: openedx/features/calendar_sync/utils.py
-#, python-brace-format
 msgid ""
-"Your assignment due dates for {course} were recently adjusted. Update your "
-"calendar with your new schedule to ensure that you stay on track!"
+"Once you sync your course schedule to your calendar, any updates to the "
+"course from your instructor will be automatically reflected. You can remove "
+"the course from your calendar at any time."
+msgstr ""
+
+#: openedx/features/calendar_sync/utils.py
+#, python-brace-format
+msgid "{course} dates have been updated on your calendar"
+msgstr ""
+
+#: openedx/features/calendar_sync/utils.py
+msgid ""
+"You have successfully shifted your course schedule and your calendar is up "
+"to date."
 msgstr ""
 
 #: openedx/features/content_type_gating/models.py
@@ -10855,6 +10957,27 @@ msgid ""
 "course as long as it exists on the site. {a_open}Upgrade "
 "now{sronly_span_open} to retain access past "
 "{expiration_date}{span_close}{a_close}"
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid "'course_key' is required."
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid "Only 'course_key' is expected."
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid "View all dates"
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid ""
+"Your due dates have been successfully shifted to help you stay on track."
+msgstr ""
+
+#: openedx/features/course_experience/api/v1/views.py
+msgid "Deadlines successfully reset."
 msgstr ""
 
 #: cms/templates/widgets/header.html
@@ -10977,6 +11100,14 @@ msgstr ""
 
 #: openedx/features/enterprise_support/api.py
 #, python-brace-format
+msgid ""
+"Your organization {bold_start}{enterprise_customer_name}{bold_end} uses a "
+"custom dashboard for learning. {link_start}Click here{link_end} to continue "
+"in that experience."
+msgstr ""
+
+#: openedx/features/enterprise_support/api.py
+#, python-brace-format
 msgid "Enrollment in {course_title} was not complete."
 msgstr ""
 
@@ -11018,6 +11149,18 @@ msgstr ""
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Continue"
 msgstr "Tiếp tục"
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#: lms/templates/dates_banner.html
+msgid "Shift due dates"
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+msgid ""
+"To participate in this assignment, the suggested schedule for your course "
+"needs updating. Don’t worry, we’ll shift all the due dates for you and you "
+"won’t lose any of your progress."
+msgstr ""
 
 #: themes/red-theme/lms/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt
 #, python-format
@@ -11397,6 +11540,11 @@ msgstr "Phần nhỏ"
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "File upload corrupted. Please try again"
 msgstr "Tập tin tải lên bị hỏng. Vui lòng thử lại"
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "Libraries cannot have more than {limit} components"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Invalid data"
@@ -12023,18 +12171,9 @@ msgstr "Gửi thư điện tử tới {email}"
 
 #: cms/templates/widgets/tabs-aggregator.html
 #: lms/templates/courseware/static_tab.html
-#: lms/templates/courseware/tab-view-v2.html
 #: lms/templates/courseware/tab-view.html
 msgid "name"
 msgstr "tên"
-
-#: cms/templates/widgets/user_dropdown.html lms/templates/user_dropdown.html
-msgid "Usermenu"
-msgstr "Menu người dùng"
-
-#: cms/templates/widgets/user_dropdown.html lms/templates/user_dropdown.html
-msgid "Usermenu dropdown"
-msgstr "Menu người dùng"
 
 #: cms/templates/widgets/user_dropdown.html
 #: lms/templates/header/user_dropdown.html lms/templates/user_dropdown.html
@@ -12307,10 +12446,6 @@ msgid ""
 "To keep yourself on track, you can update this schedule and shift the past "
 "due assignments into the future. Don't worry—you won't lose any of the "
 "progress you've made when you shift your due dates."
-msgstr ""
-
-#: lms/templates/dates_banner.html
-msgid "Shift due dates"
 msgstr ""
 
 #: lms/templates/dates_banner.html
@@ -13171,6 +13306,10 @@ msgstr ""
 #: lms/templates/header/user_dropdown.html lms/templates/user_dropdown.html
 msgid "Dashboard for:"
 msgstr "Bảng thông tin của:"
+
+#: lms/templates/user_dropdown.html
+msgid "Usermenu"
+msgstr "Menu người dùng"
 
 #: lms/templates/user_dropdown.html
 msgid "More options"
@@ -14547,6 +14686,18 @@ msgid ""
 msgstr ""
 "Nếu tất cả thông tin là chính xác và vấn đề vẫn còn tồn đọng, hãy liên hệ "
 "với bộ phận hỗ trợ kĩ thuật. "
+
+#: lms/templates/certificates/url_unsupported.html
+msgid "URL Not Supported"
+msgstr ""
+
+#: lms/templates/certificates/url_unsupported.html
+msgid ""
+"This link is no longer valid. But don’t worry—this Verified Certificate is "
+"still valid and available to share. If this is your certificate, please "
+"visit your dashboard to get a new shareable link. If you're viewing someone "
+"else's certificate, please contact them to get an updated link."
+msgstr ""
 
 #: lms/templates/certificates/valid.html
 msgid "About edX Certificates"
@@ -16494,21 +16645,6 @@ msgstr "Cảm ơn bạn đã đăng ký:"
 msgid "We hope you enjoy the course."
 msgstr "Chúng tôi hy vọng bạn thích khóa học này."
 
-#: lms/templates/enrollment/course_enrollment_message.html
-msgid ""
-"{platform_name} is a nonprofit bringing high-quality education to everyone, "
-"everywhere. Your help allows us to continuously improve the learning "
-"experience for millions and make a better future one learner at a time."
-msgstr ""
-"{platform_name} là một công ty cung cấp một nền giáo dục chất lượng cao cho "
-"mọi người ở mọi nơi. Sự hỗ trợ của bạn giúp chúng tôi không ngừng cải thiện "
-"các trải nghiệm học tập cho hàng triệu người và mở ra một tương lai tươi "
-"sáng hơn cho học viên. "
-
-#: lms/templates/enrollment/course_enrollment_message.html
-msgid "Donation Actions"
-msgstr "Hoạt động đóng góp"
-
 #: lms/templates/financial-assistance/financial-assistance.html
 msgid "Financial Assistance Application"
 msgstr "Đơn xin Hỗ trợ Tài chính"
@@ -16616,6 +16752,11 @@ msgstr ""
 #: lms/templates/navigation/navbar-authenticated.html
 msgid "Sysadmin"
 msgstr "Sysadmin"
+
+#: lms/templates/header/navbar-logo-header.html
+#: lms/templates/header/user_dropdown.html
+msgid "{name} Dashboard"
+msgstr ""
 
 #: lms/templates/header/navbar-not-authenticated.html
 msgid "Supplemental Links"
@@ -17000,10 +17141,6 @@ msgid ""
 "by-chapter, or problem-by-problem basis, or contact your site administrator "
 "to increase the limit."
 msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html
-msgid "Download a CSV of problem responses"
-msgstr "Tải câu trả lời cho một vấn đề CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Click to list certificates that are issued for this course:"
