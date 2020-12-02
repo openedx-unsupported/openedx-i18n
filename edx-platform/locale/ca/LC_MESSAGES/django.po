@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-15 20:43+0000\n"
+"POT-Creation-Date: 2020-11-29 20:43+0000\n"
 "PO-Revision-Date: 2018-07-23 07:15+0000\n"
 "Last-Translator: Juanjo Bote <juanjo.botev@ub.edu>\n"
 "Language-Team: Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)\n"
@@ -10498,10 +10498,6 @@ msgstr ""
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html
 msgid "Updates"
 msgstr "Actualitzacions"
-
-#: openedx/features/course_experience/templates/course_experience/course-reviews-fragment.html
-msgid "Reviews"
-msgstr "Revisions"
 
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format

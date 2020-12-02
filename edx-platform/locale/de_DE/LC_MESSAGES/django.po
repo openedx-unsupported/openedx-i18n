@@ -164,7 +164,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-15 20:43+0000\n"
+"POT-Creation-Date: 2020-11-29 20:43+0000\n"
 "PO-Revision-Date: 2019-11-22 15:57+0000\n"
 "Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
@@ -12135,11 +12135,6 @@ msgstr ""
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html
 msgid "Updates"
 msgstr "Aktuelles"
-
-#: openedx/features/course_experience/plugins.py
-#: openedx/features/course_experience/templates/course_experience/course-reviews-fragment.html
-msgid "Reviews"
-msgstr "Bewertungen"
 
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format

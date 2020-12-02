@@ -125,7 +125,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-15 20:43+0000\n"
+"POT-Creation-Date: 2020-11-29 20:43+0000\n"
 "PO-Revision-Date: 2020-08-20 10:15+0000\n"
 "Last-Translator: Jerzy Pankiewicz <jerzy.pankiewicz@pwr.edu.pl>\n"
 "Language-Team: Polish (http://www.transifex.com/open-edx/edx-platform/language/pl/)\n"
@@ -11537,11 +11537,6 @@ msgstr ""
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html
 msgid "Updates"
 msgstr "Aktualności"
-
-#: openedx/features/course_experience/plugins.py
-#: openedx/features/course_experience/templates/course_experience/course-reviews-fragment.html
-msgid "Reviews"
-msgstr "Opinie"
 
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format
