@@ -51,14 +51,23 @@
 # claudi <claudix.kernel@gmail.com>, 2014
 # mcolomer <mcmlilhity@gmail.com>, 2014
 # Miquel Oliver <miquel.oliver@upf.edu>, 2016
+# #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
+# edX community translations have been downloaded from Catalan (https://www.transifex.com/open-edx/teams/6205/ca/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2020.
+#
+# Translators:
+# Waheed Ahmed <waheed@edx.org>, 2019
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: edx-platform\n"
+"Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-29 20:43+0000\n"
-"PO-Revision-Date: 2018-07-23 07:15+0000\n"
-"Last-Translator: Juanjo Bote <juanjo.botev@ub.edu>\n"
-"Language-Team: Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)\n"
+"POT-Creation-Date: 2020-12-06 20:43+0000\n"
+"PO-Revision-Date: 2019-01-20 20:43+0000\n"
+"Last-Translator: Waheed Ahmed <waheed@edx.org>, 2019\n"
+"Language-Team: Catalan (https://www.transifex.com/open-edx/teams/6205/ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11153,6 +11162,11 @@ msgstr ""
 "Ja hi ha una biblioteca definida amb el mateix codi d'organització i "
 "biblioteca. Canvieu el codi de la biblioteca perquè sigui únic a la vostra "
 "organització."
+
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
@@ -24013,3 +24027,27 @@ msgid ""
 msgstr ""
 "S'ha creat una nova revisió: fusió entre la Revisió #%(r1)d i la Revisió "
 "#%(r2)d"
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Click on the \"Start System Check\" link below to download and run the "
+"proctoring software."
+msgstr ""
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Once you have verified your identity and reviewed the exam guidelines in "
+"Proctortrack, you will be redirected back to this page."
+msgstr ""
+"Un cop hàgiu verificat la vostra identitat i heu revisat les directrius de "
+"l’examen a Proctortrack, sereu redirigides a aquesta pàgina."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"To confirm that proctoring has started, make sure your webcam feed and the "
+"blue Proctortrack box are both visible on your screen."
+msgstr ""
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid "Click on the \"Start Proctored Exam\" button below to continue."
+msgstr ""

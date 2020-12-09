@@ -160,14 +160,23 @@
 # Ron Lucke <ronlucke@googlemail.com>, 2014
 # Shan <shanmathuran.sritharan@paluno.uni-due.de>, 2014
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019
+# #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
+# edX community translations have been downloaded from German (Germany) (https://www.transifex.com/open-edx/teams/6205/de_DE/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2020.
+#
+# Translators:
+# Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: edx-platform\n"
+"Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-29 20:43+0000\n"
-"PO-Revision-Date: 2019-11-22 15:57+0000\n"
-"Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>\n"
-"Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
+"POT-Creation-Date: 2020-12-06 20:43+0000\n"
+"PO-Revision-Date: 2019-01-20 20:43+0000\n"
+"Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019\n"
+"Language-Team: German (Germany) (https://www.transifex.com/open-edx/teams/6205/de_DE/)\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12857,6 +12866,11 @@ msgstr ""
 "Es gibt bereits eine Bibliothek die unter der selben Organisation und "
 "demselben Bibliothekscode festgelegt wurde. Bitte ändern Sie Ihren "
 "Bibliothekscode, so dass er eindeutig innerhalb Ihrer Organisation ist."
+
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
@@ -25971,3 +25985,33 @@ msgid ""
 msgstr ""
 "Eine neue Revision wurde erzeugt: Zusammenführung von Revision #%(r1)d und "
 "Revision #%(r2)d"
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Click on the \"Start System Check\" link below to download and run the "
+"proctoring software."
+msgstr ""
+"Klicken Sie auf den untenstehenden Link \"Start System Check\", um die "
+"beaufsichtigende Software herunterzuladen und auszuführen."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Once you have verified your identity and reviewed the exam guidelines in "
+"Proctortrack, you will be redirected back to this page."
+msgstr ""
+"Sobald Ihre Identität überprüft wurde und Sie die Prüfungsrichtlinien "
+"gelesen haben, werden Sie zurück auf diese Seite weitergeleitet."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"To confirm that proctoring has started, make sure your webcam feed and the "
+"blue Proctortrack box are both visible on your screen."
+msgstr ""
+"Um zu bestätigen, dass die Beaufsichtigung begonnen hat, stellen Sie sicher,"
+" dass Ihr Webcam-Feed und die blaue \"Proctortrack\"-Box beide auf Ihrem "
+"Bildschirm sichtbar sind."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid "Click on the \"Start Proctored Exam\" button below to continue."
+msgstr ""
+"Klicken Sie unten auf die Schaltfläche \"Prüfung starten\", um fortzufahren."

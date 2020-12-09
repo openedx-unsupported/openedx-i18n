@@ -47,14 +47,23 @@
 # Translators:
 # Giorgi Goderdzishvili <biggeorgian@gmail.com>, 2016
 # Salome Gegeshidze <geges0@bp.com>, 2016
+# #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
+# edX community translations have been downloaded from Georgian (https://www.transifex.com/open-edx/teams/6205/ka/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2020.
+#
+# Translators:
+# Waheed Ahmed <waheed@edx.org>, 2019
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: edx-platform\n"
+"Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-29 20:43+0000\n"
-"PO-Revision-Date: 2019-02-27 14:07+0000\n"
-"Last-Translator: Lasha Kokilashvili\n"
-"Language-Team: Georgian (http://www.transifex.com/open-edx/edx-platform/language/ka/)\n"
+"POT-Creation-Date: 2020-12-06 20:43+0000\n"
+"PO-Revision-Date: 2019-01-20 20:43+0000\n"
+"Last-Translator: Waheed Ahmed <waheed@edx.org>, 2019\n"
+"Language-Team: Georgian (https://www.transifex.com/open-edx/teams/6205/ka/)\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11847,6 +11856,11 @@ msgid ""
 msgstr ""
 "ამ ორგანიზაციის ბიბლიოთეკა მითითებული კოდით უკვე არსებობს. გთხოვთ, შეცვალეთ "
 "თქვენი ბიბლიოთეკის კოდი, რომ თქვენი ორგანიზაციის ფარგლებში უნიკალური იყოს."
+
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
@@ -24213,3 +24227,27 @@ msgid ""
 "A new revision was created: Merge between Revision #%(r1)d and Revision "
 "#%(r2)d"
 msgstr "ახალი ვერსია შექმნილია # %(r1)d და # %(r2)d ვერსიების გაერთიანებით."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Click on the \"Start System Check\" link below to download and run the "
+"proctoring software."
+msgstr ""
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Once you have verified your identity and reviewed the exam guidelines in "
+"Proctortrack, you will be redirected back to this page."
+msgstr ""
+"ერთხელ დაადასტურეთ თქვენი ვინაობა და განიხილა გამოცდის ინსტრუქციები "
+"Proctortrack- ში, თქვენ გადაბრუნდებით ამ გვერდზე."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"To confirm that proctoring has started, make sure your webcam feed and the "
+"blue Proctortrack box are both visible on your screen."
+msgstr ""
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid "Click on the \"Start Proctored Exam\" button below to continue."
+msgstr ""

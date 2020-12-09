@@ -90,14 +90,24 @@
 # lusiana <lusiana.rumintang@gmail.com>, 2014
 # Muhammad Redho Ayassa <redhoyasa@gmail.com>, 2016
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019
+# #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
+# edX community translations have been downloaded from Indonesian (https://www.transifex.com/open-edx/teams/6205/id/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2020.
+#
+# Translators:
+# Waheed Ahmed <waheed@edx.org>, 2019
+# Aprisa Chrysantina <aprisa.chrysantina@gmail.com>, 2019
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: edx-platform\n"
+"Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-29 20:43+0000\n"
-"PO-Revision-Date: 2019-09-16 13:42+0000\n"
-"Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>\n"
-"Language-Team: Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)\n"
+"POT-Creation-Date: 2020-12-06 20:43+0000\n"
+"PO-Revision-Date: 2019-01-20 20:43+0000\n"
+"Last-Translator: Aprisa Chrysantina <aprisa.chrysantina@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/open-edx/teams/6205/id/)\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12036,6 +12046,11 @@ msgid ""
 "There is already a library defined with the same organization and library "
 "code. Please change your library code so that it is unique within your "
 "organization."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/preview.py
@@ -24479,3 +24494,31 @@ msgid ""
 "A new revision was created: Merge between Revision #%(r1)d and Revision "
 "#%(r2)d"
 msgstr "Revisi baru telah dibuat: Gabungkan Revisi #%(r1)d dan Revisi #%(r2)d"
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Click on the \"Start System Check\" link below to download and run the "
+"proctoring software."
+msgstr ""
+"Klik tautan \"Mulai Periksa Sistem\" di bawah untuk mengunduh dan "
+"menjalankan perangkat lunak proctoring."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Once you have verified your identity and reviewed the exam guidelines in "
+"Proctortrack, you will be redirected back to this page."
+msgstr ""
+"Setelah memverifikasi identitas Anda dan meninjau panduan ujian di "
+"Proctortrack, Anda akan diarahkan kembali ke halaman ini."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"To confirm that proctoring has started, make sure your webcam feed and the "
+"blue Proctortrack box are both visible on your screen."
+msgstr ""
+"Untuk mengkonfirmasi bahwa proctoring telah dimulai, pastikan webcam Anda "
+"dan kota Proctortrack biru terlihat di layar Anda."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid "Click on the \"Start Proctored Exam\" button below to continue."
+msgstr "Klik tombol \"Mulai Ujian Proctor\" di bawah untuk melanjutkan."

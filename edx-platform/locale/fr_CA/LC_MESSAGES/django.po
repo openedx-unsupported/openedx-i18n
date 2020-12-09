@@ -349,14 +349,23 @@
 # d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
+# #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
+# edX community translations have been downloaded from French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2020.
+#
+# Translators:
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2019
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: edx-platform\n"
+"Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-29 20:43+0000\n"
-"PO-Revision-Date: 2018-07-24 22:14+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
-"Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
+"POT-Creation-Date: 2020-12-06 20:43+0000\n"
+"PO-Revision-Date: 2019-01-20 20:43+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2019\n"
+"Language-Team: French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13068,6 +13077,12 @@ msgstr ""
 " de bibliothèque. S'il vous plaît changer votre code de bibliothèque de "
 "sorte qu'il est unique au sein de votre organisation."
 
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
+"'{organization_key}' n'est pas un identificateur d'organisation valide."
+
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
@@ -16064,7 +16079,7 @@ msgstr "Cocher cette case n'a aucun effet si 'Se désinscrire' est coché."
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Notify users by email"
-msgstr "Avertir les utilisateurs par courriels"
+msgstr "Avertir les utilisateurs par courriel"
 
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -19912,7 +19927,7 @@ msgid ""
 "For the specified problem, permanently and completely delete the learner's "
 "answers and scores from the database."
 msgstr ""
-"Pour le problème spécifié, supprimer indéfiniment et complètement les "
+"Pour le problème spécifié, supprimer définitivement et complètement les "
 "réponses et les points de l'apprenant de la base de données."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
@@ -19980,7 +19995,7 @@ msgid ""
 "For the entire entrance exam, permanently and completely delete the "
 "learner's answers and scores from the database."
 msgstr ""
-"Pour la totalité de l'examen d'entrée, supprimer indéfiniment et "
+"Pour la totalité de l'examen d'entrée, supprimer définitivement et "
 "complètement les réponses et les points de l'apprenant de la base de "
 "données."
 
@@ -26221,3 +26236,34 @@ msgid ""
 msgstr ""
 "Une nouvelle révision a été créée : Fusion entre la révision #%(r1)d et la "
 "révision #%(r2)d"
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Click on the \"Start System Check\" link below to download and run the "
+"proctoring software."
+msgstr ""
+"Cliquez sur le lien \"Démarrer la vérification du système\" ci-dessous pour "
+"télécharger et exécuter le logiciel de surveillance."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Once you have verified your identity and reviewed the exam guidelines in "
+"Proctortrack, you will be redirected back to this page."
+msgstr ""
+"Une fois que vous avez vérifié votre identité et examiné les directives de "
+"l'examen dans Proctortrack, vous serez redirigé vers cette page."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"To confirm that proctoring has started, make sure your webcam feed and the "
+"blue Proctortrack box are both visible on your screen."
+msgstr ""
+"Pour confirmer que la surveillance a commencé, assurez-vous que votre flux "
+"webcam et le champ bleu Proctortrack sont tous deux visibles sur votre "
+"écran."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid "Click on the \"Start Proctored Exam\" button below to continue."
+msgstr ""
+"Cliquez sur le bouton \"Lancer l'examen surveillé\" ci-dessous pour "
+"continuer."

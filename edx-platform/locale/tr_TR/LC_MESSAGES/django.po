@@ -117,14 +117,23 @@
 # Kubilay <kubilayinceoren10@gmail.com>, 2015
 # Mehmet Kokoç <kokocmehmet@gmail.com>, 2017
 # a56fc07028489bb2b53400de33ba6a83, 2014
+# #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
+# edX community translations have been downloaded from Turkish (Turkey) (https://www.transifex.com/open-edx/teams/6205/tr_TR/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2020.
+#
+# Translators:
+# Ali Işıngör <ali@artistanbul.io>, 2019
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: edx-platform\n"
+"Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-29 20:43+0000\n"
-"PO-Revision-Date: 2020-10-10 20:16+0000\n"
-"Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
-"Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
+"POT-Creation-Date: 2020-12-06 20:43+0000\n"
+"PO-Revision-Date: 2019-01-20 20:43+0000\n"
+"Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2019\n"
+"Language-Team: Turkish (Turkey) (https://www.transifex.com/open-edx/teams/6205/tr_TR/)\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12312,6 +12321,11 @@ msgid ""
 msgstr ""
 "Aynı organizasyon ve kütüphane kodu zaten bulunmaktadır. Farklı bir "
 "organizasyon oluşturmak için lütfen kütüphane kodununuzu değiştirin."
+
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
@@ -24797,3 +24811,33 @@ msgid ""
 msgstr ""
 "Yeni bir revizyon oluşturuldu: Revizyon #%(r1)d ve Revizyon #%(r2)d arasında"
 " birleştirildi."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Click on the \"Start System Check\" link below to download and run the "
+"proctoring software."
+msgstr ""
+"Gözetmenli sınav yazılımını çalıştırmak için aşağıdaki \"Sistem Denetimini "
+"Başlat\" bağlantısına tıklayın."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"Once you have verified your identity and reviewed the exam guidelines in "
+"Proctortrack, you will be redirected back to this page."
+msgstr ""
+"Kimliğinizi doğruladıktan ve Proctortrack içinde yer alan sınav "
+"kılavuzlarını incelemenizden sonra, bu sayfaya yeniden yönlendirileceksiniz."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid ""
+"To confirm that proctoring has started, make sure your webcam feed and the "
+"blue Proctortrack box are both visible on your screen."
+msgstr ""
+"Gözetmenli oturumun başlamasını doğrulamak için web kameranızın veri "
+"akışının ve mavi Proctortrack kutusunun ekranınızda görünür olduğuna emin "
+"olun."
+
+#: edx_proctoring_proctortrack/backends/proctortrack_rest.py
+msgid "Click on the \"Start Proctored Exam\" button below to continue."
+msgstr ""
+"Devam etmek için aşağıdaki \"Gözetmenli Sınavı Başlat\" düğmesine tıklayın."
