@@ -15,6 +15,7 @@ locales:
     - ja_JP  # Japanese (Japan)
     - ka # Georgian
     - pl  # Polish
+    #- ro  # Romanian
     - sv  # Swedish
     - sw  # Swahili
     - tr_TR  # Turkish (Turkey)
@@ -30,8 +31,10 @@ generate_merge:
         - mako.po
         - mako-studio.po
         - wiki.po
+        - edx_proctoring_proctortrack.po
     djangojs.po:
         - djangojs-partial.po
         - djangojs-studio.po
+        - djangojs-account-settings-view.po
         - underscore.po
         - underscore-studio.po
