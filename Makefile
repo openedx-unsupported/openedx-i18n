@@ -6,17 +6,24 @@ USERID ?= $$(id -u)
 DOCKER_RUN=docker run --rm -it \
 	-v $(PWD)/edx-platform/locale/:/openedx/edx-platform/conf/locale/ \
 	openedx-i18n
+DOCKER_RUN_TRANSIFEX=docker run --rm -it \
+	-v $(PWD)/edx-platform/locale/:/openedx/edx-platform/conf/locale/ \
+	-v $(PWD)/transifexrc:/openedx/.transifexrc \
+	openedx-i18n
 
 all: build download validate compile ## Download and compile translations from transifex
 
-shell:
+transifexrc: ## Make sure an empty transifexrc credentials file exists
+	touch transifexrc
+
+shell: transifexrc ## Open a bash shell in the openedx container
 	$(DOCKER_RUN) bash
 
 build: ## Build the docker image that contains translations
 	docker build -t openedx-i18n --build-arg USERID=$(USERID) ./docker
 
-download: ## Download i18n files from transifex
-	$(DOCKER_RUN) i18n_tool transifex --config=conf/locale/config-extra.yaml pull
+download: transifexrc ## Download i18n files from transifex
+	$(DOCKER_RUN_TRANSIFEX) i18n_tool transifex --config=conf/locale/config-extra.yaml pull
 
 validate: ## Check for errors in translation files
 	$(DOCKER_RUN) i18n_tool validate --config=conf/locale/config-extra.yaml
