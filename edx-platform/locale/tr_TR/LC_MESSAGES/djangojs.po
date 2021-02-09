@@ -1,11 +1,11 @@
 # #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/).
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
 # Adem Özgür <admozgur@gmail.com>, 2015
-# Ali Işıngör <ali@artistanbul.io>, 2017-2020
+# Ali Işıngör <ali@artistanbul.io>, 2017-2021
 # ali selek <aliselek01@gmail.com>, 2015
 # baris <brscvs@gmail.com>, 2013-2014
 # baris <brscvs@gmail.com>, 2013
@@ -30,7 +30,7 @@
 # ElektrikAkar <volkan.kumtepeli@gmail.com>, 2014
 # #-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/).
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -55,9 +55,9 @@
 # ElektrikAkar <volkan.kumtepeli@gmail.com>, 2014
 # #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (https://www.transifex.com/open-edx/teams/6205/tr_TR/).
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2020.
+# EdX Team <info@edx.org>, 2021.
 #
 # Translators:
 # Pelin Çılgın <pelincilgin@hotmail.com>, 2019
@@ -66,12 +66,12 @@
 #
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
 # Adem Özgür <admozgur@gmail.com>, 2015
-# Ali Işıngör <ali@artistanbul.io>, 2017-2020
+# Ali Işıngör <ali@artistanbul.io>, 2017-2021
 # ali selek <aliselek01@gmail.com>, 2015
 # Emrah Emirtekin <eemirtekin@gmail.com>, 2015
 # Erdoğan Şahin, 2016
@@ -85,7 +85,7 @@
 # sevde <savda95@hotmail.com>, 2015
 # #-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -107,9 +107,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-12-06 20:43+0000\n"
-"PO-Revision-Date: 2020-12-06 20:44+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2021-02-07 20:43+0000\n"
+"PO-Revision-Date: 2021-01-15 22:47+0000\n"
+"Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
@@ -367,15 +367,15 @@ msgstr "Son kütüphane içeriğiyle güncelleniyor"
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Loading..."
-msgstr ""
+msgstr "Yüklüyor..."
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Selected blocks"
-msgstr ""
+msgstr "Seçili blocklar"
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
 msgid "Unable to update settings"
-msgstr ""
+msgstr "Ayarlar güncellenemedi"
 
 #: common/lib/xmodule/xmodule/assets/split_test/public/js/split_test_author_view.js
 #: common/lib/xmodule/xmodule/js/public/js/split_test_author_view.js
@@ -2072,7 +2072,7 @@ msgstr "Altyazıları kapat"
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx
 #: cms/templates/js/move-xblock-list.underscore
 msgid "View child items"
-msgstr ""
+msgstr "Alt öğeleri görüntüleyin"
 
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx
 msgid "Navigate up"
@@ -2463,35 +2463,35 @@ msgstr "Bir bölüm ya da problem seçin"
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx
 msgid "Create a report of problem responses"
-msgstr ""
+msgstr "Problem cevapları için bir rapor oluştur"
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
 msgid "Your report is being generated..."
-msgstr ""
+msgstr "Raporunuz oluşturuluyor..."
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
 msgid "Your report has been successfully generated."
-msgstr ""
+msgstr "Raporunuz başarıyla oluşturuldu."
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
 msgid "View Report"
-msgstr ""
+msgstr "Raporu Görüntüle"
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
 msgid "There was an error generating the report link."
-msgstr ""
+msgstr "Rapor bağlantısını oluştururken bir hata gerçekleşti."
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
 msgid "There was an error generating your report."
-msgstr ""
+msgstr "Raporunuzu oluştururken bir hata gerçekleşti."
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
 msgid "Unable to get report generation status."
-msgstr ""
+msgstr "Rapor oluşturma durumu alınamadı"
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
 msgid "Unable to submit request to generate report."
-msgstr ""
+msgstr "Rapor oluşturma isteği gönderilemedi."
 
 #: lms/djangoapps/support/static/support/js/views/certificates.js
 msgid "An unexpected error occurred.  Please try again."
@@ -2919,7 +2919,7 @@ msgstr "Bir hata oluştu. Tekrar deneyin."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "No assignments for team"
-msgstr ""
+msgstr "Takım için görev bulunmuyor"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
@@ -2930,6 +2930,8 @@ msgid ""
 "If you leave, you can no longer post in this team's discussions.Your place "
 "will be available to another learner."
 msgstr ""
+"Eğer ayrılırsanız, artık bu takımın tartışmalarına ileti "
+"gönderemeyeceksiniz. Sizin yeriniz başka bir öğrenci için uygun olacak."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/static/js/verify_student/views/reverify_view.js
@@ -2947,7 +2949,7 @@ msgstr "Bu takım dolu."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "Cannot join instructor managed team"
-msgstr ""
+msgstr "Eğitmen tarafından yönetilen takıma katılamazsınız."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js
 msgid " Member"
@@ -3103,6 +3105,7 @@ msgstr ""
 msgid ""
 "An error occurred while looking up team membership. Try refreshing the page."
 msgstr ""
+"Takım üyeliğine aranırken bir hata oluştu. Sayfayı yenilemeyi deneyin."
 
 #: lms/djangoapps/teams/static/teams/js/views/topics.js
 msgid "All topics"
@@ -3435,15 +3438,15 @@ msgstr ""
 "tekrar deneyin"
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js
-msgid "<%= user %> already in exception list."
-msgstr "<%= user %> kullanıcısı zaten istisna listesinde."
+msgid "<%- user %> already in exception list."
+msgstr "<%- user %> kullanıcısı zaten istisna listesinde."
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js
 msgid ""
-"<%= user %> has been successfully added to the exception list. Click "
+"<%- user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
-"<%= user %> kullanıcısı istisna listesine başarıyla eklendi. Aşağıdaki "
+"<%- user %> kullanıcısı istisna listesine başarıyla eklendi. Aşağıdaki "
 "İstisna Sertifikası Oluştur'a tıklayarak sertifikayı gönderin."
 
 #: lms/static/js/course_survey.js
@@ -3507,12 +3510,16 @@ msgid ""
 "Are you sure you want to unenroll from the verified {certNameLong}  track of"
 " {courseName}  ({courseNumber})?"
 msgstr ""
+"Onaylanmış {certNameLong} sertifikasının {courseName} ({courseNumber}) "
+"dersinden kaydınızı silmek istediğinize emin misiniz?"
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
 "Are you sure you want to unenroll from the verified {certNameLong} track of "
 "{courseName} ({courseNumber})?"
 msgstr ""
+"Onaylanmış {certNameLong} sertifikasının {courseName} ({courseNumber}) "
+"dersinden kaydınızı silmek istediğinize emin misiniz?"
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
@@ -3531,7 +3538,7 @@ msgstr ""
 
 #: lms/static/js/demographics_collection/DemographicsCollectionBanner.jsx
 msgid "Want to make edX better for everyone?"
-msgstr ""
+msgstr "edX'i herkes için daha iyi hale getirmek mi istiyorsunuz?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionBanner.jsx
 msgid "Get started"
@@ -3539,51 +3546,57 @@ msgstr ""
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "Help make edX better for everyone!"
-msgstr ""
+msgstr "edX'i herkes için daha iyi bir hale getirmemize yardım edin!"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "Why does edX collect this information?"
-msgstr ""
+msgstr "edX neden bu bilgiyi topluyor?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
 "An error occurred while attempting to retrieve or save the information "
 "below. Please try again later."
 msgstr ""
+"Aşağıdaki bilgiyi çekmeye ya da kaydetmeye çalışırken bir hata gerçekleşti. "
+"Bir süre sonra lütfen tekrar deneyin."
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
 "What was the total combined income, during the last 12 months, of all "
 "members of your family? "
-msgstr ""
+msgstr "Tüm aile üyelerinizin son 12 aylık toplam geliri, ne kadardı?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
 "Have you ever served on active duty in the U.S. Armed Forces, Reserves, or "
 "National Guard?"
 msgstr ""
+"Bugüne dek ABD Ordusu, Yedek Kuvvetler ya da Ulusal Muhafızlarda hizmet "
+"ettiniz mi?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "What is the highest level of education that you have achieved so far?"
-msgstr ""
+msgstr "Şimdiye kadar ulaştığınız en yüksek eğitim seviyesi nedir?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
 "What is the highest level of education that any of your parents or guardians"
 " have achieved?"
 msgstr ""
+"Ebeveyn ya da velilerinizin şimdiye kadar ulaştığı en yüksek eğitim seviyesi"
+" nedir?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "Select employment status"
-msgstr ""
+msgstr "Meslek durumunu seçin"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "What industry do you currently work in?"
-msgstr ""
+msgstr "Şu anda hangi sektörde çalışıyorsunuz?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "What industry do you want to work in?"
-msgstr ""
+msgstr "Gelecekte hangi sektörde çalışmak istiyorsunuz?"
 
 #: lms/static/js/demographics_collection/MultiselectDropdown.jsx
 msgid "Clear all"
@@ -3591,11 +3604,11 @@ msgstr "Hepsini temizle"
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "demographics questionnaire"
-msgstr ""
+msgstr "demografi anketi"
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "close questionnaire"
-msgstr ""
+msgstr "anketi kapat"
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "finish later"
@@ -3747,9 +3760,9 @@ msgid "Recent Activity"
 msgstr "Son Etkinlik"
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js
-msgid "No results found for \"%(query_string)s\". Please try searching again."
+msgid "No results found for \"{query_string}\". Please try searching again."
 msgstr ""
-"\"%(query_string)s\" için sonuç bulunamadı. Lütfen tekrar aramayı deneyiniz."
+"\"{query_string}\" için sonuç bulunamadı. Lütfen tekrar aramayı deneyiniz."
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
@@ -4386,7 +4399,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"Error resetting problem attempts for problem '<%= problem_id %>' and student"
+"Error resetting problem attempts for problem '<%- problem_id %>' and student"
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
 msgstr ""
@@ -4898,6 +4911,9 @@ msgid ""
 "Once your account is deleted, you cannot use it to take courses on the "
 "{platformName} app, {siteName}, or any other site hosted by {platformName}."
 msgstr ""
+"Hesabınız bir kere silindiğinde, {platformName} uygulaması, {siteName} "
+"sitesi ya da {platformName} tarafından barındırılan herhangi bir dersi "
+"alamazsınız."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
@@ -4905,6 +4921,8 @@ msgid ""
 "This includes access to {siteName} from your employer’s or university’s "
 "system{additionalSiteSpecificDeletionText}."
 msgstr ""
+"Bu durum işvereniniz ya da üniversiteniz tarafından size sağlanan {siteName}"
+" erişimleri için de geçerlidir{additionalSiteSpecificDeletionText}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid "We’re sorry to see you go!"
@@ -5757,7 +5775,7 @@ msgstr "sertifika"
 
 #: cms/static/js/certificates/views/certificate_preview.js
 msgid "Deactivating"
-msgstr ""
+msgstr "Devredışı bırakılıyor"
 
 #: cms/static/js/certificates/views/certificates_list.js
 msgid "Set up your certificate"
@@ -5771,7 +5789,7 @@ msgstr "Henüz bir sertifika oluşturmadınız."
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
-msgstr ""
+msgstr "İmza sahipleri listesinden \"<%- signatoryName %>\" adını sil?"
 
 #: cms/static/js/certificates/views/signatory_editor.js
 #: cms/static/js/views/course_info_update.js
@@ -6084,6 +6102,8 @@ msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
 "<%- (fileExtensions) %> to upload."
 msgstr ""
+"Sadece <%- fileTypes %> uzantılı dosyaları yükleyebilirsiniz. Lütfen sonunda"
+" <%- (fileExtensions) %> uzantısı olan bir dosya yükleyin."
 
 #: cms/static/js/models/uploads.js
 #: lms/templates/student_account/hinted_login.underscore
@@ -6273,7 +6293,7 @@ msgstr ""
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Upload a new PDF to “<%- name %>”"
-msgstr ""
+msgstr "“<%- name %>” konumuna yeni bir PDF dosyası yükle"
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Please select a PDF file to upload."
@@ -6630,7 +6650,7 @@ msgstr "Gruplar"
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "This {parentCategory} has no {childCategory}"
-msgstr ""
+msgstr "Bu {parentCategory} altında herhangi bir {childCategory} bulunmuyor"
 
 #: cms/static/js/views/move_xblock_list.js
 #: cms/templates/js/group-configuration-details.underscore
@@ -8009,7 +8029,7 @@ msgstr "bir süreli sınav"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "The timer on the right shows the time remaining in the exam."
-msgstr ""
+msgstr "Sağdaki zamanlayıcı, sınavda kalan süreyi gösterir."
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid ""
@@ -8386,8 +8406,8 @@ msgstr "İçerik grubu yarat"
 #, python-format
 msgid "(contains %(student_count)s student)"
 msgid_plural "(contains %(student_count)s students)"
-msgstr[0] ""
-msgstr[1] "(%(student_count)s öğrenci bulunmaktadır)"
+msgstr[0] "(%(student_count)s öğrenci içeriyor)"
+msgstr[1] "(%(student_count)s öğrenci içeriyor)"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid ""
@@ -8734,11 +8754,11 @@ msgstr "Parolamı unuttum"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Other sign-in issues"
-msgstr ""
+msgstr "Diğer giriş sorunları"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Sign in with your company or school"
-msgstr ""
+msgstr "Şirket ya da okul hesabınızla giriş yapın"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need other help signing in?"
@@ -8960,6 +8980,8 @@ msgid ""
 "You need a device that has a webcam. If you receive a browser prompt for "
 "access to your camera, please make sure to click 'Allow'."
 msgstr ""
+"Bir web kamerası olan bir cihaza ihtiyacınız var. Kameraya erişim için "
+"tarayıcı uyarısı alırsanız, 'İzin Ver'e tıkladığınıza emin olun."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Photo Identification"
@@ -8968,6 +8990,7 @@ msgstr "Fotoğraflı Kimlik"
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "You need a valid ID that contains your full name and photo."
 msgstr ""
+"Tam adınızı ve fotoğrafınızı içeren geçerli bir kimliğe ihtiyacınız var."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -8979,6 +9002,8 @@ msgid ""
 "When your face is in position, use the Take Photo button {icon} below to "
 "take your photo."
 msgstr ""
+"Yüzünüz çerçeve içindeyken, aşağıdaki Fotoğraf Çek {icon} düğmesini "
+"kullanarak fotoğrafınızı çekin."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "To take a successful photo, make sure that:"
@@ -8997,6 +9022,8 @@ msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
 msgstr ""
+"Yüzünüzün fotoğrafını çekmek için, kamera düğmesine {icon} tıklayın. Yeniden"
+" denemeye ihtiyacınız varsa, 'Tekrar Fotoğraf Çek'e tıklayın."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9016,6 +9043,8 @@ msgid ""
 "We use your verification photos to confirm your identity and ensure the "
 "validity of your certificate."
 msgstr ""
+"Doğrulama fotoğraflarınızı kimliğinizi onaylama ve sertifikanızın "
+"geçerliliğinden emin olmak için kullanıyoruz."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9099,6 +9128,8 @@ msgid ""
 "You need an ID with your name and photo. A driver's license, passport, or ID"
 " are all acceptable."
 msgstr ""
+"Adınızı ve fotoğrafınızı içeren bir kimliğe ihtiyacınız var. Ehliyet, "
+"pasaport veya tüm diğer kimlikler kabul edilebilir."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -9116,11 +9147,14 @@ msgstr "Kimlik kartınızın iyi aydınlatıldığına emin olun"
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
 msgstr ""
+"Çerçevenin içindeyken, Fotoğraf Çek düğmesine {icon} basarak kimliğinizin "
+"fotoğrafını çekin"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Use the Retake Photo button if you are not pleased with your photo"
 msgstr ""
+"Fotoğrafınızdan mutlu değilseniz Yeniden Fotoğraf Çek düğmesini kullanın"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
@@ -9128,6 +9162,10 @@ msgid ""
 "a photo ID. Our authorization service confirms your identity by comparing "
 "the photo you take with the photo on your ID."
 msgstr ""
+"Doğrulama sürecinin bir parçası olarak, hem yüzünüzün hem de fotoğraflı "
+"kimliğinizin fotoğrafını çekmelisiniz. Yetkilendirme hizmetimiz çekmiş "
+"olduğunuz fotoğrafınızı kimlik fotoğrafınız ile karşılaştırarak kimliğinizi "
+"doğrular."
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
@@ -9173,6 +9211,8 @@ msgstr "Yüzünüzün tamamının çerçeve içinde olduğuna emin olun"
 msgid ""
 "Once in position, use the Take Photo button {icon} to capture your photo"
 msgstr ""
+"Yüzünüz çerçevenin içindeyken, Fotoğraf Çek düğmesine {icon} basarak "
+"fotoğrafınızı çekin"
 
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Can we match the photo you took with the one on your ID?"
