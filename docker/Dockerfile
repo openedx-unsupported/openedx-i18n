@@ -36,6 +36,8 @@ RUN $PYENV_ROOT/versions/$PYTHON_VERSION/bin/python -m venv /openedx/venv
 ENV PATH /openedx/venv/bin:${PATH}
 RUN pip install setuptools==44.1.0 pip==20.0.2 wheel==0.34.2
 RUN pip install -r requirements/edx/development.txt
+# Install patched i18n-tools to address missing translations
+RUN pip install git+https://github.com/overhangio/i18n-tools@overhang/fix-missing-sources#egg=i18n-tools==0.6.0
 
 COPY ./locale.py ./lms/envs/
 ENV DJANGO_SETTINGS_MODULE lms.envs.locale
