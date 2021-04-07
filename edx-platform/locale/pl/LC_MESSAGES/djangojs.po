@@ -101,8 +101,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-02-07 20:43+0000\n"
-"PO-Revision-Date: 2020-12-06 20:44+0000\n"
+"POT-Creation-Date: 2021-04-04 20:44+0000\n"
+"PO-Revision-Date: 2021-02-28 20:45+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Polish (http://www.transifex.com/open-edx/edx-platform/language/pl/)\n"
 "Language: pl\n"
@@ -3251,11 +3251,6 @@ msgstr ""
 "\"Unieważnij certyfikat\"."
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid "Uploaded file issues. Click on \"+\" to view."
-msgstr ""
-"Problem z przesłanym plikiem. Kliknij na \"+\", aby dowiedzieć się więcej."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
 msgstr "studentów pomyślnie dodanych do listy wyjątków"
 
@@ -3305,6 +3300,27 @@ msgstr ""
 msgid " learner is not enrolled in course and not added to the exception list"
 msgstr ""
 "student nie uczestniczy w kursie i nie został dodany do listy wyjątków"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners already appear on the certificate invalidation list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner already appears on the certificate invalidation list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners encountered unknown errors"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner encountered an unknown error"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid "Uploaded file issues. Click on \"+\" to view."
+msgstr ""
+"Problem z przesłanym plikiem. Kliknij na \"+\", aby dowiedzieć się więcej."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js
 msgid ""
@@ -3428,11 +3444,9 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
-"The refund deadline for this course has passed,so you will not receive a "
+"The refund deadline for this course has passed, so you will not receive a "
 "refund."
 msgstr ""
-"Termin możliwego zwrotu pieniędzy za ten kurs już minął, więc nie możesz "
-"otrzymać zwrotu pieniędzy."
 
 #: lms/static/js/dashboard/legacy.js
 #: lms/static/js/learner_dashboard/views/unenroll_view.js
@@ -3924,6 +3938,10 @@ msgid "Error getting issued certificates list."
 msgstr "Wystąpił błąd w trakcie pobierania listy wydanych certyfikatów."
 
 #: lms/static/js/instructor_dashboard/data_download.js
+msgid "Error generating anonymous IDs. Please try again."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/data_download.js
 #: lms/static/js/instructor_dashboard/data_download_2.js
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
@@ -4142,10 +4160,6 @@ msgstr "Nie udało się odnaleźć użytkowników o podanych identyfikatorach:"
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Reason field should not be left blank."
 msgstr "Pole powodu nie powinno pozostać puste."
-
-#: lms/static/js/instructor_dashboard/membership.js
-msgid "Role field should not be left unselected."
-msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Error enrolling/unenrolling users."
@@ -10407,14 +10421,6 @@ msgstr ""
 #: cms/templates/js/group-edit.underscore
 msgid "delete group"
 msgstr "usuń grupę"
-
-#: cms/templates/js/highlights-editor.underscore
-msgid ""
-"This feature is currently in testing. Course teams can enter highlights, but"
-" learners will not receive email messages."
-msgstr ""
-"Ta funkcja znajduje się obecnie w fazie testów. Kadry kursów mogą wprowadzać"
-" szczegóły, jednak studenci nie otrzymają wiadomości e-mail."
 
 #: cms/templates/js/highlights-editor.underscore
 msgid ""

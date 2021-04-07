@@ -1,33 +1,33 @@
 # #-#-#-#-#  djangojs-partial.po (0.1a)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from Croatian (https://www.transifex.com/open-edx/teams/6205/hr/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2021.
-# 
+#
 # #-#-#-#-#  djangojs-studio.po (0.1a)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from Croatian (https://www.transifex.com/open-edx/teams/6205/hr/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2021.
-# 
+#
 # #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from Croatian (https://www.transifex.com/open-edx/teams/6205/hr/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2021.
-# 
+#
 # #-#-#-#-#  underscore.po (0.1a)  #-#-#-#-#
-# edX translation file
+# edX community translations have been downloaded from Croatian (https://www.transifex.com/open-edx/teams/6205/hr/)
 # Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2021.
-# 
+#
 # #-#-#-#-#  underscore-studio.po (0.1a)  #-#-#-#-#
-# edX translation file
+# edX community translations have been downloaded from Croatian (https://www.transifex.com/open-edx/teams/6205/hr/)
 # Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2021.
-# 
+#
 # Translators:
 # Nina Pintar <nina.pintar16@gmail.com>, 2021
 # 0cc669fb0788f68c22d98e236568c955_e6c59eb <ec022d6c43e3218e2cee390a5fff319a_229314>, 2021
@@ -39,7 +39,7 @@
 # Leona Grujić <bearhtma1@gmail.com>, 2021
 # Vedran Karačić <vedran@edx.org>, 2021
 # Franjo Pehar <fpehar@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -48,12 +48,12 @@ msgstr ""
 "PO-Revision-Date: 2021-01-06 21:06+0000\n"
 "Last-Translator: Franjo Pehar <fpehar@gmail.com>, 2021\n"
 "Language-Team: Croatian (https://www.transifex.com/open-edx/teams/6205/hr/)\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
-"Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: cms/static/cms/js/main.js cms/static/js/views/active_video_upload_list.js
 #: cms/static/js/views/video_transcripts.js

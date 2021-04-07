@@ -1,5 +1,5 @@
 # #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -10,7 +10,7 @@
 # Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
 # ClaudeCoulombe <claude.coulombe@gmail.com>, 2014
 # Daniel Le Berre, 2014-2015
-# David Truong <david.truong@edulib.org>, 2020
+# David Truong <david.truong@edulib.org>, 2020-2021
 # Delattre <mdelattre78@laposte.net>, 2015
 # derthy <derthiamj@gmail.com>, 2014
 # eddy01 <ngwa.edwin@yahoo.com>, 2014
@@ -67,7 +67,7 @@
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -78,7 +78,7 @@
 # Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
 # ClaudeCoulombe <claude.coulombe@gmail.com>, 2014
 # Daniel Le Berre, 2014-2015
-# David Truong <david.truong@edulib.org>, 2020
+# David Truong <david.truong@edulib.org>, 2020-2021
 # Delattre <mdelattre78@laposte.net>, 2015
 # derthy <derthiamj@gmail.com>, 2014
 # eddy01 <ngwa.edwin@yahoo.com>, 2014
@@ -134,7 +134,7 @@
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-# edX translation file
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)
 # Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -219,7 +219,7 @@
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
-# edX translation file
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)
 # Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -267,7 +267,7 @@
 # Pedro Guimarães Martins <pedrogmartins7@gmail.com>, 2014
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2020
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2021
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
 # Régis Millet <regmillet@ct2c.fr>, 2015
@@ -285,7 +285,7 @@
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
-# edX translation file
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)
 # Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -350,7 +350,7 @@
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
-# edX translation file
+# edX community translations have been downloaded from French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)
 # Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2021.
@@ -362,7 +362,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-02-07 20:43+0000\n"
+"POT-Creation-Date: 2021-04-04 20:44+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2019\n"
 "Language-Team: French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)\n"
@@ -716,8 +716,8 @@ msgstr ""
 
 #: common/djangoapps/student/admin.py
 #, python-brace-format
-msgid "Email doesn't have {domain_name} domain name."
-msgstr "Le courriel n'a pas le nom de domaine {domain_name} "
+msgid "Email doesn't have {allowed_site_email_domain} domain name."
+msgstr "Le courriel n'est pas dans le domaine {allowed_site_email_domain}."
 
 #: common/djangoapps/student/admin.py
 msgid "User with this email doesn't exist in system."
@@ -3113,6 +3113,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter the name of the course as it should appear in the course list."
 msgstr ""
+"Entrer le nom du cours comme il devrait apparaitre dans la liste de cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Display Name"
@@ -3240,6 +3241,8 @@ msgid ""
 "Enter true or false. If true, the course appears in the list of new courses,"
 " and a New! badge temporarily appears next to the course image."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, le cours apparaît dans la liste des nouveaux "
+"cours et un badge Nouveau! apparaît temporairement avec l'image du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Mobile Course Available"
@@ -3683,6 +3686,8 @@ msgid ""
 "Enter true or false. If true, students can view the course wiki even if "
 "they're not enrolled in the course."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les apprenants peuvent consulter le wiki du "
+"cours même s'ils ne sont pas inscrits."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Invitation Only"
@@ -4077,6 +4082,8 @@ msgid ""
 "ERROR: \"{block_type}\" is an unknown component type. This component will be"
 " hidden in LMS."
 msgstr ""
+"ERREUR:\"{block_type}\" est une composante inconnue. Cette composante sera "
+"cachée dans le LMS."
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "Text"
@@ -4757,6 +4764,26 @@ msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, les soumissions de réponses aux"
 " modules des problèmes seront prises en compte dans l'algorithme de notation"
 " de l'examen d'entrée."
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Error while parsing xml for {}"
+msgstr "Erreur lors de l'analyse de XML pour {}"
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Failed to import module: {} at location: {}"
+msgstr "Échec de l'importation du module : {} à l'emplacement : {}"
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Aborting import because a course with this id: {} already exists."
+msgstr ""
+"Annulation de l'importation car un cours avec cet identifiant : {} existe "
+"déjà."
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Aborting import since a library with this id already exists."
+msgstr ""
+"Annulation de l'importation car une bibliothèque avec cet identifiant existe"
+" déjà."
 
 #: common/lib/xmodule/xmodule/partitions/enrollment_track_partition_generator.py
 #: cms/templates/group_configurations.html
@@ -5494,7 +5521,7 @@ msgstr ""
 "(%(routed_user_email)s): %(routed_profile_name)s"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
-msgid "Account Activation"
+msgid "Account activation"
 msgstr "Activation de compte"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
@@ -5511,8 +5538,8 @@ msgstr ""
 "l'avoir activé."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
-msgid "Activate Your Account"
-msgstr "Activez votre compte"
+msgid "Activate your account"
+msgstr "Activer votre compte"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
@@ -5698,6 +5725,9 @@ msgid ""
 "                    Proctoring requirements for %(course_name)s\n"
 "                "
 msgstr ""
+"\n"
+"                    Exigences de surveillance pour %(course_name)s\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html
 #, python-format
@@ -5706,6 +5736,9 @@ msgid ""
 "                    Hello %(full_name)s,\n"
 "                "
 msgstr ""
+"\n"
+"                    Bonjour %(full_name)s,\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html
 #, python-format
@@ -5714,6 +5747,9 @@ msgid ""
 "                    You are enrolled in %(course_name)s at %(platform_name)s. This course contains proctored exams.\n"
 "                "
 msgstr ""
+"\n"
+"                    Vous êtes inscrits à %(course_name)s de %(platform_name)s. Ce cours contient des examens surveillés.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html
 #, python-format
@@ -5722,6 +5758,9 @@ msgid ""
 "                    Proctored exams are timed exams that you take while proctoring software monitors your computer's desktop, webcam video, and audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
 "                "
 msgstr ""
+"\n"
+"                    Les examens surveillés sont des examens chronométrés que vous complétez pendant qu'un logiciel de surveillance supervise le bureau, la webcam et l'audio de votre ordinateur. Votre cours utilises le logiciel de %(proctoring_provider)s pour la surveillance.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html
 msgid ""
@@ -5729,6 +5768,9 @@ msgid ""
 "                    Carefully review the system requirements as well as the steps to take a proctored exam in order to ensure that you are prepared.\n"
 "                "
 msgstr ""
+"\n"
+"                    Révisez les systèmes requis ainsi que les étapes pour prendre un examen surveillé afin de vous assurer d'être préparés.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html
 msgid ""
@@ -5736,6 +5778,9 @@ msgid ""
 "                Proctoring Instructions and Requirements\n"
 "            "
 msgstr ""
+"\n"
+"                Instructions et requis pour la surveillance\n"
+"            "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html
 msgid ""
@@ -5743,6 +5788,9 @@ msgid ""
 "                    Before taking a graded proctored exam, you must have approved ID verification photos. \n"
 "                "
 msgstr ""
+"\n"
+"                    Avant de pouvoir prendre un examen surveillé, vous devez avoir fait vérifié votre identité.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html
 msgid ""
@@ -5750,6 +5798,9 @@ msgid ""
 "                        You can submit ID verification photos here.\n"
 "                    "
 msgstr ""
+"\n"
+"                        Vous pouvez soumettre des photos de vérification d'identité ici.\n"
+"                    "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt
@@ -5777,7 +5828,7 @@ msgstr "L'équipe %(platform_name)s"
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt
 #, python-format
 msgid "Hello %(full_name)s"
-msgstr ""
+msgstr "Bonjour %(full_name)s"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt
 #, python-format
@@ -5785,6 +5836,8 @@ msgid ""
 "You are enrolled in %(course_name)s at %(platform_name)s. This course "
 "contains proctored exams."
 msgstr ""
+"Vous êtes inscrits à %(course_name)s de %(platform_name)s. Ce cours contient"
+" des examens surveillés."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt
 #, python-format
@@ -5793,12 +5846,18 @@ msgid ""
 "monitors your computer's desktop, webcam video, and audio. Your course uses "
 "%(proctoring_provider)s software for proctoring."
 msgstr ""
+"Les examens surveillés sont des examens chronométrés que vous complétez "
+"pendant qu'un logiciel de surveillance supervise le bureau, la webcam et "
+"l'audio de votre ordinateur. Votre cours utilises le logiciel de "
+"%(proctoring_provider)s pour la surveillance."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt
 msgid ""
 "Carefully review the system requirements as well as the steps to take a "
 "proctored exam in order to ensure that you are prepared."
 msgstr ""
+"Révisez les systèmes requis ainsi que les étapes pour prendre un examen "
+"surveillé afin de vous assurer d'être préparés."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt
 #, python-format
@@ -5806,6 +5865,8 @@ msgid ""
 "To view proctoring instructions and requirements, please visit: "
 "%(proctoring_requirements_url)s"
 msgstr ""
+"Pour voir les instructions et les requis de la surveillance, veuillez "
+"visiter: %(proctoring_requirements_url)s"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt
 #, python-format
@@ -5814,17 +5875,22 @@ msgid ""
 "verification photos. You can submit ID verification photos here: "
 "%(id_verification_url)s"
 msgstr ""
+"Avant de pouvoir prendre un examen surveillé, vous devez avoir fait vérifié "
+"votre identité. Vous pouvez soumettre vos photos pour la vérification ici: "
+"%(id_verification_url)s"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt
 #, python-format
 msgid ""
 "This email was automatically sent from %(platform_name)s to %(full_name)s."
 msgstr ""
+"Ce courriel a été envoyé automatiquement de %(platform_name)s à "
+"%(full_name)s."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/subject.txt
 #, python-format
 msgid "Proctoring requirements for %(course_name)s"
-msgstr ""
+msgstr "Exigences de surveillance pour %(course_name)s"
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
 msgid "Create Recovery Email"
@@ -5964,11 +6030,11 @@ msgstr "Participez à des cours en ligne gratuits sur edX.org"
 #: lms/djangoapps/branding/api.py
 #, python-brace-format
 msgid ""
-"© {org_name}.  All rights reserved except where noted.  edX, Open edX and "
-"their respective logos are registered trademarks of edX Inc."
+"\\u00A9 {org_name}.  All rights reserved except where noted.  edX, Open edX "
+"and their respective logos are registered trademarks of edX Inc."
 msgstr ""
-"© {org_name}.  All rights reserved except where noted.  edX, Open edX and "
-"their respective logos are registered trademarks of edX Inc."
+"\\u00A9 {org_name}.  All rights reserved except where noted.  edX, Open edX "
+"and their respective logos are registered trademarks of edX Inc."
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Open edX' is a trademark, please keep this untranslated.
@@ -7191,6 +7257,11 @@ msgid "You must be enrolled in the course to see course content."
 msgstr "Vous devez être inscrit dans le cours pour en voir le contenu."
 
 #: lms/djangoapps/courseware/views/views.py
+#: lms/djangoapps/instructor/views/api.py
+msgid "User does not exist."
+msgstr "L'utilisateur n'existe pas."
+
+#: lms/djangoapps/courseware/views/views.py
 msgid "Invalid location."
 msgstr "Emplacement invalide."
 
@@ -7503,6 +7574,7 @@ msgstr "Bien"
 #, python-format, python-brace-format
 msgid "%(comment_username)s replied to {start_tag}%(thread_title)s{end_tag}:"
 msgstr ""
+"%(comment_username)s a répondu à {start_tag}%(thread_title)s{end_tag}:"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.html
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt
@@ -7687,10 +7759,6 @@ msgstr ""
 "rapport, voir les tâches en cours ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
-msgid "User does not exist."
-msgstr "L'utilisateur n'existe pas."
-
-#: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Found a conflict with given identifier. Please try an alternative identifier"
 msgstr ""
@@ -7863,6 +7931,10 @@ msgid "Date Joined"
 msgstr "Date d'inscription"
 
 #: lms/djangoapps/instructor/views/api.py
+msgid "External User Key"
+msgstr "Clé Utilisateur Externe"
+
+#: lms/djangoapps/instructor/views/api.py
 msgid "Cohort"
 msgstr "Cohorte"
 
@@ -7914,6 +7986,10 @@ msgstr "sondage"
 #: lms/djangoapps/instructor_task/api_helper.py
 msgid "proctored exam results"
 msgstr "résultats de l'examen surveillé"
+
+#: lms/djangoapps/instructor/views/api.py
+msgid "Anonymized User IDs"
+msgstr "ID d'utilisateurs anonymisés"
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -7981,6 +8057,10 @@ msgstr "Ne peut renoter avec all_students et unique_student_identifier."
 #: lms/djangoapps/instructor_task/api_helper.py
 msgid "ORA data"
 msgstr "Données ORA"
+
+#: lms/djangoapps/instructor/views/api.py
+msgid "ORA summary"
+msgstr "Sommaire ORA"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Attachments archive is being created."
@@ -8057,6 +8137,24 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
+msgid ""
+"Student {user} is not enrolled in this course. Please check your spelling "
+"and retry."
+msgstr ""
+"L'apprenant {user} n'est pas inscrit au cours. Veuillez vérifier votre "
+"orthographe et réessayer."
+
+#: lms/djangoapps/instructor/views/api.py
+#, python-brace-format
+msgid ""
+"Student {user} is already on the certificate invalidation list and cannot be"
+" added to the certificate exception list."
+msgstr ""
+"L'apprenant {user} est déjà sur la liste d'invalidation des attestations et "
+"ne peut pas être ajouté à la liste de dérogation pour les attestations."
+
+#: lms/djangoapps/instructor/views/api.py
+#, python-brace-format
 msgid "Student (username/email={user}) already in certificate exception list."
 msgstr ""
 "Étudiant (utilisateur/courriel={user}) déjà dans la liste de dérogation des "
@@ -8065,12 +8163,11 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
 msgid ""
-"Certificate exception (user={user}) does not exist in certificate white "
-"list. Please refresh the page and try again."
+"Error occurred removing the allowlist entry for student {student}. Please "
+"refresh the page and try again"
 msgstr ""
-"La dérogation d'attestion pour (user={user}) n'existe pas dans la liste de "
-"dérogation des attestations.S'il vous plaît rafraichir la page et essayer de"
-" nouveau."
+"Une erreur est survenue en retirant l'apprenant {student} de la liste de "
+"dérogation. Veuillez rafraîchir la page et réessayer."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -8098,14 +8195,6 @@ msgstr ""
 "et réessayer."
 
 #: lms/djangoapps/instructor/views/api.py
-#, python-brace-format
-msgid ""
-"{user} is not enrolled in this course. Please check your spelling and retry."
-msgstr ""
-"{user} n'est pas inscrit dans ce cours. S'il vous plaît vérifier votre "
-"orthographe et réessayer."
-
-#: lms/djangoapps/instructor/views/api.py
 msgid "Invalid data, generate_for must be \"new\" or \"all\"."
 msgstr "Données invalide, generate_for doit être \"nouveau\" ou \"tout\"."
 
@@ -8124,6 +8213,17 @@ msgstr "utilisateur \"{user}\" dans la rangée# {row}"
 #, python-brace-format
 msgid "user \"{username}\" in row# {row}"
 msgstr "utilisateur \"{username}\" dans la rangée# {row}"
+
+#: lms/djangoapps/instructor/views/api.py
+#, python-brace-format
+msgid ""
+"The student {student} appears on the Certificate Exception list in course "
+"{course}. Please remove them from the Certificate Exception list before "
+"attempting to invalidate their certificate."
+msgstr ""
+"L'apprenant {student} est sur la liste de dérogation pour les attestations "
+"du cours {course}. Veuillez le retirer de cette liste avant d'essayer "
+"d'invalider son attestation."
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -8443,6 +8543,14 @@ msgstr "attestations générées"
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "cohorted"
 msgstr "cohorté"
+
+#. Translators: This is a past-tense verb that is inserted into task progress
+#. messages as {action}.
+#. An example of such a message is: "Progress: {action} {succeeded} of
+#. {attempted} so far"
+#: lms/djangoapps/instructor_task/tasks.py
+msgid "generate_anonymized_id"
+msgstr "generate_anonymized_id"
 
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "compressed"
@@ -9020,6 +9128,10 @@ msgid "Name must be at least {min_length} character long."
 msgstr "Le nom doit être au mimimum de {min_length} caractères."
 
 #: lms/djangoapps/verify_student/views.py
+msgid "Image data is in an unsupported format."
+msgstr "Les données d'image sont dans un format non pris en charge."
+
+#: lms/djangoapps/verify_student/views.py
 msgid "Image data is not valid."
 msgstr "Les données de l'image ne sont pas valides."
 
@@ -9538,10 +9650,10 @@ msgstr ""
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt
 #, python-format
 msgid ""
-"Your approval status remains valid for one year, and it will expire "
+"Your approval status remains valid for two years, and it will expire "
 "%(expiration_datetime)s."
 msgstr ""
-"Votre statut d'approbation reste valide pendant un an et "
+"Votre statut d'approbation reste valide pendant deux ans et "
 "expirera%(expiration_datetime)s."
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html
@@ -9627,9 +9739,10 @@ msgstr ""
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt
 msgid ""
-"We have received your photos and they will be reviewed within 5-7 days."
+"We have received your photos and they will be reviewed within 3-5 days."
 msgstr ""
-"Nous avons reçu vos photos et elles seront examinées dans les 5-7 jours."
+"Nous avons reçu vos photos et elles seront examinées dans les 3-5 prochain "
+"jours."
 
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt
@@ -10470,9 +10583,17 @@ msgid "Configuration may not be specified at more than one level at once."
 msgstr ""
 "La configuration ne peut pas être spécifiée à plus d'un niveau à la fois."
 
+#: openedx/core/djangoapps/content/learning_sequences/admin.py
+msgid "Error Status"
+msgstr "Statut d'erreur"
+
+#: openedx/core/djangoapps/content/learning_sequences/admin.py
+msgid "Courses with Errors"
+msgstr "Cours avec erreurs"
+
 #: openedx/core/djangoapps/content/learning_sequences/apps.py
-msgid "Learning Sequences"
-msgstr "Séquences d'apprentissage"
+msgid "Learning Sequences and Outlines"
+msgstr "Séquences d'apprentissage et résumés"
 
 #: openedx/core/djangoapps/content_libraries/api.py
 msgid "Cannot change or remove the access level for the only admin."
@@ -10791,19 +10912,23 @@ msgstr "Ceci est une erreur de test"
 #, python-brace-format
 msgid "Comma-separated list of providers to allow, eg: {choices}"
 msgstr ""
+"Liste de fournisseurs séparés par des virgules à autoriser, par exemple: "
+"{choices}"
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "Allow List"
-msgstr ""
+msgstr "liste d'autorisation"
 
 #: openedx/core/djangoapps/discussions/models.py
 #, python-brace-format
 msgid "Comma-separated list of providers to deny, eg: {choices}"
 msgstr ""
+"Liste de fournisseurs séparés par des virgules à refuser, par exemple: "
+"{choices}"
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "Deny List"
-msgstr ""
+msgstr "Liste de refus"
 
 #. Translators: A key specifying a course, library, program,
 #. website, or some other collection of content where learning
@@ -11728,8 +11853,7 @@ msgid "Your Account Has Been Queued For Deletion"
 msgstr "Votre compte a été mis en attente de suppression"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
-#: lms/templates/forgot_password_modal.html
-msgid "Password Reset"
+msgid "Password reset"
 msgstr "Réinitialisation du mot de passe"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
@@ -11759,8 +11883,8 @@ msgstr ""
 "Si vous n'avez pas demandé ce changement, vous pouvez ignorer ce courriel ."
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
-msgid "Change my Password"
-msgstr "Changer mon mot de passe "
+msgid "Reset my password"
+msgstr "Réinitialiser mon mot de passe"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
 msgid "Please go to the following page and choose a new password:"
@@ -11773,8 +11897,8 @@ msgid "Password reset on %(platform_name)s"
 msgstr "Mot de passe réinitialisé sur %(platform_name)s"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
-msgid "Password Reset Success"
-msgstr "Réinitialisation du mot de passe réussie"
+msgid "Password reset success"
+msgstr "Mot de passe réinitialisé"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
 #, python-format
@@ -12637,12 +12761,14 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "Your organization {bold_start}{enterprise_customer_name}{bold_end} uses a "
-"custom dashboard for learning. {link_start}Click here{link_end} to continue "
-"in that experience."
+"custom dashboard for learning. {link_start}Click here "
+"{screen_reader_start}for your {enterprise_customer_name} "
+"dashboard,{screen_reader_end}{link_end} to continue in that experience."
 msgstr ""
 "Votre organisation {bold_start}{enterprise_customer_name}{bold_end} utilise "
-"un tableau de bord différent. {link_start}Cliquer ici{link_end} pour "
-"l'utiliser."
+"un tableau de bord différent. {link_start}Cliquer ici "
+"{screen_reader_start}pour utiliser le tableau de bord de "
+"{enterprise_customer_name}{screen_reader_end}{link_end}."
 
 #: openedx/features/enterprise_support/api.py
 #, python-brace-format
@@ -12897,22 +13023,39 @@ msgid "Permission denied"
 msgstr "Permission refusée"
 
 #: cms/djangoapps/contentstore/tasks.py
+msgid "User permission denied."
+msgstr "Autorisation de l'utilisateur refusée."
+
+#: cms/djangoapps/contentstore/tasks.py
+msgid "Permission denied. You do not have write access to this course."
+msgstr ""
+"Permission refusée. Vous ne disposez pas d'un accès en écriture à ce cours."
+
+#: cms/djangoapps/contentstore/tasks.py
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "We only support uploading a .tar.gz file."
 msgstr "Nous ne supportons que le téléversement d'un fichier .tar.gz."
 
 #: cms/djangoapps/contentstore/tasks.py
-msgid "Tar file not found"
-msgstr "Fichier tar non trouvé"
+msgid "Uploaded Tar file not found. Try again."
+msgstr "Fichier Tar téléchargé introuvable. Essayer de nouveau."
+
+#: cms/djangoapps/contentstore/tasks.py
+#, python-brace-format
+msgid "Could not find the {0} file in the package."
+msgstr "Ne peux trouver le ficher {0} dans le package."
+
+#: cms/djangoapps/contentstore/tasks.py
+msgid "An Unknown error occurred during the unpacking step."
+msgstr "Une erreur inconnue s'est produite lors de l'étape de déballage."
 
 #: cms/djangoapps/contentstore/tasks.py
 msgid "Unsafe tar file. Aborting import."
 msgstr "Fichier tar non sécurisé. Abandon de l'importation."
 
 #: cms/djangoapps/contentstore/tasks.py
-#, python-brace-format
-msgid "Could not find the {0} file in the package."
-msgstr "Ne peux trouver le ficher {0} dans le package."
+msgid "Unknown error while importing course."
+msgstr "Erreur inconnue lors de l'importation du cours."
 
 #: cms/djangoapps/contentstore/utils.py cms/templates/visibility_editor.html
 msgid "Deleted Group"
@@ -13132,8 +13275,14 @@ msgid "Subsection"
 msgstr "Sous-section"
 
 #: cms/djangoapps/contentstore/views/import_export.py
-msgid "File upload corrupted. Please try again"
-msgstr "Téléversement corrompu du fichier. S'il vous plaît essayer à nouveau"
+msgid "Some chunks missed during file upload. Please try again"
+msgstr ""
+"Quelques pièces ont été manquées durant le téléversement. Veuillez "
+"réessayer."
+
+#: cms/djangoapps/contentstore/views/import_export.py
+msgid "File upload failed. Please try again"
+msgstr "Le téléchargement du fichier a échoué. Veuillez réessayer"
 
 #: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
@@ -14223,6 +14372,10 @@ msgid "organization logo"
 msgstr "logo organisationnel"
 
 #: lms/templates/forgot_password_modal.html
+msgid "Password Reset"
+msgstr "Réinitialisation du mot de passe"
+
+#: lms/templates/forgot_password_modal.html
 msgid ""
 "Please enter your e-mail address below, and we will e-mail instructions for "
 "setting a new password."
@@ -14788,8 +14941,14 @@ msgid "Submission History Viewer"
 msgstr "Visionneuse d'historique de soumission"
 
 #: lms/templates/staff_problem_info.html
-msgid "User:"
-msgstr "Utilisateur : "
+msgid "Learner's {platform_name} email address or username:"
+msgstr ""
+"L'adresse courriel ou le nom d'utilisateur de l'apprenant sur "
+"{platform_name} :"
+
+#: lms/templates/staff_problem_info.html
+msgid "Enter the learner email address or username"
+msgstr "Saisissez l'adresse courriel ou le nom d'utilisateur de l'apprenant"
 
 #: lms/templates/staff_problem_info.html
 msgid "View History"
@@ -14931,10 +15090,6 @@ msgstr "Aucun journal git d'import n'a été enregistré."
 msgid "No git import logs have been recorded for this course."
 msgstr "Il n'y a pas de journaux git d'import enregistrés pour ce cours."
 
-#: lms/templates/text-me-the-app.html
-msgid "Text Me The App"
-msgstr "Envoyez-moi l'application par texto"
-
 #: lms/templates/tracking_log.html
 msgid "Tracking Log"
 msgstr "Suivi"
@@ -15031,7 +15186,7 @@ msgstr "Échéance {date}"
 
 #: lms/templates/vert_module.html
 msgid "Past due"
-msgstr ""
+msgstr "En retard"
 
 #: lms/templates/video.html
 msgid "Loading video player"
@@ -19011,14 +19166,12 @@ msgid "Grading Configuration"
 msgstr "Configuration de la Notation"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
-msgid "Click to download a CSV of anonymized student IDs:"
+msgid ""
+"The CSV of anonymized student IDs download has been relocated to the Reports"
+" section below."
 msgstr ""
-"Cliquer pour télécharger un fichier CSV contenant les ID anonymisés des "
-"étudiants : "
-
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html
-msgid "Get Student Anonymized IDs CSV"
-msgstr "Obtenir le CSV des IDs anonymes des étudiants"
+"Le fichier CSV du téléchargement des identifiants étudiants anonymes a été "
+"déplacé dans la section Rapports ci-dessous."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Reports"
@@ -19071,6 +19224,16 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download a CSV of learners who can enroll"
 msgstr "Télécharger au format CSV une liste des apprenants pouvant s'inscrire"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "Click to download a CSV of anonymized student IDs:"
+msgstr ""
+"Cliquer pour télécharger un fichier CSV contenant les ID anonymisés des "
+"étudiants : "
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "Get Student Anonymized IDs CSV"
+msgstr "Obtenir le CSV des IDs anonymes des étudiants"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -19167,6 +19330,10 @@ msgstr "Générer le rapport de notes des problèmes"
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Generate ORA Data Report"
 msgstr "Générer le rapport de données ORA"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "Generate ORA Summary Report"
+msgstr "Générer un rapport récapitulatif ORA"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -19529,10 +19696,6 @@ msgid ""
 msgstr ""
 "Vous ne recevrez pas de notification pour les courriels rejetés, donc soyez "
 "doublement attentif à l'orthographe."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid "Role of the users being enrolled."
-msgstr "Rôle des utilisateurs inscrits."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -19970,6 +20133,10 @@ msgid "Allowance Section"
 msgstr "Section d'allocation"
 
 #: lms/templates/instructor/instructor_dashboard_2/special_exams.html
+msgid "Student Onboarding Status"
+msgstr "Statut d'intégration de l'étudiant"
+
+#: lms/templates/instructor/instructor_dashboard_2/special_exams.html
 msgid "Student Special Exam Attempts"
 msgstr "Tentatives d'examen spécial"
 
@@ -20334,24 +20501,6 @@ msgstr ""
 msgid "My Courses"
 msgstr "Mes cours"
 
-#: lms/templates/learner_dashboard/text-me-fragment.html
-msgid "Get the {platform_name} Mobile App!"
-msgstr "Obtenez l'application mobile {platform_name}!"
-
-#: lms/templates/learner_dashboard/text-me-fragment.html
-msgid "We'll send you a one time SMS with a link to download the app."
-msgstr ""
-"Nous vous enverrons un SMS unique avec un lien pour télécharger "
-"l'application."
-
-#: lms/templates/learner_dashboard/text-me-fragment.html
-msgid "Mobile phone number"
-msgstr "Numéro de téléphone cellulaire"
-
-#: lms/templates/learner_dashboard/text-me-fragment.html
-msgid "Send me a text with the link"
-msgstr "Envoyez-moi un texto avec le lien"
-
 #: lms/templates/modal/_modal-settings-language.html
 msgid "Change Preferred Language"
 msgstr "Changer les préférences de langue"
@@ -20616,6 +20765,14 @@ msgid ""
 msgstr ""
 "La page que vous cherchez n'a pas été trouvé. Retournez à la page "
 "{link_start}d'accueil{link_end} ."
+
+#: lms/templates/static_templates/429.html
+msgid "Too Many Requests"
+msgstr "Trop de demandes"
+
+#: lms/templates/static_templates/429.html
+msgid "Your request has been rate-limited. Please try again later."
+msgstr "Votre demande a été limitée. Veuillez réessayer plus tard."
 
 #: lms/templates/static_templates/about.html
 #: lms/templates/static_templates/blog.html
@@ -24993,6 +25150,20 @@ msgstr ""
 "Votre tâche {task_name} a été complétée avec le statut '{task_status}'. "
 "Connectez-vous pour afficher les détails de votre tâche ou télécharger les "
 "fichiers créés."
+
+#: cms/templates/emails/user_task_complete_email.txt
+msgid "Here are some validations we found with your course content."
+msgstr ""
+"Voici quelques validations que nous avons trouvées avec le contenu de votre "
+"cours."
+
+#: cms/templates/emails/user_task_complete_email.txt
+msgid "Errors:"
+msgstr "Erreurs :"
+
+#: cms/templates/emails/user_task_complete_email.txt
+msgid "Warnings:"
+msgstr "Avertissements :"
 
 #: cms/templates/emails/user_task_complete_email_subject.txt
 msgid "{platform_name} {studio_name}: Task Status Update"

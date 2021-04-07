@@ -1,5 +1,5 @@
 # #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from Japanese (Japan) (http://www.transifex.com/open-edx/edx-platform/language/ja_JP/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -23,7 +23,7 @@
 # わたカフェの店長, 2013
 # 鈴木 陽一 <gacco.ysuzuki@gmail.com>, 2017
 # #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from Japanese (Japan) (http://www.transifex.com/open-edx/edx-platform/language/ja_JP/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-02-07 20:43+0000\n"
+"POT-Creation-Date: 2021-04-04 20:44+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Waheed Ahmed <waheed@edx.org>, 2019\n"
 "Language-Team: Japanese (Japan) (https://www.transifex.com/open-edx/teams/6205/ja_JP/)\n"
@@ -444,7 +444,7 @@ msgstr ""
 
 #: common/djangoapps/student/admin.py
 #, python-brace-format
-msgid "Email doesn't have {domain_name} domain name."
+msgid "Email doesn't have {allowed_site_email_domain} domain name."
 msgstr ""
 
 #: common/djangoapps/student/admin.py
@@ -3977,6 +3977,22 @@ msgid ""
 " considered in the Entrance Exam scoring/gating algorithm."
 msgstr "trueまたはfalseを入力してください。trueの場合、受講前試験採点アルゴリズムで問題モジュールの解答提出が考慮されます。"
 
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Error while parsing xml for {}"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Failed to import module: {} at location: {}"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Aborting import because a course with this id: {} already exists."
+msgstr ""
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Aborting import since a library with this id already exists."
+msgstr ""
+
 #: common/lib/xmodule/xmodule/partitions/enrollment_track_partition_generator.py
 #: cms/templates/group_configurations.html
 msgid "Enrollment Track Groups"
@@ -4612,7 +4628,7 @@ msgid ""
 msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
-msgid "Account Activation"
+msgid "Account activation"
 msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
@@ -4625,7 +4641,7 @@ msgid ""
 msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
-msgid "Activate Your Account"
+msgid "Activate your account"
 msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
@@ -5019,8 +5035,8 @@ msgstr "edX.org で無料オンライン講義を受講しよう"
 #: lms/djangoapps/branding/api.py
 #, python-brace-format
 msgid ""
-"© {org_name}.  All rights reserved except where noted.  edX, Open edX and "
-"their respective logos are registered trademarks of edX Inc."
+"\\u00A9 {org_name}.  All rights reserved except where noted.  edX, Open edX "
+"and their respective logos are registered trademarks of edX Inc."
 msgstr ""
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
@@ -6124,6 +6140,11 @@ msgid "You must be enrolled in the course to see course content."
 msgstr "講座コンテンツを見るには、受講登録しなければいけません。"
 
 #: lms/djangoapps/courseware/views/views.py
+#: lms/djangoapps/instructor/views/api.py
+msgid "User does not exist."
+msgstr "ユーザーが存在しません。"
+
+#: lms/djangoapps/courseware/views/views.py
 msgid "Invalid location."
 msgstr "無効なロケーション。"
 
@@ -6565,10 +6586,6 @@ msgid ""
 msgstr "{report_type}のレポートを作成しています。レポートのステータスを見るには、以下の保留中タスクを参照してください。"
 
 #: lms/djangoapps/instructor/views/api.py
-msgid "User does not exist."
-msgstr "ユーザーが存在しません。"
-
-#: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Found a conflict with given identifier. Please try an alternative identifier"
 msgstr ""
@@ -6731,6 +6748,10 @@ msgid "Date Joined"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
+msgid "External User Key"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py
 msgid "Cohort"
 msgstr "コホート"
 
@@ -6778,6 +6799,10 @@ msgstr "アンケート調査"
 #: lms/djangoapps/instructor_task/api_helper.py
 msgid "proctored exam results"
 msgstr "監督付き試験結果"
+
+#: lms/djangoapps/instructor/views/api.py
+msgid "Anonymized User IDs"
+msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -6846,6 +6871,10 @@ msgid "ORA data"
 msgstr "ORAデータ"
 
 #: lms/djangoapps/instructor/views/api.py
+msgid "ORA summary"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py
 msgid "Attachments archive is being created."
 msgstr ""
 
@@ -6909,15 +6938,29 @@ msgstr "修了証の再生成タスクが開始されました。生成タスク
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
+msgid ""
+"Student {user} is not enrolled in this course. Please check your spelling "
+"and retry."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py
+#, python-brace-format
+msgid ""
+"Student {user} is already on the certificate invalidation list and cannot be"
+" added to the certificate exception list."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py
+#, python-brace-format
 msgid "Student (username/email={user}) already in certificate exception list."
 msgstr "受講者 (ユーザー名またはメール={user}) は既に修了証例外リストにあります。"
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
 msgid ""
-"Certificate exception (user={user}) does not exist in certificate white "
-"list. Please refresh the page and try again."
-msgstr "修了証ホワイトリストに修了証例外 (ユーザー={user}) がありません。画面を再読込してから再実行してください。"
+"Error occurred removing the allowlist entry for student {student}. Please "
+"refresh the page and try again"
+msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6940,12 +6983,6 @@ msgid ""
 msgstr "{user} はLMSに存在しません。綴りを確認して再試行してください。"
 
 #: lms/djangoapps/instructor/views/api.py
-#, python-brace-format
-msgid ""
-"{user} is not enrolled in this course. Please check your spelling and retry."
-msgstr "{user} はこの講座に受講登録されていません。綴りをチェックして再実行してください。"
-
-#: lms/djangoapps/instructor/views/api.py
 msgid "Invalid data, generate_for must be \"new\" or \"all\"."
 msgstr "無効なデータです。generate_for は \"新規\" または \"すべて\"でなければいけません。"
 
@@ -6962,6 +6999,14 @@ msgstr "row# {row} のユーザー \"{user}\""
 #, python-brace-format
 msgid "user \"{username}\" in row# {row}"
 msgstr "row# {row} のユーザー \"{username}\""
+
+#: lms/djangoapps/instructor/views/api.py
+#, python-brace-format
+msgid ""
+"The student {student} appears on the Certificate Exception list in course "
+"{course}. Please remove them from the Certificate Exception list before "
+"attempting to invalidate their certificate."
+msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -7258,6 +7303,14 @@ msgstr "修了証生成済"
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "cohorted"
 msgstr "コホート済"
+
+#. Translators: This is a past-tense verb that is inserted into task progress
+#. messages as {action}.
+#. An example of such a message is: "Progress: {action} {succeeded} of
+#. {attempted} so far"
+#: lms/djangoapps/instructor_task/tasks.py
+msgid "generate_anonymized_id"
+msgstr ""
 
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "compressed"
@@ -7790,6 +7843,10 @@ msgid "Name must be at least {min_length} character long."
 msgstr ""
 
 #: lms/djangoapps/verify_student/views.py
+msgid "Image data is in an unsupported format."
+msgstr ""
+
+#: lms/djangoapps/verify_student/views.py
 msgid "Image data is not valid."
 msgstr "画像データが有効ではありません。"
 
@@ -8234,7 +8291,7 @@ msgstr ""
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt
 #, python-format
 msgid ""
-"Your approval status remains valid for one year, and it will expire "
+"Your approval status remains valid for two years, and it will expire "
 "%(expiration_datetime)s."
 msgstr ""
 
@@ -8315,7 +8372,7 @@ msgstr ""
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt
 msgid ""
-"We have received your photos and they will be reviewed within 5-7 days."
+"We have received your photos and they will be reviewed within 3-5 days."
 msgstr ""
 
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html
@@ -9042,8 +9099,16 @@ msgstr ""
 msgid "Configuration may not be specified at more than one level at once."
 msgstr ""
 
+#: openedx/core/djangoapps/content/learning_sequences/admin.py
+msgid "Error Status"
+msgstr ""
+
+#: openedx/core/djangoapps/content/learning_sequences/admin.py
+msgid "Courses with Errors"
+msgstr ""
+
 #: openedx/core/djangoapps/content/learning_sequences/apps.py
-msgid "Learning Sequences"
+msgid "Learning Sequences and Outlines"
 msgstr ""
 
 #: openedx/core/djangoapps/content_libraries/api.py
@@ -10133,9 +10198,9 @@ msgstr ""
 msgid "Your Account Has Been Queued For Deletion"
 msgstr ""
 
-#: lms/templates/forgot_password_modal.html
-msgid "Password Reset"
-msgstr "パスワード変更"
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
+msgid "Password reset"
+msgstr ""
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
@@ -10159,7 +10224,7 @@ msgid "If you did not request this change, you can ignore this email."
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
-msgid "Change my Password"
+msgid "Reset my password"
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
@@ -10172,7 +10237,7 @@ msgid "Password reset on %(platform_name)s"
 msgstr "%(platform_name)sのパスワード変更"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
-msgid "Password Reset Success"
+msgid "Password reset success"
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
@@ -10901,8 +10966,9 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "Your organization {bold_start}{enterprise_customer_name}{bold_end} uses a "
-"custom dashboard for learning. {link_start}Click here{link_end} to continue "
-"in that experience."
+"custom dashboard for learning. {link_start}Click here "
+"{screen_reader_start}for your {enterprise_customer_name} "
+"dashboard,{screen_reader_end}{link_end} to continue in that experience."
 msgstr ""
 
 #: openedx/features/enterprise_support/api.py
@@ -11125,22 +11191,38 @@ msgid "Permission denied"
 msgstr "権限拒否"
 
 #: cms/djangoapps/contentstore/tasks.py
+msgid "User permission denied."
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py
+msgid "Permission denied. You do not have write access to this course."
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "We only support uploading a .tar.gz file."
 msgstr ".tar.gzファイルのアップロードのみサポートされています。"
 
 #: cms/djangoapps/contentstore/tasks.py
-msgid "Tar file not found"
-msgstr "tarファイルが見つかりません"
+msgid "Uploaded Tar file not found. Try again."
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py
+#, python-brace-format
+msgid "Could not find the {0} file in the package."
+msgstr "パッケージ内にファイル{0}が見つかりませんでした。"
+
+#: cms/djangoapps/contentstore/tasks.py
+msgid "An Unknown error occurred during the unpacking step."
+msgstr ""
 
 #: cms/djangoapps/contentstore/tasks.py
 msgid "Unsafe tar file. Aborting import."
 msgstr "安全ではないtarファイルです。インポートを中止します。"
 
 #: cms/djangoapps/contentstore/tasks.py
-#, python-brace-format
-msgid "Could not find the {0} file in the package."
-msgstr "パッケージ内にファイル{0}が見つかりませんでした。"
+msgid "Unknown error while importing course."
+msgstr ""
 
 #: cms/djangoapps/contentstore/utils.py cms/templates/visibility_editor.html
 msgid "Deleted Group"
@@ -11337,8 +11419,12 @@ msgid "Subsection"
 msgstr "サブセクション"
 
 #: cms/djangoapps/contentstore/views/import_export.py
-msgid "File upload corrupted. Please try again"
-msgstr "ファイルアップロードが失敗しました。再度お試しください"
+msgid "Some chunks missed during file upload. Please try again"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/import_export.py
+msgid "File upload failed. Please try again"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
@@ -12357,6 +12443,10 @@ msgid "organization logo"
 msgstr ""
 
 #: lms/templates/forgot_password_modal.html
+msgid "Password Reset"
+msgstr "パスワード変更"
+
+#: lms/templates/forgot_password_modal.html
 msgid ""
 "Please enter your e-mail address below, and we will e-mail instructions for "
 "setting a new password."
@@ -12889,8 +12979,12 @@ msgid "Submission History Viewer"
 msgstr "提出履歴表示"
 
 #: lms/templates/staff_problem_info.html
-msgid "User:"
-msgstr "ユーザー: "
+msgid "Learner's {platform_name} email address or username:"
+msgstr ""
+
+#: lms/templates/staff_problem_info.html
+msgid "Enter the learner email address or username"
+msgstr ""
 
 #: lms/templates/staff_problem_info.html
 msgid "View History"
@@ -13025,10 +13119,6 @@ msgstr "gitインポートのログは記録されていません。"
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "No git import logs have been recorded for this course."
 msgstr "この講座のgitインポートのログは記録されていません。"
-
-#: lms/templates/text-me-the-app.html
-msgid "Text Me The App"
-msgstr ""
 
 #: lms/templates/tracking_log.html
 msgid "Tracking Log"
@@ -16511,12 +16601,10 @@ msgid "Grading Configuration"
 msgstr "採点設定"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
-msgid "Click to download a CSV of anonymized student IDs:"
-msgstr "クリックして、匿名受講者IDのCSVをダウンロードしてください: "
-
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html
-msgid "Get Student Anonymized IDs CSV"
-msgstr "匿名受講者IDのCSVを入手する"
+msgid ""
+"The CSV of anonymized student IDs download has been relocated to the Reports"
+" section below."
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Reports"
@@ -16558,6 +16646,14 @@ msgstr "クリックして、受講登録可能だがまだ登録していない
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download a CSV of learners who can enroll"
 msgstr "受講登録可能な受講生のCSVをダウンロード"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "Click to download a CSV of anonymized student IDs:"
+msgstr "クリックして、匿名受講者IDのCSVをダウンロードしてください: "
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "Get Student Anonymized IDs CSV"
+msgstr "匿名受講者IDのCSVを入手する"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -16637,6 +16733,10 @@ msgstr "問題成績レポートを生成"
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Generate ORA Data Report"
 msgstr "ORAデータレポートを生成"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "Generate ORA Summary Report"
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -16949,10 +17049,6 @@ msgid ""
 "You will not get notification for emails that bounce, so please double-check"
 " spelling."
 msgstr "戻ってくるメールの通知は届きません。スペルを再確認してください。"
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid "Role of the users being enrolled."
-msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -17315,6 +17411,10 @@ msgid "Allowance Section"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/special_exams.html
+msgid "Student Onboarding Status"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/special_exams.html
 msgid "Student Special Exam Attempts"
 msgstr "受講者特別試験解答"
 
@@ -17619,22 +17719,6 @@ msgstr ""
 msgid "My Courses"
 msgstr "受講登録した講座"
 
-#: lms/templates/learner_dashboard/text-me-fragment.html
-msgid "Get the {platform_name} Mobile App!"
-msgstr ""
-
-#: lms/templates/learner_dashboard/text-me-fragment.html
-msgid "We'll send you a one time SMS with a link to download the app."
-msgstr ""
-
-#: lms/templates/learner_dashboard/text-me-fragment.html
-msgid "Mobile phone number"
-msgstr ""
-
-#: lms/templates/learner_dashboard/text-me-fragment.html
-msgid "Send me a text with the link"
-msgstr ""
-
 #: lms/templates/modal/_modal-settings-language.html
 msgid "Change Preferred Language"
 msgstr "希望言語を変更"
@@ -17866,6 +17950,14 @@ msgstr "登録されているメールアドレスにパスワードの設定方
 msgid ""
 "The page that you were looking for was not found. Go back to the "
 "{link_start}homepage{link_end} ."
+msgstr ""
+
+#: lms/templates/static_templates/429.html
+msgid "Too Many Requests"
+msgstr ""
+
+#: lms/templates/static_templates/429.html
+msgid "Your request has been rate-limited. Please try again later."
 msgstr ""
 
 #: lms/templates/static_templates/about.html
@@ -21726,6 +21818,18 @@ msgid ""
 msgstr ""
 "タスク {task_name} はステータス '{task_status}' "
 "で完了しました。サインインしてタスクの詳細を見るか、作成されたファイルをダウンロードしてください。"
+
+#: cms/templates/emails/user_task_complete_email.txt
+msgid "Here are some validations we found with your course content."
+msgstr ""
+
+#: cms/templates/emails/user_task_complete_email.txt
+msgid "Errors:"
+msgstr ""
+
+#: cms/templates/emails/user_task_complete_email.txt
+msgid "Warnings:"
+msgstr ""
 
 #: cms/templates/emails/user_task_complete_email_subject.txt
 msgid "{platform_name} {studio_name}: Task Status Update"

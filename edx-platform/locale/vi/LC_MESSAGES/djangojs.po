@@ -23,7 +23,7 @@
 # NGUYEN CONG NAM <congnam0409@gmail.com>, 2014
 # Nguyen Don Binh <donbinhvn@gmail.com>, 2014
 # NGUYEN HOANG AN <neyugn2909@gmail.com>, 2014-2015
-# Nguyen Lam <lamnguyen.cis@gmail.com>, 2020
+# Lam Nguyen <lamnguyen.cis@gmail.com>, 2020
 # Nguyen Quang Huy <huynq23091@gmail.com>, 2013-2015
 # Nhan Nguyen <constfang@yahoo.com>, 2015
 # Nhung Tran <nhungtth@hachium.com>, 2020
@@ -112,8 +112,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-02-07 20:43+0000\n"
-"PO-Revision-Date: 2020-12-06 20:44+0000\n"
+"POT-Creation-Date: 2021-04-04 20:44+0000\n"
+"PO-Revision-Date: 2021-02-28 20:45+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)\n"
 "Language: vi\n"
@@ -3236,10 +3236,6 @@ msgstr ""
 " Vui lòng điền tên đăng nhập/email sau đó nhấn nút \"Huỷ bỏ Chứng chỉ\"."
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid "Uploaded file issues. Click on \"+\" to view."
-msgstr "Đã tải lên các sự cố về tệp. Nhấp vào \"+\" để xem."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
 msgstr "đã thêm học viên vào danh sách không hợp lệ"
 
@@ -3294,6 +3290,26 @@ msgid " learner is not enrolled in course and not added to the exception list"
 msgstr ""
 " học viên không ghi danh tham gia khóa học và không thêm vào danh sách không"
 " hợp lệ"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners already appear on the certificate invalidation list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner already appears on the certificate invalidation list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners encountered unknown errors"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner encountered an unknown error"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid "Uploaded file issues. Click on \"+\" to view."
+msgstr "Đã tải lên các sự cố về tệp. Nhấp vào \"+\" để xem."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js
 msgid ""
@@ -3416,11 +3432,9 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
-"The refund deadline for this course has passed,so you will not receive a "
+"The refund deadline for this course has passed, so you will not receive a "
 "refund."
 msgstr ""
-"Thời hạn hoàn trả của khóa học này đã được qua, vì vậy bạn sẽ không nhận "
-"được tiền hoàn lại."
 
 #: lms/static/js/dashboard/legacy.js
 #: lms/static/js/learner_dashboard/views/unenroll_view.js
@@ -3878,6 +3892,10 @@ msgid "Error getting issued certificates list."
 msgstr "lỗi khi nhận danh sách chứng chỉ đã phát hành."
 
 #: lms/static/js/instructor_dashboard/data_download.js
+msgid "Error generating anonymous IDs. Please try again."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/data_download.js
 #: lms/static/js/instructor_dashboard/data_download_2.js
 msgid "Error generating proctored exam results. Please try again."
 msgstr "Đã có lỗi xảy ra khi phát kết quả thi. Xin vui lòng thử lại lần nữa."
@@ -4081,10 +4099,6 @@ msgstr "Không thể tìm thành viên có các thông tin danh tính:"
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Reason field should not be left blank."
 msgstr "Vui lòng điền vào mục Lý do."
-
-#: lms/static/js/instructor_dashboard/membership.js
-msgid "Role field should not be left unselected."
-msgstr "trường vai trò không được để trống."
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Error enrolling/unenrolling users."
@@ -10258,12 +10272,6 @@ msgstr ""
 #: cms/templates/js/group-edit.underscore
 msgid "delete group"
 msgstr "Xoá nhóm"
-
-#: cms/templates/js/highlights-editor.underscore
-msgid ""
-"This feature is currently in testing. Course teams can enter highlights, but"
-" learners will not receive email messages."
-msgstr ""
 
 #: cms/templates/js/highlights-editor.underscore
 msgid ""

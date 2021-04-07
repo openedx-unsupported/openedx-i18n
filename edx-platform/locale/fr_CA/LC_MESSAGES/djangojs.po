@@ -1,5 +1,5 @@
 # #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -11,7 +11,7 @@
 # Bertrand Marron <bertrand.marron@gmail.com>, 2014
 # Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
 # Daniel Le Berre, 2014-2015
-# David Truong <david.truong@edulib.org>, 2020
+# David Truong <david.truong@edulib.org>, 2020-2021
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
 # b37bd6faa8631249767025c90cffb237_c33f832 <d0bf341d6cab6374cbc873fbbf166cb5_105987>, 2013
 # Eric Fortin, 2014,2016
@@ -56,7 +56,7 @@
 # Xynn <xynn.anhnguyen@gmail.com>, 2015
 # d6910e756eb8532754192e6021dc9f83, 2015
 # #-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -111,7 +111,7 @@
 # Xynn <xynn.anhnguyen@gmail.com>, 2015
 # d6910e756eb8532754192e6021dc9f83, 2015
 # #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
-# edX translation file.
+# edX community translations have been downloaded from French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/).
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2021.
@@ -121,7 +121,7 @@
 # David Truong <david.truong@edulib.org>, 2019
 #
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
-# edX translation file
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)
 # Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -206,7 +206,7 @@
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
-# edX translation file
+# edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)
 # Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -293,9 +293,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-02-07 20:43+0000\n"
-"PO-Revision-Date: 2020-12-08 05:13+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"POT-Creation-Date: 2021-04-04 20:44+0000\n"
+"PO-Revision-Date: 2021-02-28 20:45+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
@@ -3565,10 +3565,6 @@ msgstr ""
 "le boutton \"Invalidate Certificate\"."
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid "Uploaded file issues. Click on \"+\" to view."
-msgstr "Liste des fichiers envoyés. Cliquez sur \"+\" pour voir."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
 msgstr "apprenants ajoutés avec succès à la liste de dérogations"
 
@@ -3624,6 +3620,26 @@ msgid " learner is not enrolled in course and not added to the exception list"
 msgstr ""
 "apprenant non inscrit dans le cours et ne sera pas ajouté à la liste de "
 "dérogations"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners already appear on the certificate invalidation list"
+msgstr "apprenants déjà sur la liste d'invalidation des attestations"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner already appears on the certificate invalidation list"
+msgstr "apprenant déjà sur la liste d'invalidation des attestations"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners encountered unknown errors"
+msgstr "apprenants ont rencontré des erreurs inconnues"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner encountered an unknown error"
+msgstr "apprenant a rencontré une erreur inconnue"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid "Uploaded file issues. Click on \"+\" to view."
+msgstr "Liste des fichiers envoyés. Cliquez sur \"+\" pour voir."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js
 msgid ""
@@ -3757,11 +3773,11 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
-"The refund deadline for this course has passed,so you will not receive a "
+"The refund deadline for this course has passed, so you will not receive a "
 "refund."
 msgstr ""
-"La date limite de remboursement pour ce cours est passée, donc vous ne "
-"recevrez pas de remboursement."
+"La date limite de remboursement pour ce cours est passée, de sorte que vous "
+"ne recevrez pas de remboursement."
 
 #: lms/static/js/dashboard/legacy.js
 #: lms/static/js/learner_dashboard/views/unenroll_view.js
@@ -4258,6 +4274,10 @@ msgid "Error getting issued certificates list."
 msgstr "Erreur lors de la récupération de la liste des certificats délivrés."
 
 #: lms/static/js/instructor_dashboard/data_download.js
+msgid "Error generating anonymous IDs. Please try again."
+msgstr "Erreur lors de la génération des ID anonymes. Veuillez réessayer."
+
+#: lms/static/js/instructor_dashboard/data_download.js
 #: lms/static/js/instructor_dashboard/data_download_2.js
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
@@ -4480,10 +4500,6 @@ msgid "Reason field should not be left blank."
 msgstr "Le champ Raison ne doit pas être laissé vide."
 
 #: lms/static/js/instructor_dashboard/membership.js
-msgid "Role field should not be left unselected."
-msgstr "Le champ Rôle ne doit pas être laissé non sélectionné."
-
-#: lms/static/js/instructor_dashboard/membership.js
 msgid "Error enrolling/unenrolling users."
 msgstr "Erreur lors de l'inscription/désinscription d'utilisateurs."
 
@@ -4686,6 +4702,9 @@ msgid ""
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
 msgstr ""
+"Erreur en réinitialisant les essais pour le problème '<%- problem_id %>' et "
+"l'étudiant '<%- student_id %>'. Veuillez vous assurer que les identifiants "
+"du problème et de l'étudiant sont complets et corrects."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -11024,15 +11043,6 @@ msgstr ""
 #: cms/templates/js/group-edit.underscore
 msgid "delete group"
 msgstr "supprimer un groupe"
-
-#: cms/templates/js/highlights-editor.underscore
-msgid ""
-"This feature is currently in testing. Course teams can enter highlights, but"
-" learners will not receive email messages."
-msgstr ""
-"Cette fonctionnalité est actuellement en cours de test. Les équipes de cours"
-" peuvent entrer les faits saillants, mais les apprenants ne recevront pas de"
-" courriels."
 
 #: cms/templates/js/highlights-editor.underscore
 msgid ""

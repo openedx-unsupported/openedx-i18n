@@ -90,7 +90,7 @@
 #
 # Translators:
 # Adem Özgür <admozgur@gmail.com>, 2015
-# Ali Işıngör <ali@artistanbul.io>, 2018,2020
+# Ali Işıngör <ali@artistanbul.io>, 2018,2020-2021
 # ali selek <aliselek01@gmail.com>, 2015
 # Berfin Dilbazer <berfindilbazer@gmail.com>, 2016
 # Emrah Emirtekin <eemirtekin@gmail.com>, 2015
@@ -107,9 +107,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-02-07 20:43+0000\n"
-"PO-Revision-Date: 2021-01-15 22:47+0000\n"
-"Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
+"POT-Creation-Date: 2021-04-04 20:44+0000\n"
+"PO-Revision-Date: 2021-02-28 20:45+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
@@ -3345,10 +3345,6 @@ msgstr ""
 "\"Sertifikayı Geçersizleştir\" tuşuna basın."
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid "Uploaded file issues. Click on \"+\" to view."
-msgstr "Yüklenen dosya sorunları. Görüntülemek için \"+\" tuşuna basın."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
 msgstr " öğrenciler istisna listesine başarıyla eklendi"
 
@@ -3388,6 +3384,26 @@ msgstr "öğrenciler derse kayıtlı değil ve istisna listesine ekli değiller"
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is not enrolled in course and not added to the exception list"
 msgstr "öğrenci derse kayıtlı değil ve istisna listesine ekli değil"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners already appear on the certificate invalidation list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner already appears on the certificate invalidation list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners encountered unknown errors"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner encountered an unknown error"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid "Uploaded file issues. Click on \"+\" to view."
+msgstr "Yüklenen dosya sorunları. Görüntülemek için \"+\" tuşuna basın."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js
 msgid ""
@@ -3523,9 +3539,9 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
-"The refund deadline for this course has passed,so you will not receive a "
+"The refund deadline for this course has passed, so you will not receive a "
 "refund."
-msgstr "Bu ders için iadenin son günü geçti, bu yüzden iade alamayacaksınız."
+msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
 #: lms/static/js/learner_dashboard/views/unenroll_view.js
@@ -3997,6 +4013,10 @@ msgid "Error getting issued certificates list."
 msgstr "Verilen sertifikalar listesini alırken hata."
 
 #: lms/static/js/instructor_dashboard/data_download.js
+msgid "Error generating anonymous IDs. Please try again."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/data_download.js
 #: lms/static/js/instructor_dashboard/data_download_2.js
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
@@ -4206,10 +4226,6 @@ msgstr "Bu özelliklere uygun kullanıcı bulunamadı: "
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Reason field should not be left blank."
 msgstr "Sebep alanı boş bırakılmamalıdır."
-
-#: lms/static/js/instructor_dashboard/membership.js
-msgid "Role field should not be left unselected."
-msgstr "Rol alanı seçilmemiş olmamalıdır."
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Error enrolling/unenrolling users."
@@ -4429,14 +4445,14 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
-msgstr "'{student_id}' öğrencisi için giriş sınavı denemesi sıfırlandı."
+msgstr "'{student_id}' öğrencisi için giriş sınavı hakları sıfırlanıyor."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
 "Error resetting entrance exam attempts for student '{student_id}'. Make sure"
 " student identifier is correct."
 msgstr ""
-"'{student_id}' öğrencisi için giriş sınavı denemeleri sıfırlanırken hata "
+"'{student_id}' öğrencisi için giriş sınavı hakları sıfırlanırken hata "
 "oluştu. Öğrenci belirleyicinin doğru olduğundan emin olun."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -4468,8 +4484,8 @@ msgid ""
 "Error deleting entrance exam state for student '{student_id}'. Make sure "
 "student identifier is correct."
 msgstr ""
-"'{student_id}' öğrenisi için giriş sınavı durumu silinirken hata oluştu. "
-"Öğrenci belirleyicisinin doğru olduğundan emin olun."
+"'{student_id}' öğrencisi için giriş sınavı durumu silinirken hata oluştu. "
+"Öğrenci belirtecinin doğru olduğundan emin olun."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -4490,6 +4506,9 @@ msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'."
 " Click the 'Show Task Status' button to see the status of the task."
 msgstr ""
+"'<%- problem_id %>' nolu problem için denemeleri sıfırlama görevi başarıyla "
+"başlatıldı. Bu görevin durumunu görmek için 'Görev Durumunu Gör' düğmesine "
+"basınız."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -4511,6 +4530,9 @@ msgid ""
 "'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
 "of the task."
 msgstr ""
+"<%- problem_id %>' nolu problem ve '<%- student_id %>' nolu öğrenci için "
+"problemi yeniden notlandırma görevi başladı. Bu görevin durumunu görmek için"
+" 'Görev Durumunu Gör' düğmesine basınız."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -5074,6 +5096,11 @@ msgid ""
 "your spam folders or  {anchorStart}contact {platform_name} "
 "Support{anchorEnd}."
 msgstr ""
+"Giriş yapmak için, öncelikle hesabınızı etkinleştirmeniz gerekiyor. "
+"{line_break}{line_break}Etkinleştirme bağlantısını{strong_start} {email} "
+"{strong_end} adresine gönderdik. E-posta almadıysanız spam klasörünüzü "
+"denetleyin ya da {anchorStart}{platform_name} Destek Ekibi{anchorEnd} ile "
+"iletişime geçin."
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An unexpected error has occurred."
@@ -5317,14 +5344,14 @@ msgid ""
 "We've sent a confirmation message to {new_email_address}. Click the link in "
 "the message to update your email address."
 msgstr ""
-"{new_email_address} adresine doğrulama iletisi gönderdik. E-posta adresinizi"
-" güncellemek için ileti içindeki bağlantıya tıklayın."
+"{new_email_address} adresine bir doğrulama iletisi gönderdik. E-posta "
+"adresinizi güncellemek için ileti içindeki bağlantıya tıklayın."
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid ""
 "You must sign out and sign back in before your language changes take effect."
 msgstr ""
-"Dil değişikliklerinin etkili olması için oturumunuzu kapatmanız ve tekrar "
+"Dil değişikliklerinizin etkinleşmesi için oturumunuzu kapatmanız ve tekrar "
 "açmanız gerekmektedir."
 
 #: lms/static/js/student_account/views/account_settings_fields.js
@@ -5695,7 +5722,8 @@ msgid ""
 "specify your birth year, go to the {account_settings_page_link}"
 msgstr ""
 "Tüm profilinizi paylaşmadan önce doğum yılınızı belirlemek zorundasınız. "
-"Doğum yılınızı belirlemek için, {account_settings_page_link} gidin"
+"Doğum yılınızı belirlemek için, {account_settings_page_link} bağlantısına "
+"gidin"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid ""
@@ -6896,12 +6924,16 @@ msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
+"Organizasyon adı, ders numarası ve ders yayını alanlarının toplam uzunluğu "
+"<%- limit %> karakterden fazla olamaz."
 
 #: cms/static/js/views/utils/create_library_utils.js
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%- limit %> characters."
 msgstr ""
+"Organizasyon ve kütüphane kodu alanlarının toplam uzunluğu <%- limit %> "
+"karakterden fazla olamaz."
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Success! \"{displayName}\" has been moved."
@@ -8036,6 +8068,8 @@ msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
 msgstr ""
+"Problemlerden kredi almak için, \"Sınavımı Bitir\"i seçmeden önce her "
+"problem için \"Gönder\"e tıklamalısınız."
 
 #: lms/templates/discovery/course_card.underscore
 msgid "LEARN MORE"
@@ -9176,6 +9210,11 @@ msgid ""
 "(20-30 centimeters) from the camera, with the ID card centered relative to "
 "the camera. "
 msgstr ""
+"Görüntü yakalama sürecini yardım almadan tamamlayabilirsiniz, ancak "
+"kameranın doğru konumlandırılması için birkaç gönderim denemesi gerekebilir."
+" Optimum kamera konumu her bilgisayara göre değişir, ancak genellikle bir "
+"kimlik kartının fotoğrafı için en iyi konum, kimlik kartı kameraya göre "
+"ortalanmış olarak kameradan 8-12 inç (20-30 santimetre) uzaklıktır. "
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
@@ -9978,7 +10017,7 @@ msgstr "Bileşen Konumunu Kopyala"
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Course Highlight Emails"
-msgstr ""
+msgstr "Ders Vurgulama E-postaları"
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enabled"
@@ -10501,14 +10540,6 @@ msgstr ""
 #: cms/templates/js/group-edit.underscore
 msgid "delete group"
 msgstr "grubu sil"
-
-#: cms/templates/js/highlights-editor.underscore
-msgid ""
-"This feature is currently in testing. Course teams can enter highlights, but"
-" learners will not receive email messages."
-msgstr ""
-"Bu özellik şimdilik test aşamasında. Ders Takımları renkli vurgulamaları "
-"girebilir ama öğrenciler ilişkili e-posta iletileri almayacak."
 
 #: cms/templates/js/highlights-editor.underscore
 msgid ""
