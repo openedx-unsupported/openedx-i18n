@@ -130,7 +130,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-04-04 20:44+0000\n"
+"POT-Creation-Date: 2021-05-30 20:42+0000\n"
 "PO-Revision-Date: 2021-02-28 20:45+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
@@ -2621,6 +2621,10 @@ msgid "Subject"
 msgstr "Betreff"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
+msgid "Select a category"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
 msgstr "Benutzerkonto-Einstellungen"
@@ -2650,28 +2654,12 @@ msgid "Financial Aid"
 msgstr "Finanzielle Unterstützung"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "Masters"
-msgstr "Master"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "MicroMasters"
-msgstr "MicroMasters"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "MicroBachelors"
-msgstr "MicroBachelors"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Photo Verification"
 msgstr "Foto Verifikation"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Proctoring"
 msgstr "Beaufsichtigung"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "Security"
-msgstr "Sicherheit"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: cms/templates/js/asset-library.underscore
@@ -2737,22 +2725,6 @@ msgstr "Wählen Sie ein Betreff für Ihre Supportanfrage."
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Enter some details for your support request."
 msgstr "Geben Sie bitte genaue Details in Ihrer Support Anfrage an."
-
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid ""
-"Due to the recent increase in interest in online education and edX, we are "
-"currently experiencing an unusually high volume of support requests. We "
-"appreciate your patience as we work to review each request. Please check the"
-" "
-msgstr ""
-"Aufgrund des in letzter Zeit gestiegenen Interesses an Online-Schulungen und"
-" an edX erleben wir derzeit ein ungewöhnlich hohes Volumen an Support-"
-"Anfragen. Wir wissen Ihre Geduld zu schätzen, während wir jede Anfrage "
-"prüfen. Bitte prüfen Sie die "
-
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid " as many questions may have already been answered."
-msgstr " so viele Fragen sind vielleicht schon beantwortet worden."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 #: lms/djangoapps/support/static/support/jsx/success.jsx
@@ -3336,13 +3308,9 @@ msgstr "Überschrift"
 
 #: lms/static/js/ajax-error.js
 msgid ""
-"You have been logged out of your edX account. Click Okay to log in again "
-"now. Click Cancel to stay on this page (you must log in again to save your "
-"work)."
+"You have been logged out of your account. Click Okay to log in again now. "
+"Click Cancel to stay on this page (you must log in again to save your work)."
 msgstr ""
-"Sie wurden von Ihrem edX Konto abgemeldet. Klicken Sie auf OK, um sich jetzt"
-" wieder anzumelden. Klicken Sie auf Abbrechen, um auf dieser Seite zu "
-"bleiben (Sie müssen sich erneut anmelden, um Ihre Arbeit zu speichern)."
 
 #: lms/static/js/api_admin/views/catalog_preview.js
 msgid "Preview this query"
@@ -3538,15 +3506,13 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js
 msgid "<%- user %> already in exception list."
-msgstr "<%- user %> ist bereits auf der Ausnahmeliste."
+msgstr ""
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js
 msgid ""
 "<%- user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
-"<%- user %> wurde erfolgreich in die Ausnahmeliste aufgenommen. Klicken Sie "
-"unten auf Ausnahmezertifikat generieren, um das Zertifikat zu senden."
 
 #: lms/static/js/course_survey.js
 msgid "There has been an error processing your survey."
@@ -4543,10 +4509,6 @@ msgid ""
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
 msgstr ""
-"Es ist ein Fehler beim Zurücksetzen von Problemversuchen für das Problem "
-"'<%- problem_id %>' und Teilnehmer <%- student_id %>' aufgetreten. Stellen "
-"Sie sicher, dass die Problem- und Teilnehmercodes vollständig und korrekt "
-"sind."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -4869,6 +4831,16 @@ msgid ""
 msgstr ""
 "Links werden auf Anfrage generiert und verfallen nach 5 Minuten aufgrund der"
 " sensiblen Natur der Teilnehmerinformationen."
+
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx
+msgid ""
+"To access the courses available to you through {enterpriseName}, visit the "
+"{enterpriseName} dashboard."
+msgstr ""
+
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx
+msgid "Go to dashboard"
+msgstr ""
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 msgid "(Self-paced) Starts {start}"
@@ -6313,10 +6285,8 @@ msgid "Please enter non-negative integer."
 msgstr "Bitte geben Sie einen nicht negativen Integer-Wert ein."
 
 #: cms/static/js/models/settings/course_grader.js
-msgid "Cannot drop more <%= types %> assignments than are assigned."
+msgid "Cannot drop more <%- types %> assignments than are assigned."
 msgstr ""
-"Es können nicht mehr <%= types %> Aufgabenzuordnungen gelöscht werden als "
-"zugeordnet sind."
 
 #: cms/static/js/models/settings/course_grading_policy.js
 msgid "Grace period must be specified in HH:MM format."

@@ -90,7 +90,7 @@
 # pacha <patrick.chau@wanadoo.fr>, 2015
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2020
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2021
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Régis Behmo <transifex.stuff@behmo.com>, 2016
@@ -180,7 +180,7 @@
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2020
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2021
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
@@ -264,7 +264,7 @@
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018-2020
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018-2021
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
@@ -293,9 +293,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-04-04 20:44+0000\n"
-"PO-Revision-Date: 2021-02-28 20:45+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2021-05-30 20:42+0000\n"
+"PO-Revision-Date: 2021-04-28 19:27+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
@@ -2197,7 +2197,7 @@ msgstr "Jouer la vidéo"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_skip_control.js
 msgid "Do not show again"
-msgstr "Ne pas montrer de nouveau"
+msgstr "Ne pas afficher de nouveau"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Open language menu"
@@ -2776,6 +2776,10 @@ msgid "Subject"
 msgstr "Sujet"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
+msgid "Select a category"
+msgstr "Choisissez une catégorie"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
 msgstr "Paramètres du compte"
@@ -2805,28 +2809,12 @@ msgid "Financial Aid"
 msgstr "Aide financière"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "Masters"
-msgstr "Maîtrise"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "MicroMasters"
-msgstr "MicroMaîtrise"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "MicroBachelors"
-msgstr "MicroBaccalauréats"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Photo Verification"
 msgstr "Vérification d'identité"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Proctoring"
 msgstr "Surveillance"
-
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "Security"
-msgstr "Sécurité"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: cms/templates/js/asset-library.underscore
@@ -2890,22 +2878,6 @@ msgstr "Sélectionnez un sujet pour votre demande d'assistance."
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Enter some details for your support request."
 msgstr "Entrez quelques détails pour votre demande d'assistance."
-
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid ""
-"Due to the recent increase in interest in online education and edX, we are "
-"currently experiencing an unusually high volume of support requests. We "
-"appreciate your patience as we work to review each request. Please check the"
-" "
-msgstr ""
-"À cause de l'augmentation récente de l'intérêt dans l'éducation en ligne et "
-"notre plateforme, nous recevons une quantité de demandes de support "
-"anormalement élévés. Nous apprécions votre patience pendant que nous "
-"examinons chaque demande. Veuillez regarder le"
-
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid " as many questions may have already been answered."
-msgstr "parce que plusieurs questions ont probablement été déjà répondues."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 #: lms/djangoapps/support/static/support/jsx/success.jsx
@@ -3490,13 +3462,9 @@ msgstr "Titre"
 
 #: lms/static/js/ajax-error.js
 msgid ""
-"You have been logged out of your edX account. Click Okay to log in again "
-"now. Click Cancel to stay on this page (you must log in again to save your "
-"work)."
+"You have been logged out of your account. Click Okay to log in again now. "
+"Click Cancel to stay on this page (you must log in again to save your work)."
 msgstr ""
-"Vous avez été déconnecté de votre compte EDUlib. Cliquer OK pour vous "
-"connecter de nouveau. Cliquer Cancel pour rester sur cette page (vous devez "
-"vous connecter de nouveau pour sauvegarder votre travail)."
 
 #: lms/static/js/api_admin/views/catalog_preview.js
 msgid "Preview this query"
@@ -4804,7 +4772,7 @@ msgid ""
 msgstr ""
 "Démarrage de la tâche consistant à réinitialiser les tentatives pour le "
 "problème '<%- problem_id %>' effectué avec succès. Cliquez sur le bouton "
-"'Montrer l'état de la tâche' pour voir l'état de la tâche."
+"'Afficher l'état de la tâche' pour voir l'état de la tâche."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -4829,7 +4797,7 @@ msgid ""
 "of the task."
 msgstr ""
 "Le recalcul du score du problème '<%- problem_id %>' de l'étudiant '<%- "
-"student_id %>' a commencé. Cliquez sur le bouton 'Montrer l'état de la "
+"student_id %>' a commencé. Cliquez sur le bouton 'Afficher l'état de la "
 "tâche' pour voir l'état de la tâche."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -4853,8 +4821,8 @@ msgid ""
 "status of the task."
 msgstr ""
 "Début de la tâche pour changer la note du problème '<%- problem_id %>' de "
-"l'étudiant '<%- student_id %>'. Cliquez sur le bouton 'Montrer l'état de la "
-"tâche' pour voir l'état de la tâche."
+"l'étudiant '<%- student_id %>'. Cliquez sur le bouton 'Afficher l'état de la"
+" tâche' pour voir l'état de la tâche."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -4872,7 +4840,7 @@ msgid ""
 "'Show Task Status' button to see the status of the task."
 msgstr ""
 "Le recalcul du score de l'examen d'entrée de l'étudiant'{student_id}' a "
-"commencé. Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir "
+"commencé. Cliquez sur le bouton 'Afficher l'état de la tâche' pour voir "
 "l'état de la tâche."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -4897,7 +4865,7 @@ msgid ""
 msgstr ""
 "Démarrage de la tâche consistant à réinitialiser les tentatives pour le "
 "problème '<%- problem_id %>' pour tous les étudiants effectuée avec succès. "
-"Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir l'état de la "
+"Cliquez sur le bouton 'Afficher l'état de la tâche' pour voir l'état de la "
 "tâche."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -5026,6 +4994,16 @@ msgid ""
 msgstr ""
 "Les liens sont générés sur demande et expirent dans les 5 minutes à cause de"
 " la nature sensible des informations concernant l'étudiant."
+
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx
+msgid ""
+"To access the courses available to you through {enterpriseName}, visit the "
+"{enterpriseName} dashboard."
+msgstr ""
+
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx
+msgid "Go to dashboard"
+msgstr ""
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 msgid "(Self-paced) Starts {start}"
@@ -6464,10 +6442,10 @@ msgid "Please enter non-negative integer."
 msgstr "Veuillez entrer un entier non négatif."
 
 #: cms/static/js/models/settings/course_grader.js
-msgid "Cannot drop more <%= types %> assignments than are assigned."
+msgid "Cannot drop more <%- types %> assignments than are assigned."
 msgstr ""
-"Impossible de déposer plus de <%= types %> qu'il n'est possible d'en "
-"assigner."
+"Impossible de supprimer plus d'affectations de <%- types %> que ce qui est "
+"attribué."
 
 #: cms/static/js/models/settings/course_grading_policy.js
 msgid "Grace period must be specified in HH:MM format."
@@ -7133,7 +7111,7 @@ msgstr "Cacher les aperçus"
 
 #: cms/static/js/views/pages/paged_container.js
 msgid "Show Previews"
-msgstr "Montrer les aperçus"
+msgstr "Afficher les aperçus"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -8457,7 +8435,7 @@ msgstr "un examen chronométré"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "The timer on the right shows the time remaining in the exam."
-msgstr "La minuterie à droite indique le temps restant à l'examen."
+msgstr "La minuterie à droite affiche le temps restant à l'examen."
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid ""
@@ -9242,7 +9220,7 @@ msgstr "Connectez vous en utilisant %(providerName)s"
 
 #: lms/templates/student_account/hinted_login.underscore
 msgid "Show me other ways to sign in or register"
-msgstr "Montrez moi d'autres façons de se connecter ou de s'inscrire"
+msgstr "Affichez moi d'autres façons de se connecter ou de s'inscrire"
 
 #: lms/templates/student_account/institution_login.underscore
 msgid "Sign in with Institution/Campus Credentials"
@@ -9924,7 +9902,7 @@ msgstr ""
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid ""
 "Your ID must be a government-issued photo ID that clearly shows your face."
-msgstr "Votre pièce d'identité doit clairement montrer votre visage."
+msgstr "Votre pièce d'identité doit clairement afficher votre visage."
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid ""
@@ -9981,7 +9959,7 @@ msgstr "Conditions requises pour la photo : "
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Does the photo of you show your whole face?"
-msgstr "Votre photo montre-t-elle votre visage en entier ?"
+msgstr "Votre photo affiche-t-elle votre visage en entier ?"
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Is your name on your ID readable?"
@@ -10250,7 +10228,7 @@ msgstr "- Triable"
 
 #: cms/templates/js/asset-library.underscore
 msgid "Show All"
-msgstr "Voir tout"
+msgstr "Tout afficher"
 
 #: cms/templates/js/asset-library.underscore
 msgid "You haven't added any assets to this course yet."
