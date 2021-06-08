@@ -363,7 +363,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-05-30 20:43+0000\n"
+"POT-Creation-Date: 2021-06-06 20:43+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2019\n"
 "Language-Team: French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)\n"
@@ -6329,7 +6329,7 @@ msgstr "La clé de cours {course_key} n'existe pas"
 #: lms/djangoapps/certificates/views/support.py
 #, python-brace-format
 msgid "User {user_id} is not enrolled in the course {course_key}"
-msgstr ""
+msgstr "L'utilisateur {user_id} n'est pas inscrit dans le cours {course_key}"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "An unexpected error occurred while regenerating certificates."
@@ -6687,6 +6687,14 @@ msgid ""
 "the course specifically, and for the org that the course is in, then the "
 "more specific context overrides the more general context."
 msgstr ""
+"Celles-ci définissent le contexte pour désactiver la page de progression "
+"frontend-app-learning. Si aucune valeur n'est définie, la configuration "
+"s'applique globalement. Si une seule valeur est définie, la configuration "
+"s'applique à tous les cours dans ce contexte. Au plus une valeur peut être "
+"définie à la fois.<br>Si plusieurs contextes s'appliquent à un cours (par "
+"exemple, si la configuration est spécifiée spécifiquement pour le cours et "
+"pour l'organisation dans laquelle se trouve le cours, le contexte plus "
+"spécifique remplace le contexte plus général."
 
 #: lms/djangoapps/course_home_api/admin.py openedx/features/discounts/admin.py
 msgid ""
@@ -6861,7 +6869,7 @@ msgstr "Date d'inscription"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course starts"
-msgstr ""
+msgstr "Début du cours"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Don't forget to add a calendar reminder!"
@@ -6880,12 +6888,13 @@ msgstr "Le cours commence dans {time_remaining_string} à {course_start_time}."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course ends"
-msgstr ""
+msgstr "Fin du cours"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
-"This course will be archived, which means you can review the course content "
-"but can no longer participate in graded assignments or earn a certificate."
+"After this date, the course will be archived, which means you can review the"
+" course content but can no longer participate in graded assignments or work "
+"towards earning a certificate."
 msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
@@ -6893,6 +6902,8 @@ msgid ""
 "After the course ends, the course content will be archived and no longer "
 "active."
 msgstr ""
+"Une fois le cours terminé, le contenu du cours sera archivé et ne sera plus "
+"actif."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
@@ -7537,40 +7548,50 @@ msgid ""
 "unit blocks) then all blocks under that block will be included in the "
 "report."
 msgstr ""
+"La clé pour l'emplacement d'une section ou d'un problème. Si l'emplacement "
+"est un bloc qui contient d'autres blocs (tel que les blocs de cours, de "
+"section, de sous-section ou d'unité) alors tous les blocs sous jacents "
+"seront inclus dans le rapport."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "A list of usage keys for the blocks to include in the report. "
-msgstr ""
+msgstr "Une liste des clés pour les blocs à inclure dans le rapport."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "A list of problem/block types to generate the report for. This field can be "
 "omitted if the report should include details of allblock types. "
 msgstr ""
+"Une liste des types de problème/bloc pour lesquelles générer le rapport. Ce "
+"champ peut être omis si le rapport doit inclure tous les types de blocs."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "User-friendly text describing current status of report generation."
-msgstr ""
+msgstr "Un texte décrivant le statut de la génération du rapport."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "A unique id for the report generation task. It can be used to query the "
 "latest report generation status."
 msgstr ""
+"Un ID unique pour la tâche de génération du rapport. Il peut être utilisé "
+"pour demandé le statut de la génération du rapport."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The provided parameters were invalid. Make sure you've provided at least one"
 " valid usage key for `problem_locations`."
 msgstr ""
+"Les paramètres fournis ne sont pas valides. Veuillez vous assurer que vous "
+"avez fourni au moins un clé valide pour 'problem_locations'."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The requesting user is not authenticated."
-msgstr ""
+msgstr "L'utilisateur demandant n'est pas authentifié."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The requesting user lacks access to the course."
-msgstr ""
+msgstr "L'utilisateur demandant n'a pas accès à ce cours."
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/api_helper.py
@@ -7807,19 +7828,19 @@ msgstr "Ne peut renoter avec all_students et unique_student_identifier."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Current status of task."
-msgstr ""
+msgstr "Statut courant de la tâche."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Identifies the kind of task being performed, e.g. rescoring."
-msgstr ""
+msgstr "Identifie le type de tâche exécuté, ex. renoter."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The celery ID for the task."
-msgstr ""
+msgstr "Le ID du celery pour cette tâche."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The date and time when the task was created."
-msgstr ""
+msgstr "La date et l'heure quand la tâche a été créée."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -7827,56 +7848,61 @@ msgid ""
 "depend on the kind of task being performed. For instanceit may contain the "
 "problem locations for a problem resources task."
 msgstr ""
+"Les paramètres entrés pour la tâche. Le format et le contenu de ces données "
+"dépendront du type de tâche éxécuté. Par exemple, ils peuvent contenir "
+"l'emplacement de la question pour une tâche sur ce type de ressource."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The username of the user who initiated this task."
-msgstr ""
+msgstr "Le nom d'utilisateur de l'usager ayant lancé cette tâche."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The last knows state of the celery task."
-msgstr ""
+msgstr "Le dernier état connu des tâches celery."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Task duration information, if known"
-msgstr ""
+msgstr "Information de durée des tâches, si connu"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "User-friendly task status information, if available."
-msgstr ""
+msgstr "Information de statut pour les tâches, si disponible."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "List of instructor tasks."
-msgstr ""
+msgstr "Liste de tâches des instructeurs."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The requested course does not exist."
-msgstr ""
+msgstr "Le cours demandé n'existe pas."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "URL from which report can be downloaded."
-msgstr ""
+msgstr "URL avec lequel le rapport peut être téléchargé."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Name of report."
-msgstr ""
+msgstr "Nom du rapport."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "HTML anchor tag that contains the name and link."
-msgstr ""
+msgstr "Ancre HTML qui contient le nom et le lien."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "List of report downloads"
-msgstr ""
+msgstr "Liste des rapports téléchargés"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "ID for the course whose reports need to be listed."
-msgstr ""
+msgstr "ID pour le cours dont les rapports ont besoin d'être affichés."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Filter results to only return details of for the report with the specified "
 "name."
 msgstr ""
+"Filtrer les résultats pour n'avoir que les détails du rapport avec le nom "
+"spécifié."
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/api_helper.py
@@ -8024,10 +8050,8 @@ msgid "Invalid data, generate_for must be \"new\" or \"all\"."
 msgstr "Données invalide, generate_for doit être \"nouveau\" ou \"tout\"."
 
 #: lms/djangoapps/instructor/views/api.py
-msgid "Certificate generation started for white listed students."
+msgid "Certificate generation started for students on the allowlist."
 msgstr ""
-"Génération des attestations commencée pour les étudiants sur la liste de "
-"dérogation."
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -11379,7 +11403,7 @@ msgstr "\"{email}\" n'est pas une adresse courriel valide."
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 msgid "Enter a valid email address"
-msgstr ""
+msgstr "Entrez une adresse de courriel valide"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 #, python-brace-format
@@ -11392,7 +11416,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 msgid "It looks like this email address is already registered"
-msgstr ""
+msgstr "Il semblerait que cette addrese de courriel soit déjà enregistré"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 #, python-brace-format
@@ -11405,7 +11429,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 msgid "It looks like this username is already taken"
-msgstr ""
+msgstr "Il semblerait que ce nom d'utilisateur soit déjà utilisé"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 #, python-brace-format
@@ -12579,6 +12603,9 @@ msgid ""
 " access the courses available to you through {enterprise_name}, "
 "{link_start}visit the {enterprise_name} dashboard{link_end}."
 msgstr ""
+"Vous avez accès au tableau de bord {bold_start}{enterprise_name}{bold_end}. "
+"Pour accéder aux cours qui s'offrent à vous via {enterprise_name}, "
+"{link_start}visitez le tableau de bord {enterprise_name}{link_end}."
 
 #: openedx/features/enterprise_support/api.py
 #, python-brace-format
@@ -12697,6 +12724,24 @@ msgstr ""
 #: cms/djangoapps/api/v1/serializers/course_runs.py
 msgid "Course team user does not exist"
 msgstr "L'utilisateur de l'équipe de cours n'existe pas"
+
+#: cms/djangoapps/contentstore/admin.py
+#, python-brace-format
+msgid ""
+"Number of course outline regenerations successfully requested: {regenerates}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "Regenerate selected course outlines"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "All course outline regenerations successfully requested."
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "Regenerate *all* course outlines"
+msgstr ""
 
 #: cms/djangoapps/contentstore/course_group_config.py
 msgid ""
@@ -17286,7 +17331,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Your grade and certificate will be ready after {date}."
-msgstr ""
+msgstr "Votre note et votre attestation seront prêtes après le {date}."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Your final grade:"
@@ -17598,10 +17643,14 @@ msgid ""
 "assignments, and earn a {link_start}verified certificate{link_end} to "
 "showcase on your resume."
 msgstr ""
+"{start_bold}Tirez le maximum de votre cours!{end_bold} Mettez à niveau pour "
+"avoir accès à l'ensemble du contenu de cours, pour déverrouiller tous les "
+"travaux notés et formatifs et pour obtenir {link_start}une attestaion "
+"vérifiée{link_end}."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade"
-msgstr ""
+msgstr "Mettre à niveau"
 
 #. Translators: provider_name is the name of a credit provider or university
 #. (e.g. State University)
@@ -22162,7 +22211,7 @@ msgstr "Nouvelle Page"
 
 #: cms/templates/edit-tabs.html
 msgid "View new Pages and Resources Experience"
-msgstr ""
+msgstr "Voir la nouvelle expérience de pages et de ressources"
 
 #: cms/templates/edit-tabs.html
 msgid ""

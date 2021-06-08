@@ -107,7 +107,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-05-30 20:42+0000\n"
+"POT-Creation-Date: 2021-06-06 20:42+0000\n"
 "PO-Revision-Date: 2021-04-13 07:55+0000\n"
 "Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
@@ -7481,7 +7481,7 @@ msgstr "Takip ediliyor"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Community TA"
-msgstr "Topluluk Öğretim Elemanı"
+msgstr "Topluluk Asistanı"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "{unread_comments_count} new"

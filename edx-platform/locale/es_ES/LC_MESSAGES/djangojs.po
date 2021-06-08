@@ -32,55 +32,56 @@
 # Rafael Puig-Durán <rpuigduran@ibleducation.com>, 2021
 # Luis Contreras <jinchuika@gmail.com>, 2021
 # ispal <asanchez@induscomp.com>, 2021
-# Iago Enjo <enjo@ub.edu>, 2021
 # Juan Manuel Floria <juanfg23@orange.es>, 2021
+# johnfelipe <ingenierofelipeurrego@gmail.com>, 2021
 # 9b8d6eac3c8b46dd40922281c24b08e6_21a7d9f, 2021
 # Carlos Guzman <guzmca@gmail.com>, 2021
-# johnfelipe <ingenierofelipeurrego@gmail.com>, 2021
-# Rosa Sanchez Hernandez <rosa@db.uc3m.es>, 2021
-# Gonzalo Rodrigo Ruiz <gonzalorodrigoruiz@gmail.com>, 2021
-# Adrián Báez Rojas <adrianbaezrojas@gmail.com>, 2021
-# José Parera <j3parera@gmail.com>, 2021
 # Jhonny Alberto Pantaleón <jhonnyppcc@gmail.com>, 2021
 # Leo Salom <leosamu@gmail.com>, 2021
 # Elena Clavijo Vicent <elena.onil@gmail.com>, 2021
-# 66f5c4d4e8ace16104ebaac590f0e8a9_d69d777 <a834753243f7c7c72212b5b5e7b1714e_225467>, 2021
 # Raquel Mumary Santiago <raquel.mumary@gmail.com>, 2021
 # UPV/EHU Sistemas-CV, 2021
+# MiguelSdP <miguelsdp@gmail.com>, 2021
+# Gonzalo Rodrigo Ruiz <gonzalorodrigoruiz@gmail.com>, 2021
+# Miguel Angel Cortizo Alvarez, 2021
+# Maria J Crespo, 2021
+# Rosa Sanchez Hernandez <rosa@db.uc3m.es>, 2021
+# Iago Enjo <enjo@ub.edu>, 2021
+# Adrián Báez Rojas <adrianbaezrojas@gmail.com>, 2021
 # Alberto Rodriguez <almirot@ull.edu.es>, 2021
+# José Parera <j3parera@gmail.com>, 2021
+# Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2021
+# 66f5c4d4e8ace16104ebaac590f0e8a9_d69d777 <a834753243f7c7c72212b5b5e7b1714e_225467>, 2021
+# Valeria Freire <valtodopds@hotmail.com>, 2021
+# Rubén Torres <r.torres@usal.es>, 2021
+# LUCIA GOMEZ TEIJEIRO <lucy._.y@hotmail.com>, 2021
 # Jose Antonio Sanchez Romero <isc.antonio.sr@gmail.com>, 2021
 # Aitor Renobales Irusta <aitor.renobales@ehu.eus>, 2021
+# Jack R. <dny1020@aol.com>, 2021
+# Rocío Pérez Venero <perezvenero.rocio@gmail.com>, 2021
 # mcolomer <mcmlilhity@gmail.com>, 2021
 # Adolfo Muñoz Aguilar <adolfoma@gmail.com>, 2021
+# Susan Webster <susan@db.uc3m.es>, 2021
+# Guillermo Peñarando Sánchez <guillerpsanchez@gmail.com>, 2021
 # Ancor Cruz <ancor.cruz.n@gmail.com>, 2021
+# Guadalupe <ggarrido@fundaciongsr.es>, 2021
 # Katerina Katapodi <katerinakatapodi@gmail.com>, 2021
+# María Gómez <marygvasco@gmail.com>, 2021
 # Transifex Bot <>, 2021
 # Silvia Gonzalez <silviagonzalez@magentaconsultoria.com>, 2021
-# Jack R. <dny1020@aol.com>, 2021
-# Nacho Díaz <nachotheix@gmail.com>, 2021
-# i_cruzado <ignacio.cruzado@gmail.com>, 2021
-# a4235266ae544d94578163893e2cf1b9_079e25b, 2021
-# Rocío Pérez Venero <perezvenero.rocio@gmail.com>, 2021
-# Guillermo Peñarando Sánchez <guillerpsanchez@gmail.com>, 2021
-# Rubén Torres <r.torres@usal.es>, 2021
-# María Gómez <marygvasco@gmail.com>, 2021
-# Antonio Huete Jimenez <tuxillo@quantumachine.net>, 2021
-# Miguel Angel Cortizo Alvarez, 2021
-# Valeria Freire <valtodopds@hotmail.com>, 2021
-# Guadalupe <ggarrido@fundaciongsr.es>, 2021
-# María González <mariagonzalezd14@gmail.com>, 2021
-# Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2021
 # Javier Galnares Arias <javigalnares@yahoo.es>, 2021
 # Marta Cuesta, 2021
 # Tony G. Bolaño <tonybolanyo@gmail.com>, 2021
 # Javier Orts <jorts@upv.es>, 2021
+# Nacho Díaz <nachotheix@gmail.com>, 2021
 # juanan <juanan@diariolinux.com>, 2021
+# i_cruzado <ignacio.cruzado@gmail.com>, 2021
 # Ignacio Piqueras <igpisa@upv.es>, 2021
+# a4235266ae544d94578163893e2cf1b9_079e25b, 2021
 # valenciaupv <valenciaupv@gmail.com>, 2021
 # spentamanyu <i.delamo@gmail.com>, 2021
 # Tesaur <pablo15892@hotmail.com>, 2021
-# Maria J Crespo, 2021
-# MiguelSdP <miguelsdp@gmail.com>, 2021
+# Antonio Huete Jimenez <tuxillo@quantumachine.net>, 2021
 # Alicia P., 2021
 # Miguel Angel Cordova <miguel.angel.cordova.uned@gmail.com>, 2021
 # Raúl Aguilera Ortega <raguiler@db.uc3m.es>, 2021
@@ -89,17 +90,16 @@
 # UAMx <uamx.dev@gmail.com>, 2021
 # Enrique Centelles <ecentelles2003@yahoo.es>, 2021
 # 06052463cea5d8c38d564d090d2691cb, 2021
-# Susan Webster <susan@db.uc3m.es>, 2021
 # Mariangeles Fernandez <mariangelesfm@gmail.com>, 2021
 # AWS <aws@posiziona.eu>, 2021
 # david ruiz <daruc20@gmail.com>, 2021
 # Hannah Eli <hnnhreli@gmail.com>, 2021
-# LUCIA GOMEZ TEIJEIRO <lucy._.y@hotmail.com>, 2021
 # URJConline <online.mooc@urjc.es>, 2021
 # David Martínez <jokerdm@gmail.com>, 2021
 # ADRIAN ABREU GONZALEZ <aabreuglez@gmail.com>, 2021
 # Juan Rodríguez de Vera Mouliaá <jrodriguez@um.es>, 2021
 # Carmen Marco <carmarfr@hotmail.com>, 2021
+# María González <mariagonzalezd14@gmail.com>, 2021
 # Felix Diez <urkidifelix@gmail.com>, 2021
 # Priom Khan <priomkhan1988@gmail.com>, 2021
 # Daniel Muñoz <dani_m_1991@hotmail.com>, 2021
@@ -108,8 +108,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-01-06 21:02+0000\n"
-"PO-Revision-Date: 2021-01-06 21:06+0000\n"
+"POT-Creation-Date: 2021-06-08 17:56+0000\n"
+"PO-Revision-Date: 2021-06-08 17:58+0000\n"
 "Last-Translator: Daniel Muñoz <dani_m_1991@hotmail.com>, 2021\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/open-edx/teams/6205/es_ES/)\n"
 "Language: es_ES\n"
@@ -122,17 +122,28 @@ msgstr ""
 #: cms/static/cms/js/main.js cms/static/js/views/active_video_upload_list.js
 #: cms/static/js/views/video_transcripts.js
 #: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/Import.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
 msgstr ""
 
-#: cms/static/cms/js/main.js common/static/bundles/commons.js
+#: cms/static/cms/js/main.js common/static/bundles/Import.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 msgid "Studio's having trouble saving your work"
 msgstr ""
 
-#: cms/static/cms/js/xblock/cms.runtime.v1.js common/static/bundles/commons.js
+#: cms/static/cms/js/xblock/cms.runtime.v1.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "OpenAssessment Save Error"
 msgstr ""
 
@@ -147,7 +158,6 @@ msgstr ""
 #: cms/static/js/views/modals/edit_xblock.js cms/static/js/views/tabs.js
 #: cms/static/js/views/utils/xblock_utils.js
 #: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
-#: common/static/bundles/commons.js
 #: common/static/bundles/js/factories/container.js
 #: common/static/bundles/js/factories/edit_tabs.js
 #: common/static/bundles/js/factories/library.js
@@ -156,11 +166,17 @@ msgstr ""
 msgid "Saving"
 msgstr ""
 
-#: cms/static/js/base.js common/static/bundles/commons.js
+#: cms/static/js/base.js common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 msgid "This link will open in a new browser window/tab"
 msgstr ""
 
-#: cms/static/js/base.js common/static/bundles/commons.js
+#: cms/static/js/base.js common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 msgid "This link will open in a modal window"
 msgstr ""
 
@@ -192,8 +208,10 @@ msgstr ""
 #: cms/static/js/certificates/views/signatory_editor.js
 #: cms/static/js/views/course_info_update.js cms/static/js/views/list_item.js
 #: cms/static/js/views/show_textbook.js cms/static/js/views/tabs.js
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
 #: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: common/static/bundles/js/factories/textbooks.js
 msgid "Deleting"
 msgstr ""
@@ -209,11 +227,17 @@ msgstr ""
 #: cms/static/js/views/show_textbook.js cms/static/js/views/tabs.js
 #: cms/static/js/views/validation.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
 #: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: common/static/bundles/js/factories/textbooks.js
+#: common/static/bundles/js/factories/xblock_validation.js
 #: common/static/common/js/components/utils/view_utils.js
 #: lms/static/js/Markdown.Editor.js
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
@@ -345,7 +369,10 @@ msgid "asset_path is required"
 msgstr ""
 
 #: cms/static/js/models/course.js cms/static/js/models/section.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/context_course.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: common/static/bundles/js/factories/textbooks.js
 msgid "You must specify a name"
 msgstr ""
@@ -365,13 +392,21 @@ msgstr ""
 msgid "All chapters must have a name and asset"
 msgstr ""
 
-#: cms/static/js/models/uploads.js common/static/bundles/commons.js
+#: cms/static/js/models/uploads.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
 "<%- (fileExtensions) %> to upload."
 msgstr ""
 
-#: cms/static/js/models/uploads.js common/static/bundles/commons.js
+#: cms/static/js/models/uploads.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/institution_login.underscore
 #: lms/templates/student_account/institution_register.underscore
@@ -395,9 +430,15 @@ msgstr ""
 #: cms/static/js/views/modals/edit_xblock.js
 #: cms/static/js/views/video_transcripts.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
 #: common/static/bundles/DemographicsCollectionBanner.js
 #: common/static/bundles/DemographicsCollectionModal.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: lms/static/js/demographics_collection/Wizard.jsx
 #: lms/static/js/student_account/tos_modal.js
 #: cms/templates/js/course-video-settings.underscore
@@ -412,7 +453,11 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/assets.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js cms/templates/js/asset-library.underscore
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
+#: cms/templates/js/asset-library.underscore
 #: cms/templates/js/course-instructor-details.underscore
 #: cms/templates/js/previous-video-upload-list.underscore
 #: cms/templates/js/signatory-details.underscore
@@ -426,8 +471,9 @@ msgid "Choose File"
 msgstr ""
 
 #: cms/static/js/views/components/add_xblock.js
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
 #: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
 #: common/static/bundles/js/factories/library.js
 msgid "Adding"
 msgstr ""
@@ -443,7 +489,10 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/course_info_update.js cms/static/js/views/tabs.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: common/static/bundles/js/factories/edit_tabs.js
 #: lms/static/js/Markdown.Editor.js
 #: common/static/common/templates/discussion/templates.underscore
@@ -456,7 +505,10 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/course_video_settings.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "None"
 msgstr ""
@@ -464,7 +516,10 @@ msgstr ""
 #: cms/static/js/views/course_video_settings.js
 #: cms/static/js/views/metadata.js
 #: cms/static/js/views/previous_video_upload.js
-#: cms/static/js/views/video_transcripts.js common/static/bundles/commons.js
+#: cms/static/js/views/video_transcripts.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 #: lms/static/js/views/image_field.js
 #: cms/templates/js/video/metadata-translations-item.underscore
@@ -482,64 +537,103 @@ msgstr ""
 msgid "Please select a PDF file to upload."
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: cms/templates/js/license-selector.underscore
 msgid "All Rights Reserved"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "You reserve all rights for your work"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Creative Commons"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "You waive some rights for your work, such that others can use it too"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Version"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Attribution"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid ""
 "Allow others to copy, distribute, display and perform your copyrighted work "
 "but only if they give credit the way you request. Currently, this option is "
 "required."
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Noncommercial"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid ""
 "Allow others to copy, distribute, display and perform your work - and "
 "derivative works based upon it - but for noncommercial purposes only."
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "No Derivatives"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid ""
 "Allow others to copy, distribute, display and perform only verbatim copies "
 "of your work, not derivative works based upon it. This option is "
 "incompatible with \"Share Alike\"."
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Share Alike"
 msgstr ""
 
-#: cms/static/js/views/license.js common/static/bundles/commons.js
+#: cms/static/js/views/license.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid ""
 "Allow others to distribute derivative works only under a license identical "
 "to the license that governs your work. This option is incompatible with \"No"
@@ -550,7 +644,10 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/manage_users_and_roles.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Ok"
 msgstr ""
 
@@ -566,7 +663,10 @@ msgstr ""
 msgid "Are you sure?"
 msgstr ""
 
-#: cms/static/js/views/metadata.js common/static/bundles/commons.js
+#: cms/static/js/views/metadata.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: lms/static/js/views/file_uploader.js
 msgid "Upload File"
 msgstr ""
@@ -577,7 +677,14 @@ msgstr ""
 #: cms/static/js/views/modals/base_modal.js
 #: cms/static/js/views/modals/course_outline_modals.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/content-group-editor.underscore
 #: cms/templates/js/course_info_handouts.underscore
@@ -598,26 +705,41 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/modals/course_outline_modals.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 msgid "Advanced"
 msgstr ""
 
 #. Translators: "title" is the name of the current component being edited.
-#: cms/static/js/views/modals/edit_xblock.js common/static/bundles/commons.js
+#: cms/static/js/views/modals/edit_xblock.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Editing: {title}"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js common/static/bundles/commons.js
+#: cms/static/js/views/modals/edit_xblock.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Plugins"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js common/static/bundles/commons.js
+#: cms/static/js/views/modals/edit_xblock.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Unit"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js common/static/bundles/commons.js
+#: cms/static/js/views/modals/edit_xblock.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Component"
 msgstr ""
 
@@ -822,7 +944,10 @@ msgstr ""
 
 #: cms/static/js/views/previous_video_upload.js
 #: cms/static/js/views/video/translations_editor.js
-#: cms/static/js/views/video_transcripts.js common/static/bundles/commons.js
+#: cms/static/js/views/video_transcripts.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: lms/static/js/views/image_field.js
 msgid "Removing"
 msgstr ""
@@ -848,13 +973,21 @@ msgid ""
 "Are you sure you want to delete this page? This action cannot be undone."
 msgstr ""
 
-#: cms/static/js/views/uploads.js common/static/bundles/commons.js
+#: cms/static/js/views/uploads.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Upload"
 msgstr ""
 
-#: cms/static/js/views/uploads.js common/static/bundles/commons.js
+#: cms/static/js/views/uploads.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
 msgid "We're sorry, there was an error"
 msgstr ""
 
@@ -884,49 +1017,82 @@ msgstr ""
 msgid "Take me to the new location"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Duplicating"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Undo moving"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Moving"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Deleting this {xblock_type} is permanent and cannot be undone."
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid ""
 "Any content that has listed this content as a prerequisite will also have "
 "access limitations removed."
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Delete this {xblock_type} (and prerequisite)?"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Yes, delete this {xblock_type}"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Delete this {xblock_type}?"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "section"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "subsection"
 msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js common/static/bundles/commons.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: cms/templates/js/container-access.underscore
 msgid "unit"
 msgstr ""
@@ -939,84 +1105,119 @@ msgid "Your changes have been saved."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/file_uploader.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Please select a file in .srt format."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/file_uploader.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Error: Uploading failed."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/message_manager.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Error: Import failed."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/message_manager.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Error: Replacing failed."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/message_manager.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Error: Choosing failed."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Error: Connection with server failed."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Link types should be unique."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Links should be unique."
 msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Incorrect url format."
 msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid ""
 "Sorry, there was an error parsing the subtitles that you uploaded. Please "
 "check the format and try again."
 msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
-#: cms/static/js/views/video_transcripts.js common/static/bundles/commons.js
+#: cms/static/js/views/video_transcripts.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Are you sure you want to remove this transcript?"
 msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid ""
 "If you remove this transcript, the transcript will not be available for this"
 " component."
 msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Remove Transcript"
 msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Upload translation"
 msgstr ""
 
-#: cms/static/js/views/xblock_editor.js common/static/bundles/commons.js
+#: cms/static/js/views/xblock_editor.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 msgid "Editor"
 msgstr ""
 
-#: cms/static/js/views/xblock_editor.js common/static/bundles/commons.js
+#: cms/static/js/views/xblock_editor.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Settings"
 msgstr ""
@@ -1095,31 +1296,37 @@ msgid "text_word_{uniqueId}"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+#: common/static/bundles/AnnotatableBlockPreview.js
 #: common/static/bundles/AnnotatableModule.js
 msgid "Show Annotations"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+#: common/static/bundles/AnnotatableBlockPreview.js
 #: common/static/bundles/AnnotatableModule.js
 msgid "Hide Annotations"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+#: common/static/bundles/AnnotatableBlockPreview.js
 #: common/static/bundles/AnnotatableModule.js
 msgid "Expand Instructions"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+#: common/static/bundles/AnnotatableBlockPreview.js
 #: common/static/bundles/AnnotatableModule.js
 msgid "Collapse Instructions"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+#: common/static/bundles/AnnotatableBlockPreview.js
 #: common/static/bundles/AnnotatableModule.js
 msgid "Commentary"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+#: common/static/bundles/AnnotatableBlockPreview.js
 #: common/static/bundles/AnnotatableModule.js
 msgid "Reply to Annotation"
 msgstr ""
@@ -1238,7 +1445,10 @@ msgid "unsubmitted"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid ""
 "{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
 msgstr ""
@@ -1246,229 +1456,329 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Paragraph"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Preformatted"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Heading 3"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Heading 4"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Heading 5"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Heading 6"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Add to Dictionary"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Align center"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Align left"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Align right"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Alignment"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Alternative source"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Anchor"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Anchors"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Author"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Background color"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js lms/static/js/Markdown.Editor.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
+#: lms/static/js/Markdown.Editor.js
 msgid "Blockquote"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Blocks"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Body"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Bold"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Border color"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Border"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Bottom"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Bullet list"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Caption"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Cell padding"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Cell properties"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Cell spacing"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Cell type"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Cell"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Center"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Circle"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Clear formatting"
 msgstr ""
 
@@ -1480,8 +1790,23 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #. Translators: this is a toolbar button tooltip from the raw HTML editor
 #. displayed in the browser when a user needs to edit HTML
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#. Translators: this is a toolbar button tooltip from the raw HTML editor
+#. displayed in the browser when a user needs to edit HTML
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#. Translators: this is a toolbar button tooltip from the raw HTML editor
+#. displayed in the browser when a user needs to edit HTML
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#. Translators: this is a toolbar button tooltip from the raw HTML editor
+#. displayed in the browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Code block"
 msgstr ""
 
@@ -1489,7 +1814,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Code"
 msgstr ""
@@ -1497,119 +1825,170 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Color"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Cols"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Column group"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Column"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Constrain proportions"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Copy row"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Copy"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Could not find the specified string."
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Custom color"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Custom..."
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Cut row"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Cut"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Decrease indent"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Default"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Delete column"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Delete row"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Delete table"
 msgstr ""
 
@@ -1617,7 +1996,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Description"
@@ -1626,35 +2008,50 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Dimensions"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Disc"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Div"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Document properties"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Edit HTML"
 msgstr ""
 
@@ -1662,7 +2059,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/course_info_handouts.underscore
 #: cms/templates/js/course_info_update.underscore
@@ -1678,98 +2078,140 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Embed"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Emoticons"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Encoding"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "File"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Find and replace"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Find next"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Find previous"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Find"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Finish"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Font Family"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Font Sizes"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Footer"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Format"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Formats"
 msgstr ""
 
@@ -1777,7 +2219,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: common/static/common/templates/image-modal.underscore
 msgid "Fullscreen"
 msgstr ""
@@ -1785,63 +2230,90 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "General"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "H Align"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Header 1"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Header 2"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Header 3"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Header 4"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Header 5"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Header 6"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Header cell"
 msgstr ""
 
@@ -1849,288 +2321,411 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
 #: common/static/bundles/ProblemBlockStudio.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Header"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Headers"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Heading 1"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Heading 2"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Headings"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Height"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Horizontal line"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Horizontal space"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "HTML source code"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Ignore all"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Ignore"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Image description"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Increase indent"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Inline"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert column after"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert column before"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert date/time"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert image"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert link"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert row after"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert row before"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert table"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert template"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert video"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert/edit image"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert/edit link"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert/edit video"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Italic"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Justify"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Keywords"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Left to right"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Left"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Lower Alpha"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Lower Greek"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Lower Roman"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Match case"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Merge cells"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Middle"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "New document"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "New window"
 msgstr ""
 
@@ -2138,9 +2733,12 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
 #: common/static/bundles/DemographicsCollectionBanner.js
 #: common/static/bundles/DemographicsCollectionModal.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: lms/static/js/demographics_collection/Wizard.jsx
 #: cms/templates/js/paging-header.underscore
 #: common/static/common/templates/components/paging-footer.underscore
@@ -2151,42 +2749,60 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "No color"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Nonbreaking space"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Numbered list"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Page break"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Paste as text"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid ""
 "Paste is now in plain text mode. Contents will now be pasted as plain text "
 "until you toggle this option off."
@@ -2195,49 +2811,70 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Paste row after"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Paste row before"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Paste your embed code below:"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Paste"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Poster"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Pre"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Prev"
 msgstr ""
 
@@ -2245,7 +2882,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js lms/static/js/customwmd.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js lms/static/js/customwmd.js
 #: cms/templates/js/asset-library.underscore
 msgid "Preview"
 msgstr ""
@@ -2253,35 +2893,50 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Print"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Redo"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Remove link"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Replace all"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Replace with"
 msgstr ""
 
@@ -2289,7 +2944,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video-transcripts.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
@@ -2299,14 +2957,20 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Restore last draft"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid ""
 "Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press "
 "ALT-0 for help"
@@ -2315,210 +2979,300 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Right to left"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Right"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Robots"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Row group"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Row properties"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Row type"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Row"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Rows"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Scope"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Select all"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Show blocks"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Show invisible characters"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Source code"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Source"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Special character"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Spellcheck"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Split cell"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Square"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Start search"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Strikethrough"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Style"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Subscript"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Superscript"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Table properties"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Table"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Target"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Templates"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Text color"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Text to display"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid ""
 "The URL you entered seems to be an email address. Do you want to add the "
 "required mailto: prefix?"
@@ -2527,7 +3281,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid ""
 "The URL you entered seems to be an external link. Do you want to add the "
 "required http:// prefix?"
@@ -2537,7 +3294,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: cms/templates/js/course-instructor-details.underscore
 #: cms/templates/js/signatory-details.underscore
 #: common/static/common/templates/discussion/templates.underscore
@@ -2547,63 +3307,90 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Tools"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Top"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Underline"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Undo"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Upper Alpha"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Upper Roman"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Url"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "V Align"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Vertical space"
 msgstr ""
 
@@ -2611,7 +3398,10 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore
 msgid "View"
@@ -2620,42 +3410,60 @@ msgstr ""
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Visual aids"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Whole words"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Width"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Words: {0}"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "You have unsaved changes are you sure you want to navigate away?"
 msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid ""
 "Your browser doesn't support direct access to the clipboard. Please use the "
 "Ctrl+X/C/V keyboard shortcuts instead."
@@ -2664,12 +3472,15 @@ msgstr ""
 #. Translators: this is a toolbar button tooltip from the raw HTML editor
 #. displayed in the browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/AboutBlockStudio.js
+#: common/static/bundles/CourseInfoBlockStudio.js
+#: common/static/bundles/HtmlBlockStudio.js
+#: common/static/bundles/StaticTabBlockStudio.js
 msgid "Insert/Edit Image"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
-#: common/static/bundles/LTIModule.js
+#: common/static/bundles/LTIBlockPreview.js common/static/bundles/LTIModule.js
 msgid ""
 "Click OK to have your username and e-mail address sent to a 3rd party application.\n"
 "\n"
@@ -2677,7 +3488,7 @@ msgid ""
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
-#: common/static/bundles/LTIModule.js
+#: common/static/bundles/LTIBlockPreview.js common/static/bundles/LTIModule.js
 msgid ""
 "Click OK to have your username sent to a 3rd party application.\n"
 "\n"
@@ -2685,7 +3496,7 @@ msgid ""
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
-#: common/static/bundles/LTIModule.js
+#: common/static/bundles/LTIBlockPreview.js common/static/bundles/LTIModule.js
 msgid ""
 "Click OK to have your e-mail address sent to a 3rd party application.\n"
 "\n"
@@ -2726,15 +3537,15 @@ msgid "Explanation"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/SequenceBlockPreview.js
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
+#: common/static/bundles/SequenceBlockPreview.js
 #: common/static/bundles/VerticalStudentView.js
-#: common/static/bundles/commons.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
 msgid "Bookmarked"
 msgstr ""
@@ -3485,6 +4296,11 @@ msgstr ""
 
 #: common/static/bundles/SingleSupportForm.js
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
+msgid "Select a category"
+msgstr ""
+
+#: common/static/bundles/SingleSupportForm.js
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
 msgstr ""
@@ -3521,32 +4337,12 @@ msgstr ""
 
 #: common/static/bundles/SingleSupportForm.js
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "Masters"
-msgstr ""
-
-#: common/static/bundles/SingleSupportForm.js
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "MicroMasters"
-msgstr ""
-
-#: common/static/bundles/SingleSupportForm.js
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "MicroBachelors"
-msgstr ""
-
-#: common/static/bundles/SingleSupportForm.js
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Photo Verification"
 msgstr ""
 
 #: common/static/bundles/SingleSupportForm.js
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Proctoring"
-msgstr ""
-
-#: common/static/bundles/SingleSupportForm.js
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
-msgid "Security"
 msgstr ""
 
 #: common/static/bundles/SingleSupportForm.js
@@ -3632,20 +4428,6 @@ msgstr ""
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Something went wrong. Please try again later."
-msgstr ""
-
-#: common/static/bundles/SingleSupportForm.js
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid ""
-"Due to the recent increase in interest in online education and edX, we are "
-"currently experiencing an unusually high volume of support requests. We "
-"appreciate your patience as we work to review each request. Please check the"
-" "
-msgstr ""
-
-#: common/static/bundles/SingleSupportForm.js
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid " as many questions may have already been answered."
 msgstr ""
 
 #: common/static/bundles/SingleSupportForm.js
@@ -3861,17 +4643,29 @@ msgstr ""
 msgid "Bookmark this page"
 msgstr ""
 
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
+#: common/static/bundles/js/factories/xblock_validation.js
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Required field."
 msgstr ""
 
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
+#: common/static/bundles/js/factories/xblock_validation.js
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces in this field."
 msgstr ""
 
-#: common/static/bundles/commons.js
+#: common/static/bundles/js/factories/container.js
+#: common/static/bundles/js/factories/edit_tabs.js
+#: common/static/bundles/js/factories/library.js
+#: common/static/bundles/js/factories/textbooks.js
+#: common/static/bundles/js/factories/xblock_validation.js
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces or special characters in this field."
 msgstr ""
@@ -4833,10 +5627,6 @@ msgid ""
 msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid "Uploaded file issues. Click on \"+\" to view."
-msgstr ""
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
 msgstr ""
 
@@ -4875,6 +5665,26 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is not enrolled in course and not added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners already appear on the certificate invalidation list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner already appears on the certificate invalidation list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners encountered unknown errors"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner encountered an unknown error"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid "Uploaded file issues. Click on \"+\" to view."
 msgstr ""
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js
@@ -4991,7 +5801,7 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
-"The refund deadline for this course has passed,so you will not receive a "
+"The refund deadline for this course has passed, so you will not receive a "
 "refund."
 msgstr ""
 
@@ -5340,6 +6150,10 @@ msgid "Error getting issued certificates list."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/data_download.js
+msgid "Error generating anonymous IDs. Please try again."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/data_download.js
 #: lms/static/js/instructor_dashboard/data_download_2.js
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
@@ -5537,10 +6351,6 @@ msgid "Reason field should not be left blank."
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
-msgid "Role field should not be left unselected."
-msgstr ""
-
-#: lms/static/js/instructor_dashboard/membership.js
 msgid "Error enrolling/unenrolling users."
 msgstr ""
 
@@ -5705,7 +6515,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
-"Error resetting problem attempts for problem '<%= problem_id %>' and student"
+"Error resetting problem attempts for problem '<%- problem_id %>' and student"
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
 msgstr ""
@@ -6874,7 +7684,7 @@ msgid "Please enter non-negative integer."
 msgstr ""
 
 #: cms/static/js/models/settings/course_grader.js
-msgid "Cannot drop more <%= types %> assignments than are assigned."
+msgid "Cannot drop more <%- types %> assignments than are assigned."
 msgstr ""
 
 #: cms/static/js/models/settings/course_grading_policy.js
@@ -7208,7 +8018,7 @@ msgid "Highlights for {display_name}"
 msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js
-msgid "Enable Weekly Highlight Emails"
+msgid "Enable Course Highlight Emails"
 msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js
@@ -10170,7 +10980,7 @@ msgid "Copy Component Location"
 msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore
-msgid "Weekly Highlight Emails"
+msgid "Course Highlight Emails"
 msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore
@@ -10667,12 +11477,6 @@ msgstr ""
 
 #: cms/templates/js/group-edit.underscore
 msgid "delete group"
-msgstr ""
-
-#: cms/templates/js/highlights-editor.underscore
-msgid ""
-"This feature is currently in testing. Course teams can enter highlights, but"
-" learners will not receive email messages."
 msgstr ""
 
 #: cms/templates/js/highlights-editor.underscore

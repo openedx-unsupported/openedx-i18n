@@ -293,7 +293,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-05-30 20:42+0000\n"
+"POT-Creation-Date: 2021-06-06 20:42+0000\n"
 "PO-Revision-Date: 2021-04-28 19:27+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -3465,6 +3465,9 @@ msgid ""
 "You have been logged out of your account. Click Okay to log in again now. "
 "Click Cancel to stay on this page (you must log in again to save your work)."
 msgstr ""
+"Vous avez été déconnecté de votre compte. Cliquez sur OK pour vous "
+"reconnecter maintenant. Cliquez sur Annuler pour rester sur cette page (vous"
+" devez vous reconnecter pour sauvegarder votre travail)."
 
 #: lms/static/js/api_admin/views/catalog_preview.js
 msgid "Preview this query"
@@ -5000,10 +5003,12 @@ msgid ""
 "To access the courses available to you through {enterpriseName}, visit the "
 "{enterpriseName} dashboard."
 msgstr ""
+"Pour accéder aux cours disponibles via {enterpriseName}, visitez le tableau "
+"de bord {enterpriseName}."
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx
 msgid "Go to dashboard"
-msgstr ""
+msgstr "Aller au tableau de bord"
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 msgid "(Self-paced) Starts {start}"

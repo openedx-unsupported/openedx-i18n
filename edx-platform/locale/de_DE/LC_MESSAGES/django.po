@@ -173,7 +173,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-05-30 20:43+0000\n"
+"POT-Creation-Date: 2021-06-06 20:43+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019\n"
 "Language-Team: German (Germany) (https://www.transifex.com/open-edx/teams/6205/de_DE/)\n"
@@ -6672,8 +6672,9 @@ msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
-"This course will be archived, which means you can review the course content "
-"but can no longer participate in graded assignments or earn a certificate."
+"After this date, the course will be archived, which means you can review the"
+" course content but can no longer participate in graded assignments or work "
+"towards earning a certificate."
 msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
@@ -7807,10 +7808,8 @@ msgid "Invalid data, generate_for must be \"new\" or \"all\"."
 msgstr "Ungültige Daten, generate_for muss \"neu\" oder \"alle\" sein."
 
 #: lms/djangoapps/instructor/views/api.py
-msgid "Certificate generation started for white listed students."
+msgid "Certificate generation started for students on the allowlist."
 msgstr ""
-"Die Erstellung von Zertifikaten für Teilnehmer, die auf der Whitelist "
-"stehen, hat begonnen."
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -12423,6 +12422,24 @@ msgstr ""
 #: cms/djangoapps/api/v1/serializers/course_runs.py
 msgid "Course team user does not exist"
 msgstr "Kurs-Team-Benutzer  existiert nicht."
+
+#: cms/djangoapps/contentstore/admin.py
+#, python-brace-format
+msgid ""
+"Number of course outline regenerations successfully requested: {regenerates}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "Regenerate selected course outlines"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "All course outline regenerations successfully requested."
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "Regenerate *all* course outlines"
+msgstr ""
 
 #: cms/djangoapps/contentstore/course_group_config.py
 msgid ""

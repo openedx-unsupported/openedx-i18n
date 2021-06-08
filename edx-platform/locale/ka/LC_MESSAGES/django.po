@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-05-30 20:43+0000\n"
+"POT-Creation-Date: 2021-06-06 20:43+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Waheed Ahmed <waheed@edx.org>, 2019\n"
 "Language-Team: Georgian (https://www.transifex.com/open-edx/teams/6205/ka/)\n"
@@ -6203,8 +6203,9 @@ msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
-"This course will be archived, which means you can review the course content "
-"but can no longer participate in graded assignments or earn a certificate."
+"After this date, the course will be archived, which means you can review the"
+" course content but can no longer participate in graded assignments or work "
+"towards earning a certificate."
 msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
@@ -7280,9 +7281,8 @@ msgid "Invalid data, generate_for must be \"new\" or \"all\"."
 msgstr "არასწორი მონაცემები, generate_for უნდა იყოს „new“ ან „all“."
 
 #: lms/djangoapps/instructor/views/api.py
-msgid "Certificate generation started for white listed students."
+msgid "Certificate generation started for students on the allowlist."
 msgstr ""
-"თეთრი სიის სტუდენტებისთვის დაწყებულია სერტიფიკატების ხელახალი გენერაცია."
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -11465,6 +11465,24 @@ msgstr ""
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py
 msgid "Course team user does not exist"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+#, python-brace-format
+msgid ""
+"Number of course outline regenerations successfully requested: {regenerates}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "Regenerate selected course outlines"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "All course outline regenerations successfully requested."
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py
+msgid "Regenerate *all* course outlines"
 msgstr ""
 
 #: cms/djangoapps/contentstore/course_group_config.py
