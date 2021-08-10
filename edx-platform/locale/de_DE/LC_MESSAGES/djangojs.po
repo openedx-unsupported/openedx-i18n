@@ -33,8 +33,8 @@
 # Ned Batchelder <ned@edx.org>, 2016
 # Niklas Y <hanspeter1337@yahoo.de>, 2015
 # Neithen, 2014
-# Ron Lucke <ronlucke@googlemail.com>, 2014
-# Ron Lucke <ronlucke@googlemail.com>, 2014
+# Ron Lucke <lucke@elan-ev.de>, 2014
+# Ron Lucke <lucke@elan-ev.de>, 2014
 # Shan <shanmathuran.sritharan@paluno.uni-due.de>, 2013
 # Shan <shanmathuran.sritharan@paluno.uni-due.de>, 2013-2014
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2018-2021
@@ -62,8 +62,8 @@
 # Thelxinoe, 2015
 # Neithen, 2014
 # Ralf Hilgenstock <rh@dialoge.info>, 2014
-# Ron Lucke <ronlucke@googlemail.com>, 2014
-# Ron Lucke <ronlucke@googlemail.com>, 2014
+# Ron Lucke <lucke@elan-ev.de>, 2014
+# Ron Lucke <lucke@elan-ev.de>, 2014
 # Shan <shanmathuran.sritharan@paluno.uni-due.de>, 2013
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2018-2021
 # #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
@@ -100,7 +100,7 @@
 # mc <marc.mannsfeld@phil.hhu.de>, 2015
 # Markus Maurer <admin@ryuum3gum1n.de>, 2020
 # mc <marc.mannsfeld@phil.hhu.de>, 2015-2016
-# Ron Lucke <ronlucke@googlemail.com>, 2014
+# Ron Lucke <lucke@elan-ev.de>, 2014
 # Sofia Gruber <sofia.karoline@me.com>, 2015
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2018-2020
 # Blubberstrahl <transifex@christianhess.biz>, 2015
@@ -122,16 +122,16 @@
 # Ettore Atalan <atalanttore@googlemail.com>, 2014,2016
 # Max Vogl <mail@max-vogl.de>, 2014
 # mc <marc.mannsfeld@phil.hhu.de>, 2015-2016
-# Ron Lucke <ronlucke@googlemail.com>, 2014
-# Ron Lucke <ronlucke@googlemail.com>, 2014
+# Ron Lucke <lucke@elan-ev.de>, 2014
+# Ron Lucke <lucke@elan-ev.de>, 2014
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2018-2021
 # Waheed Ahmed <waheed@edx.org>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-06-06 20:42+0000\n"
-"PO-Revision-Date: 2021-02-28 20:45+0000\n"
+"POT-Creation-Date: 2021-08-08 20:44+0000\n"
+"PO-Revision-Date: 2021-08-01 20:44+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "Language: de_DE\n"
@@ -255,7 +255,7 @@ msgstr "Schließen"
 #: cms/templates/js/course-instructor-details.underscore
 #: cms/templates/js/previous-video-upload-list.underscore
 #: cms/templates/js/signatory-details.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
 msgid "Name"
 msgstr "Name"
 
@@ -1847,6 +1847,11 @@ msgstr ""
 "Fahren Sie mit dem erweiterten Editor fort und konvertieren Sie diese Aufgabe in XML?"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid ""
+"An answer option has been left blank. Please review and edit the component."
+msgstr ""
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Explanation"
 msgstr "Erklärung"
 
@@ -2735,10 +2740,6 @@ msgstr "Kontaktieren Sie uns"
 msgid "Find answers to the top questions asked by learners."
 msgstr "Die häufigsten Fragen und Antworten anderer Lernender. "
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid "Search the {platform} Help Center"
-msgstr "Durchsuchen Sie das Hilfecenter der  {platform} Plattform."
-
 #: lms/djangoapps/support/static/support/jsx/success.jsx
 msgid "Go to my Dashboard"
 msgstr "Zu \"Meine Kurse\""
@@ -3001,7 +3002,7 @@ msgid "My Teams"
 msgstr "Meine Teams"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
 msgid "Browse"
 msgstr "Durchsuchen"
 
@@ -3378,80 +3379,106 @@ msgstr ""
 "unausgefüllt bleiben. Bitte geben Sie den Benutzername/E-Mail Adresse an und"
 " klicken Sie auf den Button."
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners are successfully added to exception list"
-msgstr "Die Lernenden werden erfolgreich in die Ausnahmeliste aufgenommen."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner is successfully added to the exception list"
-msgstr "Der Lernende wurde erfolgreich in die Ausnahmeliste aufgenommen."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " records are not in correct format and not added to the exception list"
+#: lms/static/js/certificates/views/certificate_allowlist.js
+msgid "Student Removed from certificate allowlist successfully."
 msgstr ""
-"Datensätze sind nicht im richtigen Format und werden nicht in die "
-"Ausnahmeliste aufgenommen"
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " record is not in correct format and not added to the exception list"
-msgstr ""
-"Datensatz ist nicht im richtigen Format und wird nicht in die Ausnahmeliste "
-"aufgenommen."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners do not exist in LMS and not added to the exception list"
-msgstr ""
-"Die Lernenden existieren nicht im LMS und werden nicht in die Ausnahmeliste "
-"aufgenommen."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner does not exist in LMS and not added to the exception list"
-msgstr ""
-"Der Lernende existiert nicht im LMS und wurde nicht in die Ausnahmeliste "
-"aufgenommen"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners are already white listed and not added to the exception list"
-msgstr ""
-"Die Lernenden sind bereits in der Whitelist aufgeführt und nicht in die "
-"Ausnahmeliste aufgenommen"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner is already white listed and not added to the exception list"
-msgstr ""
-"Der Lernende ist bereits in der Whitelist aufgeführt und nicht in die "
-"Ausnahmeliste aufgenommen"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+#: lms/static/js/certificates/views/certificate_allowlist.js
 msgid ""
-" learners are not enrolled in course and not added to the exception list"
-msgstr ""
-"Die Lernenden werden nicht in den Kurs aufgenommen und nicht in die "
-"Ausnahmeliste aufgenommen"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner is not enrolled in course and not added to the exception list"
-msgstr ""
-"Der Lernende ist nicht im Kurs eingeschrieben und nicht auf die "
-"Ausnahmeliste aufgenommen"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners already appear on the certificate invalidation list"
+"Could not find Certificate Exception in the allowlist. Please refresh the "
+"page and try again"
 msgstr ""
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner already appears on the certificate invalidation list"
+#: lms/static/js/certificates/views/certificate_allowlist.js
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js
+#: lms/static/js/certificates/views/certificate_invalidation_view.js
+msgid "Server Error, Please refresh the page and try again."
+msgstr ""
+"Serverfehler, Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
+
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js
+msgid "<%- user %> already in exception list."
 msgstr ""
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js
+msgid ""
+"<%- user %> has been successfully added to the exception list. Click "
+"Generate Exception Certificate below to send the certificate."
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid " learners were successfully added to exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid " learner was successfully added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" records are not in the correct format and have not been added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" record is not in the correct format and has not been added to the exception"
+" list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learner accounts cannot be found and have not been added to the exception "
+"list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learner account cannot be found and has not been added to the exception "
+"list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid " learners already appear on the exception list in this course"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid " learner already appears on the exception list in this course"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learners are not enrolled in this course and have not added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learner is not enrolled in this course and has not been added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learners have an active certificate invalidation in this course and have "
+"not been added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learner has an active certificate invalidation in this course and has not "
+"been added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
 msgid " learners encountered unknown errors"
 msgstr ""
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
 msgid " learner encountered an unknown error"
 msgstr ""
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
 msgid "Uploaded file issues. Click on \"+\" to view."
 msgstr "Probleme mit hochgeladenen Dateien. Zur Ansicht auf \"+\" klicken."
 
@@ -3469,13 +3496,6 @@ msgstr ""
 "Das Zertifikat für den Benutzer <%= user %> wurde erfolgreich entwertet."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js
-#: lms/static/js/certificates/views/certificate_whitelist.js
-#: lms/static/js/certificates/views/certificate_whitelist_editor.js
-msgid "Server Error, Please refresh the page and try again."
-msgstr ""
-"Serverfehler, Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
-
-#: lms/static/js/certificates/views/certificate_invalidation_view.js
 msgid ""
 "The certificate for this learner has been re-validated and the system is re-"
 "running the grade for this learner."
@@ -3490,29 +3510,6 @@ msgid ""
 msgstr ""
 "Die Zertifikatsinvalidierung konnte in der Liste nicht gefunden werden. "
 "Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
-
-#: lms/static/js/certificates/views/certificate_whitelist.js
-msgid "Student Removed from certificate white list successfully."
-msgstr ""
-"Teilnehmer wurde erfolgreich von der Whitelist für Zertifikate entfernt."
-
-#: lms/static/js/certificates/views/certificate_whitelist.js
-msgid ""
-"Could not find Certificate Exception in white list. Please refresh the page "
-"and try again"
-msgstr ""
-"Zertifikatsausnahme konnte in der Whitelist nicht gefunden werden. Bitte "
-"aktualisieren Sie die Seite und versuchen Sie es erneut."
-
-#: lms/static/js/certificates/views/certificate_whitelist_editor.js
-msgid "<%- user %> already in exception list."
-msgstr ""
-
-#: lms/static/js/certificates/views/certificate_whitelist_editor.js
-msgid ""
-"<%- user %> has been successfully added to the exception list. Click "
-"Generate Exception Certificate below to send the certificate."
-msgstr ""
 
 #: lms/static/js/course_survey.js
 msgid "There has been an error processing your survey."
@@ -5360,8 +5357,8 @@ msgid ""
 "The name that identifies you on {platform_name}. You cannot change your "
 "username."
 msgstr ""
-"Dies ist Ihr Benutzername auf der {platform_name}. Diesen können Sie nicht "
-"mehr ändern."
+"Dies ist Ihr Benutzername bei {platform_name}. Diesen können Sie nicht mehr "
+"ändern."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/templates/student_account/account.underscore
@@ -6257,6 +6254,16 @@ msgstr ""
 "Enddatum des Kurses."
 
 #: cms/static/js/models/settings/course_details.js
+msgid "The certificate display behavior must be one of: {behavior_options}"
+msgstr ""
+
+#: cms/static/js/models/settings/course_details.js
+msgid ""
+"The certificates display behavior must be {valid_option} if certificate "
+"available date is set."
+msgstr ""
+
+#: cms/static/js/models/settings/course_details.js
 msgid "Key should only contain letters, numbers, _, or -"
 msgstr "Schlüssel sollten nur Buchstaben, Ziffern, _ oder - enthalten"
 
@@ -6823,6 +6830,10 @@ msgstr "Lerneinheit"
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
 msgstr "Baustein"
+
+#: cms/static/js/views/modals/edit_xblock.js
+msgid "Studio's having trouble parsing the problem component's content"
+msgstr ""
 
 #: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Move"
@@ -7519,8 +7530,8 @@ msgstr "Zurück"
 
 #: cms/templates/js/previous-video-upload-list.underscore
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Action"
 msgstr "Aktion"
 
@@ -7944,8 +7955,8 @@ msgid "course id"
 msgstr "Kursnummer"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "No results"
 msgstr "Keine Ergebnisse"
 
@@ -8436,11 +8447,72 @@ msgstr ""
 msgid "Go to Dashboard"
 msgstr "Zu \"Meine Kurse\""
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+msgid "Individual Exceptions"
+msgstr "Einzelne Ausnahmen"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+msgid ""
+"Enter the username or email address of each learner that you want to add as "
+"an exception."
+msgstr ""
+"Geben Sie in die Eingabefelder den Benutzername oder die E-Mail Adresse des "
+"jeweiligen Teilnehmers ein, welchen Sie zur Ausnahmeliste hinzufügen "
+"möchten."
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+msgid "Student email or username"
+msgstr "Teilnehmer E-Mail oder Benutzername"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+msgid "Free text notes"
+msgstr "Freie Textnotizen"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
+msgid "Add to Exception List"
+msgstr "Zur Ausnahmeliste hinzufügen"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "Generate Exception Certificates"
+msgstr "Ausnahmezertifikate erstellen"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "All users on the Exception list who do not yet have a certificate"
+msgstr ""
+"Alle Teilnehmer der Ausnahmeliste, welche bisher noch kein Zertifikat "
+"erhalten haben."
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "All users on the Exception list"
+msgstr "Alle Teilnehmer der Ausnahmeliste"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "User Email"
+msgstr "Benutzer E-Mail"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "Exception Granted"
+msgstr "Ausnahmegenehmigung"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "Certificate Generated"
+msgstr "Zertifikat erstellt"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+msgid "Notes"
+msgstr "Notizen"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "Remove from List"
+msgstr "Von der Liste entfernen"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
 msgid "Bulk Exceptions"
 msgstr "Sammelausnahmen"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
 msgid ""
 "Upload a comma separated values (.csv) file that contains the usernames or "
 "email addresses of learners who have been given exceptions. Include the "
@@ -8453,14 +8525,9 @@ msgstr ""
 "hinzufügen möchten, eingetragen sind. Bitte beachten Sie hierbei, dass die "
 "Einträge durch Komma separiert werden.  "
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
 msgid "Upload a CSV file"
 msgstr "Hochladen einer CSV-Datei"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid "Add to Exception List"
-msgstr "Zur Ausnahmeliste hinzufügen"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid ""
@@ -8494,64 +8561,8 @@ msgid "Invalidated"
 msgstr "Entwertet"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Notes"
-msgstr "Notizen"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Remove from Invalidation Table"
 msgstr "Aus der Invalidierungstabelle entfernen"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid "Individual Exceptions"
-msgstr "Einzelne Ausnahmen"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid ""
-"Enter the username or email address of each learner that you want to add as "
-"an exception."
-msgstr ""
-"Geben Sie in die Eingabefelder den Benutzername oder die E-Mail Adresse des "
-"jeweiligen Teilnehmers ein, welchen Sie zur Ausnahmeliste hinzufügen "
-"möchten."
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid "Student email or username"
-msgstr "Teilnehmer E-Mail oder Benutzername"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid "Free text notes"
-msgstr "Freie Textnotizen"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Generate Exception Certificates"
-msgstr "Ausnahmezertifikate erstellen"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "All users on the Exception list who do not yet have a certificate"
-msgstr ""
-"Alle Teilnehmer der Ausnahmeliste, welche bisher noch kein Zertifikat "
-"erhalten haben."
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "All users on the Exception list"
-msgstr "Alle Teilnehmer der Ausnahmeliste"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "User Email"
-msgstr "Benutzer E-Mail"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Exception Granted"
-msgstr "Ausnahmegenehmigung"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Certificate Generated"
-msgstr "Zertifikat erstellt"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Remove from List"
-msgstr "Von der Liste entfernen"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore
 msgid "Divided"
@@ -10441,7 +10452,7 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
 msgstr ""
-"Der Zugriff auf dieses Gerät ist beschränkt auf: {selectedGroupsLabel}"
+"Der Zugriff auf diese Lerneinheit ist beschränkt auf: {selectedGroupsLabel}"
 
 #: cms/templates/js/course-outline.underscore
 msgid ""
@@ -11143,6 +11154,32 @@ msgstr "Freigabezeit in UTC:"
 #: cms/templates/js/release-date-editor.underscore
 msgid "Clear Release Date/Time"
 msgstr "Lösche Freigabedatum/Uhrzeit"
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid "Due in:"
+msgstr ""
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid "weeks from learner enrollment date"
+msgstr ""
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid ""
+"If a learner starts on {startDate}, this subsection will be due on "
+"{projectedDueIn}."
+msgstr ""
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid ""
+"The maximum number of weeks this subsection can be due in is 18 weeks from "
+"the learner enrollment date."
+msgstr ""
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid ""
+"The minimum number of weeks this subsection can be due in is 1 week from the"
+" learner enrollment date."
+msgstr ""
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid "Assessment Results Visibility"

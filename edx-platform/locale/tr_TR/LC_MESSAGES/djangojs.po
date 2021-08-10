@@ -35,11 +35,11 @@
 #
 # Translators:
 # Adem Özgür <admozgur@gmail.com>, 2015
-# Ali Işıngör <ali@artistanbul.io>, 2017-2020
+# Ali Işıngör <ali@artistanbul.io>, 2017-2021
 # ali selek <aliselek01@gmail.com>, 2015
 # baris <brscvs@gmail.com>, 2013
 # Burak Özalp <realburq@gmail.com>, 2013
-# Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2014
+# 49dc31887a52b8780c0b97908ac06b08_a94f546 <be8f4767fc88296c7f298e789367182b_193970>, 2014
 # Emrah Emirtekin <eemirtekin@gmail.com>, 2015
 # Erdoğan Şahin, 2016
 # Fahrettin Perçin <fapercin90@gmail.com>, 2018
@@ -107,9 +107,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-06-06 20:42+0000\n"
-"PO-Revision-Date: 2021-04-13 07:55+0000\n"
-"Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
+"POT-Creation-Date: 2021-08-08 20:44+0000\n"
+"PO-Revision-Date: 2021-08-01 20:44+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
@@ -232,7 +232,7 @@ msgstr "Kapat"
 #: cms/templates/js/course-instructor-details.underscore
 #: cms/templates/js/previous-video-upload-list.underscore
 #: cms/templates/js/signatory-details.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
 msgid "Name"
 msgstr "İsim"
 
@@ -1633,7 +1633,7 @@ msgid ""
 "The URL you entered seems to be an email address. Do you want to add the "
 "required mailto: prefix?"
 msgstr ""
-"Girdiğiniz URL bir e-posta edresi gibi görünüyor. Gerekli mailto: önekini "
+"Girdiğiniz URL bir e-posta adresi gibi görünüyor. Gerekli mailto: önekini "
 "eklemek ister misiniz?"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -1822,6 +1822,11 @@ msgstr ""
 "Gelişmiş Editörü kullanırsanız, bu sorun XML'e dönüşecek ve Basit Editör Arayüzü'ne geri dönemeyeceksiniz.\n"
 "\n"
 "Gelişmiş Editör'e devam et ve bu sorunu XML'e dönüştür?"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid ""
+"An answer option has been left blank. Please review and edit the component."
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Explanation"
@@ -2561,6 +2566,8 @@ msgid ""
 "For inquiries regarding assignments, grades, or structure of a specific "
 "course, please post in the discussion forums for that course directly."
 msgstr ""
+"Belirli bir dersin ödevleri, notları veya yapısıyla ilgili sorularınız için "
+"lütfen doğrudan o dersin tartışma forumlarına ileti gönderin. "
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Not specific to a course"
@@ -2684,10 +2691,6 @@ msgstr "Bizimle İletişime Geçin"
 msgid "Find answers to the top questions asked by learners."
 msgstr ""
 "Öğrenciler tarafından en sık yöneltilen soruların cevaplarına göz atın."
-
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
-msgid "Search the {platform} Help Center"
-msgstr "{platform} Yardım Merkezi'nde Ara"
 
 #: lms/djangoapps/support/static/support/jsx/success.jsx
 msgid "Go to my Dashboard"
@@ -2947,7 +2950,7 @@ msgid "My Teams"
 msgstr "Takımlarım"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
 msgid "Browse"
 msgstr "Göz at"
 
@@ -3020,6 +3023,9 @@ msgid ""
 "by topic. Join an open public team to collaborate with other learners who "
 "are interested in the same topic as you are."
 msgstr ""
+"Üyesi olduğunuz tüm takımları ve dersinizdeki tüm açık takımları, konuya "
+"göre düzenlenmiş olarak görün. Sizinle aynı konuyla ilgilenen diğer "
+"öğrencilerle işbirliği yapmak için herkese açık bir takıma katılın."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -3082,7 +3088,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/topics.js
 msgid "All topics"
-msgstr "Tüm başlıklar"
+msgstr "Tüm konular"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Insert Hyperlink"
@@ -3094,7 +3100,7 @@ msgstr "örneğin 'http://google.com'"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Link Description"
-msgstr "Bağlantı tanımı"
+msgstr "Bağlantı Açıklaması"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "e.g. 'google'"
@@ -3227,7 +3233,7 @@ msgstr "vurgulu metin"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "enter link description here"
-msgstr "bağlantı tanımını buraya girin"
+msgstr "bağlantı açıklamasını buraya girin"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "enter code here"
@@ -3316,64 +3322,107 @@ msgstr ""
 "bırakılamaz. Lütfen kullanıcı adı/e-posta alanını doldurun ve ardından "
 "\"Sertifikayı Geçersizleştir\" tuşuna basın."
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners are successfully added to exception list"
-msgstr " öğrenciler istisna listesine başarıyla eklendi"
+#: lms/static/js/certificates/views/certificate_allowlist.js
+msgid "Student Removed from certificate allowlist successfully."
+msgstr "Öğrenci sertifika güvenilir listesinden başarıyla Kaldırıldı."
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner is successfully added to the exception list"
-msgstr " öğrenci istisna listesine başarıyla eklendi"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " records are not in correct format and not added to the exception list"
-msgstr "kayıtlar doğru formatta değil ve istisna listesine ekli değiller"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " record is not in correct format and not added to the exception list"
-msgstr "kayıt doğru formatta değil ve istisna listesine ekli değil"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners do not exist in LMS and not added to the exception list"
-msgstr "öğrenciler LMS'de mevcut değil ve istisna listesine ekli değil"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner does not exist in LMS and not added to the exception list"
-msgstr "öğrenciler LMS'de mevcut değil ve istisna listesine ekli değil"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners are already white listed and not added to the exception list"
-msgstr "öğrenciler zaten beyaz listede ve istisna listesine eklenmediler"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner is already white listed and not added to the exception list"
-msgstr "öğrenci zaten beyaz listede ve istisna listesine eklenmedi"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+#: lms/static/js/certificates/views/certificate_allowlist.js
 msgid ""
-" learners are not enrolled in course and not added to the exception list"
-msgstr "öğrenciler derse kayıtlı değil ve istisna listesine ekli değiller"
+"Could not find Certificate Exception in the allowlist. Please refresh the "
+"page and try again"
+msgstr ""
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner is not enrolled in course and not added to the exception list"
-msgstr "öğrenci derse kayıtlı değil ve istisna listesine ekli değil"
+#: lms/static/js/certificates/views/certificate_allowlist.js
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js
+#: lms/static/js/certificates/views/certificate_invalidation_view.js
+msgid "Server Error, Please refresh the page and try again."
+msgstr "Sunucu Hatası, Lütfen sayfayı yenileyin ve tekrar deneyin."
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners already appear on the certificate invalidation list"
-msgstr " öğrenciler zaten sertifika geçersizleştirme listesinde görünüyor"
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js
+msgid "<%- user %> already in exception list."
+msgstr "<%- user %> kullanıcısı zaten istisna listesinde."
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner already appears on the certificate invalidation list"
-msgstr " öğrenci zaten sertifika geçersizleştirme listesinde görünüyor"
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js
+msgid ""
+"<%- user %> has been successfully added to the exception list. Click "
+"Generate Exception Certificate below to send the certificate."
+msgstr ""
+"<%- user %> kullanıcısı istisna listesine başarıyla eklendi. Aşağıdaki "
+"İstisna Sertifikası Oluştur'a tıklayarak sertifikayı gönderin."
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid " learners were successfully added to exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid " learner was successfully added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" records are not in the correct format and have not been added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" record is not in the correct format and has not been added to the exception"
+" list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learner accounts cannot be found and have not been added to the exception "
+"list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learner account cannot be found and has not been added to the exception "
+"list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid " learners already appear on the exception list in this course"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid " learner already appears on the exception list in this course"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learners are not enrolled in this course and have not added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learner is not enrolled in this course and has not been added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learners have an active certificate invalidation in this course and have "
+"not been added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
+msgid ""
+" learner has an active certificate invalidation in this course and has not "
+"been added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
 msgid " learners encountered unknown errors"
 msgstr " öğrenciler bilinmeyen hatalarla karşılaştı"
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
 msgid " learner encountered an unknown error"
 msgstr " öğrenci bilinmeyen bir hatayla karşılaştı"
 
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js
 msgid "Uploaded file issues. Click on \"+\" to view."
 msgstr "Yüklenen dosya sorunları. Görüntülemek için \"+\" tuşuna basın."
 
@@ -3392,12 +3441,6 @@ msgstr ""
 "geçersizleştirildi."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js
-#: lms/static/js/certificates/views/certificate_whitelist.js
-#: lms/static/js/certificates/views/certificate_whitelist_editor.js
-msgid "Server Error, Please refresh the page and try again."
-msgstr "Sunucu Hatası, Lütfen sayfayı yenileyin ve tekrar deneyin."
-
-#: lms/static/js/certificates/views/certificate_invalidation_view.js
 msgid ""
 "The certificate for this learner has been re-validated and the system is re-"
 "running the grade for this learner."
@@ -3412,30 +3455,6 @@ msgid ""
 msgstr ""
 "Listede Sertifika Geçersizleştirme bulunamadı. Lütfen sayfayı yenileyin ve "
 "tekrar deneyin."
-
-#: lms/static/js/certificates/views/certificate_whitelist.js
-msgid "Student Removed from certificate white list successfully."
-msgstr "Öğrenci sertifika beyaz listesinden başarıyla kaldırıldı."
-
-#: lms/static/js/certificates/views/certificate_whitelist.js
-msgid ""
-"Could not find Certificate Exception in white list. Please refresh the page "
-"and try again"
-msgstr ""
-"Beyaz listede Sertifika İstisnası bulunamadı. Lütfen sayfayı yenileyin ve "
-"tekrar deneyin"
-
-#: lms/static/js/certificates/views/certificate_whitelist_editor.js
-msgid "<%- user %> already in exception list."
-msgstr "<%- user %> kullanıcısı zaten istisna listesinde."
-
-#: lms/static/js/certificates/views/certificate_whitelist_editor.js
-msgid ""
-"<%- user %> has been successfully added to the exception list. Click "
-"Generate Exception Certificate below to send the certificate."
-msgstr ""
-"<%- user %> kullanıcısı istisna listesine başarıyla eklendi. Aşağıdaki "
-"İstisna Sertifikası Oluştur'a tıklayarak sertifikayı gönderin."
 
 #: lms/static/js/course_survey.js
 msgid "There has been an error processing your survey."
@@ -3530,7 +3549,7 @@ msgstr "edX'i herkes için daha iyi hale getirmek mi istiyorsunuz?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionBanner.jsx
 msgid "Get started"
-msgstr ""
+msgstr "Başlayalım"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "Help make edX better for everyone!"
@@ -3876,11 +3895,11 @@ msgstr "Seçili içerik grubu bulunmuyor"
 
 #: lms/static/js/groups/views/cohort_form.js
 msgid "The cohort cannot be saved"
-msgstr "Tapluluk kaydedilemedi"
+msgstr "Topluluk kaydedilemiyor"
 
 #: lms/static/js/groups/views/cohort_form.js
 msgid "The cohort cannot be added"
-msgstr "Topluluk eklenemedi"
+msgstr "Topluluk eklenemiyor"
 
 #: lms/static/js/groups/views/cohorts.js
 msgid "You currently have no cohorts configured"
@@ -4830,7 +4849,7 @@ msgstr ""
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Successfully overrode problem score for {user}"
-msgstr ""
+msgstr "{user} için problem puanı başarıyla geçersiz kılındı"
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Could not override problem score for {user}."
@@ -4988,6 +5007,9 @@ msgid ""
 "the {platformName} app, {siteName}, or any other site hosted by "
 "{platformName}."
 msgstr ""
+"Devam ederseniz, bu hesabı {platformName} uygulaması, {siteName} sitesi veya"
+" {platformName} tarafından barındırılan başka herhangi bir sitedeki dersleri"
+" almak için kullanamazsınız."
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
@@ -5301,6 +5323,8 @@ msgid ""
 "Enter your {platform_display_name} username or the URL to your "
 "{platform_display_name} page. Delete the URL to remove the link."
 msgstr ""
+"{platform_display_name} kullanıcı adınızı veya {platform_display_name} "
+"sayfanızın URL'sini girin. Bağlantıyı kaldırmak için URL'yi silin."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/static/js/student_account/views/account_settings_view.js
@@ -6078,6 +6102,16 @@ msgid "The certificate available date must be later than the course end date."
 msgstr "Sertifikanın yayın tarihi, dersin bitiş tarihinden sonra olmalıdır."
 
 #: cms/static/js/models/settings/course_details.js
+msgid "The certificate display behavior must be one of: {behavior_options}"
+msgstr ""
+
+#: cms/static/js/models/settings/course_details.js
+msgid ""
+"The certificates display behavior must be {valid_option} if certificate "
+"available date is set."
+msgstr ""
+
+#: cms/static/js/models/settings/course_details.js
 msgid "Key should only contain letters, numbers, _, or -"
 msgstr "Anahtar sadece harf, sayı, _ veya - içermelidir"
 
@@ -6107,7 +6141,7 @@ msgstr "Lütfen negatif olmayan tamsayı giriniz."
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "Cannot drop more <%- types %> assignments than are assigned."
-msgstr ""
+msgstr "Atanan <%- types %> görevlerinden daha fazla düşürülemez."
 
 #: cms/static/js/models/settings/course_grading_policy.js
 msgid "Grace period must be specified in HH:MM format."
@@ -6595,7 +6629,7 @@ msgstr "{display_name} için vurgulamalar"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Enable Course Highlight Emails"
-msgstr ""
+msgstr "Ders Vurgulama E-postalarını Etkinleştir"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Enable"
@@ -6634,6 +6668,10 @@ msgstr "Ünite"
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
 msgstr "Bileşen"
+
+#: cms/static/js/views/modals/edit_xblock.js
+msgid "Studio's having trouble parsing the problem component's content"
+msgstr ""
 
 #: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Move"
@@ -6751,7 +6789,7 @@ msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Making Visible to Students"
-msgstr "Öğrencilere Görünür Yapma"
+msgstr "Öğrencilere Görünür Yap"
 
 #: cms/static/js/views/pages/course_outline.js
 msgid "Course Index"
@@ -6777,6 +6815,9 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} ascending"
 msgstr ""
+"{totalItemsCount} sonuçtan {currentItemRange} aralığı gösteriliyor, "
+"{assetType} göre filtrelendi, {sortName} bilgisine göre artan şekilde "
+"sıralandı"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -6786,6 +6827,9 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} descending"
 msgstr ""
+"{totalItemsCount} sonuçtan {currentItemRange} aralığı gösteriliyor, "
+"{assetType} göre filtrelendi, {sortName} bilgisine göre azalan şekilde "
+"sıralandı"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
@@ -6794,6 +6838,8 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "ascending"
 msgstr ""
+"{totalItemsCount} sonuçtan {currentItemRange} aralığı gösteriliyor, "
+"{sortName} bilgisine göre artan şekilde sıralandı"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added descending"
@@ -6802,6 +6848,8 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
 msgstr ""
+"{totalItemsCount} sonuçtan {currentItemRange} aralığı gösteriliyor, "
+"{sortName} bilgisine göre azalan şekilde sıralandı"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
@@ -6983,7 +7031,7 @@ msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type} (and prerequisite)?"
-msgstr "Evet, bu {xblock_type} XBlock'u (ve ön koşulu) sil"
+msgstr "Bu {xblock_type} XBlock (ve önkoşul) silinsin mi?"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Yes, delete this {xblock_type}"
@@ -7055,11 +7103,11 @@ msgstr "Hata: Sunucuyla bağlantı kurulamadı."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Link types should be unique."
-msgstr "Bağlantı tipleri tekil olmalıdır."
+msgstr "Bağlantı tipleri benzersiz olmalıdır."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Links should be unique."
-msgstr "Bağlantılar tekil olmalıdır."
+msgstr "Bağlantılar benzersiz olmalıdır."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Incorrect url format."
@@ -7298,8 +7346,8 @@ msgstr "Önceki"
 
 #: cms/templates/js/previous-video-upload-list.underscore
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Action"
 msgstr "Eylem"
 
@@ -7514,9 +7562,8 @@ msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
 "students or specify a single group."
 msgstr ""
-"Tartışma yöneticileri, moderatörleri, ve öğretim elemanları, gönderilerini "
-"tüm öğrencilere görünür yapabilir veya belli bir topluluğu "
-"tanımlayabilirler."
+"Tartışma yöneticileri, moderatörler ve asistanlar gönderilerini tüm "
+"öğrencilere görünür yapabilir ya da belli bir topluluğa tanımlayabilirler."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "All Groups"
@@ -7557,7 +7604,7 @@ msgstr "Başkalarının bulması için gönderini alakalı konuya ekle. (Gerekli
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Community TA)"
-msgstr "(Topluluk Öğretim Elemanı)"
+msgstr "(Topluluk Asistanı)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Staff)"
@@ -7719,8 +7766,8 @@ msgid "course id"
 msgstr "ders no"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "No results"
 msgstr "Sonuç yok"
 
@@ -8057,7 +8104,7 @@ msgstr "Süreyi Gizle"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
-msgstr ""
+msgstr "\"{exam_link}\" sınavını {exam_type} türünde alıyorsunuz."
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "a timed exam"
@@ -8170,6 +8217,8 @@ msgid ""
 "The following information is already a part of your {platform} profile. "
 "We've included it here for your application."
 msgstr ""
+"Aşağıdaki bilgiler {platform} profilinizde zaten mevcut. Başvurunuz için "
+"buraya ekledik."
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Email address"
@@ -8203,11 +8252,69 @@ msgstr ""
 msgid "Go to Dashboard"
 msgstr "Ana Panele Git"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+msgid "Individual Exceptions"
+msgstr "Bireysel İstisnalar"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+msgid ""
+"Enter the username or email address of each learner that you want to add as "
+"an exception."
+msgstr ""
+"İstisna olarak eklemek istediğiniz her öğrencinin kullanıcı adı ve e-posta "
+"adresini girin."
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+msgid "Student email or username"
+msgstr "Öğrenci e-postası ve kullanıcı adı"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+msgid "Free text notes"
+msgstr "Serbest metin notları"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
+msgid "Add to Exception List"
+msgstr "İstisna Listesi'ne Ekle"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "Generate Exception Certificates"
+msgstr "İstisna Sertifikaları Oluştur"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "All users on the Exception list who do not yet have a certificate"
+msgstr "İstisna listesindeki henüz bir sertifika sahibi olmayan kullanıcılar"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "All users on the Exception list"
+msgstr "İstisna listesindeki tüm kullanıcılar"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "User Email"
+msgstr "Kullanıcı E-postası"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "Exception Granted"
+msgstr "İstisna Sağlandı"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "Certificate Generated"
+msgstr "Sertifika Oluşturuldu"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+msgid "Notes"
+msgstr "Notlar"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore
+msgid "Remove from List"
+msgstr "Listeden Kaldır"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
 msgid "Bulk Exceptions"
 msgstr "Toplu İstisnalar"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
 msgid ""
 "Upload a comma separated values (.csv) file that contains the usernames or "
 "email addresses of learners who have been given exceptions. Include the "
@@ -8221,14 +8328,9 @@ msgstr ""
 "virgülle ayrılmış alana istisna tanıma nedenini belirten, isteğe bağlı bir "
 "not ekleyebilirsiniz."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore
 msgid "Upload a CSV file"
 msgstr "CSV dosyası yükle"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid "Add to Exception List"
-msgstr "İstisna Listesi'ne Ekle"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid ""
@@ -8259,61 +8361,8 @@ msgid "Invalidated"
 msgstr "Geçersizleştirildi"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Notes"
-msgstr "Notlar"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Remove from Invalidation Table"
 msgstr "Geçersizleştirme Tablosundan Kaldır"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid "Individual Exceptions"
-msgstr "Bireysel İstisnalar"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid ""
-"Enter the username or email address of each learner that you want to add as "
-"an exception."
-msgstr ""
-"İstisna olarak eklemek istediğiniz her öğrencinin kullanıcı adı ve e-posta "
-"adresini girin."
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid "Student email or username"
-msgstr "Öğrenci e-postası ve kullanıcı adı"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
-msgid "Free text notes"
-msgstr "Serbest metin notları"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Generate Exception Certificates"
-msgstr "İstisna Sertifikaları Oluştur"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "All users on the Exception list who do not yet have a certificate"
-msgstr "İstisna listesindeki henüz bir sertifika sahibi olmayan kullanıcılar"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "All users on the Exception list"
-msgstr "İstisna listesindeki tüm kullanıcılar"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "User Email"
-msgstr "Kullanıcı E-postası"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Exception Granted"
-msgstr "İstisna Sağlandı"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Certificate Generated"
-msgstr "Sertifika Oluşturuldu"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
-msgid "Remove from List"
-msgstr "Listeden Kaldır"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore
 msgid "Divided"
@@ -8874,12 +8923,16 @@ msgid ""
 "Going forward, your account information will be updated and maintained by "
 "{enterprise_name}."
 msgstr ""
+"Bundan sonra, hesap bilgileriniz {enterprise_name} tarafından güncellenecek "
+"ve korunacaktır."
 
 #: lms/templates/student_account/login.underscore
 msgid ""
 "You can view your information or unlink from {enterprise_name} anytime in "
 "your Account Settings."
 msgstr ""
+"Hesap Ayarlarınızda istediğiniz zaman bilgilerinizi görüntüleyebilir veya "
+"{enterprise_name} ile olan bağlantıyı kaldırabilirsiniz."
 
 #: lms/templates/student_account/login.underscore
 msgid "To continue learning with this account, sign in below."
@@ -9099,6 +9152,10 @@ msgid ""
 "review. Your photo and information are not saved or visible anywhere on "
 "%(platformName)s after the verification process is complete."
 msgstr ""
+"Fotoğrafınızı güvenli bir şekilde şifreliyoruz ve incelenmek üzere "
+"yetkilendirme servisimize gönderiyoruz. Fotoğrafınız ve bilgileriniz "
+"kaydedilmez ve doğrulama süreci tamamlandıktan sonra %(platformName)s "
+"üzerinde hiçbir yerde görülmez."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9120,6 +9177,11 @@ msgid ""
 " (30-45 centimeters) from the camera, with your head centered relative to "
 "the computer screen. "
 msgstr ""
+"Görüntü yakalama sürecini yardım almadan tamamlayabilirsiniz, ancak "
+"kameranın doğru konumlandırılması için birkaç gönderim denemesi gerekebilir."
+" Optimum kamera konumu her bilgisayara göre değişir, ancak genellikle bir "
+"yüz fotoğrafı için en iyi konum, kafanız ekranınıza göre ortalanmış olarak "
+"kameradan 12-18 inç (30-45 santimetre) uzaklıktır. "
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9129,13 +9191,16 @@ msgid ""
 "orientation to change the lighting angle.  The most common reason for "
 "rejection is inability to read the text on the ID card."
 msgstr ""
+"Gönderdiğiniz fotoğraflar reddedilirse, aydınlatma açısını değiştirmek için "
+"bilgisayarı veya kamera yönünü hareket ettirmeyi deneyin. En yaygın reddetme"
+" nedeni, kimlik kartındaki metnin okunamamasıdır."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "What if I have difficulty holding my head in position relative to the "
 "camera?"
-msgstr ""
+msgstr "Başımı kameraya göre pozisyonda tutmakta zorluk çekiyorsam ne olur? "
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9145,6 +9210,8 @@ msgid ""
 "If you require assistance with taking either photo for submission, contact "
 "%(platformName)s support for additional suggestions."
 msgstr ""
+"Gönderim için fotoğraf çekme konusunda yardıma ihtiyacınız varsa, ek "
+"öneriler için %(platformName)s desteğine başvurun."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -9223,7 +9290,7 @@ msgstr ""
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "What if I have difficulty holding my ID in position relative to the camera?"
-msgstr ""
+msgstr "Kimliğimi kameraya göre yerinde tutmakta zorluk çekersem ne olur? "
 
 #: lms/templates/verify_student/image_input.underscore
 msgid "Preview of uploaded image"
@@ -9539,7 +9606,7 @@ msgstr ""
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photos don't meet the requirements?"
-msgstr "Fotoğraflar gereksinimleri karşılıyor mu?"
+msgstr "Fotoğraflar gereklilikleri karşılamıyor mu?"
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Retake Your Photos"
@@ -10804,6 +10871,32 @@ msgstr "UTC'de Yayın Zamanı:"
 msgid "Clear Release Date/Time"
 msgstr "Yayın Tarihi/Saati Temizle"
 
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid "Due in:"
+msgstr ""
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid "weeks from learner enrollment date"
+msgstr ""
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid ""
+"If a learner starts on {startDate}, this subsection will be due on "
+"{projectedDueIn}."
+msgstr ""
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid ""
+"The maximum number of weeks this subsection can be due in is 18 weeks from "
+"the learner enrollment date."
+msgstr ""
+
+#: cms/templates/js/self-paced-due-date-editor.underscore
+msgid ""
+"The minimum number of weeks this subsection can be due in is 1 week from the"
+" learner enrollment date."
+msgstr ""
+
 #: cms/templates/js/show-correctness-editor.underscore
 msgid "Assessment Results Visibility"
 msgstr "Değerlendirme Sonuçları Görünürlüğü"
@@ -11071,6 +11164,10 @@ msgid ""
 "profile step prior to taking a proctored exam. Profile reviews take 2+ "
 "business days."
 msgstr ""
+"Öğrencileri gözetmenli sınavlarla tanıştırmak, kimliklerini doğrulamak ve "
+"bir oryantasyon profili oluşturmak için Oryantasyon'u kullanın. Öğrenciler, "
+"gözetmenli bir sınava girmeden önce, ilk oryantasyon profili adımını "
+"tamamlamalıdır. Profil incelemeleri 2+ iş günü sürer. "
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Practice Proctored"
@@ -11204,7 +11301,7 @@ msgstr "Doğrulama kontrol noktası tamamlanmalı"
 
 #: cms/templates/js/verification-access-editor.underscore
 msgid "Verification checkpoint to be completed"
-msgstr "Doğrulama Kontrol Noktası tamamlandı"
+msgstr "Doğrulama kontrol noktası tamamlanacak"
 
 #: cms/templates/js/verification-access-editor.underscore
 msgid ""

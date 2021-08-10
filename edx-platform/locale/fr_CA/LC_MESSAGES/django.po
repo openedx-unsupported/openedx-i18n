@@ -363,7 +363,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-06-06 20:43+0000\n"
+"POT-Creation-Date: 2021-08-08 20:44+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2019\n"
 "Language-Team: French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)\n"
@@ -379,6 +379,7 @@ msgstr ""
 #. the discussion forums
 #: cms/djangoapps/contentstore/views/component.py
 #: lms/djangoapps/courseware/tabs.py lms/djangoapps/discussion/plugins.py
+#: openedx/core/djangoapps/discussions/plugins.py
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py
 #: openedx/features/lti_course_tab/tab.py
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
@@ -426,6 +427,16 @@ msgid "The following parameters are required: {missing}."
 msgstr "Les paramètres suivants sont requis: {missing}."
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+#: common/lib/xmodule/xmodule/video_module/video_handlers.py
+msgid ""
+"There is a problem with this transcript file. Try to upload a different "
+"file."
+msgstr ""
+"Il y a un problème avec ce fichier de transcription. Essayez de télécharger "
+"un fichier différent."
+
+#: cms/djangoapps/contentstore/views/transcript_settings.py
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
 #, python-brace-format
 msgid "A transcript with the \"{language_code}\" language code already exists."
@@ -436,16 +447,6 @@ msgstr "Une transcription avec le code de langue \"{language_code}\" existe déj
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
 msgid "A transcript file is required."
 msgstr "Un fichier de transcription est requis."
-
-#: cms/djangoapps/contentstore/views/transcript_settings.py
-#: cms/djangoapps/contentstore/views/transcripts_ajax.py
-#: common/lib/xmodule/xmodule/video_module/video_handlers.py
-msgid ""
-"There is a problem with this transcript file. Try to upload a different "
-"file."
-msgstr ""
-"Il y a un problème avec ce fichier de transcription. Essayez de télécharger "
-"un fichier différent."
 
 #: cms/djangoapps/contentstore/views/videos.py
 #: lms/djangoapps/instructor/views/api.py
@@ -1326,6 +1327,15 @@ msgstr ""
 "d'identité avec le compte EDUlib à chaque connexion SSO. L'utilisateur sera "
 "informé si l'adresse courriel associée à son compte est modifiée dans le "
 "cadre de cette synchronisation."
+
+#: common/djangoapps/third_party_auth/models.py
+msgid ""
+"IDPs with this set to True will be excluded from the dropdown IDP selection "
+"in the EnterpriseCustomer Django Admin form."
+msgstr ""
+"Les IDP avec cette valeur à True seront exclus de la sélection IDP "
+"déroulante dans le formulaire d'administration Django pour "
+"EnterpriseCustomer."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid "The Site that this SAML configuration belongs to."
@@ -3450,31 +3460,17 @@ msgstr ""
 "télécharger les attestations avant la fin du cours, s'ils ont rencontré les "
 "exigences de l'attestation."
 
-#: common/lib/xmodule/xmodule/course_module.py
+#: common/lib/xmodule/xmodule/course_module.py cms/templates/settings.html
 msgid "Certificates Display Behavior"
 msgstr "Comportement d'affichage des attestations"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
-"Enter end, early_with_info, or early_no_info. After certificate generation, "
-"students who passed see a link to their certificates on the dashboard and "
-"students who did not pass see information about the grading configuration. "
-"The default is end, which displays this certificate information to all "
-"students after the course end date. To display this certificate information "
-"to all students as soon as certificates are generated, enter "
-"early_with_info. To display only the links to passing students as soon as "
-"certificates are generated, enter early_no_info."
+"This field, together with certificate_available_date will determine when a "
+"user can see their certificate for the course"
 msgstr ""
-"Entrer end, early_with_info, ou early_no_info. Après la génération des "
-"attestations, les étudiants qui ont passé le cours verront un lien vers "
-"leurs attestation dans leur tableau de bord et les étudiant qui n'ont pas "
-"passé le cours verront de l'information sur leur évaluation. Le défaut est "
-"end, qui affiche les informations d'attestation à tous les étudiants après "
-"la date de fin de cours. Pour afficher l'information d'attestation à tous "
-"les étudiants aussitôt que les attestations sont générées, entrez "
-"early_with_info. Pour afficher les liens seulement aux étudiants qui ont "
-"passé le cours aussitôt que les attestations sont générées, entrez "
-"early_no_info."
+"Ce champ, ainsi que certificate_available_date déterminera quand un "
+"utilisateur peut voir son attestation pour le cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course About Page Image"
@@ -4508,6 +4504,20 @@ msgstr ""
 "remis."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
+#: common/lib/xmodule/xmodule/seq_module.py
+msgid "Number of Relative Weeks Due By"
+msgstr "Nombre de semaines relatives avant l'échéance"
+
+#: common/lib/xmodule/xmodule/modulestore/inheritance.py
+#: common/lib/xmodule/xmodule/seq_module.py
+msgid ""
+"Enter the number of weeks the problems are due by relative to the learner's "
+"enrollment date"
+msgstr ""
+"Entrez le nombre de semaines pour lesquelles les problèmes sont dus par "
+"rapport à la date d'inscription de l'apprenant"
+
+#: common/lib/xmodule/xmodule/modulestore/inheritance.py
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "If true, can be seen only by course staff, regardless of start date."
 msgstr ""
@@ -4755,6 +4765,15 @@ msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, les soumissions de réponses aux"
 " modules des problèmes seront prises en compte dans l'algorithme de notation"
 " de l'examen d'entrée."
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Error while reading {}. Check file for XML errors."
+msgstr ""
+"Erreur lors de la lecture de {}. Vérifiez le fichier pour des erreurs XML."
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Failed to import module: {} at location: {}"
+msgstr "Échec de l'importation du module : {} à l'emplacement : {}"
 
 #: common/lib/xmodule/xmodule/partitions/enrollment_track_partition_generator.py
 #: cms/templates/group_configurations.html
@@ -6173,10 +6192,6 @@ msgstr ""
 "obsolète. S'il vous plaît créer une relance de ce cours dans studio afin de "
 "permettre cette action."
 
-#: lms/djangoapps/certificates/models.py wiki/admin.py wiki/models/article.py
-msgid "created"
-msgstr "créé"
-
 #. Translators: This is a past-tense verb that is used for task action
 #. messages.
 #: lms/djangoapps/certificates/models.py
@@ -6743,10 +6758,6 @@ msgid "Welcome message successfully dismissed."
 msgstr "Message de bienvenue supprimé avec succès."
 
 #: lms/djangoapps/course_home_api/outline/v1/views.py
-msgid "'goal_key' is required."
-msgstr "'goal_key' est requis."
-
-#: lms/djangoapps/course_home_api/outline/v1/views.py
 msgid "Your course goal has been successfully set."
 msgstr "Votre objectif de cours a été défini avec succès."
 
@@ -6754,11 +6765,19 @@ msgstr "Votre objectif de cours a été défini avec succès."
 msgid "Course goal updated successfully."
 msgstr "Objectif du cours mis à jour avec succès."
 
+#: lms/djangoapps/course_wiki/plugins/__init__.py
 #: lms/djangoapps/course_wiki/tab.py lms/djangoapps/course_wiki/views.py
 #: lms/templates/wiki/base.html
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 msgid "Wiki"
 msgstr "Wiki"
+
+#: lms/djangoapps/course_wiki/plugins/__init__.py
+msgid ""
+"Enable learners to access, and collaborate on course-related information."
+msgstr ""
+"Permettez aux apprenants d'accéder et de collaborer sur les informations "
+"liées au cours."
 
 #. Translators: this string includes wiki markup.  Leave the ** and the _
 #. alone.
@@ -6896,6 +6915,9 @@ msgid ""
 " course content but can no longer participate in graded assignments or work "
 "towards earning a certificate."
 msgstr ""
+"Après cette date, le cours sera archivé, ce qui signifie que vous pourrez "
+"revoir le contenu du cours, mais ne pourrez plus participer aux devoirs "
+"notés ou travailler à l'obtention d'une attestation."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
@@ -7106,23 +7128,45 @@ msgstr ""
 "Désactiver la date limite de mise à niveau dynamique pour cette "
 "organisation."
 
-#: lms/djangoapps/courseware/tabs.py lms/templates/courseware/syllabus.html
-msgid "Syllabus"
-msgstr "Syllabus"
-
-#: lms/djangoapps/courseware/tabs.py
+#: lms/djangoapps/courseware/plugins.py lms/djangoapps/courseware/tabs.py
 #: lms/templates/peer_grading/peer_grading.html
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 msgid "Progress"
 msgstr "Progression"
 
+#: lms/djangoapps/courseware/plugins.py
+msgid "Keep learners engaged and on track throughout the course."
+msgstr ""
+"Gardez les apprenants engagés et sur la bonne voie tout au long du cours."
+
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Textbooks' refers to the tab in the course that leads to the
 #. course' textbooks
-#: lms/djangoapps/courseware/tabs.py cms/templates/textbooks.html
-#: cms/templates/widgets/header.html
+#: lms/djangoapps/courseware/plugins.py lms/djangoapps/courseware/tabs.py
+#: cms/templates/textbooks.html cms/templates/widgets/header.html
 msgid "Textbooks"
 msgstr "Manuels"
+
+#: lms/djangoapps/courseware/plugins.py
+msgid ""
+"Create and manage a library of course readings, textbooks, and chapters."
+msgstr ""
+"Créez et gérez une bibliothèque de lectures de cours, de manuels et de "
+"chapitres."
+
+#: lms/djangoapps/courseware/plugins.py
+msgid "Calculator"
+msgstr "Calculatrice"
+
+#: lms/djangoapps/courseware/plugins.py
+msgid "Provide an in-course calculator for simple and complex calculations."
+msgstr ""
+"Fournir une calculatrice au niveau du cours pour les calculs simples et "
+"complexes."
+
+#: lms/djangoapps/courseware/tabs.py lms/templates/courseware/syllabus.html
+msgid "Syllabus"
+msgstr "Syllabus"
 
 #: lms/djangoapps/courseware/tabs.py
 msgid "Dates"
@@ -7443,6 +7487,13 @@ msgstr "Aucun endpoint fourni pour EdxNotes"
 #: lms/djangoapps/edxnotes/plugins.py lms/templates/edxnotes/edxnotes.html
 msgid "Notes"
 msgstr "Notes"
+
+#: lms/djangoapps/edxnotes/plugins.py
+msgid ""
+"Allow learners to highlight passages and make notes right in the course."
+msgstr ""
+"Permettez aux apprenants de surligner des passages et de prendre des notes "
+"directement dans le cours."
 
 #: lms/djangoapps/grades/rest_api/v1/gradebook_views.py
 msgid ""
@@ -8052,6 +8103,8 @@ msgstr "Données invalide, generate_for doit être \"nouveau\" ou \"tout\"."
 #: lms/djangoapps/instructor/views/api.py
 msgid "Certificate generation started for students on the allowlist."
 msgstr ""
+"La génération des attestations a commencé pour les étudiants sur la liste "
+"d'autorisation."
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -8799,6 +8852,12 @@ msgstr "Langage optionel utilisé par l'équipe selon le code ISO 639-1."
 #: lms/djangoapps/teams/templates/teams/teams.html
 msgid "Teams"
 msgstr "Équipes"
+
+#: lms/djangoapps/teams/plugins.py
+msgid "Leverage teams to allow learners to connect by topic of interest."
+msgstr ""
+"Tirez parti des équipes pour permettre aux apprenants de se connecter par "
+"sujet d'intérêt."
 
 #: lms/djangoapps/teams/views.py
 msgid "course_id must be provided"
@@ -10764,6 +10823,22 @@ msgstr "Ceci est une erreur de test"
 
 #: openedx/core/djangoapps/discussions/models.py
 #, python-brace-format
+msgid ""
+"{provider} requires that LTI advanced sharing be enabled for your course, as"
+" this provider uses email address and username to personalize the "
+"experience. Please contact {support_contact} to enable this feature."
+msgstr ""
+"{provider} exige que le partage avancé LTI soit activé pour votre cours, car"
+" ce fournisseur utilise l'adresse courriel et le nom d'utilisateur pour "
+"personnaliser l'expérience. Veuillez contacter {support_contact} pour "
+"activer cette fonctionnalité."
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "technical support"
+msgstr "support technique"
+
+#: openedx/core/djangoapps/discussions/models.py
+#, python-brace-format
 msgid "Comma-separated list of providers to allow, eg: {choices}"
 msgstr ""
 "Liste de fournisseurs séparés par des virgules à autoriser, par exemple: "
@@ -10815,6 +10890,13 @@ msgstr "Fournisseur de discussion"
 #: openedx/core/djangoapps/discussions/models.py
 msgid "The discussion tool/provider's id"
 msgstr "L'identifiant du fournisseur de l'outil de discussion"
+
+#: openedx/core/djangoapps/discussions/plugins.py
+msgid ""
+"Encourage participation and engagement in your course with discussions."
+msgstr ""
+"Encouragez la participation et l'engagement dans votre cours avec des "
+"discussions."
 
 #: openedx/core/djangoapps/django_comment_common/models.py
 msgid "Administrator"
@@ -11614,10 +11696,6 @@ msgstr "Opération réussie"
 msgid "Actions"
 msgstr "Actions"
 
-#: openedx/core/djangoapps/user_api/config/waffle.py
-msgid "System maintenance in progress. Please try again later."
-msgstr "Maintenance du système en cours. Veuillez réessayer plus tard."
-
 #: openedx/core/djangoapps/user_api/preferences/api.py
 #, python-brace-format
 msgid "Delete failed for user preference '{preference_key}'."
@@ -11942,10 +12020,10 @@ msgstr ""
 "connexion principal."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
-msgid "Some error occured during password change. Please try again"
+msgid "Some error occurred during password change. Please try again"
 msgstr ""
-"Une erreur est survenue durant le changement de mot de passe. Veuillez "
-"réessayer."
+"Une erreur s'est produite lors du changement de mot de passe. Veuillez "
+"réessayer"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "No email address provided."
@@ -12730,18 +12808,21 @@ msgstr "L'utilisateur de l'équipe de cours n'existe pas"
 msgid ""
 "Number of course outline regenerations successfully requested: {regenerates}"
 msgstr ""
+"Nombre de régénérations de plan de cours demandées avec succès : "
+"{regenerates}"
 
 #: cms/djangoapps/contentstore/admin.py
 msgid "Regenerate selected course outlines"
-msgstr ""
+msgstr "Régénérer les plans de cours sélectionnés"
 
 #: cms/djangoapps/contentstore/admin.py
 msgid "All course outline regenerations successfully requested."
 msgstr ""
+"Toutes les régénérations de plan de cours ont été demandées avec succès."
 
 #: cms/djangoapps/contentstore/admin.py
 msgid "Regenerate *all* course outlines"
-msgstr ""
+msgstr "Régénérer *tous* les plans de cours"
 
 #: cms/djangoapps/contentstore/course_group_config.py
 msgid ""
@@ -12803,15 +12884,6 @@ msgstr ""
 msgid "Permission denied. You do not have write access to this course."
 msgstr ""
 "Permission refusée. Vous ne disposez pas d'un accès en écriture à ce cours."
-
-#: cms/djangoapps/contentstore/errors.py
-msgid "Error while reading {}. Check file for XML errors."
-msgstr ""
-"Erreur lors de la lecture de {}. Vérifiez le fichier pour des erreurs XML."
-
-#: cms/djangoapps/contentstore/errors.py
-msgid "Failed to import module: {} at location: {}"
-msgstr "Échec de l'importation du module : {} à l'emplacement : {}"
 
 #: cms/djangoapps/contentstore/errors.py
 #, python-brace-format
@@ -14041,6 +14113,24 @@ msgstr "Passer au contenu de la liste des annonces"
 #: lms/templates/dashboard.html themes/edx.org/lms/templates/dashboard.html
 msgid "Account Status Info"
 msgstr "Information sur le statut du compte"
+
+#: lms/templates/dashboard.html
+msgid "Activate your account so you can log back in"
+msgstr "Activez votre compte afin de pouvoir vous reconnecter"
+
+#: lms/templates/dashboard.html
+msgid ""
+"We sent an email to {strong_start}{email}{strong_end} with a link to "
+"activate your account. Can’t find it? Check your spam folder or "
+"{link_start}resend the email{link_end}."
+msgstr ""
+"Nous avons envoyé un courriel à {strong_start}{email}{strong_end} contenant "
+"un lien pour activer votre compte. Il est introuvable ? Vérifiez votre "
+"dossier de pourriel ou {link_start}renvoyer le courriel{link_end}."
+
+#: lms/templates/dashboard.html
+msgid "Continue to {platform_name}"
+msgstr "Continuer vers {platform_name}"
 
 #: lms/templates/dashboard.html themes/edx.org/lms/templates/dashboard.html
 msgid "Email Settings for {course_number}"
@@ -17127,6 +17217,7 @@ msgid "Download Your Certificate"
 msgstr "Télécharger votre attestation"
 
 #: lms/templates/courseware/progress.html
+#: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Request Certificate"
 msgstr "Demander une attestation"
 
@@ -17334,12 +17425,8 @@ msgid "Your grade and certificate will be ready after {date}."
 msgstr "Votre note et votre attestation seront prêtes après le {date}."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Your final grade:"
-msgstr "Votre note finale : "
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Grades will be finalized on {cert_available_date}"
-msgstr "Les notes seront finalisées le {cert_available_date}"
+msgid "Congratulations! Your certificate is ready."
+msgstr "Félicitations ! Votre attestation est prête."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grade required for a {cert_name_short}:"
@@ -17389,10 +17476,6 @@ msgstr ""
 "vérifiée courant avec {platform_name}. "
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Verify your identity now."
-msgstr "Vérifier votre identité maintenant."
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Your {cert_name_short} is Generating"
 msgstr "Votre {cert_name_short} est en cours de préparation"
 
@@ -17401,20 +17484,16 @@ msgid "This link will open the certificate web view"
 msgstr "Ce lien ouvrira l'attestation web view"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "View {cert_name_short}"
-msgstr "Voir {cert_name_short}"
+msgid "View my {cert_name_short}"
+msgstr "Voir mon {cert_name_short}"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open/download a PDF document"
 msgstr "Ce lien ouvrira/téléchargera un document PDF"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Download {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Download Your {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgid "Download my {cert_name_short}"
+msgstr "Télécharger mon {cert_name_short}"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -17423,10 +17502,6 @@ msgid ""
 msgstr ""
 "Ce lien ouvrira/téléchargera un document PDF contenant votre "
 "{cert_name_long}."
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Complete our course feedback survey"
@@ -17564,8 +17639,8 @@ msgid "Related Programs"
 msgstr "Programmes connexes"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Verification not yet complete."
-msgstr "Vérification pas encore terminée."
+msgid "To earn a certificate, you must verify your ID"
+msgstr "Pour obtenir une attestation, vous devez vérifier votre identité"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "You only have {days} day left to verify for this course."
@@ -18660,10 +18735,13 @@ msgid "Example Certificates"
 msgstr "Exemples d'attestations"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
-msgid "Generate example certificates for the course."
+msgid ""
+"This course is configured to generate PDF certificates and this certificate "
+"type is no longer supported. Example certificates cannot be generated."
 msgstr ""
-"Générer des exemples d'attestations auto-générées par les étudiants pour ce "
-"cours."
+"Ce cours est configuré pour générer des attestations PDF et ce type "
+"d'attestation n'est plus pris en charge. Les exemples d'attestations ne "
+"peuvent pas être générés."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generate Example Certificates"
@@ -22210,10 +22288,6 @@ msgid "New Page"
 msgstr "Nouvelle Page"
 
 #: cms/templates/edit-tabs.html
-msgid "View new Pages and Resources Experience"
-msgstr "Voir la nouvelle expérience de pages et de ressources"
-
-#: cms/templates/edit-tabs.html
 msgid ""
 "Note: Pages are publicly visible. If users know the URL of a page, they can "
 "view the page even if they are not registered for or logged in to your "
@@ -24115,12 +24189,70 @@ msgid "Course End Time"
 msgstr "Heure de fin du Cours"
 
 #: cms/templates/settings.html
-msgid "Certificates Available Date"
-msgstr "Date de disponibilité des attestations"
+msgid "Immediately upon passing"
+msgstr "Immédiatement après le passage"
 
 #: cms/templates/settings.html
-msgid "By default, 48 hours after course end date"
-msgstr "Par défaut, 48 heures après la date d'échéance du cours"
+msgid "End date of course"
+msgstr "Date de fin de cours"
+
+#: cms/templates/settings.html
+msgid "A date after the course end date"
+msgstr "Une date après la date de fin du cours"
+
+#: cms/templates/settings.html
+msgid "Certificates are awarded at the end of a course run"
+msgstr "Les attestations sont décernées à la fin d'un cours"
+
+#: cms/templates/settings.html
+msgid "Read more about this setting"
+msgstr "En savoir plus sur ce paramètre"
+
+#: cms/templates/settings.html
+msgid ""
+"In all configurations of this setting, certificates are generated for "
+"learners as soon as they achieve the passing threshold in the course (which "
+"can occur before a final assignment based on course design)"
+msgstr ""
+"Dans toutes les configurations de ce paramètre, les attestations sont "
+"générées pour les apprenants dès qu'ils atteignent le seuil de réussite dans"
+" le cours (ce qui peut se produire avant un devoir final basé sur la "
+"conception du cours)"
+
+#: cms/templates/settings.html
+msgid ""
+"Learners can access their certificate as soon as they achieve a passing "
+"grade above the course grade threshold. Note: learners can achieve a passing"
+" grade before encountering all assignments in some course configurations."
+msgstr ""
+"Les apprenants peuvent accéder à leur attestation dès qu'ils obtiennent une "
+"note de passage supérieure au seuil de note du cours. Remarque : les "
+"apprenants peuvent obtenir une note de passage avant de rencontrer tous les "
+"devoirs dans certaines configurations de cours."
+
+#: cms/templates/settings.html
+msgid "On course end date"
+msgstr "À la date de fin du cours"
+
+#: cms/templates/settings.html
+msgid ""
+"Learners with passing grades can access their certificate once the end date "
+"of the course has elapsed."
+msgstr ""
+"Les apprenants ayant obtenu des notes de passage peuvent accéder à leur "
+"attestation une fois la date de fin du cours écoulée."
+
+#: cms/templates/settings.html
+msgid ""
+"Learners with passing grades can access their certificate after the date "
+"that you set has elapsed."
+msgstr ""
+"Les apprenants ayant obtenu des notes de passage peuvent accéder à leur "
+"attestation après l'expiration de la date que vous avez définie."
+
+#: cms/templates/settings.html
+msgid "Certificates Available Date"
+msgstr "Date de disponibilité des attestations"
 
 #: cms/templates/settings.html
 msgid "Enrollment Start Date"
@@ -25048,6 +25180,10 @@ msgid "Outline"
 msgstr "Plan du Cours"
 
 #: cms/templates/widgets/header.html
+msgid "Pages & Resources"
+msgstr "Pages et ressources"
+
+#: cms/templates/widgets/header.html
 msgid "Publisher"
 msgstr "Éditeur"
 
@@ -25146,6 +25282,10 @@ msgstr "Actuellement connecté en tant que : "
 #: cms/templates/widgets/user_dropdown.html
 msgid "Maintenance"
 msgstr "Entretien"
+
+#: wiki/admin.py wiki/models/article.py
+msgid "created"
+msgstr "créé"
 
 #: wiki/apps.py
 msgid "Wiki notifications"

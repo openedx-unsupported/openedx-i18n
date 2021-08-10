@@ -123,7 +123,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-06-06 20:43+0000\n"
+"POT-Creation-Date: 2021-08-08 20:44+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Danylo Shcherbak <danylo.shcherbak@raccoongang.com>, 2020\n"
 "Language-Team: Ukrainian (https://www.transifex.com/open-edx/teams/6205/uk/)\n"
@@ -139,6 +139,7 @@ msgstr ""
 #. the discussion forums
 #: cms/djangoapps/contentstore/views/component.py
 #: lms/djangoapps/courseware/tabs.py lms/djangoapps/discussion/plugins.py
+#: openedx/core/djangoapps/discussions/plugins.py
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py
 #: openedx/features/lti_course_tab/tab.py
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
@@ -183,6 +184,16 @@ msgid "The following parameters are required: {missing}."
 msgstr "Наступні параметри э обов'язковими: {missing}."
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+#: common/lib/xmodule/xmodule/video_module/video_handlers.py
+msgid ""
+"There is a problem with this transcript file. Try to upload a different "
+"file."
+msgstr ""
+"Виникла проблема з файлом транскрипту. Будь ласка спробуйте завантажити "
+"інший файл."
+
+#: cms/djangoapps/contentstore/views/transcript_settings.py
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
 #, python-brace-format
 msgid "A transcript with the \"{language_code}\" language code already exists."
@@ -193,16 +204,6 @@ msgstr "Транскрипти з кодом мови \"{language_code}\" вже
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
 msgid "A transcript file is required."
 msgstr "Необхідний файл транскрипту. "
-
-#: cms/djangoapps/contentstore/views/transcript_settings.py
-#: cms/djangoapps/contentstore/views/transcripts_ajax.py
-#: common/lib/xmodule/xmodule/video_module/video_handlers.py
-msgid ""
-"There is a problem with this transcript file. Try to upload a different "
-"file."
-msgstr ""
-"Виникла проблема з файлом транскрипту. Будь ласка спробуйте завантажити "
-"інший файл."
 
 #: cms/djangoapps/contentstore/views/videos.py
 #: lms/djangoapps/instructor/views/api.py
@@ -1053,6 +1054,12 @@ msgstr ""
 "входу з використанням SSO. Користувач буде сповіщений, якщо електронна "
 "адреса, пов'язана з його обліковим записом, буде змінена під час цієї "
 "синхронізації."
+
+#: common/djangoapps/third_party_auth/models.py
+msgid ""
+"IDPs with this set to True will be excluded from the dropdown IDP selection "
+"in the EnterpriseCustomer Django Admin form."
+msgstr ""
 
 #: common/djangoapps/third_party_auth/models.py
 msgid "The Site that this SAML configuration belongs to."
@@ -3195,24 +3202,9 @@ msgstr "Умови відображення сертифікатів"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
-"Enter end, early_with_info, or early_no_info. After certificate generation, "
-"students who passed see a link to their certificates on the dashboard and "
-"students who did not pass see information about the grading configuration. "
-"The default is end, which displays this certificate information to all "
-"students after the course end date. To display this certificate information "
-"to all students as soon as certificates are generated, enter "
-"early_with_info. To display only the links to passing students as soon as "
-"certificates are generated, enter early_no_info."
+"This field, together with certificate_available_date will determine when a "
+"user can see their certificate for the course"
 msgstr ""
-"Введіть end, early_with_info або early_no_info. Після створення сертифікату "
-"студенти, які пройшли курс, бачать посилання на свої сертифікати на "
-"інформаційній панелі, а студенти, які його не пройшли, бачать інформацію про"
-" конфігурацію оцінок. За умовчанням встановлено значення end - інформація "
-"про сертифікат будe доступнa усім студентам тільки після дати закінчення "
-"курсу. Щоб відобразити інформацію про сертифікат усім студентам відразу "
-"після його створення, введіть early_with_info. Щоб відобразити лише "
-"посилання  для тих студентів, які пройшли курс відразу після створення "
-"сертифікатів, введіть early_no_info."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course About Page Image"
@@ -4195,6 +4187,18 @@ msgid "Enter the default date by which problems are due."
 msgstr "Введіть кінцеву дату виконання завдань."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
+#: common/lib/xmodule/xmodule/seq_module.py
+msgid "Number of Relative Weeks Due By"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/modulestore/inheritance.py
+#: common/lib/xmodule/xmodule/seq_module.py
+msgid ""
+"Enter the number of weeks the problems are due by relative to the learner's "
+"enrollment date"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/modulestore/inheritance.py
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "If true, can be seen only by course staff, regardless of start date."
 msgstr ""
@@ -4430,6 +4434,14 @@ msgstr ""
 "Введіть true або false. При встановленні значення true, надіслані відповіді "
 "до модулів завдань будуть враховуватися в оціночному/відбірковому алгоритмі "
 "вступного випробування."
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Error while reading {}. Check file for XML errors."
+msgstr ""
+
+#: common/lib/xmodule/xmodule/modulestore/xml_importer.py
+msgid "Failed to import module: {} at location: {}"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/partitions/enrollment_track_partition_generator.py
 msgid "Enrollment Track Groups"
@@ -5735,10 +5747,6 @@ msgstr ""
 "Неможливо створити CCX на основі курсу з застарілим ідентифікатором. "
 "Перезапустіть курс в edX Studioщоб дозволити цю дiю. "
 
-#: lms/djangoapps/certificates/models.py wiki/admin.py wiki/models/article.py
-msgid "created"
-msgstr "створено"
-
 #. Translators: This is a past-tense verb that is used for task action
 #. messages.
 #: lms/djangoapps/certificates/models.py
@@ -6271,10 +6279,6 @@ msgid "Welcome message successfully dismissed."
 msgstr ""
 
 #: lms/djangoapps/course_home_api/outline/v1/views.py
-msgid "'goal_key' is required."
-msgstr ""
-
-#: lms/djangoapps/course_home_api/outline/v1/views.py
 msgid "Your course goal has been successfully set."
 msgstr ""
 
@@ -6282,10 +6286,16 @@ msgstr ""
 msgid "Course goal updated successfully."
 msgstr ""
 
+#: lms/djangoapps/course_wiki/plugins/__init__.py
 #: lms/djangoapps/course_wiki/tab.py lms/djangoapps/course_wiki/views.py
 #: lms/templates/wiki/base.html
 msgid "Wiki"
 msgstr "Wiki"
+
+#: lms/djangoapps/course_wiki/plugins/__init__.py
+msgid ""
+"Enable learners to access, and collaborate on course-related information."
+msgstr ""
 
 #. Translators: this string includes wiki markup.  Leave the ** and the _
 #. alone.
@@ -6615,23 +6625,40 @@ msgstr "Вимкнути динамічне оновлення дедлайна 
 msgid "Disable the dynamic upgrade deadline for this organization."
 msgstr "Вимкнути динамічне оновлення дедлайна для цієї організації."
 
-#: lms/djangoapps/courseware/tabs.py
-msgid "Syllabus"
-msgstr "Программа Навчання"
-
-#: lms/djangoapps/courseware/tabs.py
+#: lms/djangoapps/courseware/plugins.py lms/djangoapps/courseware/tabs.py
 #: lms/templates/peer_grading/peer_grading.html
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 msgid "Progress"
 msgstr "Прогрес"
 
+#: lms/djangoapps/courseware/plugins.py
+msgid "Keep learners engaged and on track throughout the course."
+msgstr ""
+
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Textbooks' refers to the tab in the course that leads to the
 #. course' textbooks
-#: lms/djangoapps/courseware/tabs.py cms/templates/textbooks.html
-#: cms/templates/widgets/header.html
+#: lms/djangoapps/courseware/plugins.py lms/djangoapps/courseware/tabs.py
+#: cms/templates/textbooks.html cms/templates/widgets/header.html
 msgid "Textbooks"
 msgstr "Підручники"
+
+#: lms/djangoapps/courseware/plugins.py
+msgid ""
+"Create and manage a library of course readings, textbooks, and chapters."
+msgstr ""
+
+#: lms/djangoapps/courseware/plugins.py
+msgid "Calculator"
+msgstr ""
+
+#: lms/djangoapps/courseware/plugins.py
+msgid "Provide an in-course calculator for simple and complex calculations."
+msgstr ""
+
+#: lms/djangoapps/courseware/tabs.py
+msgid "Syllabus"
+msgstr "Программа Навчання"
 
 #: lms/djangoapps/courseware/tabs.py
 msgid "Dates"
@@ -6934,6 +6961,11 @@ msgstr "Сервіс нотаток EdxNotes не обслуговується."
 #: lms/djangoapps/edxnotes/plugins.py
 msgid "Notes"
 msgstr "Нотатки"
+
+#: lms/djangoapps/edxnotes/plugins.py
+msgid ""
+"Allow learners to highlight passages and make notes right in the course."
+msgstr ""
 
 #: lms/djangoapps/grades/rest_api/v1/gradebook_views.py
 msgid ""
@@ -8232,6 +8264,10 @@ msgstr "Код додаткової мови команди за стандар�
 #: lms/djangoapps/teams/plugins.py
 msgid "Teams"
 msgstr "Команди"
+
+#: lms/djangoapps/teams/plugins.py
+msgid "Leverage teams to allow learners to connect by topic of interest."
+msgstr ""
 
 #: lms/djangoapps/teams/views.py
 msgid "course_id must be provided"
@@ -10097,6 +10133,18 @@ msgstr "Це тестова помилка"
 
 #: openedx/core/djangoapps/discussions/models.py
 #, python-brace-format
+msgid ""
+"{provider} requires that LTI advanced sharing be enabled for your course, as"
+" this provider uses email address and username to personalize the "
+"experience. Please contact {support_contact} to enable this feature."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "technical support"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+#, python-brace-format
 msgid "Comma-separated list of providers to allow, eg: {choices}"
 msgstr ""
 
@@ -10140,6 +10188,11 @@ msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "The discussion tool/provider's id"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/plugins.py
+msgid ""
+"Encourage participation and engagement in your course with discussions."
 msgstr ""
 
 #: openedx/core/djangoapps/django_comment_common/models.py
@@ -10878,10 +10931,6 @@ msgstr "Успіх"
 msgid "Actions"
 msgstr "Дії"
 
-#: openedx/core/djangoapps/user_api/config/waffle.py
-msgid "System maintenance in progress. Please try again later."
-msgstr "Триває технічне обслуговування системи. Будь-ласка спробуйте пізніше."
-
 #: openedx/core/djangoapps/user_api/preferences/api.py
 #, python-brace-format
 msgid "Delete failed for user preference '{preference_key}'."
@@ -11172,8 +11221,8 @@ msgstr ""
 " для входу"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
-msgid "Some error occured during password change. Please try again"
-msgstr "Виникла помилка при скиданні паролю. Будь ласка, спробуйте ще"
+msgid "Some error occurred during password change. Please try again"
+msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "No email address provided."
@@ -11960,14 +12009,6 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/errors.py
 msgid "Permission denied. You do not have write access to this course."
-msgstr ""
-
-#: cms/djangoapps/contentstore/errors.py
-msgid "Error while reading {}. Check file for XML errors."
-msgstr ""
-
-#: cms/djangoapps/contentstore/errors.py
-msgid "Failed to import module: {} at location: {}"
 msgstr ""
 
 #: cms/djangoapps/contentstore/errors.py
@@ -13162,6 +13203,21 @@ msgstr ""
 
 #: lms/templates/dashboard.html themes/edx.org/lms/templates/dashboard.html
 msgid "Account Status Info"
+msgstr ""
+
+#: lms/templates/dashboard.html
+msgid "Activate your account so you can log back in"
+msgstr ""
+
+#: lms/templates/dashboard.html
+msgid ""
+"We sent an email to {strong_start}{email}{strong_end} with a link to "
+"activate your account. Can’t find it? Check your spam folder or "
+"{link_start}resend the email{link_end}."
+msgstr ""
+
+#: lms/templates/dashboard.html
+msgid "Continue to {platform_name}"
 msgstr ""
 
 #: lms/templates/dashboard.html themes/edx.org/lms/templates/dashboard.html
@@ -15785,6 +15841,7 @@ msgid "Download Your Certificate"
 msgstr ""
 
 #: lms/templates/courseware/progress.html
+#: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Request Certificate"
 msgstr ""
 
@@ -15962,11 +16019,7 @@ msgid "Your grade and certificate will be ready after {date}."
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Your final grade:"
-msgstr ""
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Grades will be finalized on {cert_available_date}"
+msgid "Congratulations! Your certificate is ready."
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
@@ -16003,10 +16056,6 @@ msgid ""
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Verify your identity now."
-msgstr ""
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Your {cert_name_short} is Generating"
 msgstr ""
 
@@ -16015,7 +16064,7 @@ msgid "This link will open the certificate web view"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "View {cert_name_short}"
+msgid "View my {cert_name_short}"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
@@ -16023,21 +16072,13 @@ msgid "This link will open/download a PDF document"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Download {cert_name_short} (PDF)"
-msgstr ""
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Download Your {cert_name_short} (PDF)"
+msgid "Download my {cert_name_short}"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
 "This link will open/download a PDF document of your verified "
 "{cert_name_long}."
-msgstr ""
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid "Download Your ID Verified {cert_name_short} (PDF)"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
@@ -16165,7 +16206,7 @@ msgid "Related Programs"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Verification not yet complete."
+msgid "To earn a certificate, you must verify your ID"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -17112,7 +17153,9 @@ msgid "Example Certificates"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
-msgid "Generate example certificates for the course."
+msgid ""
+"This course is configured to generate PDF certificates and this certificate "
+"type is no longer supported. Example certificates cannot be generated."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
@@ -20223,10 +20266,6 @@ msgid "New Page"
 msgstr "Нова сторінка"
 
 #: cms/templates/edit-tabs.html
-msgid "View new Pages and Resources Experience"
-msgstr ""
-
-#: cms/templates/edit-tabs.html
 msgid ""
 "Note: Pages are publicly visible. If users know the URL of a page, they can "
 "view the page even if they are not registered for or logged in to your "
@@ -21914,11 +21953,57 @@ msgid "Course End Time"
 msgstr "Час завершення курсу"
 
 #: cms/templates/settings.html
-msgid "Certificates Available Date"
+msgid "Immediately upon passing"
 msgstr ""
 
 #: cms/templates/settings.html
-msgid "By default, 48 hours after course end date"
+msgid "End date of course"
+msgstr ""
+
+#: cms/templates/settings.html
+msgid "A date after the course end date"
+msgstr ""
+
+#: cms/templates/settings.html
+msgid "Certificates are awarded at the end of a course run"
+msgstr ""
+
+#: cms/templates/settings.html
+msgid "Read more about this setting"
+msgstr ""
+
+#: cms/templates/settings.html
+msgid ""
+"In all configurations of this setting, certificates are generated for "
+"learners as soon as they achieve the passing threshold in the course (which "
+"can occur before a final assignment based on course design)"
+msgstr ""
+
+#: cms/templates/settings.html
+msgid ""
+"Learners can access their certificate as soon as they achieve a passing "
+"grade above the course grade threshold. Note: learners can achieve a passing"
+" grade before encountering all assignments in some course configurations."
+msgstr ""
+
+#: cms/templates/settings.html
+msgid "On course end date"
+msgstr ""
+
+#: cms/templates/settings.html
+msgid ""
+"Learners with passing grades can access their certificate once the end date "
+"of the course has elapsed."
+msgstr ""
+
+#: cms/templates/settings.html
+msgid ""
+"Learners with passing grades can access their certificate after the date "
+"that you set has elapsed."
+msgstr ""
+
+#: cms/templates/settings.html
+msgid "Certificates Available Date"
 msgstr ""
 
 #: cms/templates/settings.html
@@ -22755,6 +22840,10 @@ msgid "Outline"
 msgstr "Структура курсу"
 
 #: cms/templates/widgets/header.html
+msgid "Pages & Resources"
+msgstr ""
+
+#: cms/templates/widgets/header.html
 msgid "Publisher"
 msgstr ""
 
@@ -22853,6 +22942,10 @@ msgstr ""
 #: cms/templates/widgets/user_dropdown.html
 msgid "Maintenance"
 msgstr ""
+
+#: wiki/admin.py wiki/models/article.py
+msgid "created"
+msgstr "створено"
 
 #: wiki/apps.py
 msgid "Wiki notifications"
