@@ -131,7 +131,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-08-08 20:44+0000\n"
+"POT-Creation-Date: 2021-09-05 20:44+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2019\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/open-edx/teams/6205/tr_TR/)\n"
@@ -500,107 +500,6 @@ msgstr "Bu '{email}' e-posta adresine ait bir hesap zaten bulunmaktadır."
 #, python-brace-format
 msgid "An account with the Public Username '{username}' already exists."
 msgstr "Bu kullanıcı  '{username}' adı ile zaten mevcut."
-
-#: common/djangoapps/student/management/commands/manage_group.py
-msgid "Removed group: \"{}\""
-msgstr "Silinen grup: \"{}\""
-
-#: common/djangoapps/student/management/commands/manage_group.py
-msgid "Did not find a group with name \"{}\" - skipping."
-msgstr "\"{}\" adında bir grup bulunamadı - atlanıyor."
-
-#: common/djangoapps/student/management/commands/manage_group.py
-#, python-brace-format
-msgid "Invalid group name: \"{group_name}\". {messages}"
-msgstr "Geçersiz grup adı: \"{group_name}\". {messages}"
-
-#: common/djangoapps/student/management/commands/manage_group.py
-msgid "Created new group: \"{}\""
-msgstr "Yeni grup oluşturuldu: \"{}\""
-
-#: common/djangoapps/student/management/commands/manage_group.py
-msgid "Found existing group: \"{}\""
-msgstr "Mevcut grup bulundu: \"{}\""
-
-#: common/djangoapps/student/management/commands/manage_group.py
-#, python-brace-format
-msgid "Adding {codenames} permissions to group \"{group}\""
-msgstr "\"{group}\" grubuna {codenames} izinleri veriliyor"
-
-#: common/djangoapps/student/management/commands/manage_group.py
-#, python-brace-format
-msgid "Removing {codenames} permissions from group \"{group}\""
-msgstr "{codenames} izinleri \"{group}\" grubundan siliniyor"
-
-#: common/djangoapps/student/management/commands/manage_group.py
-msgid ""
-"Invalid permission option: \"{}\". Please specify permissions using the "
-"format: app_label:model_name:permission_codename."
-msgstr ""
-"Geçersiz izin seçeneği: \"{}\". Lütfen izinleri şu formatta tanımlayın: "
-"app_label:model_name:permission_codename."
-
-#: common/djangoapps/student/management/commands/manage_group.py
-#, python-brace-format
-msgid ""
-"Invalid permission codename: \"{codename}\".  No such permission exists for "
-"the model {module}.{model_name}."
-msgstr ""
-"Geçersiz izin kodadı: \"{codename}\".  {module}.{model_name} modeli için "
-"herhangi bir izin verilmemiş."
-
-#: common/djangoapps/student/management/commands/manage_user.py
-#, python-brace-format
-msgid "Setting {attribute} for user \"{username}\" to \"{new_value}\""
-msgstr ""
-"\"{username}\" kullanıcısının {attribute} değeri \"{new_value}\" olarak "
-"ayarlanıyor"
-
-#: common/djangoapps/student/management/commands/manage_user.py
-msgid ""
-"Skipping user \"{}\" because the specified and existing email addresses do "
-"not match."
-msgstr ""
-"Belirtilen ve mevcut e-posta adresleri eşleşmediği için \"{}\" kullanıcısı "
-"atlanıyor."
-
-#: common/djangoapps/student/management/commands/manage_user.py
-msgid "Did not find a user with username \"{}\" - skipping."
-msgstr "\"{}\" adında bir kullanıcı bulunamadı - atlanıyor."
-
-#: common/djangoapps/student/management/commands/manage_user.py
-msgid "Removing user: \"{}\""
-msgstr "Kullanıcı siliniyor: \"{}\""
-
-#: common/djangoapps/student/management/commands/manage_user.py
-msgid "Created new user: \"{}\""
-msgstr "Yeni kullanıcı oluşturuldu: \"{}\""
-
-#: common/djangoapps/student/management/commands/manage_user.py
-msgid "Found existing user: \"{}\""
-msgstr "Mevcut kullanıcı bulundu: \"{}\""
-
-#: common/djangoapps/student/management/commands/manage_user.py
-msgid "Setting unusable password for user \"{}\""
-msgstr "\"{}\" kullanıcısı için uygun olmayan bir parola ayarlanmış"
-
-#: common/djangoapps/student/management/commands/manage_user.py
-msgid "Created new profile for user: \"{}\""
-msgstr "\"{}\" kullanıcısı için yeni profil oluşturuldu"
-
-#: common/djangoapps/student/management/commands/manage_user.py
-msgid "Could not find a group named \"{}\" - skipping."
-msgstr "\"{}\" adında bir grup bulunamadı - atlanıyor."
-
-#: common/djangoapps/student/management/commands/manage_user.py
-#, python-brace-format
-msgid "Adding user \"{username}\" to groups {group_names}"
-msgstr "\"{username}\" kullanıcısı {group_names} gruplarına ekleniyor"
-
-#: common/djangoapps/student/management/commands/manage_user.py
-#, python-brace-format
-msgid "Removing user \"{username}\" from groups {group_names}"
-msgstr "\"{username}\" kullanıcısı {group_names} gruplarından çıkarılıyor"
 
 #: common/djangoapps/student/middleware.py
 #, python-brace-format
@@ -3160,7 +3059,7 @@ msgstr ""
 "öğrenciler sertifika için gereklilikleri sağlıyorlarsa ders bitiminden önce "
 "sertifikalarını indirebilirler. "
 
-#: common/lib/xmodule/xmodule/course_module.py
+#: common/lib/xmodule/xmodule/course_module.py cms/templates/settings.html
 msgid "Certificates Display Behavior"
 msgstr "Sertifikalar Gösterim Davranışı"
 
@@ -5643,11 +5542,11 @@ msgstr "edX.org üzerinden ücretsiz eğitimler alın"
 #: lms/djangoapps/branding/api.py
 #, python-brace-format
 msgid ""
-"\\u00A9 {org_name}.  All rights reserved except where noted.  edX, Open edX "
-"and their respective logos are registered trademarks of edX Inc."
+"© {org_name}.  All rights reserved except where noted.  edX, Open edX and "
+"their respective logos are registered trademarks of edX Inc."
 msgstr ""
-"\\u00A9 {org_name}.  Belirtilen yerler dışında tüm hakları saklıdır. edX, "
-"Open edX ve ilgili logoları edX Inc'in tescilli ticari markalarıdır."
+"© {org_name}.  Belirtilen yerler dışında tüm hakları saklıdır. edX, Open edX"
+" ve ilgili logoları edX Inc'in tescilli ticari markalarıdır."
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Open edX' is a trademark, please keep this untranslated.
@@ -6290,6 +6189,7 @@ msgstr ""
 "isteği işleme koymak için, lütfen aşağıdaki bağlantı(ları) ziyaret edin."
 
 #: lms/djangoapps/course_goals/models.py
+#: lms/templates/course_modes/track_selection.html
 msgid "Earn a certificate"
 msgstr "Bir sertifika kazanın"
 
@@ -6334,7 +6234,7 @@ msgstr ""
 msgid "Disabled"
 msgstr "Devre dışı"
 
-#: lms/djangoapps/course_home_api/outline/v1/serializers.py
+#: lms/djangoapps/course_home_api/outline/serializers.py
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html
 #, python-brace-format
 msgid "({number} Question)"
@@ -6342,7 +6242,7 @@ msgid_plural "({number} Questions)"
 msgstr[0] "({number} Soru)"
 msgstr[1] "({number} Soru)"
 
-#: lms/djangoapps/course_home_api/outline/v1/views.py
+#: lms/djangoapps/course_home_api/outline/views.py
 msgid ""
 "Please contact your degree administrator or edX Support if you have "
 "questions."
@@ -6350,23 +6250,23 @@ msgstr ""
 "Eğer herhangi bir sorunuz varsa lütfen akademik yöneticiniz ya da edX destek"
 " ekibiyle iletişime geçiniz."
 
-#: lms/djangoapps/course_home_api/outline/v1/views.py
+#: lms/djangoapps/course_home_api/outline/views.py
 msgid "'course_id' is required."
 msgstr "'course_id' gerekli."
 
-#: lms/djangoapps/course_home_api/outline/v1/views.py
+#: lms/djangoapps/course_home_api/outline/views.py
 msgid "Only 'course_id' is expected."
 msgstr "Sadece 'course_id' isteniyor."
 
-#: lms/djangoapps/course_home_api/outline/v1/views.py
+#: lms/djangoapps/course_home_api/outline/views.py
 msgid "Welcome message successfully dismissed."
 msgstr "Hoş geldiniz iletisi başarıyla kaldırıldı."
 
-#: lms/djangoapps/course_home_api/outline/v1/views.py
+#: lms/djangoapps/course_home_api/outline/views.py
 msgid "Your course goal has been successfully set."
 msgstr "Ders hedefiniz başarıyla belirlendi."
 
-#: lms/djangoapps/course_home_api/outline/v1/views.py
+#: lms/djangoapps/course_home_api/outline/views.py
 msgid "Course goal updated successfully."
 msgstr "Ders hedefiniz başarıyla güncellendi."
 
@@ -6756,6 +6656,15 @@ msgstr "Hesap Makinesi"
 
 #: lms/djangoapps/courseware/plugins.py
 msgid "Provide an in-course calculator for simple and complex calculations."
+msgstr ""
+
+#: lms/djangoapps/courseware/plugins.py
+msgid "Proctoring"
+msgstr "Gözetmenli"
+
+#: lms/djangoapps/courseware/plugins.py
+msgid ""
+"Maintain exam integrity by enabling a proctoring solution for your course"
 msgstr ""
 
 #: lms/djangoapps/courseware/tabs.py lms/templates/courseware/syllabus.html
@@ -7483,11 +7392,11 @@ msgstr "Celery görevinin bilinen son durumu."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Task duration information, if known"
-msgstr ""
+msgstr "Eğer biliniyorsa, işlem süresi bilgisi"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "User-friendly task status information, if available."
-msgstr ""
+msgstr "Eğer mevcutsa, kullanıcı dostu işlem durum bilgisi"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "List of instructor tasks."
@@ -9759,6 +9668,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.html
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.txt
+#: lms/templates/course_modes/track_selection.html
 msgid "Upgrade Now"
 msgstr "Şimdi Yükselt"
 
@@ -10113,6 +10023,104 @@ msgstr "Salt-okunur"
 msgid "One and only one of 'user' and 'group' must be set."
 msgstr "'Kullanıcı' ve 'grup'tan sadece ve yalnızca biri ayarlanmalıdır. "
 
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "Task was created, but not queued to run."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "Task was created and queued to run."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "Task is running."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "Task finished, but some blocks failed to import."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "Task finished successfully."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "state"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "The state of the block import task."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "progress"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "A float from 0.0 to 1.0 representing the task progress."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "course ID"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "ID of the imported course."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "open edx user"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "lti platform identifier"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "The LTI platform identifier to which this profile belongs to."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "client identifier"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "The LTI client identifier generated by the LTI platform."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "subject identifier"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid ""
+"Identifies the entity that initiated the launch request, commonly a user."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid ""
+"The authorized LTI profile that launched the resource (identifies the user)."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid ""
+"The usage key string of the blockstore resource serving the content of this "
+"launch."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid ""
+"The LTI platform unique identifier of this resource, also known as the "
+"\"resource link id\"."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "The LTI platform descriptive title for this resource."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/models.py
+msgid "If AGS was enabled during launch, this should hold the lineitem ID."
+msgstr ""
+
 #: openedx/core/djangoapps/content_libraries/views.py
 msgid "We could not find a user with that email address."
 msgstr "Bu e-posta adresine sahip bir kullanıcıyı bulamadık."
@@ -10346,7 +10354,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "technical support"
-msgstr ""
+msgstr "teknik destek"
 
 #: openedx/core/djangoapps/discussions/models.py
 #, python-brace-format
@@ -10398,6 +10406,23 @@ msgstr "Forum sağlayıcısı"
 #: openedx/core/djangoapps/discussions/models.py
 msgid "The discussion tool/provider's id"
 msgstr "Forum aracı/sağlayıcısı kimliği"
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Program UUID"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid ""
+"If disabled, the discussions in the associated program will be disabled."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The LTI configuration data for this program/provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The discussion provider's id"
+msgstr ""
 
 #: openedx/core/djangoapps/discussions/plugins.py
 msgid ""
@@ -11520,6 +11545,10 @@ msgid "Full Name cannot contain the following characters: < >"
 msgstr "Tam isim şu karakterleri içeremez: < >"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
+msgid "Enter a valid name"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "A properly formatted e-mail is required"
 msgstr "Geçerli biçimde e-posta adresi gerekiyor"
 
@@ -12178,6 +12207,7 @@ msgstr ""
 "başlamak için birkaç adımınız kaldı!"
 
 #: openedx/features/enterprise_support/utils.py
+#: lms/templates/course_modes/track_selection.html
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Continue"
 msgstr "Devam et"
@@ -12188,14 +12218,20 @@ msgid "Shift due dates"
 msgstr "Son tarihleri değiştirin"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py
+#: lms/templates/dates_banner.html
 msgid ""
-"To participate in this assignment, the suggested schedule for your course "
-"needs updating. Don’t worry, we’ll shift all the due dates for you and you "
-"won’t lose any of your progress."
+"It looks like you missed some important deadlines based on our suggested "
+"schedule."
 msgstr ""
-"Bu ödeve katılmak için dersiniz için önerilen programın güncellenmesi "
-"gerekiyor. Endişelenmeyin, sizin için tüm teslim tarihlerini değiştireceğiz "
-"ve ilerlemenizden hiçbir şey kaybetmeyeceksiniz. "
+"Görünüşe göre, önerilen programımızdaki bazı önemli son tarihleri "
+"kaçırdınız."
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+msgid ""
+"To keep yourself on track, you can update this schedule and shift the past "
+"due assignments into the future. Don’t worry—you won’t lose any of the "
+"progress you’ve made when you shift your due dates."
+msgstr ""
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py
 #, python-brace-format
@@ -12445,6 +12481,70 @@ msgid ""
 msgstr ""
 "Belirlenmiş dersi alın ve git deposuna aktarmayı deneyin\n"
 ". Ders dizini aynı zamanda git deposu olmalıdır. Kullanım: git_export <course_loc> <git_url>"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py
+msgid "Marks a field as deprecated."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py
+msgid "User-friendly display name for the field"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py
+msgid "Help text that describes the setting."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "Tab type"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "Default name for the tab displayed to users"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "True if it's possible to hide the tab for a course"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "True the tab is hidden for the course"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "True if it's possible to reorder the tab in the list of tabs"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "True if this tab should be displayed only for instructors"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "Name of the tab displayed to users. Overrides title."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "Additional settings specific to the tab"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "ID of tab to update"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "Location (Usage Key) of tab to update"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "Need to supply either a valid tab_id or a tab_location."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
+msgid "True to hide the tab, and False to show it."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py
+msgid "Change the visibility of tabs in a course."
+msgstr ""
 
 #: cms/djangoapps/contentstore/utils.py cms/templates/visibility_editor.html
 msgid "Deleted Group"
@@ -13590,14 +13690,6 @@ msgid ""
 msgstr ""
 " Endişelenmeyin—son tarihlerinizi değiştirdiğinizde kaydettiğiniz "
 "ilerlemelerin hiçbirini kaybetmezsiniz."
-
-#: lms/templates/dates_banner.html
-msgid ""
-"It looks like you missed some important deadlines based on our suggested "
-"schedule."
-msgstr ""
-"Görünüşe göre, önerilen programımızdaki bazı önemli son tarihleri "
-"kaçırdınız."
 
 #: lms/templates/dates_banner.html
 msgid ""
@@ -15847,11 +15939,9 @@ msgstr ""
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/choose.html
 msgid ""
-"{b_start}Easily Sharable: {b_end}Add the certificate to your CV or resume, "
+"{b_start}Easily Sharable: {b_end}Add the certificate to your CV or resumé, "
 "or post it directly on LinkedIn."
 msgstr ""
-"{b_start}Kolayca Paylaşılabilir: {b_end}Sertifikayı CV'nize veya "
-"özgeçmişinize ekleyin, ya da LinkedIn'e yapıştırın."
 
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/choose.html
@@ -15869,11 +15959,9 @@ msgstr ""
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/choose.html
 msgid ""
-"{b_start}Easily shareable:{b_end} Add the certificate to your CV or resume, "
+"{b_start}Easily shareable:{b_end} Add the certificate to your CV or resumé, "
 "or post it directly on LinkedIn"
 msgstr ""
-"{b_start}Kolayca paylaşılabilir:{b_end} Sertifikayı CV'nize veya "
-"özgeçmişinize ekleyin, ya da LinkedIn'e yapıştırın"
 
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/choose.html
@@ -15897,11 +15985,9 @@ msgstr ""
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/choose.html
 msgid ""
-"{b_start}Easily shareable: {b_end}Add the certificate to your CV or resume, "
+"{b_start}Easily shareable: {b_end}Add the certificate to your CV or resumé, "
 "or post it directly on LinkedIn"
 msgstr ""
-"{b_start}Kolayca paylaşılabilir: {b_end} Sertifikayı CV'nize veya "
-"özgeçmişinize ekleyin, ya da LinkedIn'e yapıştırın"
 
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/choose.html
@@ -15975,6 +16061,76 @@ msgstr ""
 "testlere ve forumlara tam erişim hakkına sahip olun.  {b_start}Lütfen bu "
 "iznin geçer not kazanan öğrencilere sertifika vermediğini unutmayın.{b_end}"
 
+#: lms/templates/course_modes/track_selection.html
+msgid "Enroll In {course_name} | Upgrade Now"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid "Choose a path for your course in"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid ""
+"Showcase a {link_start}verified certificate{link_end} of completion on your "
+"resumé to advance your career"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid ""
+"Get {start_bold}access to all course activities{end_bold}, including both "
+"graded and non-graded assignments, while the course is running"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid "Show more"
+msgstr "Daha fazla göster"
+
+#: lms/templates/course_modes/track_selection.html
+msgid ""
+"{start_bold}Full access{end_bold} to course content and materials, even "
+"after the course ends"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid "{link_start}Learn more{link_end} about course access"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid ""
+"Support our {start_bold}non-profit mission{end_bold} to increase access to "
+"high-quality education for everyone, everywhere"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid ""
+"Studies show that those who choose this option are  {start_bold}more engaged"
+" and motivated{end_bold} to complete their courses"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid "Access this course"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid ""
+"Get temporary access to  {start_bold}non-graded{end_bold} activities, "
+"including discussion forums and non-graded assignments"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid ""
+"Get {start_bold}temporary access{end_bold} to the course material, including"
+" videos and readings"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid "Access expires and all progress will be lost on"
+msgstr ""
+
+#: lms/templates/course_modes/track_selection.html
+msgid "Access expires and all progress will be lost"
+msgstr ""
+
 #: lms/templates/courseware/accordion.html
 msgid "{chapter} current chapter"
 msgstr "{chapter} şu anki bölüm"
@@ -15997,11 +16153,6 @@ msgstr "{section_format} son tarihi {{date}}"
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html
 msgid "This content is graded"
 msgstr "Bu içerik puanlandı"
-
-#: lms/templates/courseware/course_about.html
-msgid "An error has occurred. Please ensure that you are logged in to enroll."
-msgstr ""
-"Bir hata oluştu. Kayıt olmak için, lütfen oturum açtığınızdan emin olun."
 
 #: lms/templates/courseware/course_about.html
 msgid "An error occurred. Please try again later."
@@ -16718,6 +16869,18 @@ msgstr ""
 "elimize geçmediğinden, onaylı {cert_name_short} veremiyoruz. Bunun yerine "
 "onur kodu {cert_name_short} verilmiştir."
 
+#: lms/templates/dashboard/_dashboard_certificate_information.html
+msgid "You are not eligible for a certificate."
+msgstr ""
+
+#: lms/templates/dashboard/_dashboard_certificate_information.html
+msgid "This link will open the course progress page"
+msgstr ""
+
+#: lms/templates/dashboard/_dashboard_certificate_information.html
+msgid "View grades"
+msgstr "Notları göster"
+
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Course details"
 msgstr "Ders ayrıntıları"
@@ -16840,6 +17003,7 @@ msgstr "Bir sertifika almak için kimliğinizi doğrulamalısınız"
 msgid "You only have {days} day left to verify for this course."
 msgid_plural "You only have {days} days left to verify for this course."
 msgstr[0] ""
+"Bu derse yönelik kimliğinizi doğrulamak için sadece {days} gününüz kaldı."
 msgstr[1] ""
 "Bu derse yönelik kimliğinizi doğrulamak için sadece {days} gününüz kaldı."
 
@@ -16909,7 +17073,7 @@ msgid ""
 "{start_bold}Get the most out of your course!{end_bold} Upgrade to get full "
 "access to the course material, unlock both graded and non-graded "
 "assignments, and earn a {link_start}verified certificate{link_end} to "
-"showcase on your resume."
+"showcase on your resumé."
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -20174,11 +20338,9 @@ msgstr "edX Öğrenci Hikâyeleri"
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html
 msgid ""
 "My certificate has helped me showcase my knowledge on my"
-"                             resume - I feel like this certificate could "
+"                             resumé - I feel like this certificate could "
 "really help me land                             my dream job!"
 msgstr ""
-"Sertifikam bilgi dağarcığımı özgeçmişimde göstermeme yardımcı oldu - Bu "
-"sertifika hayallerimdeki işi bulmamda bana yardımcı olacak!"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html
 msgid "{learner_name}, edX Learner"
@@ -20186,14 +20348,11 @@ msgstr "{learner_name}, edX Öğrencisi"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html
 msgid ""
-"I wanted to include a verified certificate on my resume and my profile to"
+"I wanted to include a verified certificate on my resumé and my profile to"
 "                             illustrate that I am working towards this goal "
 "I have and that I have                             achieved something while "
 "I was unemployed."
 msgstr ""
-"Özgeçmişime ve profilime onaylı bir sertifikayı dâhil etmek istedim ve bu "
-"hedefe doğru çalıştığımı ve işsizken bir şeylere ulaştığımı göstermeyi "
-"istedim."
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html
 msgid "Upgrade ({course_price})"
@@ -24854,7 +25013,7 @@ msgstr ""
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html
 #: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html
 msgid "Upload replacement"
-msgstr ""
+msgstr "Yenisini yükle"
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html
 msgid "Add file to"
@@ -25227,7 +25386,7 @@ msgstr "madde,maddeler"
 
 #: wiki/templates/wiki/dir.html
 msgid "matches,match"
-msgstr ""
+msgstr "eşleşenler,eşleşen"
 
 #: wiki/templates/wiki/dir.html
 #, python-format
