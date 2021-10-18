@@ -4907,9 +4907,8 @@ msgstr ""
 "kaldırın{htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
-msgid "Before proceeding, please {htmlStart}activate your account{htmlEnd}."
+msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
 msgstr ""
-"İlerlemeden önce, lütfen {htmlStart}hesabınızı etkinleştirin{htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
@@ -11162,7 +11161,8 @@ msgstr "Gözetimli"
 msgid ""
 "Proctored exams are timed and they record video of each learner taking the "
 "exam. The videos are then reviewed to ensure that learners follow all "
-"examination rules."
+"examination rules. Please note that setting this exam as proctored will "
+"change the visibility settings to \"Hide content after due date.\""
 msgstr ""
 "Gözetimli sınavlar zaman sınırlıdır ve sınav süresince öğrencileri videoya "
 "kaydeder. Bu videolar öğrencilerin sınav kurallarına uyduklarını belgeler."

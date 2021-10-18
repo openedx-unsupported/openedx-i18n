@@ -156,6 +156,11 @@ msgid "Discussion"
 msgstr "Tartışma"
 
 #: cms/djangoapps/contentstore/views/component.py
+#: common/lib/xmodule/xmodule/html_module.py
+msgid "Text"
+msgstr "Metin"
+
+#: cms/djangoapps/contentstore/views/component.py
 #: openedx/core/djangoapps/content_libraries/constants.py
 msgid "Problem"
 msgstr "Problem"
@@ -824,34 +829,32 @@ msgstr "Beklenmedik hesap durumu"
 #: common/djangoapps/student/views/management.py
 #, python-brace-format
 msgid ""
-"{html_start}Your account could not be activated{html_end}Something went "
-"wrong, please <a href=\"{support_url}\">contact support</a> to resolve this "
-"issue."
+"{html_start}Your {account_or_email} could not be "
+"{activated_or_confirmed}{html_end}Something went wrong, please <a "
+"href=\"{support_url}\">contact support</a> to resolve this issue."
 msgstr ""
-"{html_start}Hesabınız etkinleştirilemedi.{html_end}Bir şeyler yanlış gitti, "
-"lütfen  <a href=\"{support_url}\">destek ekibiyle iletişime geçerek</a> "
-"sorunu bildirin."
-
-#: common/djangoapps/student/views/management.py
-#, python-brace-format
-msgid "{html_start}This account has already been activated.{html_end}"
-msgstr "{html_start}Bu hesap daha önceden etkinleştirilmişti.{html_end}"
-
-#: common/djangoapps/student/views/management.py
-#, python-brace-format
-msgid "{html_start}Success{html_end} You have activated your account."
-msgstr "{html_start}Kutlarız!{html_end} Hesabınızı etkinleştirdiniz."
 
 #: common/djangoapps/student/views/management.py
 #, python-brace-format
 msgid ""
-"{html_start}Success! You have activated your account.{html_end}You will now "
-"receive email updates and alerts from us related to the courses you are "
-"enrolled in. Sign In to continue."
+"{html_start}This {account_or_email} has already been "
+"{activated_or_confirmed}.{html_end}"
 msgstr ""
-"{html_start}Kutlarız! Hesabınızı etkinleştirdiniz.{html_end} Bundan sonra "
-"kayıt olduğunuz derslerle ilgili duyuru ve güncellemeler e-posta kutunuza "
-"düşmeye başlayacak. Devam etmek için lütfen giriş yapın."
+
+#: common/djangoapps/student/views/management.py
+#, python-brace-format
+msgid ""
+"{html_start}Success{html_end} You have {activated_or_confirmed} your "
+"{account_or_email}."
+msgstr ""
+
+#: common/djangoapps/student/views/management.py
+#, python-brace-format
+msgid ""
+"{html_start}Success! You have {activated_or_confirmed} your "
+"{account_or_email}.{html_end}You will now receive email updates and alerts "
+"from us related to the courses you are enrolled in. Sign In to continue."
+msgstr ""
 
 #: common/djangoapps/student/views/management.py
 msgid "Valid e-mail address required."
@@ -3694,10 +3697,6 @@ msgstr ""
 "gizlenecek."
 
 #: common/lib/xmodule/xmodule/html_module.py
-msgid "Text"
-msgstr "Metin"
-
-#: common/lib/xmodule/xmodule/html_module.py
 msgid "Html contents to display for this module"
 msgstr "Bu modülde gösterilecek Html içerikleri"
 
@@ -4656,6 +4655,14 @@ msgstr "Kaydet ve İçe Aktar"
 #: cms/templates/videos_index_pagination.html
 msgid "Cancel"
 msgstr "İptal"
+
+#: common/lib/xmodule/xmodule/vertical_block.py
+msgid "Enable in-context discussions for the Unit"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/vertical_block.py
+msgid "Add discussion for the Unit."
+msgstr ""
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 #, python-brace-format
@@ -7859,6 +7866,7 @@ msgid "Cohorts"
 msgstr "Topluluklar"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
+#: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py
 #: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html
 msgid "Discussions"
 msgstr "Forum"
@@ -8248,6 +8256,7 @@ msgid " (out of {total})"
 msgstr " ({total} içinde)"
 
 #: lms/djangoapps/learner_dashboard/programs.py
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
 #: lms/templates/header/navbar-authenticated.html
 #: lms/templates/learner_dashboard/programs.html
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html
@@ -8562,6 +8571,18 @@ msgstr "Kullanıcı {username} bu takımla ilgili olan derse kayıtlı değil."
 msgid "You can't leave an instructor managed team."
 msgstr "Eğitmen tarafından yönetilen bir takımı terkedemezsiniz."
 
+#: lms/djangoapps/user_tours/models.py
+msgid "Show existing user tour"
+msgstr ""
+
+#: lms/djangoapps/user_tours/models.py
+msgid "Show new user tour"
+msgstr ""
+
+#: lms/djangoapps/user_tours/models.py
+msgid "Do not show user tour"
+msgstr ""
+
 #: lms/djangoapps/verify_student/models.py
 msgid "The course for which this deadline applies"
 msgstr "Bu son tarihin uygulandığı ders"
@@ -8626,15 +8647,6 @@ msgstr ""
 #: lms/djangoapps/verify_student/views.py
 msgid "Missing required parameter face_image"
 msgstr "Boş kalan gerekli parametre yüz_resmi"
-
-#: lms/djangoapps/verify_student/views.py
-msgid "No profile found for user"
-msgstr "Kullanıcı için bir profil bulunamadı"
-
-#: lms/djangoapps/verify_student/views.py
-#, python-brace-format
-msgid "Name must be at least {min_length} character long."
-msgstr "İsim en az {min_length} karakter uzunluğunda olmalıdır."
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Image data is in an unsupported format."
@@ -9143,6 +9155,55 @@ msgstr "İzin ver"
 #: lms/templates/ccx/schedule.html
 msgid "Error"
 msgstr "Hata"
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Check out this course on edx"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Enroll now"
+msgstr ""
+
+#: lms/templates/courseware/course_about.html
+#: lms/templates/dashboard/_dashboard_course_resume.html
+#: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
+msgid "View Course"
+msgstr "Derse Gözat"
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Estimated 6 weeks"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "4-6 hours per week"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Self-paced"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Progress at your own speed"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Optional upgrade available"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.txt
+#, python-format
+msgid "Check out this course on %(platform_name)s."
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.txt
+#, python-format
+msgid "This email message was automatically sent by %(lms_url)s "
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/subject.txt
+#, python-format
+msgid "%(display_name)s"
+msgstr ""
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html
 msgid "ID Verification Approved"
@@ -9763,10 +9824,19 @@ msgid "Go to %(platform_name)s Home Page"
 msgstr "%(platform_name)s Ana Sayfasına Git"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
-#: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
-#: cms/templates/widgets/header.html
-msgid "Sign In"
-msgstr "Giriş"
+#: cms/templates/index.html lms/templates/courseware/courses.html
+#: lms/templates/header/navbar-authenticated.html
+#: lms/templates/header/navbar-not-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html
+#: lms/templates/navigation/navbar-authenticated.html
+#: lms/templates/navigation/navbar-not-authenticated.html
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html
+msgid "Courses"
+msgstr "Dersler"
+
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
+msgid "My Account"
+msgstr ""
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
@@ -10606,6 +10676,38 @@ msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "The discussion provider's id"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Context key for context in which this discussion topic exists."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid ""
+"Usage key for in-context discussion topic. Set to null for course-level "
+"topics."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Title for discussion topic."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Group for divided discussions."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Provider id for discussion provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid ""
+"Discussion context ID in external forum provider. e.g. commentable_id for "
+"cs_comments_service."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Whether this topic should be shown in-context in the course."
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/plugins.py
@@ -11850,6 +11952,11 @@ msgstr "Bitirdiğiniz En Yüksek Okul Seviyesi"
 msgid "Year of birth"
 msgstr "Doğum yılı"
 
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+#, python-brace-format
+msgid "I agree that {platform_name} may send me marketing messages."
+msgstr ""
+
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
@@ -12818,10 +12925,6 @@ msgid "{platform_name} Support Levels:"
 msgstr "{platform_name} Destek Seviyeleri:"
 
 #: cms/djangoapps/contentstore/views/component.py
-msgid "HTML"
-msgstr "HTML"
-
-#: cms/djangoapps/contentstore/views/component.py
 msgid "Open Response"
 msgstr "Açık Yanıt"
 
@@ -13457,16 +13560,6 @@ msgstr "Ders Numarası:"
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Course Run:"
 msgstr "Ders Zamanı:"
-
-#: cms/templates/index.html lms/templates/courseware/courses.html
-#: lms/templates/header/navbar-authenticated.html
-#: lms/templates/header/navbar-not-authenticated.html
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html
-#: lms/templates/navigation/navbar-authenticated.html
-#: lms/templates/navigation/navbar-not-authenticated.html
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html
-msgid "Courses"
-msgstr "Dersler"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 #: themes/stanford-style/lms/templates/register-form.html
@@ -16379,12 +16472,6 @@ msgstr "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
 #: lms/templates/courseware/course_about.html
 msgid "You are enrolled in this course"
 msgstr "Bu derse kaydoldunuz"
-
-#: lms/templates/courseware/course_about.html
-#: lms/templates/dashboard/_dashboard_course_resume.html
-#: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
-msgid "View Course"
-msgstr "Derse Gözat"
 
 #: lms/templates/courseware/course_about.html
 msgid "Course is full"
@@ -21739,8 +21826,8 @@ msgstr "İçerik görünürlüğü ayarları hakkında daha fazla bilgi"
 
 #: cms/templates/edit-tabs.html cms/templates/export.html
 #: cms/templates/widgets/header.html
-msgid "Pages"
-msgstr "Sayfalar"
+msgid "Pages & Resources"
+msgstr "Sayfalar & Kaynaklar"
 
 #: cms/templates/edit-tabs.html cms/templates/textbooks.html
 #: cms/templates/widgets/header.html
@@ -22000,6 +22087,10 @@ msgstr "Ders Yapısı"
 #: cms/templates/export.html
 msgid "Individual Problems"
 msgstr "Bireysel Problemler"
+
+#: cms/templates/export.html cms/templates/widgets/header.html
+msgid "Pages"
+msgstr "Sayfalar"
 
 #: cms/templates/export.html
 msgid "Course Assets"

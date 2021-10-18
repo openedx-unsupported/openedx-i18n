@@ -4728,9 +4728,8 @@ msgstr ""
 "rețelelor sociale{htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
-msgid "Before proceeding, please {htmlStart}activate your account{htmlEnd}."
+msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
 msgstr ""
-"Înainte de a continua, vă rugăm {htmlStart}activați-vă contul{htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
@@ -10607,7 +10606,8 @@ msgstr ""
 msgid ""
 "Proctored exams are timed and they record video of each learner taking the "
 "exam. The videos are then reviewed to ensure that learners follow all "
-"examination rules."
+"examination rules. Please note that setting this exam as proctored will "
+"change the visibility settings to \"Hide content after due date.\""
 msgstr ""
 
 #: cms/templates/js/timed-examination-preference-editor.underscore

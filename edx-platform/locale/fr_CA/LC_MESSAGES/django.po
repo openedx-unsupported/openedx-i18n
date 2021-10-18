@@ -21,6 +21,7 @@
 # francoisedocq, 2014
 # Françoise Docq, 2014
 # ec8fd933aa5d2ad0772d64892951aef0, 2015
+# Gabriel D'Amours <gabriel@opencraft.com>, 2021
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # INARES <contact@inares.org>, 2015
@@ -54,7 +55,7 @@
 # Régis Millet <regmillet@ct2c.fr>, 2015
 # Richard Moch <richard.moch@gmail.com>, 2014,2016
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # SLOG90 <slog90@gmail.com>, 2014
 # Steven BERNARD <steven.bernard@u-paris2.fr>, 2013-2014
@@ -122,7 +123,7 @@
 # Régis Millet <regmillet@ct2c.fr>, 2015
 # Richard Moch <richard.moch@gmail.com>, 2014,2016
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # SLOG90 <slog90@gmail.com>, 2014
 # Steven BERNARD <steven.bernard@u-paris2.fr>, 2013-2014
@@ -204,7 +205,7 @@
 # Richard Moch <richard.moch@gmail.com>, 2014-2016
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
 # samuel <samuelecin@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Viallemonteil <sebastien.viallemonteil@educagri.fr>, 2015
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # Serge Bibauw <sbibauw@gmail.com>, 2016
@@ -276,7 +277,7 @@
 # Régis Millet <regmillet@ct2c.fr>, 2015
 # Richard Moch <richard.moch@gmail.com>, 2014,2016
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # SLOG90 <slog90@gmail.com>, 2014
 # Steven BERNARD <steven.bernard@u-paris2.fr>, 2013-2014
@@ -341,7 +342,7 @@
 # Régis Millet <regmillet@ct2c.fr>, 2015
 # Richard Moch <richard.moch@gmail.com>, 2014,2016
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # SLOG90 <slog90@gmail.com>, 2014
 # Steven BERNARD <steven.bernard@u-paris2.fr>, 2013-2014
@@ -388,6 +389,11 @@ msgstr ""
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 msgid "Discussion"
 msgstr "Discussion"
+
+#: cms/djangoapps/contentstore/views/component.py
+#: common/lib/xmodule/xmodule/html_module.py
+msgid "Text"
+msgstr "Texte"
 
 #: cms/djangoapps/contentstore/views/component.py
 #: openedx/core/djangoapps/content_libraries/constants.py
@@ -641,6 +647,7 @@ msgstr "{currency_symbol}{price}"
 #. Translators: This refers to the cost of the course. In this case, the
 #. course costs nothing so it is free.
 #: common/djangoapps/course_modes/models.py
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
 #: lms/templates/course_modes/track_selection.html
 msgid "Free"
 msgstr "Gratuit"
@@ -1063,35 +1070,32 @@ msgstr "Statut de compte innatendu"
 #: common/djangoapps/student/views/management.py
 #, python-brace-format
 msgid ""
-"{html_start}Your account could not be activated{html_end}Something went "
-"wrong, please <a href=\"{support_url}\">contact support</a> to resolve this "
-"issue."
+"{html_start}Your {account_or_email} could not be "
+"{activated_or_confirmed}{html_end}Something went wrong, please <a "
+"href=\"{support_url}\">contact support</a> to resolve this issue."
 msgstr ""
-"{html_start}Votre compte n'a pas pu être activé{html_end}Quelque chose s'est"
-" mal passé, SVP <a href=\"{support_url}\">contactez le support</a> pour "
-"résoudre ce problème."
-
-#: common/djangoapps/student/views/management.py
-#, python-brace-format
-msgid "{html_start}This account has already been activated.{html_end}"
-msgstr "{html_start}Ce compte a déjà été activé.{html_end}"
-
-#: common/djangoapps/student/views/management.py
-#, python-brace-format
-msgid "{html_start}Success{html_end} You have activated your account."
-msgstr "{html_start}Félicitations!{html_end} Vous avez activé votre compte."
 
 #: common/djangoapps/student/views/management.py
 #, python-brace-format
 msgid ""
-"{html_start}Success! You have activated your account.{html_end}You will now "
-"receive email updates and alerts from us related to the courses you are "
-"enrolled in. Sign In to continue."
+"{html_start}This {account_or_email} has already been "
+"{activated_or_confirmed}.{html_end}"
 msgstr ""
-"{html_start}Félicitations! Vous avez activé votre compte.{html_end}Vous "
-"allez maintenant recevoir des mises à jour et alertes de notre part "
-"concernant les cours auxquels vous êtes inscrit. Connectez-vous pour "
-"continuer."
+
+#: common/djangoapps/student/views/management.py
+#, python-brace-format
+msgid ""
+"{html_start}Success{html_end} You have {activated_or_confirmed} your "
+"{account_or_email}."
+msgstr ""
+
+#: common/djangoapps/student/views/management.py
+#, python-brace-format
+msgid ""
+"{html_start}Success! You have {activated_or_confirmed} your "
+"{account_or_email}.{html_end}You will now receive email updates and alerts "
+"from us related to the courses you are enrolled in. Sign In to continue."
+msgstr ""
 
 #: common/djangoapps/student/views/management.py
 msgid "Valid e-mail address required."
@@ -4015,10 +4019,6 @@ msgstr ""
 "cachée dans le LMS."
 
 #: common/lib/xmodule/xmodule/html_module.py
-msgid "Text"
-msgstr "Texte"
-
-#: common/lib/xmodule/xmodule/html_module.py
 msgid "Html contents to display for this module"
 msgstr "Contenu HTML à afficher pour ce module"
 
@@ -5006,6 +5006,14 @@ msgstr "Enregistrer et importer"
 #: cms/templates/videos_index_pagination.html
 msgid "Cancel"
 msgstr "Annuler"
+
+#: common/lib/xmodule/xmodule/vertical_block.py
+msgid "Enable in-context discussions for the Unit"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/vertical_block.py
+msgid "Add discussion for the Unit."
+msgstr ""
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 #, python-brace-format
@@ -8305,6 +8313,7 @@ msgid "Cohorts"
 msgstr "Cohortes"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
+#: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py
 #: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html
 msgid "Discussions"
 msgstr "Discussions"
@@ -8706,6 +8715,7 @@ msgid " (out of {total})"
 msgstr " (sur un total de {total})"
 
 #: lms/djangoapps/learner_dashboard/programs.py
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
 #: lms/templates/header/navbar-authenticated.html
 #: lms/templates/learner_dashboard/programs.html
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html
@@ -9035,6 +9045,18 @@ msgstr ""
 msgid "You can't leave an instructor managed team."
 msgstr "Vous ne pouvez pas quitter une équipe dirigée par un instructeur."
 
+#: lms/djangoapps/user_tours/models.py
+msgid "Show existing user tour"
+msgstr ""
+
+#: lms/djangoapps/user_tours/models.py
+msgid "Show new user tour"
+msgstr ""
+
+#: lms/djangoapps/user_tours/models.py
+msgid "Do not show user tour"
+msgstr ""
+
 #: lms/djangoapps/verify_student/models.py
 msgid "The course for which this deadline applies"
 msgstr "Le cours pour lequel ce délai s'applique"
@@ -9099,15 +9121,6 @@ msgstr ""
 #: lms/djangoapps/verify_student/views.py
 msgid "Missing required parameter face_image"
 msgstr "Paramètre face_image requis manquant"
-
-#: lms/djangoapps/verify_student/views.py
-msgid "No profile found for user"
-msgstr "Pas de profil trouvé pour cet utilisateur"
-
-#: lms/djangoapps/verify_student/views.py
-#, python-brace-format
-msgid "Name must be at least {min_length} character long."
-msgstr "Le nom doit être au mimimum de {min_length} caractères."
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Image data is in an unsupported format."
@@ -9618,6 +9631,56 @@ msgstr "Permettre"
 #: lms/templates/ccx/schedule.html
 msgid "Error"
 msgstr "Erreur"
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Check out this course on edx"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Enroll now"
+msgstr "Inscrivez-vous maintenant"
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+#: lms/templates/courseware/course_about.html
+#: lms/templates/dashboard/_dashboard_course_resume.html
+#: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
+msgid "View Course"
+msgstr "Voir le cours"
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Estimated 6 weeks"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "4-6 hours per week"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Self-paced"
+msgstr "À votre rythme"
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Progress at your own speed"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Optional upgrade available"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.txt
+#, python-format
+msgid "Check out this course on %(platform_name)s."
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.txt
+#, python-format
+msgid "This email message was automatically sent by %(lms_url)s "
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/subject.txt
+#, python-format
+msgid "%(display_name)s"
+msgstr ""
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html
 msgid "ID Verification Approved"
@@ -10242,10 +10305,19 @@ msgid "Go to %(platform_name)s Home Page"
 msgstr "Aller à la page d'accueil de %(platform_name)s"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
-#: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
-#: cms/templates/widgets/header.html
-msgid "Sign In"
-msgstr "Connexion"
+#: cms/templates/index.html lms/templates/courseware/courses.html
+#: lms/templates/header/navbar-authenticated.html
+#: lms/templates/header/navbar-not-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html
+#: lms/templates/navigation/navbar-authenticated.html
+#: lms/templates/navigation/navbar-not-authenticated.html
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html
+msgid "Courses"
+msgstr "Cours"
+
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
+msgid "My Account"
+msgstr ""
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
@@ -12396,6 +12468,11 @@ msgstr "Plus haut niveau de formation obtenu"
 msgid "Year of birth"
 msgstr "Année de naissance"
 
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+#, python-brace-format
+msgid "I agree that {platform_name} may send me marketing messages."
+msgstr ""
+
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
@@ -13400,10 +13477,6 @@ msgid "{platform_name} Support Levels:"
 msgstr "Niveaux de support {platform_name} : "
 
 #: cms/djangoapps/contentstore/views/component.py
-msgid "HTML"
-msgstr "HTML"
-
-#: cms/djangoapps/contentstore/views/component.py
 msgid "Open Response"
 msgstr "Réponse ouverte"
 
@@ -14061,16 +14134,6 @@ msgstr "Numéro du cours : "
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Course Run:"
 msgstr "Cours dispensé : "
-
-#: cms/templates/index.html lms/templates/courseware/courses.html
-#: lms/templates/header/navbar-authenticated.html
-#: lms/templates/header/navbar-not-authenticated.html
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html
-#: lms/templates/navigation/navbar-authenticated.html
-#: lms/templates/navigation/navbar-not-authenticated.html
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html
-msgid "Courses"
-msgstr "Cours"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 #: themes/stanford-style/lms/templates/register-form.html
@@ -17203,12 +17266,6 @@ msgstr "Une erreur s'est produite. Merci d'essayer de nouveau plus tard."
 #: lms/templates/courseware/course_about.html
 msgid "You are enrolled in this course"
 msgstr "Vous êtes inscrit dans ce cours"
-
-#: lms/templates/courseware/course_about.html
-#: lms/templates/dashboard/_dashboard_course_resume.html
-#: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
-msgid "View Course"
-msgstr "Voir le cours"
 
 #: lms/templates/courseware/course_about.html
 msgid "Course is full"
@@ -22700,8 +22757,8 @@ msgstr "Apprenez-en plus sur les paramètres de visibilité de contenu"
 
 #: cms/templates/edit-tabs.html cms/templates/export.html
 #: cms/templates/widgets/header.html
-msgid "Pages"
-msgstr "Pages"
+msgid "Pages & Resources"
+msgstr "Pages et ressources"
 
 #: cms/templates/edit-tabs.html cms/templates/textbooks.html
 #: cms/templates/widgets/header.html
@@ -22965,6 +23022,10 @@ msgstr "Structure du cours"
 #: cms/templates/export.html
 msgid "Individual Problems"
 msgstr "Problèmes individuels"
+
+#: cms/templates/export.html cms/templates/widgets/header.html
+msgid "Pages"
+msgstr "Pages"
 
 #: cms/templates/export.html
 msgid "Course Assets"

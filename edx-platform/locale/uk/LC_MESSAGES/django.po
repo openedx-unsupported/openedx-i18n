@@ -149,6 +149,11 @@ msgid "Discussion"
 msgstr "Обговорення"
 
 #: cms/djangoapps/contentstore/views/component.py
+#: common/lib/xmodule/xmodule/html_module.py
+msgid "Text"
+msgstr "Текст"
+
+#: cms/djangoapps/contentstore/views/component.py
 #: openedx/core/djangoapps/content_libraries/constants.py
 msgid "Problem"
 msgstr ""
@@ -390,6 +395,7 @@ msgstr "{currency_symbol}{price}"
 #. Translators: This refers to the cost of the course. In this case, the
 #. course costs nothing so it is free.
 #: common/djangoapps/course_modes/models.py
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
 msgid "Free"
 msgstr "Безкоштовно"
 
@@ -787,34 +793,32 @@ msgstr "Неочікуваний статус облікового запису"
 #: common/djangoapps/student/views/management.py
 #, python-brace-format
 msgid ""
-"{html_start}Your account could not be activated{html_end}Something went "
-"wrong, please <a href=\"{support_url}\">contact support</a> to resolve this "
-"issue."
+"{html_start}Your {account_or_email} could not be "
+"{activated_or_confirmed}{html_end}Something went wrong, please <a "
+"href=\"{support_url}\">contact support</a> to resolve this issue."
 msgstr ""
-"{html_start} Ваш обліковий запис не може бути активовано{html_end}. Будь "
-"ласка, повідомте про це <a href=\"{support_url}\">Службі Підтримки</a>, щоб "
-"виправити помилку."
-
-#: common/djangoapps/student/views/management.py
-#, python-brace-format
-msgid "{html_start}This account has already been activated.{html_end}"
-msgstr "{html_start}Цей обліковий запис вже активовано.{html_end}"
-
-#: common/djangoapps/student/views/management.py
-#, python-brace-format
-msgid "{html_start}Success{html_end} You have activated your account."
-msgstr "{html_start} Схвалено. {html_end} Ви активували ваш обліковий запис."
 
 #: common/djangoapps/student/views/management.py
 #, python-brace-format
 msgid ""
-"{html_start}Success! You have activated your account.{html_end}You will now "
-"receive email updates and alerts from us related to the courses you are "
-"enrolled in. Sign In to continue."
+"{html_start}This {account_or_email} has already been "
+"{activated_or_confirmed}.{html_end}"
 msgstr ""
-"{html_start}Схвалено! Ви активували ваш обліковий запис.{html_end} Тепер ви "
-"отримуватимете від нас електронні оновлення та сповіщення щодо курсу, на "
-"який ви зареєструвалися.  Увійдіть щоб продовжити."
+
+#: common/djangoapps/student/views/management.py
+#, python-brace-format
+msgid ""
+"{html_start}Success{html_end} You have {activated_or_confirmed} your "
+"{account_or_email}."
+msgstr ""
+
+#: common/djangoapps/student/views/management.py
+#, python-brace-format
+msgid ""
+"{html_start}Success! You have {activated_or_confirmed} your "
+"{account_or_email}.{html_end}You will now receive email updates and alerts "
+"from us related to the courses you are enrolled in. Sign In to continue."
+msgstr ""
 
 #: common/djangoapps/student/views/management.py
 msgid "Valid e-mail address required."
@@ -3718,10 +3722,6 @@ msgid ""
 msgstr ""
 
 #: common/lib/xmodule/xmodule/html_module.py
-msgid "Text"
-msgstr "Текст"
-
-#: common/lib/xmodule/xmodule/html_module.py
 msgid "Html contents to display for this module"
 msgstr "HTML зміст, показаний в цьому модулі"
 
@@ -4661,6 +4661,14 @@ msgstr ""
 #: openedx/core/djangoapps/user_api/admin.py
 msgid "Cancel"
 msgstr "Відмінити"
+
+#: common/lib/xmodule/xmodule/vertical_block.py
+msgid "Enable in-context discussions for the Unit"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/vertical_block.py
+msgid "Add discussion for the Unit."
+msgstr ""
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 #, python-brace-format
@@ -7731,6 +7739,7 @@ msgid "Cohorts"
 msgstr "Когорти"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
+#: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py
 #: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html
 msgid "Discussions"
 msgstr "Обговорення"
@@ -8438,6 +8447,18 @@ msgstr ""
 msgid "You can't leave an instructor managed team."
 msgstr ""
 
+#: lms/djangoapps/user_tours/models.py
+msgid "Show existing user tour"
+msgstr ""
+
+#: lms/djangoapps/user_tours/models.py
+msgid "Show new user tour"
+msgstr ""
+
+#: lms/djangoapps/user_tours/models.py
+msgid "Do not show user tour"
+msgstr ""
+
 #: lms/djangoapps/verify_student/models.py
 msgid "The course for which this deadline applies"
 msgstr "Курс, до якого відноситься цей термін"
@@ -8502,15 +8523,6 @@ msgstr ""
 #: lms/djangoapps/verify_student/views.py
 msgid "Missing required parameter face_image"
 msgstr "Відсутній обов'язковий атрибут face_image"
-
-#: lms/djangoapps/verify_student/views.py
-msgid "No profile found for user"
-msgstr "Особисті дані користувача не знайдені"
-
-#: lms/djangoapps/verify_student/views.py
-#, python-brace-format
-msgid "Name must be at least {min_length} character long."
-msgstr ""
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Image data is in an unsupported format."
@@ -9004,6 +9016,55 @@ msgstr "Дозволити"
 #: lms/templates/oauth2_provider/authorize.html
 msgid "Error"
 msgstr "Помилка"
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Check out this course on edx"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Enroll now"
+msgstr ""
+
+#: lms/templates/courseware/course_about.html
+#: lms/templates/dashboard/_dashboard_course_resume.html
+#: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
+msgid "View Course"
+msgstr "Переглянути курс"
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Estimated 6 weeks"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "4-6 hours per week"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Self-paced"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Progress at your own speed"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
+msgid "Optional upgrade available"
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.txt
+#, python-format
+msgid "Check out this course on %(platform_name)s."
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.txt
+#, python-format
+msgid "This email message was automatically sent by %(lms_url)s "
+msgstr ""
+
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/subject.txt
+#, python-format
+msgid "%(display_name)s"
+msgstr ""
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html
 msgid "ID Verification Approved"
@@ -9588,10 +9649,19 @@ msgstr "ACE Common"
 msgid "Go to %(platform_name)s Home Page"
 msgstr "Перейти на домашню сторінку %(platform_name)s"
 
+#: cms/templates/index.html lms/templates/courseware/courses.html
+#: lms/templates/header/navbar-authenticated.html
+#: lms/templates/header/navbar-not-authenticated.html
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html
+#: lms/templates/navigation/navbar-authenticated.html
+#: lms/templates/navigation/navbar-not-authenticated.html
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html
+msgid "Courses"
+msgstr "Курси"
+
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
-#: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
-msgid "Sign In"
-msgstr "Увійти"
+msgid "My Account"
+msgstr ""
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
@@ -10400,6 +10470,38 @@ msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "The discussion provider's id"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Context key for context in which this discussion topic exists."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid ""
+"Usage key for in-context discussion topic. Set to null for course-level "
+"topics."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Title for discussion topic."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Group for divided discussions."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Provider id for discussion provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid ""
+"Discussion context ID in external forum provider. e.g. commentable_id for "
+"cs_comments_service."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Whether this topic should be shown in-context in the course."
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/plugins.py
@@ -11581,6 +11683,11 @@ msgstr "Найвищий рівень освіти, що Ви отримали:"
 msgid "Year of birth"
 msgstr "Рік народження"
 
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+#, python-brace-format
+msgid "I agree that {platform_name} may send me marketing messages."
+msgstr ""
+
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
@@ -12506,10 +12613,6 @@ msgid "{platform_name} Support Levels:"
 msgstr "{platform_name} Рівні підтримки:"
 
 #: cms/djangoapps/contentstore/views/component.py
-msgid "HTML"
-msgstr "HTML"
-
-#: cms/djangoapps/contentstore/views/component.py
 msgid "Open Response"
 msgstr ""
 
@@ -13146,16 +13249,6 @@ msgstr "Номер Курсу:"
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Course Run:"
 msgstr ""
-
-#: cms/templates/index.html lms/templates/courseware/courses.html
-#: lms/templates/header/navbar-authenticated.html
-#: lms/templates/header/navbar-not-authenticated.html
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html
-#: lms/templates/navigation/navbar-authenticated.html
-#: lms/templates/navigation/navbar-not-authenticated.html
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html
-msgid "Courses"
-msgstr "Курси"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 #: themes/stanford-style/lms/templates/register-form.html
@@ -15815,12 +15908,6 @@ msgstr ""
 #: lms/templates/courseware/course_about.html
 msgid "You are enrolled in this course"
 msgstr ""
-
-#: lms/templates/courseware/course_about.html
-#: lms/templates/dashboard/_dashboard_course_resume.html
-#: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
-msgid "View Course"
-msgstr "Переглянути курс"
 
 #: lms/templates/courseware/course_about.html
 msgid "Course is full"
@@ -20665,8 +20752,8 @@ msgstr "Дізнайтеся більше про налаштування вид
 
 #: cms/templates/edit-tabs.html cms/templates/export.html
 #: cms/templates/widgets/header.html
-msgid "Pages"
-msgstr "Сторінки"
+msgid "Pages & Resources"
+msgstr ""
 
 #: cms/templates/edit-tabs.html cms/templates/textbooks.html
 #: cms/templates/widgets/header.html
@@ -20914,6 +21001,10 @@ msgstr "Структура курсу"
 #: cms/templates/export.html
 msgid "Individual Problems"
 msgstr "Індивідуальні завдання"
+
+#: cms/templates/export.html cms/templates/widgets/header.html
+msgid "Pages"
+msgstr "Сторінки"
 
 #: cms/templates/export.html
 msgid "Course Assets"

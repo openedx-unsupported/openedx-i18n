@@ -13,9 +13,9 @@ RUN apt update \
   && rm -rf /var/lib/apt/lists/*
 
 # Install python with pyenv
-ARG PYTHON_VERSION=3.8.6
+ARG PYTHON_VERSION=3.8.12
 ENV PYENV_ROOT /opt/pyenv
-RUN git clone https://github.com/pyenv/pyenv $PYENV_ROOT --branch v1.2.21 --depth 1 \
+RUN git clone https://github.com/pyenv/pyenv $PYENV_ROOT --branch v2.2.2 --depth 1 \
   && $PYENV_ROOT/bin/pyenv install $PYTHON_VERSION
 
 # Create user
@@ -36,8 +36,6 @@ RUN $PYENV_ROOT/versions/$PYTHON_VERSION/bin/python -m venv /openedx/venv
 ENV PATH /openedx/venv/bin:${PATH}
 RUN pip install setuptools==44.1.0 pip==20.0.2 wheel==0.34.2
 RUN pip install -r requirements/edx/development.txt
-# We should remove this line once there exists a release later than edx-i18n-tools==0.5.4
-RUN pip install git+https://github.com/overhangio/i18n-tools@overhang/fix-missing-sources#egg=edx-i18n-tools==0.6.0
 
 COPY ./locale.py ./lms/envs/
 ENV DJANGO_SETTINGS_MODULE lms.envs.locale

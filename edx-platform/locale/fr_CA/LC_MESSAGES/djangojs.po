@@ -43,7 +43,7 @@
 # Richard Moch <richard.moch@gmail.com>, 2015
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
 # samuel <samuelecin@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Viallemonteil <sebastien.viallemonteil@educagri.fr>, 2015
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # Serge Bibauw <sbibauw@gmail.com>, 2016
@@ -98,7 +98,7 @@
 # Richard Moch <richard.moch@gmail.com>, 2015
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
 # samuel <samuelecin@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Viallemonteil <sebastien.viallemonteil@educagri.fr>, 2015
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # Serge Bibauw <sbibauw@gmail.com>, 2016
@@ -189,7 +189,7 @@
 # Richard Moch <richard.moch@gmail.com>, 2014-2016
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
 # samuel <samuelecin@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Viallemonteil <sebastien.viallemonteil@educagri.fr>, 2015
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # Serge Bibauw <sbibauw@gmail.com>, 2016
@@ -220,6 +220,7 @@
 # Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
 # ClaudeCoulombe <claude.coulombe@gmail.com>, 2014
 # Daniel Le Berre, 2014-2015
+# David Truong <david.truong@edulib.org>, 2021
 # Delattre <mdelattre78@laposte.net>, 2015
 # derthy <derthiamj@gmail.com>, 2014
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
@@ -273,7 +274,7 @@
 # Richard Moch <richard.moch@gmail.com>, 2014-2016
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
 # samuel <samuelecin@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Sébastien Viallemonteil <sebastien.viallemonteil@educagri.fr>, 2015
 # Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # Serge Bibauw <sbibauw@gmail.com>, 2016
@@ -5221,9 +5222,8 @@ msgstr ""
 " sociaux{htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
-msgid "Before proceeding, please {htmlStart}activate your account{htmlEnd}."
+msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
 msgstr ""
-"Avant de continuer, veuillez {htmlStart}activer votre compte{htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
@@ -11632,11 +11632,9 @@ msgstr "Surveillé"
 msgid ""
 "Proctored exams are timed and they record video of each learner taking the "
 "exam. The videos are then reviewed to ensure that learners follow all "
-"examination rules."
+"examination rules. Please note that setting this exam as proctored will "
+"change the visibility settings to \"Hide content after due date.\""
 msgstr ""
-"Les examens surveillés sont chronométrés et enregistrent la vidéo de chaque "
-"apprenant passant l'examen. Ces vidéos sont ensuite examinés afin de "
-"s'assurer que les apprenants suivent toutes les règles de l'examen."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Onboarding"
