@@ -40,6 +40,7 @@
 # Leona Grujić <bearhtma1@gmail.com>, 2021
 # Vedran Karačić <vedran@edx.org>, 2021
 # Franjo Pehar <fpehar@gmail.com>, 2021
+# Jelena Milenkovic <jelena.milenkovic@eun.org>, 2021
 #
 msgid ""
 msgstr ""
@@ -47,7 +48,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2021-06-08 17:56+0000\n"
 "PO-Revision-Date: 2021-06-08 17:58+0000\n"
-"Last-Translator: Franjo Pehar <fpehar@gmail.com>, 2021\n"
+"Last-Translator: Jelena Milenkovic <jelena.milenkovic@eun.org>, 2021\n"
 "Language-Team: Croatian (https://www.transifex.com/open-edx/teams/6205/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
