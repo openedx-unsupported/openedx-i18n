@@ -13,7 +13,7 @@ RUN apt update \
   && rm -rf /var/lib/apt/lists/*
 
 # Install python with pyenv
-ARG PYTHON_VERSION=3.8.6
+ARG PYTHON_VERSION=3.8.12
 ENV PYENV_ROOT /opt/pyenv
 RUN git clone https://github.com/pyenv/pyenv $PYENV_ROOT --branch v1.2.21 --depth 1 \
   && $PYENV_ROOT/bin/pyenv install $PYTHON_VERSION
@@ -26,7 +26,7 @@ USER openedx
 
 # Checkout code
 ARG EDX_PLATFORM_REPOSITORY=https://github.com/edx/edx-platform.git
-ARG EDX_PLATFORM_VERSION=open-release/maple.beta1
+ARG EDX_PLATFORM_VERSION=open-release/maple.beta2
 RUN mkdir -p /openedx/edx-platform && \
     git clone $EDX_PLATFORM_REPOSITORY --branch $EDX_PLATFORM_VERSION --depth 1 /openedx/edx-platform
 WORKDIR /openedx/edx-platform
