@@ -78,6 +78,17 @@
 # UAMx <uamx.dev@gmail.com>, 2014
 # URJConline <online.mooc@urjc.es>, 2015
 # URJConline <online.mooc@urjc.es>, 2017
+# #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
+# edX community translations have been downloaded from Spanish (Spain) (https://www.transifex.com/open-edx/teams/6205/es_ES/).
+# Copyright (C) 2021 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2021.
+#
+# Translators:
+# i_cruzado <ignacio.cruzado@gmail.com>, 2019
+# david ruiz <daruc20@gmail.com>, 2019
+# UAMx <uamx.dev@gmail.com>, 2021
+#
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)
 # Copyright (C) 2021 edX
@@ -138,15 +149,16 @@
 # Rubén Torres <r.torres@usal.es>, 2015
 # sandra bonillo <sandraboni13@gmail.com>, 2015
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2018
+# UAMx <uamx.dev@gmail.com>, 2021
 # URJConline <online.mooc@urjc.es>, 2015
 # URJConline <online.mooc@urjc.es>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-10-31 20:43+0000\n"
-"PO-Revision-Date: 2021-08-01 20:44+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2021-12-12 20:42+0000\n"
+"PO-Revision-Date: 2021-11-17 15:02+0000\n"
+"Last-Translator: UAMx <uamx.dev@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -4670,7 +4682,7 @@ msgid ""
 msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
-msgid "Before proceeding, please {htmlStart}activate your account{htmlEnd}."
+msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
 msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
@@ -6883,6 +6895,30 @@ msgstr ""
 #: cms/static/js/xblock_asides/structured_tags.js
 msgid "Updating Tags"
 msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_view.js
+msgid "Account Information"
+msgstr "Información de la cuenta"
+
+#: lms/static/js/student_account/views/account_settings_view.js
+msgid "Order History"
+msgstr "Historial de pedidos"
+
+#: lms/static/js/student_account/views/account_settings_view.js
+msgid ""
+"You have set your language to {beta_language}, which is currently not fully "
+"translated. You can help us translate this language fully by joining the "
+"Transifex community and adding translations from English for learners that "
+"speak {beta_language}."
+msgstr ""
+"Ha establecido su idioma en {beta_language}, el cual no está traducido "
+"completamente. Puede ayudarnos a traducir este idioma uniéndose la comunidad"
+" Transifex y añadiendo traducciones desde el inglés para los estudiantes que"
+" hablan {beta_language}."
+
+#: lms/static/js/student_account/views/account_settings_view.js
+msgid "Help Translate into {beta_language}"
+msgstr "Ayuda a traducir a {beta_language}"
 
 #: cms/templates/js/asset-library.underscore
 #: cms/templates/js/basic-modal.underscore
@@ -9190,11 +9226,11 @@ msgstr ""
 
 #: cms/templates/js/access-editor.underscore
 msgid "Prerequisite:"
-msgstr ""
+msgstr "Prerrequisitos:"
 
 #: cms/templates/js/access-editor.underscore
 msgid "No prerequisite"
-msgstr ""
+msgstr "Sin prerrequisitos"
 
 #: cms/templates/js/access-editor.underscore
 msgid "Minimum Score:"
@@ -10518,7 +10554,8 @@ msgstr "Supervisado"
 msgid ""
 "Proctored exams are timed and they record video of each learner taking the "
 "exam. The videos are then reviewed to ensure that learners follow all "
-"examination rules."
+"examination rules. Please note that setting this exam as proctored will "
+"change the visibility settings to \"Hide content after due date.\""
 msgstr ""
 
 #: cms/templates/js/timed-examination-preference-editor.underscore

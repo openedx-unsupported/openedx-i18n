@@ -15,7 +15,7 @@ RUN apt update \
 # Install python with pyenv
 ARG PYTHON_VERSION=3.8.12
 ENV PYENV_ROOT /opt/pyenv
-RUN git clone https://github.com/pyenv/pyenv $PYENV_ROOT --branch v1.2.21 --depth 1 \
+RUN git clone https://github.com/pyenv/pyenv $PYENV_ROOT --branch v2.2.2 --depth 1 \
   && $PYENV_ROOT/bin/pyenv install $PYTHON_VERSION
 
 # Create user
