@@ -1,6 +1,6 @@
 # #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -47,7 +47,7 @@
 # Vanesa Lopez- Roman Perez <vanesalrp@gmail.com>, 2014
 # #-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -80,9 +80,9 @@
 # URJConline <online.mooc@urjc.es>, 2017
 # #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
 # edX community translations have been downloaded from Spanish (Spain) (https://www.transifex.com/open-edx/teams/6205/es_ES/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2021.
+# EdX Team <info@edx.org>, 2022.
 #
 # Translators:
 # i_cruzado <ignacio.cruzado@gmail.com>, 2019
@@ -91,7 +91,7 @@
 #
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -125,7 +125,7 @@
 # Walter Ronald Perez Estrada <wrpereze@unc.edu.pe>, 2015
 # #-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -156,8 +156,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-10-31 20:43+0000\n"
-"PO-Revision-Date: 2021-08-01 20:44+0000\n"
+"POT-Creation-Date: 2022-02-06 20:42+0000\n"
+"PO-Revision-Date: 2022-01-23 20:45+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)\n"
 "Language: es_ES\n"
@@ -6932,6 +6932,11 @@ msgstr "Acciones"
 msgid "Unscheduled"
 msgstr ""
 
+#: cms/templates/js/discussion-editor.underscore
+#: common/static/common/templates/discussion/templates.underscore
+msgid "Discussion"
+msgstr ""
+
 #: cms/templates/js/paging-header.underscore
 #: common/static/common/templates/components/paging-footer.underscore
 #: common/static/common/templates/discussion/templates.underscore
@@ -7228,10 +7233,6 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
-msgstr ""
-
-#: common/static/common/templates/discussion/templates.underscore
-msgid "Discussion"
 msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
@@ -9904,6 +9905,10 @@ msgstr ""
 msgid "Post"
 msgstr ""
 
+#: cms/templates/js/discussion-editor.underscore
+msgid "Enable discussion"
+msgstr ""
+
 #: cms/templates/js/due-date-editor.underscore
 msgid "Due Date:"
 msgstr ""
@@ -10358,19 +10363,6 @@ msgstr ""
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid "Show assessment results when subsection is past due"
-msgstr ""
-
-#: cms/templates/js/show-correctness-editor.underscore
-msgid ""
-"Learners do not see whether their answers to assessments were correct or "
-"incorrect, nor the score received, until after the course end date has "
-"passed."
-msgstr ""
-
-#: cms/templates/js/show-correctness-editor.underscore
-msgid ""
-"If the course does not have an end date, learners always see their scores "
-"when they submit answers to assessments."
 msgstr ""
 
 #: cms/templates/js/show-correctness-editor.underscore

@@ -1,6 +1,6 @@
 # #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -9,12 +9,13 @@
 # Cristóbal Urbano <urbano@ub.edu>, 2018
 # Elies Martos Robles <eliesmr4@gmail.com>, 2018
 # Juanjo Bote <juanjo.botev@ub.edu>, 2018
+# Ma. Teresa Guix <maite.guix@gmail.com>, 2022
 # mcolomer <mcmlilhity@gmail.com>, 2014
-# Sarina Canelake <sarina@edx.org>, 2014
+# Sarina Canelake <sarina@tcril.org>, 2014
 # Susanna Pujol, 2021
 # #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -24,7 +25,7 @@
 # Xavi Armengol <xarmengol@gmail.com>, 2016
 # #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -37,7 +38,7 @@
 # Muhammad Adeel Khan <adeel@edx.org>, 2019
 # #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -45,7 +46,7 @@
 # Muhammad Adeel Khan <adeel@edx.org>, 2019
 # #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -54,9 +55,9 @@
 # Miquel Oliver <miquel.oliver@upf.edu>, 2016
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (https://www.transifex.com/open-edx/teams/6205/ca/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2021.
+# EdX Team <info@edx.org>, 2022.
 #
 # Translators:
 # Waheed Ahmed <waheed@edx.org>, 2019
@@ -65,7 +66,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-10-31 20:43+0000\n"
+"POT-Creation-Date: 2022-02-06 20:42+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Waheed Ahmed <waheed@edx.org>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/open-edx/teams/6205/ca/)\n"
@@ -213,18 +214,6 @@ msgstr ""
 " per verificar. Això aplicar NOMÉS als modes que requereixen verificació. "
 
 #: common/djangoapps/course_modes/helpers.py
-msgid "Your verification is pending"
-msgstr "La teva verificació està pendent"
-
-#: common/djangoapps/course_modes/helpers.py
-msgid "Verified: Pending Verification"
-msgstr "Verificat: Pendent de verificació"
-
-#: common/djangoapps/course_modes/helpers.py
-msgid "ID verification pending"
-msgstr "ID de verificació pendent"
-
-#: common/djangoapps/course_modes/helpers.py
 msgid "You're enrolled as a verified student"
 msgstr "Estàs inscrit com estudiant verificat"
 
@@ -236,6 +225,18 @@ msgstr "Verificat"
 #: common/djangoapps/course_modes/helpers.py
 msgid "ID Verified Ribbon/Badge"
 msgstr ""
+
+#: common/djangoapps/course_modes/helpers.py
+msgid "Your verification is pending"
+msgstr "La teva verificació està pendent"
+
+#: common/djangoapps/course_modes/helpers.py
+msgid "Verified: Pending Verification"
+msgstr "Verificat: Pendent de verificació"
+
+#: common/djangoapps/course_modes/helpers.py
+msgid "ID verification pending"
+msgstr "ID de verificació pendent"
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "You're enrolled as an honor code student"
@@ -5210,15 +5211,15 @@ msgstr ""
 msgid ""
 "A {cert_type} certificate signifies that a learner has agreed to abide by "
 "the honor code established by {platform_name} and has completed all of the "
-"required tasks for this course under its guidelines. A {cert_type} "
-"certificate also indicates that the identity of the learner has been checked"
-" and is valid."
+"required tasks for this course under its guidelines. "
 msgstr ""
-"Un certificat {cert_type} significa que un aprenent està d'acord per donar "
-"suport pel codi d'honor estabert per {platform_name} i ha completat totes "
-"les tasques requerides per aquest curs sota les seves directrius. Un "
-"certificat {cert_type} també indica que la identitat de l'aprenent has estat"
-" comprovada i és vàlida. "
+
+#: lms/djangoapps/certificates/views/webview.py
+#, python-brace-format
+msgid ""
+"A {cert_type} certificate also indicates that the identity of the learner "
+"has been checked and is valid."
+msgstr ""
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
 #. An XSeries is a collection of
@@ -5495,15 +5496,15 @@ msgstr ""
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
-"                        There's still time to reach your goal\n"
-"                    "
+"                            There’s still time to reach your goal\n"
+"                        "
 msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"                            You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. You're not quite there, but there's still time to reach that goal!\"\n"
+"                            You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. You’re not quite there, but there's still time to reach that goal!\n"
 "                            "
 msgid_plural ""
 "\n"
@@ -5515,15 +5516,15 @@ msgstr[1] ""
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
-"                            Jump back in\n"
-"                        "
+"                                Jump back in\n"
+"                            "
 msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
-"                        Remember, you can always change your learning goal. The best goal is one that you can stick to.\n"
-"                    "
+"                            Remember, you can always change your learning goal. The best goal is one that you can stick to.\n"
+"                        "
 msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
@@ -5536,8 +5537,8 @@ msgstr ""
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
-"                        Unsubscribe from goal reminder emails to this course\n"
-"                    "
+"                            Unsubscribe from goal reminder emails for this course\n"
+"                        "
 msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt
@@ -5976,7 +5977,10 @@ msgid ""
 "Maintain exam integrity by enabling a proctoring solution for your course"
 msgstr ""
 
-#: lms/djangoapps/courseware/plugins.py
+#. #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+#. Translators: Custom Pages refer to the tabs that appear in the top
+#. navigation of each course.
+#: lms/djangoapps/courseware/plugins.py cms/templates/edit-tabs.html
 msgid "Custom pages"
 msgstr ""
 
@@ -7715,13 +7719,6 @@ msgstr ""
 #: lms/templates/admin/user_api/accounts/cancel_retirement_action.html
 #, python-format
 msgid "Are you sure you want to cancel retirement for user \"%(username)s\"? "
-msgstr ""
-
-#: lms/templates/goal_reminder_banner.html
-msgid ""
-"\n"
-"                You’re almost there!\n"
-"            "
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html
@@ -9538,8 +9535,7 @@ msgid "Program UUID"
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
-msgid ""
-"If disabled, the discussions in the associated program will be disabled."
+msgid "If disabled, the LTI in the associated program will be disabled."
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
@@ -9547,7 +9543,11 @@ msgid "The LTI configuration data for this program/provider."
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
-msgid "The discussion provider's id"
+msgid "LTI provider"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The LTI provider's id"
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
@@ -9580,6 +9580,10 @@ msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "Whether this topic should be shown in-context in the course."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Ordering of this topic in its learning context"
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/plugins.py
@@ -10083,8 +10087,16 @@ msgid ""
 msgstr ""
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
+#, python-brace-format
 msgid ""
-"This email is already associated with an existing or previous edX account"
+"This email is already associated with an existing or previous "
+"{settings.PLATFORM_NAME} account"
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py
+msgid ""
+"The password you entered is on a list of known compromised passwords. Please"
+" choose a different one."
 msgstr ""
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
@@ -11187,6 +11199,10 @@ msgstr ""
 #, python-brace-format
 msgid "You have used {attempts} of unlimited attempts for this problem."
 msgstr ""
+
+#: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
+msgid "Sign In"
+msgstr "Accedeix"
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
 msgid "Our mailing address is"
@@ -15222,10 +15238,6 @@ msgstr ""
 msgid "Get access to the course material, including videos and readings"
 msgstr ""
 
-#: lms/templates/course_modes/unfbe.html
-msgid "Some graded content may be locked"
-msgstr ""
-
 #: lms/templates/courseware/accordion.html
 msgid "{chapter} current chapter"
 msgstr "Capítol {chapter} actual"
@@ -16481,6 +16493,23 @@ msgstr "Tots els debats"
 #: lms/templates/discussion/_filter_dropdown.html
 msgid "Posts I'm Following"
 msgstr "Publicacions que segueixo"
+
+#: lms/templates/discussion/_switch_experience_fragment.html
+msgid ""
+"We've made some changes to this experience! (Preview for educators only)"
+msgstr ""
+
+#: lms/templates/discussion/_switch_experience_fragment.html
+msgid "View legacy experience"
+msgstr ""
+
+#: lms/templates/discussion/_switch_experience_fragment.html
+msgid "View the new experience"
+msgstr ""
+
+#: lms/templates/discussion/_switch_experience_fragment.html
+msgid "Share feedback"
+msgstr ""
 
 #. Translators: This labels a filter menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html
@@ -20545,20 +20574,9 @@ msgid "Learn more about content visibility settings"
 msgstr ""
 "Obteniu més informació sobre la configuració de la visibilitat de contingut"
 
-#: cms/templates/edit-tabs.html cms/templates/export.html
-#: cms/templates/widgets/header.html
-msgid "Pages & Resources"
-msgstr ""
-
 #: cms/templates/edit-tabs.html cms/templates/textbooks.html
 #: cms/templates/widgets/header.html
 msgid "Pages & Resources"
-msgstr ""
-
-#. Translators: Custom Pages refer to the tabs that appear in the top
-#. navigation of each course.
-#: cms/templates/edit-tabs.html
-msgid "Custom Pages"
 msgstr ""
 
 #: cms/templates/edit-tabs.html

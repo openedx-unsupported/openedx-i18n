@@ -1,6 +1,6 @@
 # #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -27,7 +27,7 @@
 # ca47f5bf05c27c3888896d9870e257ad_00aad6f <5addf4166015f6e11583e89fe2c53975_164880>, 2014
 # #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -48,7 +48,7 @@
 # Mustafa Tat, 2015
 # #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -83,7 +83,7 @@
 # ca47f5bf05c27c3888896d9870e257ad_00aad6f <5addf4166015f6e11583e89fe2c53975_164880>, 2014
 # #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -109,7 +109,7 @@
 # Yasar Celep <yasar.celep@hotmail.com>, 2017
 # #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -120,9 +120,9 @@
 # a56fc07028489bb2b53400de33ba6a83, 2014
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX community translations have been downloaded from Turkish (Turkey) (https://www.transifex.com/open-edx/teams/6205/tr_TR/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2021.
+# EdX Team <info@edx.org>, 2022.
 #
 # Translators:
 # Ali Işıngör <ali@artistanbul.io>, 2021
@@ -131,7 +131,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-10-31 20:43+0000\n"
+"POT-Creation-Date: 2022-02-06 20:42+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2021\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/open-edx/teams/6205/tr_TR/)\n"
@@ -283,18 +283,6 @@ msgstr ""
 "modlara uygulanır."
 
 #: common/djangoapps/course_modes/helpers.py
-msgid "Your verification is pending"
-msgstr "Doğrulamanız bekliyor"
-
-#: common/djangoapps/course_modes/helpers.py
-msgid "Verified: Pending Verification"
-msgstr "Doğrulandı: Bekleyen Doğrulama"
-
-#: common/djangoapps/course_modes/helpers.py
-msgid "ID verification pending"
-msgstr "Kimlik doğrulama bekleniyor"
-
-#: common/djangoapps/course_modes/helpers.py
 msgid "You're enrolled as a verified student"
 msgstr "Doğrulanmış öğrenci olarak kayıtlandınız"
 
@@ -306,6 +294,18 @@ msgstr "Onaylandı"
 #: common/djangoapps/course_modes/helpers.py
 msgid "ID Verified Ribbon/Badge"
 msgstr "Kimliği Doğrulanmış Şerit/Rozet"
+
+#: common/djangoapps/course_modes/helpers.py
+msgid "Your verification is pending"
+msgstr "Doğrulamanız bekliyor"
+
+#: common/djangoapps/course_modes/helpers.py
+msgid "Verified: Pending Verification"
+msgstr "Doğrulandı: Bekleyen Doğrulama"
+
+#: common/djangoapps/course_modes/helpers.py
+msgid "ID verification pending"
+msgstr "Kimlik doğrulama bekleniyor"
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "You're enrolled as an honor code student"
@@ -411,6 +411,7 @@ msgstr "{currency_symbol}{price}"
 #. Translators: This refers to the cost of the course. In this case, the
 #. course costs nothing so it is free.
 #: common/djangoapps/course_modes/models.py
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
 #: lms/templates/course_modes/track_selection.html
 msgid "Free"
 msgstr "Ücretsiz"
@@ -2832,11 +2833,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussions Plugin Settings"
-msgstr ""
+msgstr "Tartışmalar Eklenti Ayarları "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Settings for discussions plugins."
-msgstr ""
+msgstr "Tartışmalar eklentileri için ayarlar."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Announcement Date"
@@ -5948,15 +5949,15 @@ msgstr ""
 msgid ""
 "A {cert_type} certificate signifies that a learner has agreed to abide by "
 "the honor code established by {platform_name} and has completed all of the "
-"required tasks for this course under its guidelines. A {cert_type} "
-"certificate also indicates that the identity of the learner has been checked"
-" and is valid."
+"required tasks for this course under its guidelines. "
 msgstr ""
-"{cert_type} sertifikası bir öğrencinin {platform_name} tarafından belirlenen"
-" etik kurallarına uymayı kabul ettiğini ve dersin tüm yönergelerine uyarak "
-"gerekli görevlerin hepsini tamamladığını belirtir. {cert_type} sertifikası "
-"aynı zamanda öğrencinin kimliğinin kontrol edilerek doğrulandığına da işaret"
-" eder."
+
+#: lms/djangoapps/certificates/views/webview.py
+#, python-brace-format
+msgid ""
+"A {cert_type} certificate also indicates that the identity of the learner "
+"has been checked and is valid."
+msgstr ""
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
 #. An XSeries is a collection of
@@ -6264,15 +6265,15 @@ msgstr "Emin değilim"
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
-"                        There's still time to reach your goal\n"
-"                    "
+"                            There’s still time to reach your goal\n"
+"                        "
 msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"                            You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. You're not quite there, but there's still time to reach that goal!\"\n"
+"                            You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. You’re not quite there, but there's still time to reach that goal!\n"
 "                            "
 msgid_plural ""
 "\n"
@@ -6284,15 +6285,15 @@ msgstr[1] ""
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
-"                            Jump back in\n"
-"                        "
+"                                Jump back in\n"
+"                            "
 msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
-"                        Remember, you can always change your learning goal. The best goal is one that you can stick to.\n"
-"                    "
+"                            Remember, you can always change your learning goal. The best goal is one that you can stick to.\n"
+"                        "
 msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
@@ -6305,13 +6306,13 @@ msgstr ""
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
-"                        Unsubscribe from goal reminder emails to this course\n"
-"                    "
+"                            Unsubscribe from goal reminder emails for this course\n"
+"                        "
 msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt
 msgid "You're almost there!"
-msgstr ""
+msgstr "Neredeyse bitirdiniz!"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt
 msgid "There's still time to reach your goal"
@@ -8677,13 +8678,6 @@ msgstr ""
 "\"%(username)s\" kullanıcısının unutulma talebini iptal etmek istediğinizden"
 " emin misiniz? "
 
-#: lms/templates/goal_reminder_banner.html
-msgid ""
-"\n"
-"                You’re almost there!\n"
-"            "
-msgstr ""
-
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt
 #, python-format
@@ -9162,8 +9156,9 @@ msgstr ""
 
 #: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
 msgid "Enroll now"
-msgstr ""
+msgstr "Hemen kaydol"
 
+#: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
 #: lms/templates/courseware/course_about.html
 #: lms/templates/dashboard/_dashboard_course_resume.html
 #: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
@@ -9180,7 +9175,7 @@ msgstr ""
 
 #: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
 msgid "Self-paced"
-msgstr ""
+msgstr "Kendi Kendine Eğitim"
 
 #: lms/templates/save_for_later/edx_ace/saveforlater/email/body.html
 msgid "Progress at your own speed"
@@ -10666,8 +10661,7 @@ msgid "Program UUID"
 msgstr "Program UUID"
 
 #: openedx/core/djangoapps/discussions/models.py
-msgid ""
-"If disabled, the discussions in the associated program will be disabled."
+msgid "If disabled, the LTI in the associated program will be disabled."
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
@@ -10675,7 +10669,11 @@ msgid "The LTI configuration data for this program/provider."
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
-msgid "The discussion provider's id"
+msgid "LTI provider"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The LTI provider's id"
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
@@ -10708,6 +10706,10 @@ msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "Whether this topic should be shown in-context in the course."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Ordering of this topic in its learning context"
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/plugins.py
@@ -11304,8 +11306,16 @@ msgstr ""
 "e-posta adresi ile tekrar deneyin."
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
+#, python-brace-format
 msgid ""
-"This email is already associated with an existing or previous edX account"
+"This email is already associated with an existing or previous "
+"{settings.PLATFORM_NAME} account"
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py
+msgid ""
+"The password you entered is on a list of known compromised passwords. Please"
+" choose a different one."
 msgstr ""
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
@@ -12550,6 +12560,11 @@ msgid "You have used {attempts} of unlimited attempts for this problem."
 msgstr ""
 "Bu problem için sınırsız sayıdaki hakkınızdan {attempts} tanesini "
 "kullandınız."
+
+#: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
+#: cms/templates/widgets/header.html
+msgid "Sign In"
+msgstr "Giriş"
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
 msgid "Our mailing address is"
@@ -16438,10 +16453,6 @@ msgstr "Bu derse erişin"
 msgid "Get access to the course material, including videos and readings"
 msgstr ""
 
-#: lms/templates/course_modes/unfbe.html
-msgid "Some graded content may be locked"
-msgstr ""
-
 #: lms/templates/courseware/accordion.html
 msgid "{chapter} current chapter"
 msgstr "{chapter} şu anki bölüm"
@@ -17727,6 +17738,23 @@ msgstr "Tüm Tartışmalar"
 #: lms/templates/discussion/_filter_dropdown.html
 msgid "Posts I'm Following"
 msgstr "Takip Ettiğim Gönderiler"
+
+#: lms/templates/discussion/_switch_experience_fragment.html
+msgid ""
+"We've made some changes to this experience! (Preview for educators only)"
+msgstr ""
+
+#: lms/templates/discussion/_switch_experience_fragment.html
+msgid "View legacy experience"
+msgstr ""
+
+#: lms/templates/discussion/_switch_experience_fragment.html
+msgid "View the new experience"
+msgstr ""
+
+#: lms/templates/discussion/_switch_experience_fragment.html
+msgid "Share feedback"
+msgstr ""
 
 #. Translators: This labels a filter menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html
@@ -21824,21 +21852,10 @@ msgstr ""
 msgid "Learn more about content visibility settings"
 msgstr "İçerik görünürlüğü ayarları hakkında daha fazla bilgi"
 
-#: cms/templates/edit-tabs.html cms/templates/export.html
-#: cms/templates/widgets/header.html
-msgid "Pages & Resources"
-msgstr "Sayfalar & Kaynaklar"
-
 #: cms/templates/edit-tabs.html cms/templates/textbooks.html
 #: cms/templates/widgets/header.html
 msgid "Pages & Resources"
 msgstr "Sayfalar & Kaynaklar"
-
-#. Translators: Custom Pages refer to the tabs that appear in the top
-#. navigation of each course.
-#: cms/templates/edit-tabs.html
-msgid "Custom Pages"
-msgstr ""
 
 #: cms/templates/edit-tabs.html
 msgid "New Page"

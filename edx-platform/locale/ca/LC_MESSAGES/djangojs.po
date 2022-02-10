@@ -1,18 +1,18 @@
 # #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
 # c896ac1a58859742747095a7a9acc41f_ae2eef1 <f3242be5e2827fc993543819c3e74ab4_161414>, 2014
 # Isaac Perez <iperez@yntegra2.es>, 2019
 # Juanjo Bote <juanjo.botev@ub.edu>, 2018
-# Ma. Teresa Guix <maite.guix@gmail.com>, 2021
+# Ma. Teresa Guix <maite.guix@gmail.com>, 2021-2022
 # mcolomer <mcmlilhity@gmail.com>, 2014
 # sandra bonillo <sandraboni13@gmail.com>, 2014-2015
 # #-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -21,23 +21,23 @@
 # Waheed Ahmed <waheed@edx.org>, 2019
 # #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (https://www.transifex.com/open-edx/teams/6205/ca/).
-# Copyright (C) 2021 EdX
+# Copyright (C) 2022 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2021.
+# EdX Team <info@edx.org>, 2022.
 #
 # Translators:
 # Juanjo Bote <juanjo.botev@ub.edu>, 2019
 #
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
 # Waheed Ahmed <waheed@edx.org>, 2019
 # #-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)
-# Copyright (C) 2021 edX
+# Copyright (C) 2022 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -48,8 +48,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2021-10-31 20:43+0000\n"
-"PO-Revision-Date: 2021-08-01 20:44+0000\n"
+"POT-Creation-Date: 2022-02-06 20:42+0000\n"
+"PO-Revision-Date: 2022-01-23 20:45+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)\n"
 "Language: ca\n"
@@ -6788,6 +6788,11 @@ msgstr "Accions"
 msgid "Unscheduled"
 msgstr "No planificat"
 
+#: cms/templates/js/discussion-editor.underscore
+#: common/static/common/templates/discussion/templates.underscore
+msgid "Discussion"
+msgstr ""
+
 #: cms/templates/js/paging-header.underscore
 #: common/static/common/templates/components/paging-footer.underscore
 #: common/static/common/templates/discussion/templates.underscore
@@ -7084,10 +7089,6 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
-msgstr ""
-
-#: common/static/common/templates/discussion/templates.underscore
-msgid "Discussion"
 msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
@@ -9905,6 +9906,10 @@ msgstr ""
 msgid "Post"
 msgstr "Publicació"
 
+#: cms/templates/js/discussion-editor.underscore
+msgid "Enable discussion"
+msgstr ""
+
 #: cms/templates/js/due-date-editor.underscore
 msgid "Due Date:"
 msgstr "Data de venciment:"
@@ -10388,24 +10393,6 @@ msgstr ""
 #: cms/templates/js/show-correctness-editor.underscore
 msgid "Show assessment results when subsection is past due"
 msgstr "Mostra resultats d'avaluació quan la subsecció venç"
-
-#: cms/templates/js/show-correctness-editor.underscore
-msgid ""
-"Learners do not see whether their answers to assessments were correct or "
-"incorrect, nor the score received, until after the course end date has "
-"passed."
-msgstr ""
-"Els aprenents no veuen si les seves respostes a les avaluacions eren "
-"correctes o incorrectes, ni la puntuació rebuda, fins que hagi passat la "
-"data de finalització del curs."
-
-#: cms/templates/js/show-correctness-editor.underscore
-msgid ""
-"If the course does not have an end date, learners always see their scores "
-"when they submit answers to assessments."
-msgstr ""
-"Si el curs no té data de finalització, els estudiants sempre veuen les "
-"puntuacions quan envien respostes a les avaluacions."
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid ""
