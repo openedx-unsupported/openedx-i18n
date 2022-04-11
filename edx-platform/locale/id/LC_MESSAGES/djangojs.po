@@ -82,9 +82,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-02-06 20:42+0000\n"
-"PO-Revision-Date: 2022-01-23 20:45+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2022-04-10 20:42+0000\n"
+"PO-Revision-Date: 2014-06-11 15:18+0000\n"
+"Last-Translator: Aprisa Chrysantina <aprisa.chrysantina@gmail.com>, 2019\n"
 "Language-Team: Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -3050,6 +3050,7 @@ msgid "Markdown Editing Help"
 msgstr "Bantuan Merubah Markdown"
 
 #: lms/static/js/Markdown.Editor.js cms/templates/js/asset-library.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 msgid "URL"
 msgstr "URL"
 
@@ -8496,15 +8497,6 @@ msgstr "Perjalanan Program Anda"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore
 #: lms/templates/learner_dashboard/program_details_view.underscore
-msgid ""
-"To complete the program, you must earn a verified certificate for each "
-"course."
-msgstr ""
-"Untuk menyelesaikan program, Anda harus mendapatkan sertifikat terverifikasi"
-" untuk setiap kursus."
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore
-#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Upgrade All Remaining Courses ("
 msgstr "Tingkatkan Semua Kursus yang Tersisa ("
 
@@ -10353,6 +10345,7 @@ msgstr "Baru %(item_type)s"
 #: cms/templates/js/metadata-list-entry.underscore
 #: cms/templates/js/metadata-number-entry.underscore
 #: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 #: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear"
 msgstr "Kosongkan"
@@ -10362,6 +10355,7 @@ msgstr "Kosongkan"
 #: cms/templates/js/metadata-list-entry.underscore
 #: cms/templates/js/metadata-number-entry.underscore
 #: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 #: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear Value"
 msgstr "Kosongkan nilai"
@@ -10748,17 +10742,17 @@ msgstr "Jenis Ujian"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This subsection was released to learners as a special exam, but was reverted"
-" back to a basic exam. You may not configure it as a special exam now. "
-"Contact edX Support for assistance."
+"This subsection was released to learners as a proctored exam, but was "
+"reverted back to a basic or timed exam. You may not configure it as a "
+"proctored exam now. Contact edX Support for assistance."
 msgstr ""
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This special exam has been released to learners. You may not convert it to "
-"another type of special exam. You may revert this subsection back to being a"
-" basic exam by selecting 'None', but you will NOT be able to configure it as"
-" a special exam in the future."
+"This proctored exam has been released to learners. You may not convert it to"
+" another type of special exam. You may revert this subsection back to being "
+"a basic exam by selecting 'None', or a timed exam, but you will NOT be able "
+"to configure it as a proctored exam in the future."
 msgstr ""
 
 #: cms/templates/js/timed-examination-preference-editor.underscore

@@ -130,9 +130,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-02-06 20:42+0000\n"
-"PO-Revision-Date: 2022-01-23 20:46+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2022-04-10 20:42+0000\n"
+"PO-Revision-Date: 2014-06-11 15:18+0000\n"
+"Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2018-2021\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -3217,6 +3217,7 @@ msgid "Markdown Editing Help"
 msgstr "Markdown Bearbeitungshilfen"
 
 #: lms/static/js/Markdown.Editor.js cms/templates/js/asset-library.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 msgid "URL"
 msgstr "URL"
 
@@ -8978,15 +8979,6 @@ msgstr "Ihr Programmverlauf"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore
 #: lms/templates/learner_dashboard/program_details_view.underscore
-msgid ""
-"To complete the program, you must earn a verified certificate for each "
-"course."
-msgstr ""
-"Um das Programm abzuschließen, müssen Sie für jeden Kurs ein verifiziertes "
-"Zertifikat erwerben."
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore
-#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Upgrade All Remaining Courses ("
 msgstr "Upgraden Sie alle übrigen Kurse ("
 
@@ -10976,6 +10968,7 @@ msgstr "%(item_type)s erstellen"
 #: cms/templates/js/metadata-list-entry.underscore
 #: cms/templates/js/metadata-number-entry.underscore
 #: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 #: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear"
 msgstr "Lösche"
@@ -10985,6 +10978,7 @@ msgstr "Lösche"
 #: cms/templates/js/metadata-list-entry.underscore
 #: cms/templates/js/metadata-number-entry.underscore
 #: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 #: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear Value"
 msgstr "Wert löschen"
@@ -11392,27 +11386,18 @@ msgstr "Prüfungsarten"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This subsection was released to learners as a special exam, but was reverted"
-" back to a basic exam. You may not configure it as a special exam now. "
-"Contact edX Support for assistance."
+"This subsection was released to learners as a proctored exam, but was "
+"reverted back to a basic or timed exam. You may not configure it as a "
+"proctored exam now. Contact edX Support for assistance."
 msgstr ""
-"Dieser Unterabschnitt wurde für die Teilnehmer als Sonderprüfung "
-"veröffentlicht, anschließend aber wieder zu einer Grundprüfung "
-"zurückgewandelt. Die Prüfung kann jetzt nicht mehr als Sonderprüfung "
-"konfiguriert werden. Wenden Sie sich zur Unterstützung an den edX-Support."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This special exam has been released to learners. You may not convert it to "
-"another type of special exam. You may revert this subsection back to being a"
-" basic exam by selecting 'None', but you will NOT be able to configure it as"
-" a special exam in the future."
+"This proctored exam has been released to learners. You may not convert it to"
+" another type of special exam. You may revert this subsection back to being "
+"a basic exam by selecting 'None', or a timed exam, but you will NOT be able "
+"to configure it as a proctored exam in the future."
 msgstr ""
-"Diese Sonderprüfung wurde für die Teilnehmer veröffentlicht und kann nicht "
-"in eine andere Art von Sonderprüfung umgewandelt werden. Dieser "
-"Unterabschnitt kann jedoch wieder in eine Basisprüfung umgewandelt werden, "
-"indem Sie \"None\" wählen. Sie können die Prüfung in Zukunft NICHT mehr als "
-"Sonderprüfung konfigurieren."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Timed"

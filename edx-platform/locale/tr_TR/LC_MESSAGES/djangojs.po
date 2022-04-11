@@ -11,6 +11,7 @@
 # baris <brscvs@gmail.com>, 2013
 # Burak Özalp <realburq@gmail.com>, 2013
 # Burak Özalp <realburq@gmail.com>, 2013
+# Dilek E, 2022
 # Emrah Emirtekin <eemirtekin@gmail.com>, 2014-2015
 # emreusta <emreusta7@gmail.com>, 2014
 # Erdoğan Şahin, 2016
@@ -107,9 +108,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-02-06 20:42+0000\n"
-"PO-Revision-Date: 2022-01-23 20:45+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2022-04-10 20:42+0000\n"
+"PO-Revision-Date: 2014-06-11 15:18+0000\n"
+"Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2018,2020-2021\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
@@ -3157,6 +3158,7 @@ msgid "Markdown Editing Help"
 msgstr "Markdown İşaretleme Dili Yardımı"
 
 #: lms/static/js/Markdown.Editor.js cms/templates/js/asset-library.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 msgid "URL"
 msgstr "URL"
 
@@ -8765,15 +8767,6 @@ msgstr "Program Yolculuğunuz"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore
 #: lms/templates/learner_dashboard/program_details_view.underscore
-msgid ""
-"To complete the program, you must earn a verified certificate for each "
-"course."
-msgstr ""
-"Programı tamamlamak için, tüm derslerde onaylı sertifikaya hak "
-"kazanmalısınız."
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore
-#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Upgrade All Remaining Courses ("
 msgstr "Kalan Tüm Dersleri Yükselt ("
 
@@ -10697,6 +10690,7 @@ msgstr "Yeni %(item_type)s"
 #: cms/templates/js/metadata-list-entry.underscore
 #: cms/templates/js/metadata-number-entry.underscore
 #: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 #: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear"
 msgstr "Temizle"
@@ -10706,6 +10700,7 @@ msgstr "Temizle"
 #: cms/templates/js/metadata-list-entry.underscore
 #: cms/templates/js/metadata-number-entry.underscore
 #: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 #: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear Value"
 msgstr "Değeri Temizle"
@@ -11105,25 +11100,18 @@ msgstr "Sınav Türleri"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This subsection was released to learners as a special exam, but was reverted"
-" back to a basic exam. You may not configure it as a special exam now. "
-"Contact edX Support for assistance."
+"This subsection was released to learners as a proctored exam, but was "
+"reverted back to a basic or timed exam. You may not configure it as a "
+"proctored exam now. Contact edX Support for assistance."
 msgstr ""
-"Bu alt bölüm öğrencilere özel bir sınav olarak yayınlandı, ancak basit sınav"
-" ayarlarına geri döndürüldü. Artık bunu özel bir sınav olarak "
-"yapılandıramazsınız. Yardım için edX Destek ile iletişime geçin. "
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This special exam has been released to learners. You may not convert it to "
-"another type of special exam. You may revert this subsection back to being a"
-" basic exam by selecting 'None', but you will NOT be able to configure it as"
-" a special exam in the future."
+"This proctored exam has been released to learners. You may not convert it to"
+" another type of special exam. You may revert this subsection back to being "
+"a basic exam by selecting 'None', or a timed exam, but you will NOT be able "
+"to configure it as a proctored exam in the future."
 msgstr ""
-"Bu özel sınav öğrencilere sunulmuştur. Başka bir tür özel sınava "
-"dönüştüremezsiniz. \"None\" ayarını seçerek bu alt bölümü basit sınav haline"
-" geri döndürebilirsiniz, ancak ileride bunu özel bir sınav olarak "
-"yapılandıramazsınız. "
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Timed"

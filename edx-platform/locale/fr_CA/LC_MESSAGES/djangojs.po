@@ -295,9 +295,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-02-06 20:42+0000\n"
-"PO-Revision-Date: 2022-02-02 14:52+0000\n"
-"Last-Translator: Gabriel D'Amours <gabriel@opencraft.com>\n"
+"POT-Creation-Date: 2022-04-10 20:42+0000\n"
+"PO-Revision-Date: 2014-06-11 15:18+0000\n"
+"Last-Translator: Gabriel D'Amours <gabriel@opencraft.com>, 2021\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
@@ -3375,6 +3375,7 @@ msgid "Markdown Editing Help"
 msgstr "Aide de saisie Markdown"
 
 #: lms/static/js/Markdown.Editor.js cms/templates/js/asset-library.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 msgid "URL"
 msgstr "URL"
 
@@ -9153,15 +9154,6 @@ msgstr "Votre parcours de programme"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore
 #: lms/templates/learner_dashboard/program_details_view.underscore
-msgid ""
-"To complete the program, you must earn a verified certificate for each "
-"course."
-msgstr ""
-"Pour compléter le programme, vous devez obtenir une attestation vérifiée "
-"pour chaque cours."
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore
-#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Upgrade All Remaining Courses ("
 msgstr "Mettre à niveau tous les cours restants ("
 
@@ -11150,6 +11142,7 @@ msgstr "Nouvel %(item_type)s"
 #: cms/templates/js/metadata-list-entry.underscore
 #: cms/templates/js/metadata-number-entry.underscore
 #: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 #: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear"
 msgstr "Effacer"
@@ -11159,6 +11152,7 @@ msgstr "Effacer"
 #: cms/templates/js/metadata-list-entry.underscore
 #: cms/templates/js/metadata-number-entry.underscore
 #: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-option-public-access.underscore
 #: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear Value"
 msgstr "Effacer la valeur"
@@ -11574,26 +11568,27 @@ msgstr "Types d'examen"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This subsection was released to learners as a special exam, but was reverted"
-" back to a basic exam. You may not configure it as a special exam now. "
-"Contact edX Support for assistance."
+"This subsection was released to learners as a proctored exam, but was "
+"reverted back to a basic or timed exam. You may not configure it as a "
+"proctored exam now. Contact edX Support for assistance."
 msgstr ""
-"Cette sous-section a été remise aux apprenants en tant qu'examen spécial, "
-"mais est revenue à un examen de base. Vous ne pouvez pas le configurer comme"
-" un examen spécial maintenant. Contactez l'assistance EDUlib pour obtenir de"
-" l'aide."
+"Cette sous-section a été communiquée aux apprenants en tant qu&#39;examen "
+"surveillé, mais est redevenue un examen de base ou chronométré. Vous ne "
+"pouvez pas le configurer en tant qu&#39;examen surveillé maintenant. "
+"Contactez le support edX pour obtenir de l&#39;aide."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
-"This special exam has been released to learners. You may not convert it to "
-"another type of special exam. You may revert this subsection back to being a"
-" basic exam by selecting 'None', but you will NOT be able to configure it as"
-" a special exam in the future."
+"This proctored exam has been released to learners. You may not convert it to"
+" another type of special exam. You may revert this subsection back to being "
+"a basic exam by selecting 'None', or a timed exam, but you will NOT be able "
+"to configure it as a proctored exam in the future."
 msgstr ""
-"Cet examen spécial a été mis à la disposition des apprenants. Vous ne pouvez"
-" pas le convertir en un autre type d'examen spécial. Vous pouvez rétablir "
-"cette sous-section en tant qu'examen de base en sélectionnant «Aucun», mais "
-"vous ne pourrez PAS le configurer comme un examen spécial à l'avenir."
+"Cet examen surveillé a été mis à la disposition des apprenants. Vous ne "
+"pouvez pas le convertir en un autre type d&#39;examen spécial. Vous pouvez "
+"redonner à cette sous-section un examen de base en sélectionnant "
+"&quot;Aucun&quot; ou un examen chronométré, mais vous ne pourrez PAS le "
+"configurer en tant qu&#39;examen surveillé à l&#39;avenir."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Timed"
