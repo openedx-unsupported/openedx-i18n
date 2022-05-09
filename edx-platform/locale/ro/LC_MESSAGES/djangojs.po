@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-04-10 20:42+0000\n"
+"POT-Creation-Date: 2022-05-08 20:42+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Mihaela Caraulasu <mihaela@accelerole.com>, 2017\n"
 "Language-Team: Romanian (http://www.transifex.com/open-edx/edx-platform/language/ro/)\n"
@@ -5391,38 +5391,6 @@ msgstr ""
 msgid "Bookmark this page"
 msgstr "Salvează această pagină"
 
-#: openedx/features/course_experience/static/course_experience/js/CourseGoals.js
-msgid "Thank you for setting your course goal to {goal}!"
-msgstr "Vă mulțumim că ați stabilit obiectivul cursului la {goal}!"
-
-#: openedx/features/course_experience/static/course_experience/js/CourseHome.js
-msgid "You have successfully updated your goal."
-msgstr "V-ați actualizat cu succes obiectivul"
-
-#: openedx/features/course_experience/static/course_experience/js/CourseHome.js
-msgid "There was an error updating your goal."
-msgstr "A existat o eroare la actualizarea obiectivului dumneavoastră."
-
-#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
-#: lms/templates/ccx/schedule.underscore
-msgid "Expand All"
-msgstr "Extinde toate"
-
-#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
-#: lms/templates/ccx/schedule.underscore
-msgid "Collapse All"
-msgstr "Restrângeți totul"
-
-#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "Show More"
-msgstr "Arată mai mult"
-
-#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "Show Less"
-msgstr "Arată mai puțin"
-
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
@@ -7248,10 +7216,6 @@ msgid "follow this post"
 msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
-msgid "post anonymously"
-msgstr ""
-
-#: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
 msgstr ""
 
@@ -7696,6 +7660,14 @@ msgid "This catalog's courses:"
 msgstr ""
 
 #: lms/templates/ccx/schedule.underscore
+msgid "Expand All"
+msgstr "Extinde toate"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Collapse All"
+msgstr "Restrângeți totul"
+
+#: lms/templates/ccx/schedule.underscore
 msgid "Start Date"
 msgstr "Data de început"
 
@@ -7777,6 +7749,14 @@ msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
 msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "Show More"
+msgstr "Arată mai mult"
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "Show Less"
+msgstr "Arată mai puțin"
 
 #: lms/templates/discovery/course_card.underscore
 msgid "LEARN MORE"

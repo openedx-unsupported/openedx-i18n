@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-04-10 20:42+0000\n"
+"POT-Creation-Date: 2022-05-08 20:42+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Le Minh Tri <trilm@hihexa.com>, 2020\n"
 "Language-Team: Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)\n"
@@ -5459,38 +5459,6 @@ msgstr "Tổng Điểm"
 msgid "Bookmark this page"
 msgstr "Đánh dấu trang này"
 
-#: openedx/features/course_experience/static/course_experience/js/CourseGoals.js
-msgid "Thank you for setting your course goal to {goal}!"
-msgstr "Cảm ơn bạn đã đặt mục tiêu khóa học của bạn thành {goal}!"
-
-#: openedx/features/course_experience/static/course_experience/js/CourseHome.js
-msgid "You have successfully updated your goal."
-msgstr "Bạn đã cập nhật thành công mục tiêu của mình."
-
-#: openedx/features/course_experience/static/course_experience/js/CourseHome.js
-msgid "There was an error updating your goal."
-msgstr "Đã xảy ra lỗi khi cập nhật mục tiêu của bạn."
-
-#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
-#: lms/templates/ccx/schedule.underscore
-msgid "Expand All"
-msgstr "Mở rộng tất cả"
-
-#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
-#: lms/templates/ccx/schedule.underscore
-msgid "Collapse All"
-msgstr "Thu gọn tất cả"
-
-#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "Show More"
-msgstr ""
-
-#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "Show Less"
-msgstr ""
-
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
@@ -7356,10 +7324,6 @@ msgid "follow this post"
 msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
-msgid "post anonymously"
-msgstr ""
-
-#: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
 msgstr ""
 
@@ -7811,6 +7775,14 @@ msgid "This catalog's courses:"
 msgstr ""
 
 #: lms/templates/ccx/schedule.underscore
+msgid "Expand All"
+msgstr "Mở rộng tất cả"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Collapse All"
+msgstr "Thu gọn tất cả"
+
+#: lms/templates/ccx/schedule.underscore
 msgid "Start Date"
 msgstr "Ngày bắt đầu"
 
@@ -7891,6 +7863,14 @@ msgstr ""
 msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "Show More"
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "Show Less"
 msgstr ""
 
 #: lms/templates/discovery/course_card.underscore

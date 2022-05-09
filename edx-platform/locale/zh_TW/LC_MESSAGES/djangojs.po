@@ -132,7 +132,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-04-10 20:42+0000\n"
+"POT-Creation-Date: 2022-05-08 20:42+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Andrew Lau <alau52@yahoo.com>, 2017\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
@@ -5231,36 +5231,6 @@ msgstr ""
 msgid "Bookmark this page"
 msgstr ""
 
-#: openedx/features/course_experience/static/course_experience/js/CourseGoals.js
-msgid "Thank you for setting your course goal to {goal}!"
-msgstr ""
-
-#: openedx/features/course_experience/static/course_experience/js/CourseHome.js
-msgid "You have successfully updated your goal."
-msgstr ""
-
-#: openedx/features/course_experience/static/course_experience/js/CourseHome.js
-msgid "There was an error updating your goal."
-msgstr ""
-
-#: lms/templates/ccx/schedule.underscore
-msgid "Expand All"
-msgstr "展開全部"
-
-#: lms/templates/ccx/schedule.underscore
-msgid "Collapse All"
-msgstr "折疊所有"
-
-#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "Show More"
-msgstr ""
-
-#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "Show Less"
-msgstr ""
-
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
@@ -7035,10 +7005,6 @@ msgid "follow this post"
 msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
-msgid "post anonymously"
-msgstr ""
-
-#: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
 msgstr ""
 
@@ -7483,6 +7449,14 @@ msgid "This catalog's courses:"
 msgstr ""
 
 #: lms/templates/ccx/schedule.underscore
+msgid "Expand All"
+msgstr "展開全部"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Collapse All"
+msgstr "折疊所有"
+
+#: lms/templates/ccx/schedule.underscore
 msgid "Start Date"
 msgstr "開始日期"
 
@@ -7564,6 +7538,14 @@ msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
 msgstr "如收到信用的問題，在您選擇\"結束我的測驗\"之前，您必須為每個問題點擊\"提交\"按鈕。"
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "Show More"
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "Show Less"
+msgstr ""
 
 #: lms/templates/discovery/course_card.underscore
 msgid "LEARN MORE"

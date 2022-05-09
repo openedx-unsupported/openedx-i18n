@@ -130,7 +130,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-04-10 20:42+0000\n"
+"POT-Creation-Date: 2022-05-08 20:42+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2018-2021\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
@@ -5790,38 +5790,6 @@ msgstr "Gesamtpunkte"
 msgid "Bookmark this page"
 msgstr "Diese Seite merken"
 
-#: openedx/features/course_experience/static/course_experience/js/CourseGoals.js
-msgid "Thank you for setting your course goal to {goal}!"
-msgstr "Danke, für das definieren eines Kursziels zu {goal}!"
-
-#: openedx/features/course_experience/static/course_experience/js/CourseHome.js
-msgid "You have successfully updated your goal."
-msgstr "Das Kursziel wurde erfolgreich aktualisiert."
-
-#: openedx/features/course_experience/static/course_experience/js/CourseHome.js
-msgid "There was an error updating your goal."
-msgstr "Es ist ein Fehler beim aktualisieren Ihres Kursziels aufgetreten."
-
-#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
-#: lms/templates/ccx/schedule.underscore
-msgid "Expand All"
-msgstr "Alles erweitern"
-
-#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
-#: lms/templates/ccx/schedule.underscore
-msgid "Collapse All"
-msgstr "Alles verbergen"
-
-#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "Show More"
-msgstr "Mehr anzeigen"
-
-#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "Show Less"
-msgstr "Weniger anzeigen"
-
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
@@ -7764,10 +7732,6 @@ msgid "follow this post"
 msgstr "Beitrag folgen"
 
 #: common/static/common/templates/discussion/templates.underscore
-msgid "post anonymously"
-msgstr "Eintrag anonym erstellen"
-
-#: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
 msgstr "Anonym an Klassenkameraden posten"
 
@@ -8228,6 +8192,14 @@ msgid "This catalog's courses:"
 msgstr "Die Kurse dieses Katalogs:"
 
 #: lms/templates/ccx/schedule.underscore
+msgid "Expand All"
+msgstr "Alles erweitern"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Collapse All"
+msgstr "Alles verbergen"
+
+#: lms/templates/ccx/schedule.underscore
 msgid "Start Date"
 msgstr "Anfangsdatum:"
 
@@ -8313,6 +8285,14 @@ msgid ""
 msgstr ""
 "Um Credits für Probleme zu erhalten, müssen Sie für jedes Problem \"Senden\""
 " auswählen, bevor Sie \"Meine Prüfung beenden\" wählen."
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "Show More"
+msgstr "Mehr zeigen"
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "Show Less"
+msgstr "Weniger zeigen"
 
 #: lms/templates/discovery/course_card.underscore
 msgid "LEARN MORE"
