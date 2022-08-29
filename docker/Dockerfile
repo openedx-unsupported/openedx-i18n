@@ -26,7 +26,7 @@ USER openedx
 
 # Checkout code
 ARG EDX_PLATFORM_REPOSITORY=https://github.com/edx/edx-platform.git
-ARG EDX_PLATFORM_VERSION=open-release/nutmeg.master
+ARG EDX_PLATFORM_VERSION=open-release/nutmeg.1
 RUN mkdir -p /openedx/edx-platform && \
     git clone $EDX_PLATFORM_REPOSITORY --branch $EDX_PLATFORM_VERSION --depth 1 /openedx/edx-platform
 WORKDIR /openedx/edx-platform
@@ -46,3 +46,6 @@ RUN cd /tmp \
 
 COPY ./locale.py ./lms/envs/
 ENV DJANGO_SETTINGS_MODULE lms.envs.locale
+
+# Fix incorrect tx file in edx-platform
+RUN sed -i 's/open-edx-releases.release-nutmeg/o:open-edx:p:open-edx-releases:r:release-nutmeg/g' /openedx/edx-platform/.tx/config
