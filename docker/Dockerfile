@@ -25,7 +25,7 @@ RUN mkdir /openedx && chown -R openedx /openedx
 USER openedx
 
 # Checkout code
-ARG EDX_PLATFORM_REPOSITORY=https://github.com/edx/edx-platform.git
+ARG EDX_PLATFORM_REPOSITORY=https://github.com/openedx/edx-platform.git
 ARG EDX_PLATFORM_VERSION=open-release/nutmeg.2
 RUN mkdir -p /openedx/edx-platform && \
     git clone $EDX_PLATFORM_REPOSITORY --branch $EDX_PLATFORM_VERSION --depth 1 /openedx/edx-platform
