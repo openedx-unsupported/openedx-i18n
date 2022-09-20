@@ -9,6 +9,7 @@ locales:
     - ca  # Catalan
     - de_DE  # German (Germany)
     - es_ES  # Spanish (Spain)
+    - fa_IR  # Persian (Iran)
     - fr_CA # French (Canada)
     - hr  # Croatian
     - id  # Indonesian
