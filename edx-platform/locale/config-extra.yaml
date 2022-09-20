@@ -17,6 +17,7 @@ locales:
     - ja_JP  # Japanese (Japan)
     - ka # Georgian
     - pl  # Polish
+    - pt_PT  # Portuguese
     - ro  # Romanian
     - sv  # Swedish
     - sw  # Swahili
