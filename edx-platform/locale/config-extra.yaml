@@ -6,6 +6,7 @@ root_dir: /openedx/edx-platform
 # How did we select those languages? We picked those languages that are ~50%+
 # translated on https://www.transifex.com/open-edx/edx-platform/dashboard/
 locales:
+    - ar  # Arabic
     - ca  # Catalan
     - de_DE  # German (Germany)
     - es_ES  # Spanish (Spain)
