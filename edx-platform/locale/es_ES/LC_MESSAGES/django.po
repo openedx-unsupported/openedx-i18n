@@ -205,7 +205,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-11-06 20:42+0000\n"
+"POT-Creation-Date: 2022-12-11 20:42+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: UAMx <uamx.dev@gmail.com>, 2021\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/open-edx/teams/6205/es_ES/)\n"
@@ -2319,6 +2319,10 @@ msgstr "Contáctenos"
 #: lms/djangoapps/branding/api.py
 msgid "Help Center"
 msgstr "Centro de ayuda"
+
+#: lms/djangoapps/branding/api.py
+msgid "Security"
+msgstr ""
 
 #: lms/djangoapps/branding/api.py
 #: lms/templates/static_templates/media-kit.html
@@ -8840,7 +8844,7 @@ msgstr ""
 "El correo electrónico o la contraseña son incorrectos.{li_start}Tiene "
 "{remaining_attempts} más intentos de inicio de sesión antes de que su cuenta"
 " se bloquee temporalmente.{li_end}{li_start}Si ha olvidado su contraseña, "
-"haga clic {link_start}aquí{link_end} para restablecer .{li_end}"
+"haga clic {link_start}aquí{link_end} para restablecer.{li_end}"
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
@@ -8923,6 +8927,12 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "No email address provided."
 msgstr "No se ha proporcionado ninguna dirección de correo electrónico."
+
+#: openedx/core/djangoapps/user_authn/views/password_reset.py
+msgid ""
+"An error has occurred. Try refreshing the page, or check your internet "
+"connection."
+msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/register.py
 #, python-brace-format
@@ -19930,6 +19940,12 @@ msgstr ""
 "electrónico por semana. Antes de enviar tu correo electrónico, revisa el "
 "texto cuidadosamente y envíatelo a ti mismo para previsualizar su formato y "
 "asegurar que las imágenes y enlaces integrados funcionan correctamente."
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html
+msgid ""
+"You can include keywords in your messages. For list of available keywords "
+"see the {start_link}documentation{end_link}."
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "CAUTION!"
