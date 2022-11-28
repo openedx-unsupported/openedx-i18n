@@ -6,23 +6,12 @@ root_dir: /openedx/edx-platform
 # How did we select those languages? We picked those languages that are ~50%+
 # translated on https://www.transifex.com/open-edx/edx-platform/dashboard/
 locales:
-    - ca  # Catalan
-    - de_DE  # German (Germany)
     - es_ES  # Spanish (Spain)
-    - fa_IR  # Persian (Iran)
     - fr_CA # French (Canada)
     - hr  # Croatian
-    - id  # Indonesian
-    - ja_JP  # Japanese (Japan)
-    - ka # Georgian
-    - pl  # Polish
     - ro  # Romanian
     - sv  # Swedish
     - sw  # Swahili
-    - tr_TR  # Turkish (Turkey)
-    - uk  # Ukranian
-    - vi  # Vietnamese
-    - zh_TW  # Chinese (Taiwan)
 
 # Copied from edx-platform/conf/locale/config.yaml
 generate_merge:
