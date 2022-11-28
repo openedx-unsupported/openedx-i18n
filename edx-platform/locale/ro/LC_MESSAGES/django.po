@@ -61,7 +61,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-08-28 20:43+0000\n"
+"POT-Creation-Date: 2022-11-06 20:42+0000\n"
 "PO-Revision-Date: 2014-02-06 03:04+0000\n"
 "Last-Translator: Alena A. Bencsik-Theilen <alenabencsik@hotmail.com>, 2021\n"
 "Language-Team: Romanian (http://www.transifex.com/open-edx/edx-platform/language/ro/)\n"
@@ -2626,6 +2626,26 @@ msgstr ""
 "A fost inițiată o cerere de rambursare pentru {username} ({email}). Pentru a"
 " procesa această solicitare, vizitați link-ul (link-urile) de mai jos."
 
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
+msgid "Practice Exam"
+msgstr ""
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
+msgid "Proctored Exam"
+msgstr ""
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
+msgid "Timed Exam"
+msgstr ""
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
+msgid "Exam"
+msgstr ""
+
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
 "\n"
@@ -2819,6 +2839,14 @@ msgstr "Nu aveți acces la acest curs pe un dipozitiv mobil"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "You must be enrolled in the course"
+msgstr ""
+
+#: lms/djangoapps/courseware/access_response.py
+#, python-brace-format
+msgid ""
+"You are enrolled in this course with '{enrollment_enterprise_name}'. "
+"However, you are currently logged in as a '{active_enterprise_name}' user. "
+"Please log in with '{enrollment_enterprise_name}' to access this course."
 msgstr ""
 
 #: lms/djangoapps/courseware/access_response.py
@@ -6934,6 +6962,10 @@ msgstr ""
 msgid "Ordering of this topic in its learning context"
 msgstr ""
 
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Additional context for this topic, such as its section, and subsection"
+msgstr ""
+
 #: openedx/core/djangoapps/discussions/plugins.py
 msgid ""
 "Encourage participation and engagement in your course with discussions."
@@ -7444,11 +7476,6 @@ msgstr ""
 #. account using
 #. an invalid email format.
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
-#, python-brace-format
-msgid "\"{email}\" is not a valid email address."
-msgstr ""
-
-#: openedx/core/djangoapps/user_api/accounts/__init__.py
 msgid "Enter a valid email address"
 msgstr ""
 
@@ -7929,7 +7956,6 @@ msgid ""
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/login.py
-#: lms/templates/header/navbar-not-authenticated.html
 #: lms/templates/navigation/navbar-not-authenticated.html
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "Register"
@@ -9785,20 +9811,6 @@ msgstr ""
 "Pagina de discuții prin setarea atributului său \"implicit\" la adevărat. De"
 " exemplu, \"modul Lydian\": {\"id\": \"i4x-UniversityX-"
 "MUS101-course-2015_T1\", \"default\": true}."
-
-#: xmodule/course_module.py
-msgid "Discussion Sorting Alphabetical"
-msgstr "Discuții Sortate Alfabetic"
-
-#: xmodule/course_module.py
-msgid ""
-"Enter true or false. If true, discussion categories and subcategories are "
-"sorted alphabetically. If false, they are sorted chronologically by creation"
-" date and time."
-msgstr ""
-"Introduceți adevărat sau fals. Dacă este adevărat, categoriile și "
-"subcategoriile de discuții sunt sortate în ordine alfabetică. Dacă sunt "
-"false, acestea sunt sortate în ordine cronologică după data și ora creării."
 
 #: xmodule/course_module.py
 msgid "Discussions Plugin Settings"
@@ -11951,6 +11963,14 @@ msgstr ""
 
 #: xmodule/video_module/video_xfields.py
 msgid "Public Access"
+msgstr ""
+
+#: xmodule/video_module/video_xfields.py
+msgid "Add a specific thumbnail for learners to see before playing the video."
+msgstr ""
+
+#: xmodule/video_module/video_xfields.py
+msgid "Thumbnail"
 msgstr ""
 
 #: xmodule/word_cloud_module.py lms/templates/annotatable.html
@@ -16832,6 +16852,12 @@ msgstr ""
 msgid "Discussion ID: {discussion_id}"
 msgstr "ID-ul discuției: {discussion_id}"
 
+#: lms/templates/discussion/_discussion_inline_studio.html
+msgid ""
+"The discussion block is disabled for this course as it is not using a "
+"compatible discussion provider."
+msgstr ""
+
 #: lms/templates/discussion/_filter_dropdown.html
 msgid "Discussion topics list"
 msgstr "Lista subiectelor de discuție"
@@ -16851,29 +16877,6 @@ msgstr "Toate Discuțiile"
 #: lms/templates/discussion/_filter_dropdown.html
 msgid "Posts I'm Following"
 msgstr "Postări pe care le urmaresc"
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid "Welcome to the new discussions experience. Please share your feedback."
-msgstr ""
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid "View legacy experience"
-msgstr ""
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid ""
-"You are currently using the old discussions experience that will be "
-"deprecated soon. If you are facing any issues with the new experience, "
-"please share using the feedback button."
-msgstr ""
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid "Switch to new experience"
-msgstr ""
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid "Share feedback"
-msgstr ""
 
 #. Translators: This labels a filter menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html
@@ -17499,6 +17502,10 @@ msgstr "Cum funcționează"
 #: lms/templates/navigation/navbar-not-authenticated.html
 msgid "Schools"
 msgstr "Școli"
+
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Register for free"
+msgstr ""
 
 #: lms/templates/header/user_dropdown.html
 msgid "Resume your last course"

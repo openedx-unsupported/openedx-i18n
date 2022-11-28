@@ -367,7 +367,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-08-28 20:43+0000\n"
+"POT-Creation-Date: 2022-11-06 20:42+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2019\n"
 "Language-Team: French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)\n"
@@ -1090,7 +1090,7 @@ msgid ""
 msgstr ""
 "{html_start}Bravo ! Vous avez {activated_or_confirmed} votre "
 "{account_or_email}.{html_end}Vous recevrez des notifications et des alertes "
-"email de notre part concernant les cours auxquels vous êtes inscrit. "
+"courriels de notre part concernant les cours auxquels vous êtes inscrit. "
 "Connectez-vous pour continuer."
 
 #: common/djangoapps/student/views/management.py
@@ -2920,7 +2920,7 @@ msgstr "À propos des accomplissements {platform_name}"
 #. for the certificate
 #: lms/djangoapps/certificates/views/webview.py
 msgid "Issued On:"
-msgstr "Émis le : "
+msgstr "Émise le : "
 
 #. Translators:  The Certificate ID Number is an alphanumeric value unique to
 #. each individual certificate
@@ -3121,6 +3121,26 @@ msgid ""
 msgstr ""
 "Une demande de remboursement a été initiée pour {username} ({email}). Afin "
 "de traiter cette demande, svp visiter le ou les liens ci-dessous."
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
+msgid "Practice Exam"
+msgstr "Examen de pratique"
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
+msgid "Proctored Exam"
+msgstr "Examen surveillé"
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
+msgid "Timed Exam"
+msgstr "Examen minuté"
+
+#: lms/djangoapps/course_api/blocks/transformers/milestones.py
+#: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
+msgid "Exam"
+msgstr "Examen"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html
 msgid ""
@@ -3363,6 +3383,18 @@ msgstr "Vous n'avez pas accès à ce cours sur un appareil mobile"
 #: lms/djangoapps/courseware/access_response.py
 msgid "You must be enrolled in the course"
 msgstr "Vous devez être inscrits à ce cours"
+
+#: lms/djangoapps/courseware/access_response.py
+#, python-brace-format
+msgid ""
+"You are enrolled in this course with '{enrollment_enterprise_name}'. "
+"However, you are currently logged in as a '{active_enterprise_name}' user. "
+"Please log in with '{enrollment_enterprise_name}' to access this course."
+msgstr ""
+"Vous êtes inscrit à ce cours avec '{enrollment_enterprise_name}'. Cependant,"
+" vous êtes actuellement connecté en tant qu'utilisateur "
+"'{active_enterprise_name}'. Veuillez vous connecter avec "
+"'{enrollment_enterprise_name}' pour accéder à ce cours."
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "You must give Data Sharing Consent for the course"
@@ -4104,7 +4136,7 @@ msgid ""
 " name, and country."
 msgstr ""
 "Les données dans la ligne #{row_num} doivent comporter exactement quatre "
-"colonnes : email, nom d'utilisateur, nom complet, et pays."
+"colonnes : courriel, nom d'utilisateur, nom complet, et pays."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -7850,6 +7882,11 @@ msgstr "Si ce sujet doit être présenté en contexte dans le cours."
 msgid "Ordering of this topic in its learning context"
 msgstr "Classement de ce sujet dans son contexte d'apprentissage"
 
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Additional context for this topic, such as its section, and subsection"
+msgstr ""
+"Contexte supplémentaire pour ce sujet, tel que sa section et sa sous-section"
+
 #: openedx/core/djangoapps/discussions/plugins.py
 msgid ""
 "Encourage participation and engagement in your course with discussions."
@@ -8450,11 +8487,6 @@ msgstr ""
 #. account using
 #. an invalid email format.
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
-#, python-brace-format
-msgid "\"{email}\" is not a valid email address."
-msgstr "\"{email}\" n'est pas une adresse courriel valide."
-
-#: openedx/core/djangoapps/user_api/accounts/__init__.py
 msgid "Enter a valid email address"
 msgstr "Entrez une adresse de courriel valide"
 
@@ -8986,7 +9018,6 @@ msgstr ""
 "cliquez sur {register_label_strong} en haut de la page."
 
 #: openedx/core/djangoapps/user_authn/views/login.py
-#: lms/templates/header/navbar-not-authenticated.html
 #: lms/templates/navigation/navbar-not-authenticated.html
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "Register"
@@ -10965,20 +10996,6 @@ msgstr ""
 "pour les nouveaux messages sur la page de discussion en mettant le paramètre"
 " \"default\" à true. Par exemple, \"Lydian Mode\": {\"id\": "
 "\"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
-
-#: xmodule/course_module.py
-msgid "Discussion Sorting Alphabetical"
-msgstr "Tri alphabétique des discussions"
-
-#: xmodule/course_module.py
-msgid ""
-"Enter true or false. If true, discussion categories and subcategories are "
-"sorted alphabetically. If false, they are sorted chronologically by creation"
-" date and time."
-msgstr ""
-"Entrer vrai (true) ou faux (false). Si vrai, les catégories et sous-"
-"catégories de discussions sont triés alphabétiquement. Si faux, elles sont "
-"triées chronologiquement par .date et heure de création."
 
 #: xmodule/course_module.py
 msgid "Discussions Plugin Settings"
@@ -13211,6 +13228,16 @@ msgstr ""
 #: xmodule/video_module/video_xfields.py
 msgid "Public Access"
 msgstr "Accès public"
+
+#: xmodule/video_module/video_xfields.py
+msgid "Add a specific thumbnail for learners to see before playing the video."
+msgstr ""
+"Ajoutez une vignette spécifique que les apprenants pourront voir avant de "
+"lire la vidéo."
+
+#: xmodule/video_module/video_xfields.py
+msgid "Thumbnail"
+msgstr "Vignette"
 
 #: xmodule/word_cloud_module.py lms/templates/annotatable.html
 #: lms/templates/peer_grading/peer_grading.html
@@ -18291,6 +18318,14 @@ msgstr ""
 msgid "Discussion ID: {discussion_id}"
 msgstr "ID de discussion : {discussion_id}"
 
+#: lms/templates/discussion/_discussion_inline_studio.html
+msgid ""
+"The discussion block is disabled for this course as it is not using a "
+"compatible discussion provider."
+msgstr ""
+"Le bloc de discussion est désactivé pour ce cours car il n'utilise pas de "
+"fournisseur de discussion compatible."
+
 #: lms/templates/discussion/_filter_dropdown.html
 msgid "Discussion topics list"
 msgstr "Liste des sujets de discussions"
@@ -18310,34 +18345,6 @@ msgstr "Toutes les discussions"
 #: lms/templates/discussion/_filter_dropdown.html
 msgid "Posts I'm Following"
 msgstr "Messages suivis"
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid "Welcome to the new discussions experience. Please share your feedback."
-msgstr ""
-"Bienvenue dans la nouvelle expérience de discussions. Veuillez partager vos "
-"commentaires."
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid "View legacy experience"
-msgstr "Afficher l&#39;ancienne expérience"
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid ""
-"You are currently using the old discussions experience that will be "
-"deprecated soon. If you are facing any issues with the new experience, "
-"please share using the feedback button."
-msgstr ""
-"Vous utilisez actuellement l'ancienne expérience de discussions qui sera "
-"bientôt obsolète. Si vous rencontrez des problèmes avec la nouvelle "
-"expérience, veuillez partager en utilisant le bouton de commentaires."
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid "Switch to new experience"
-msgstr "Passer à la nouvelle expérience"
-
-#: lms/templates/discussion/_switch_experience_fragment.html
-msgid "Share feedback"
-msgstr "Partager des commentaires"
 
 #. Translators: This labels a filter menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html
@@ -18963,6 +18970,10 @@ msgstr "Comment ça marche"
 #: lms/templates/navigation/navbar-not-authenticated.html
 msgid "Schools"
 msgstr "Écoles"
+
+#: lms/templates/header/navbar-not-authenticated.html
+msgid "Register for free"
+msgstr ""
 
 #: lms/templates/header/user_dropdown.html
 msgid "Resume your last course"
