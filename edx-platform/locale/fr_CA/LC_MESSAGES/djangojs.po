@@ -295,7 +295,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-08-28 20:42+0000\n"
+"POT-Creation-Date: 2022-11-06 20:42+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Gabriel D'Amours <gabriel@opencraft.com>, 2021\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -1878,16 +1878,16 @@ msgid ""
 " records are not in the correct format and have not been added to the "
 "exception list"
 msgstr ""
-" les enregistrements ne sont pas dans le bon format et n'ont pas été ajoutés"
-" à la liste des exceptions"
+" les dossiers ne sont pas dans le bon format et n'ont pas été ajoutés à la "
+"liste des exceptions"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js
 msgid ""
 " record is not in the correct format and has not been added to the exception"
 " list"
 msgstr ""
-" l'enregistrement n'est pas dans le bon format et n'a pas été ajouté à la "
-"liste des exceptions"
+" le dossier n'est pas dans le bon format et n'a pas été ajouté à la liste "
+"des exceptions"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js
 msgid ""
@@ -2832,8 +2832,8 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "These users will be enrolled once they register:"
 msgstr ""
-"Les utilisateurs suivants seront inscrits dès leur enregistrement sur la "
-"plate-forme : "
+"Les utilisateurs suivants seront inscrits dès leur inscription sur la plate-"
+"forme : "
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
@@ -3332,8 +3332,33 @@ msgid "loading"
 msgstr "Chargement en cours"
 
 #: lms/static/js/learner_dashboard/RecommendationsPanel.jsx
+msgid ""
+"Browse recently launched courses and see what's new in your favorite "
+"subjects."
+msgstr ""
+"Découvrez les cours récemment lancés, ainsi que les nouveautés dans vos "
+"disciplines préférées."
+
+#: lms/static/js/learner_dashboard/RecommendationsPanel.jsx
 msgid "Explore courses"
 msgstr "Explorer les cours"
+
+#: lms/static/js/learner_dashboard/Static2UCallouts.jsx
+msgid "More opportunities for you"
+msgstr "Plus d'opportunités pour vous"
+
+#: lms/static/js/learner_dashboard/Static2UCallouts.jsx
+msgid " to learn"
+msgstr "apprendre"
+
+#: lms/static/js/learner_dashboard/Static2UCallouts.jsx
+msgid ""
+"We've added 500+ learning opportunities to create one of the world's most "
+"comprehensive free-to-degree online learning platforms."
+msgstr ""
+"Nous avons ajouté plus de 500 opportunités d'apprentissage pour créer l'une "
+"des plateformes d'apprentissage en ligne gratuites les plus complètes au "
+"monde."
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 msgid "(Self-paced) Starts {start}"
