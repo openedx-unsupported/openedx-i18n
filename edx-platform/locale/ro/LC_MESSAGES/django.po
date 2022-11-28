@@ -61,7 +61,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-11-06 20:42+0000\n"
+"POT-Creation-Date: 2022-12-11 20:42+0000\n"
 "PO-Revision-Date: 2014-02-06 03:04+0000\n"
 "Last-Translator: Alena A. Bencsik-Theilen <alenabencsik@hotmail.com>, 2021\n"
 "Language-Team: Romanian (http://www.transifex.com/open-edx/edx-platform/language/ro/)\n"
@@ -2009,6 +2009,10 @@ msgstr "Contactează-ne"
 #: lms/djangoapps/branding/api.py
 msgid "Help Center"
 msgstr "Centru de Ajutor"
+
+#: lms/djangoapps/branding/api.py
+msgid "Security"
+msgstr ""
 
 #: lms/djangoapps/branding/api.py
 #: lms/templates/static_templates/media-kit.html
@@ -8061,6 +8065,12 @@ msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "No email address provided."
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/password_reset.py
+msgid ""
+"An error has occurred. Try refreshing the page, or check your internet "
+"connection."
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/register.py
@@ -18686,6 +18696,12 @@ msgstr ""
 "trimiteți-l mai întâi dumneavoastră, astfel încât să puteți previzualiza "
 "formatarea și să vă asigurați că imaginile și linkurile încorporate "
 "funcționează corect."
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html
+msgid ""
+"You can include keywords in your messages. For list of available keywords "
+"see the {start_link}documentation{end_link}."
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "CAUTION!"
