@@ -28,7 +28,7 @@ USER openedx
 
 # Checkout code
 ARG EDX_PLATFORM_REPOSITORY=https://github.com/openedx/edx-platform.git
-ARG EDX_PLATFORM_VERSION=open-release/palm.2
+ARG EDX_PLATFORM_VERSION=open-release/palm.3
 RUN mkdir -p /openedx/edx-platform && \
     git clone $EDX_PLATFORM_REPOSITORY --branch $EDX_PLATFORM_VERSION --depth 1 /openedx/edx-platform
 WORKDIR /openedx/edx-platform
