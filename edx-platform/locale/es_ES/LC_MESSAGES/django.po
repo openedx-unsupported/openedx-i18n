@@ -209,7 +209,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-07-23 20:42+0000\n"
+"POT-Creation-Date: 2023-10-08 20:43+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: UAMx <uamx.dev@gmail.com>, 2021\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/open-edx/teams/6205/es_ES/)\n"
@@ -312,8 +312,8 @@ msgid "Video"
 msgstr "Vídeo"
 
 #: cms/djangoapps/contentstore/views/component.py xmodule/capa_block.py
-msgid "Blank Advanced Problem"
-msgstr "Problema avanzado en blanco"
+msgid "Blank Problem"
+msgstr "Problema en blanco"
 
 #: cms/djangoapps/contentstore/views/component.py
 #: xmodule/video_block/video_block.py
@@ -419,8 +419,8 @@ msgstr "Educación profesional"
 #: common/djangoapps/course_modes/models.py xmodule/annotatable_block.py
 #: xmodule/capa_block.py xmodule/conditional_block.py
 #: xmodule/discussion_block.py xmodule/html_block.py
-#: xmodule/library_content_block.py xmodule/library_sourced_block.py
-#: xmodule/lti_block.py xmodule/split_test_block.py xmodule/unit_block.py
+#: xmodule/library_content_block.py xmodule/lti_block.py
+#: xmodule/split_test_block.py xmodule/unit_block.py
 #: xmodule/word_cloud_block.py xmodule/x_module.py
 #: cms/templates/container.html cms/templates/library.html
 msgid "Display Name"
@@ -3309,6 +3309,14 @@ msgid "Open Response Assessment"
 msgstr "Evaluación de respuesta abierta"
 
 #: lms/djangoapps/courseware/courses.py
+msgid ""
+"This Open Response Assessment's due dates are set by your instructor and "
+"can't be shifted."
+msgstr ""
+"Las fechas límite de esta evaluación de respuesta abierta las establece su "
+"instructor y no se pueden cambiar."
+
+#: lms/djangoapps/courseware/courses.py
 msgid "Self Assessment"
 msgstr "Autoevaluación"
 
@@ -3323,14 +3331,6 @@ msgstr "Evaluación del equipo docente"
 #: lms/djangoapps/courseware/courses.py
 msgid "Submission"
 msgstr "Envío"
-
-#: lms/djangoapps/courseware/courses.py
-msgid ""
-"Open Response Assessment due dates are set by your instructor and can't be "
-"shifted."
-msgstr ""
-"Las fechas de vencimiento de la Evaluación de Respuesta Abierta las "
-"establece tu instructor y no se pueden cambiar."
 
 #. Translators: 'absolute' is a date such as "Jan 01,
 #. 2020". 'relative' is a fuzzy description of the time until
@@ -3874,6 +3874,16 @@ msgstr ""
 #: lms/djangoapps/discussion/django_comment_client/base/views.py
 msgid "Good"
 msgstr "Bien"
+
+#. Translators: Replier commented on "your" response to your post
+#: lms/djangoapps/discussion/rest_api/utils.py
+msgid "your"
+msgstr "su"
+
+#. Translators: Replier commented on "their" response to your post
+#: lms/djangoapps/discussion/rest_api/utils.py
+msgid "their"
+msgstr "their"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.html
 #, python-format
@@ -6146,7 +6156,6 @@ msgstr ""
 
 #: lms/templates/oauth2_provider/authorize.html
 #: openedx/core/djangoapps/user_api/admin.py
-#: xmodule/templates/library-sourced-block-studio-view.html
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 #: cms/templates/videos_index_pagination.html
@@ -6611,13 +6620,13 @@ msgid "Quotes"
 msgstr "Comillas"
 
 #: lms/templates/wiki/includes/editor_widget.html
-#, python-format
+#, python-brace-format
 msgid ""
-"Markdown syntax is allowed. See the %(start_link)scheatsheet%(end_link)s for"
-" help."
+"Markdown syntax is allowed. See the {start_link}cheatsheet{end_link} for "
+"help."
 msgstr ""
-"Se permite la sintaxis Markdown. Consulte la hoja de referencia "
-"%(start_link)scheatsheet%(end_link)s para obtener ayuda."
+"Se permite la sintaxis de Markdown. Consulte la hoja de referencia "
+"{start_link} {end_link} para obtener ayuda."
 
 #: lms/templates/wiki/plugins/attachments/index.html
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html
@@ -7372,6 +7381,19 @@ msgstr ""
 "Clave de uso o identificador original de aquello que esté en el "
 "portapapeles."
 
+#: openedx/core/djangoapps/content_tagging/models/base.py
+#: wiki/models/article.py
+msgid "owner"
+msgstr "propietario"
+
+#: openedx/core/djangoapps/content_tagging/models/base.py
+msgid ""
+"Organization that is related to this taxonomy.If None, then this taxonomy is"
+" related to all organizations."
+msgstr ""
+"Organización relacionada con esta taxonomía. Si no hay ninguna, esta "
+"taxonomía está relacionada con todas las organizaciones."
+
 #: openedx/core/djangoapps/cors_csrf/models.py
 msgid ""
 "List of domains that are allowed to make cross-domain requests to this site."
@@ -7682,11 +7704,11 @@ msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid ""
-"The Posting availabilty in discussions whether it will be enabled, scheduled"
-" or indefinitely disabled."
+"The Posting availability in discussions whether it will be enabled, "
+"scheduled or indefinitely disabled."
 msgstr ""
-"La posibilidad de publicación en los foros de discusión, en relación a si "
-"estará activada, programada o desactivada indefinidamente."
+"La disponibilidad de publicación en debates estará habilitada, programada o "
+"deshabilitada indefinidamente."
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "The LTI configuration data for this context/provider."
@@ -7864,6 +7886,14 @@ msgstr "Lista nagra en {country} para {course}"
 msgid "Learner Pathways"
 msgstr "Rutas de aprendizaje"
 
+#: openedx/core/djangoapps/notifications/admin.py
+msgid "Notification App"
+msgstr "Aplicación de notificación"
+
+#: openedx/core/djangoapps/notifications/admin.py
+msgid "Notification Type"
+msgstr "Tipo de notificación"
+
 #: openedx/core/djangoapps/notifications/base_notification.py
 #, python-brace-format
 msgid ""
@@ -7877,7 +7907,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> commented on "
-"<{strong}>{author_name}'s</{strong}> response to your post "
+"<{strong}>{author_name}</{strong}> response to your post "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
 "<{p}><{strong}>{replier_name}</{strong}> respondió el "
@@ -7892,6 +7922,32 @@ msgid ""
 msgstr ""
 "<{p}><{strong}>{replier_name}</{strong}> respondió a su publicación "
 "<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{username}</{strong}> posted "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{username}</{strong}> respondió a su publicación "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{username}</{strong}> asked "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{username}</{strong}> preguntó "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py
+msgid ""
+"Notifications for responses and comments on your posts, and the ones you’re "
+"following, including endorsements to your responses and on your posts."
+msgstr ""
+"Notificaciones de respuestas y comentarios sobre sus publicaciones y las que"
+" sigues, incluidos respaldos a sus respuestas y a sus publicaciones."
 
 #: openedx/core/djangoapps/notifications/views.py
 msgid "The notification preference config version is not up to date."
@@ -9417,18 +9473,6 @@ msgstr ""
 "Ha cambiado con éxito el horario de su curso y su calendario está "
 "actualizado."
 
-#: openedx/features/content_tagging/models/base.py wiki/models/article.py
-msgid "owner"
-msgstr "propietario"
-
-#: openedx/features/content_tagging/models/base.py
-msgid ""
-"Organization that is related to this taxonomy.If None, then this taxonomy is"
-" related to all organizations."
-msgstr ""
-"Organización relacionada con esta taxonomía. Si no hay ninguna, esta "
-"taxonomía está relacionada con todas las organizaciones."
-
 #: openedx/features/content_type_gating/models.py
 #: openedx/features/course_duration_limits/models.py
 #: lms/templates/support/feature_based_enrollments.html
@@ -9763,8 +9807,7 @@ msgstr "Datos XML del problema"
 #: xmodule/annotatable_block.py xmodule/capa_block.py
 #: xmodule/conditional_block.py xmodule/discussion_block.py
 #: xmodule/html_block.py xmodule/library_content_block.py
-#: xmodule/library_root_xblock.py xmodule/library_sourced_block.py
-#: xmodule/poll_block.py xmodule/unit_block.py
+#: xmodule/library_root_xblock.py xmodule/poll_block.py xmodule/unit_block.py
 #: xmodule/video_block/video_xfields.py xmodule/word_cloud_block.py
 #: xmodule/x_module.py
 msgid "The display name for this component."
@@ -12072,36 +12115,6 @@ msgid "Enter the names of the advanced components to use in your library."
 msgstr ""
 "Ingrese el nombre de los componentes avanzados para utilizar en su Librería."
 
-#: xmodule/library_sourced_block.py
-msgid "Library Blocks List"
-msgstr "Lista de bloques de la biblioteca"
-
-#: xmodule/library_sourced_block.py
-msgid "Enter the IDs of the library XBlocks that you wish to use."
-msgstr "Introduzca los ID de los XBlocks de la biblioteca que desea utilizar."
-
-#: xmodule/library_sourced_block.py
-#, python-brace-format
-msgid "A maximum of {0} components may be added."
-msgstr "Se puede agregar un máximo de {0} componentes."
-
-#: xmodule/library_sourced_block.py
-msgid ""
-"No XBlock has been configured for this component. Use the editor to select "
-"the target blocks."
-msgstr ""
-"No se ha configurado ningún XBlock para este componente. Utilice el editor "
-"para seleccionar los bloques de destino."
-
-#: xmodule/library_sourced_block.py
-msgid "Open Editor"
-msgstr "Abrir editor"
-
-#: xmodule/library_sourced_block.py
-msgid "Importing Library Block failed - are the IDs valid and readable?"
-msgstr ""
-"Error al importar el bloque de la librería: ¿Son válidos y legibles los IDs?"
-
 #: xmodule/lti_block.py
 msgid ""
 "The display name for this component. Analytics reports may also use the "
@@ -12830,10 +12843,6 @@ msgstr ""
 #: xmodule/tabs.py
 msgid "External Discussion"
 msgstr "Debates externos"
-
-#: xmodule/templates/library-sourced-block-studio-view.html
-msgid "Save and Import"
-msgstr "Guardar e importar"
 
 #: xmodule/vertical_block.py
 msgid "Enable in-context discussions for the Unit"
@@ -14861,28 +14870,6 @@ msgstr "¿Tu cliente de correo electrónico separó la URL en dos líneas?"
 msgid "The keys are valid for a limited amount of time. Has the key expired?"
 msgstr "Las claves son válidas por un tiempo limitado. ¿Ha expirado tu clave?"
 
-#: lms/templates/library-block-author-preview-header.html
-msgid ""
-"Showing all matching content eligible to be added into {display_name}. Each "
-"student will be assigned {max_count} component drawn randomly from this "
-"list."
-msgid_plural ""
-"Showing all matching content eligible to be added into {display_name}. Each "
-"student will be assigned {max_count} components drawn randomly from this "
-"list."
-msgstr[0] ""
-"Se muestra todo lo disponible para ser añadido a {display_name}. A cada "
-"alumno se le asignarán {max_count} componentes tomados aleatoriamente de "
-"esta lista."
-msgstr[1] ""
-"Se muestra todo lo disponible para ser añadido a {display_name}. A cada "
-"alumno se le asignarán {max_count} componentes tomados aleatoriamente de "
-"esta lista."
-msgstr[2] ""
-"Se muestra todo lo disponible para ser añadido a {display_name}. A cada "
-"alumno se le asignarán {max_count} componentes tomados aleatoriamente de "
-"esta lista."
-
 #. Translators:  "External resource" means that this learning module is hosted
 #. on a platform external to the edX LMS
 #: lms/templates/lti.html
@@ -16886,10 +16873,6 @@ msgstr "Descargar las calificaciones del alumno"
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print or share your certificate:"
 msgstr "Imprime o comparte tu certificado:"
-
-#: lms/templates/certificates/_accomplishment-banner.html
-msgid "Click the link to see my certificate."
-msgstr "Abre el enlace para ver mi certificado."
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Post on Facebook"
@@ -23988,6 +23971,28 @@ msgstr ""
 "en tu buzón de entrada. ¿Aún no encuentras el correo de verificación? Pide "
 "ayuda a través del vínculo siguiente."
 
+#: cms/templates/library-block-author-preview-header.html
+msgid ""
+"Showing all matching content eligible to be added into {display_name}. Each "
+"student will be assigned {max_count} component drawn randomly from this "
+"list."
+msgid_plural ""
+"Showing all matching content eligible to be added into {display_name}. Each "
+"student will be assigned {max_count} components drawn randomly from this "
+"list."
+msgstr[0] ""
+"Se muestra todo lo disponible para ser añadido a {display_name}. A cada "
+"alumno se le asignarán {max_count} componentes tomados aleatoriamente de "
+"esta lista."
+msgstr[1] ""
+"Se muestra todo lo disponible para ser añadido a {display_name}. A cada "
+"alumno se le asignarán {max_count} componentes tomados aleatoriamente de "
+"esta lista."
+msgstr[2] ""
+"Se muestra todo lo disponible para ser añadido a {display_name}. A cada "
+"alumno se le asignarán {max_count} componentes tomados aleatoriamente de "
+"esta lista."
+
 #: cms/templates/library.html
 msgid "Content Library"
 msgstr "Contenido de la biblioteca"
@@ -25005,14 +25010,6 @@ msgid "Expand or Collapse"
 msgstr "Expandir o colapsar"
 
 #: cms/templates/studio_xblock_wrapper.html
-msgid "Access Settings"
-msgstr "Configuración de acceso"
-
-#: cms/templates/studio_xblock_wrapper.html
-msgid "Set Access"
-msgstr "Establecer acceso"
-
-#: cms/templates/studio_xblock_wrapper.html
 msgid "Copy to Clipboard"
 msgstr "Copiar al portapapeles"
 
@@ -25380,10 +25377,6 @@ msgstr "Navegación del curso"
 #: cms/templates/widgets/header.html
 msgid "Outline"
 msgstr "Estructura"
-
-#: cms/templates/widgets/header.html
-msgid "Files & Media"
-msgstr "Archivos y medios"
 
 #: cms/templates/widgets/header.html
 msgid "Publisher"

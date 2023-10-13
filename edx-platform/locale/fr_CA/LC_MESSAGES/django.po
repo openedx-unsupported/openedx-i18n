@@ -368,7 +368,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-07-23 20:42+0000\n"
+"POT-Creation-Date: 2023-10-08 20:43+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2019\n"
 "Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
@@ -471,8 +471,8 @@ msgid "Video"
 msgstr "Vidéo"
 
 #: cms/djangoapps/contentstore/views/component.py xmodule/capa_block.py
-msgid "Blank Advanced Problem"
-msgstr "Problème avancé vide"
+msgid "Blank Problem"
+msgstr "Problème vide"
 
 #: cms/djangoapps/contentstore/views/component.py
 #: xmodule/video_block/video_block.py
@@ -577,8 +577,8 @@ msgstr "Formation professionnelle"
 #: common/djangoapps/course_modes/models.py xmodule/annotatable_block.py
 #: xmodule/capa_block.py xmodule/conditional_block.py
 #: xmodule/discussion_block.py xmodule/html_block.py
-#: xmodule/library_content_block.py xmodule/library_sourced_block.py
-#: xmodule/lti_block.py xmodule/split_test_block.py xmodule/unit_block.py
+#: xmodule/library_content_block.py xmodule/lti_block.py
+#: xmodule/split_test_block.py xmodule/unit_block.py
 #: xmodule/word_cloud_block.py xmodule/x_module.py
 #: cms/templates/container.html cms/templates/library.html
 msgid "Display Name"
@@ -750,9 +750,9 @@ msgstr ""
 #, python-format
 msgid "%(count)d student account was unlocked."
 msgid_plural "%(count)d student accounts were unlocked."
-msgstr[0] "%(count)d les comptes des étudiants ont été déverrouillés."
-msgstr[1] "%(count)dles comptes des étudiants ont été déverrouillés."
-msgstr[2] "%(count)dles comptes des étudiants ont été déverrouillés."
+msgstr[0] "%(count)d compte étudiant a été déverrouillé."
+msgstr[1] "%(count)d comptes des étudiants ont été déverrouillés."
+msgstr[2] "%(count)d comptes des étudiants ont été déverrouillés."
 
 #: common/djangoapps/student/admin.py
 #, python-brace-format
@@ -835,8 +835,8 @@ msgid ""
 "follows:                     course_id, username, mode"
 msgstr ""
 "Il s'attend à ce que les données soient fournies dans un format de fichier "
-"csv avec la première ligne étant l'en-tête et les colonnes seront comme "
-"suit: course_id, nom d'utilisateur, mode"
+"csv avec la première ligne étant l'en-tête et les colonnes seront comme suit"
+" : course_id, nom d'utilisateur, mode"
 
 #: common/djangoapps/student/models/user.py
 msgid "Male"
@@ -1480,7 +1480,7 @@ msgstr "dim"
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Jan"
-msgstr "janv"
+msgstr "Jan"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Feb 10, 2014". It is used for the %b
@@ -1520,7 +1520,7 @@ msgstr "Mai"
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Jun"
-msgstr "Juin"
+msgstr "Jun"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jul 10, 2014". It is used for the %b
@@ -1716,9 +1716,9 @@ msgstr "Mot de passe invalide."
 #, python-format
 msgid "at least %(min_length)d character"
 msgid_plural "at least %(min_length)d characters"
-msgstr[0] "au minimum %(min_length)dcaractère"
-msgstr[1] "au minimum %(min_length)dcaractères"
-msgstr[2] "au minimum %(min_length)dcaractères"
+msgstr[0] "au minimum %(min_length)d caractère"
+msgstr[1] "au minimum %(min_length)d caractères"
+msgstr[2] "au minimum %(min_length)d caractères"
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1729,23 +1729,25 @@ msgid_plural ""
 "This password is too long. It must contain no more than %(max_length)d "
 "characters."
 msgstr[0] ""
-"Ce mot de passe est trop long. Il doit contenir au "
-"plus%(max_length)dcaractère."
+"Ce mot de passe est trop long. Il doit contenir au plus %(max_length)d "
+"caractère."
 msgstr[1] ""
-"Ce mot de passe est trop long. Il doit contenir au plus "
-"%(max_length)dcaractères."
+"Ce mot de passe est trop long. Il doit contenir au plus %(max_length)d "
+"caractères."
 msgstr[2] ""
-"Ce mot de passe est trop long. Il doit contenir au plus "
-"%(max_length)dcaractères."
+"Ce mot de passe est trop long. Il doit contenir au plus %(max_length)d "
+"caractères."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
 msgid "Your password must contain no more than %(max_length)d character."
 msgid_plural ""
 "Your password must contain no more than %(max_length)d characters."
-msgstr[0] "Votre mot de passe doit contenir au plus %(max_length)dcaractère"
-msgstr[1] "Votre mot de passe doit contenir au plus %(max_length)dcaractères."
-msgstr[2] "Votre mot de passe doit contenir au plus %(max_length)dcaractères."
+msgstr[0] "Votre mot de passe doit contenir au plus %(max_length)d caractère"
+msgstr[1] ""
+"Votre mot de passe doit contenir au plus %(max_length)d caractères."
+msgstr[2] ""
+"Votre mot de passe doit contenir au plus %(max_length)d caractères."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1811,7 +1813,7 @@ msgid "This password must contain at least %(min_upper)d uppercase letter."
 msgid_plural ""
 "This password must contain at least %(min_upper)d uppercase letters."
 msgstr[0] ""
-"Votre mot de passe doit contenir au moins%(min_upper)dlettre majuscule."
+"Votre mot de passe doit contenir au moins %(min_upper)d lettre majuscule."
 msgstr[1] ""
 "Votre mot de passe doit contenir au moins %(min_upper)d lettres majuscules."
 msgstr[2] ""
@@ -1866,8 +1868,8 @@ msgstr[2] ""
 msgid "%(num)d lowercase letter"
 msgid_plural "%(num)d lowercase letters"
 msgstr[0] "%(num)d lettre minuscule"
-msgstr[1] "%(num)dlettres minuscules"
-msgstr[2] "%(num)dlettres minuscules"
+msgstr[1] "%(num)d lettres minuscules"
+msgstr[2] "%(num)d lettres minuscules"
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1876,7 +1878,7 @@ msgid ""
 msgid_plural ""
 "This password must contain at least %(min_punctuation)d punctuation marks."
 msgstr[0] ""
-"Ce mot de passe doit contenir au moins %(min_punctuation)dsigne de "
+"Ce mot de passe doit contenir au moins %(min_punctuation)d signe de "
 "ponctuation."
 msgstr[1] ""
 "Ce mot de passe doit contenir au moins %(min_punctuation)d signes de "
@@ -1905,9 +1907,9 @@ msgstr[2] ""
 #, python-format
 msgid "%(num)d punctuation mark"
 msgid_plural "%(num)d punctuation marks"
-msgstr[0] "%(num)dsigne de ponctuation"
-msgstr[1] "%(num)dsignes de ponctuation"
-msgstr[2] "%(num)dsignes de ponctuation"
+msgstr[0] "%(num)d signe de ponctuation"
+msgstr[1] "%(num)d signes de ponctuation"
+msgstr[2] "%(num)d signes de ponctuation"
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1921,9 +1923,10 @@ msgstr[2] "Votre mot de passe doit contenir au moins %(min_symbol)d symboles."
 #, python-format
 msgid "Your password must contain at least %(min_symbol)d symbol."
 msgid_plural "Your password must contain at least %(min_symbol)d symbols."
-msgstr[0] "Votre mot de passe doit contenir au minimum %(min_symbol)dsymbole."
-msgstr[1] "Votre mot de passe doit contenir au moins %(min_symbol)dsymboles."
-msgstr[2] "Votre mot de passe doit contenir au moins %(min_symbol)dsymboles."
+msgstr[0] ""
+"Votre mot de passe doit contenir au minimum %(min_symbol)d symbole."
+msgstr[1] "Votre mot de passe doit contenir au moins %(min_symbol)d symboles."
+msgstr[2] "Votre mot de passe doit contenir au moins %(min_symbol)d symboles."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -2132,8 +2135,8 @@ msgid ""
 "%(platform_name)s with this email (%(email)s) and your new password."
 msgstr ""
 "Une fois que vous avez créé un mot de passe [ci-dessous], vous pourrez vous "
-"connecter à %(platform_name)savec ce courriel ( %(email)s ) et votre nouveau"
-" mot de passe."
+"connecter à %(platform_name)savec ce courriel (%(email)s) et votre nouveau "
+"mot de passe."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt
@@ -2536,7 +2539,7 @@ msgstr "Propulsé par Open edX"
 
 #: lms/djangoapps/branding/api.py lms/templates/static_templates/blog.html
 msgid "Blog"
-msgstr "Blog"
+msgstr "Blogue"
 
 #: lms/djangoapps/branding/api.py cms/templates/widgets/sock_links.html
 #: themes/stanford-style/lms/templates/static_templates/about.html
@@ -2664,7 +2667,7 @@ msgstr ""
 #: lms/djangoapps/bulk_email/tasks.py
 #, python-brace-format
 msgid "\"{course_title}\" Course Staff"
-msgstr "Équipe du cours \"{course_title}\""
+msgstr "Personnel du cours \"{course_title}\""
 
 #: lms/djangoapps/ccx/plugins.py
 msgid "CCX Coach"
@@ -2739,8 +2742,8 @@ msgid ""
 " processed."
 msgstr ""
 "Un identificateur unique pour l'attestation d'exemple. Ceci est utilisé "
-"quand nous recevons une réponse de de la queue de traitement afin de "
-"déterminer quel type d'attestation a été traitée."
+"quand nous recevons une réponse de la queue de traitement afin de déterminer"
+" quel type d'attestation a été traitée."
 
 #: lms/djangoapps/certificates/models.py
 msgid ""
@@ -2911,7 +2914,8 @@ msgid ""
 "program of study, and includes verification of the student's identity."
 msgstr ""
 "Une attestation {cert_type} démontre un niveau élevé de réussite dans un "
-"programme d'études, et comprend la vérification de l'identité de l'étudiant."
+"programme d'éducation, et comprend la vérification de l'identité de "
+"l'étudiant."
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py
@@ -3008,7 +3012,7 @@ msgstr "À propos des attestations {platform_name}"
 #, python-brace-format
 msgid "How {platform_name} Validates Student Certificates"
 msgstr ""
-"Comment {platform_name} effectue la vaildation des attestations des "
+"Comment {platform_name} effectue la validation des attestations des "
 "étudiants"
 
 #. Translators:  This text describes the validation mechanism for a
@@ -3203,7 +3207,7 @@ msgstr "Examen surveillé"
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
 msgid "Timed Exam"
-msgstr "Examen minuté"
+msgstr "Examen chronométré"
 
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py
@@ -3491,6 +3495,14 @@ msgid "Open Response Assessment"
 msgstr "Évaluation d'une réponse libre"
 
 #: lms/djangoapps/courseware/courses.py
+msgid ""
+"This Open Response Assessment's due dates are set by your instructor and "
+"can't be shifted."
+msgstr ""
+"Les dates d'échéance de cette évaluation à réponse ouverte sont fixées par "
+"votre instructeur et ne peuvent pas être décalées."
+
+#: lms/djangoapps/courseware/courses.py
 msgid "Self Assessment"
 msgstr "Auto-évaluation"
 
@@ -3505,14 +3517,6 @@ msgstr "Évaluation du personnel"
 #: lms/djangoapps/courseware/courses.py
 msgid "Submission"
 msgstr "Soumission"
-
-#: lms/djangoapps/courseware/courses.py
-msgid ""
-"Open Response Assessment due dates are set by your instructor and can't be "
-"shifted."
-msgstr ""
-"Les dates limites de Open Response Assessment sont prescrits par votre "
-"instructeur et ne peuvent pas être modifiés."
 
 #. Translators: 'absolute' is a date such as "Jan 01,
 #. 2020". 'relative' is a fuzzy description of the time until
@@ -4058,6 +4062,16 @@ msgstr ""
 #: lms/djangoapps/discussion/django_comment_client/base/views.py
 msgid "Good"
 msgstr "Bien"
+
+#. Translators: Replier commented on "your" response to your post
+#: lms/djangoapps/discussion/rest_api/utils.py
+msgid "your"
+msgstr "votre"
+
+#. Translators: Replier commented on "their" response to your post
+#: lms/djangoapps/discussion/rest_api/utils.py
+msgid "their"
+msgstr "leur"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.html
 #, python-format
@@ -4676,8 +4690,8 @@ msgstr "Date de remise modifiée avec succès pour étudiant {0} de {1} à {2}"
 msgid ""
 "Successfully removed invalid due date extension (unit has no due date)."
 msgstr ""
-"Suppression de l'extension de date de remise invalide (l'unité n'a pas de "
-"date de remise)."
+"Retrait avec réussite de l'extension de date de remise invalide (l'unité n'a"
+" pas de date de remise)."
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -4711,7 +4725,7 @@ msgid ""
 "regeneration."
 msgstr ""
 "S'il vous plaît choisir un ou plusieurs statuts d'attestation qui ont besoin"
-" d'une regénération d'attestation."
+" d'une régénération d'attestation."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Please select certificate statuses from the list only."
@@ -4723,8 +4737,9 @@ msgid ""
 "Certificate regeneration task has been started. You can view the status of "
 "the generation task in the \"Pending Tasks\" section."
 msgstr ""
-"La tâche de génération des attestations été démarrée. Vous pouvez consulter "
-"le statut de la tâche de génération dans la section \"Tâches en attente\"."
+"La tâche de régénération des attestations été démarrée. Vous pouvez "
+"consulter le statut de la tâche de génération dans la section \"Tâches en "
+"attente\"."
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -4758,7 +4773,7 @@ msgid ""
 "refresh the page and try again"
 msgstr ""
 "Une erreur est survenue en retirant l'apprenant {student} de la liste de "
-"dérogation. Veuillez rafraîchir la page et réessayer."
+"dérogation. Veuillez rafraîchir la page et réessayer"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -4848,9 +4863,9 @@ msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Invalidate Certificate\" button."
 msgstr ""
-"Le champ nom d'utilisater / courriel de l'étudiant est requis et ne peut "
+"Le champ nom d'utilisateur / courriel de l'étudiant est requis et ne peut "
 "être vide. Bien vouloir remplir nom d'utilisateur / courriel et appuyer sur "
-"le boutton \"Invalidate Certificate\"."
+"le boutton \"Invalider Attestation\"."
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-brace-format
@@ -5427,8 +5442,8 @@ msgstr "Entrer le nom du fichier source pour LaTeX."
 #: lms/djangoapps/lms_xblock/mixin.py xmodule/modulestore/inheritance.py
 msgid "If true, can be seen only by course staff, regardless of start date."
 msgstr ""
-"Si vrai (true), ne peut être vu que par l'équipe pédagogique du cours, peu "
-"importe la date de début du cours."
+"Si vrai (true), ne peut être vu que par le personnel du cours, peu importe "
+"la date de début du cours."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -5443,8 +5458,8 @@ msgstr ""
 "groupe et les valeurs sont une liste des identifiants de groupes. S'il n'y a"
 " pas de clé pour une configuration de groupe ou si l'ensemble des "
 "identifiants de groupe est vide alors le bloc est considéré visible pour "
-"tous. Notez que ce champ est ignoré si le bloc est visible à l'équipe "
-"pédagogique seulement (visible_to_staff_only)."
+"tous. Notez que ce champ est ignoré si le bloc est visible au personnel "
+"seulement (visible_to_staff_only)."
 
 #: lms/djangoapps/lms_xblock/mixin.py xmodule/split_test_block.py
 msgid ""
@@ -5909,7 +5924,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt
 #, python-format
 msgid "You may access your course at: %(course_url)s."
-msgstr "Vous pouvez accéder à votre cours à :%(course_url)s."
+msgstr "Vous pouvez accéder à votre cours à : %(course_url)s."
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/subject.txt
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/subject.txt
@@ -5931,7 +5946,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "The invitation has been sent by a member of the course staff."
 msgstr ""
-"L'invitation a été envoyée par un membre de l'équipe pédagogique du cours."
+"L'invitation a été envoyée par un membre de l'équipe du personnel du cours."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To start accessing course materials, please visit:"
@@ -5985,7 +6000,7 @@ msgid ""
 "%(site_name)s by a member of the course staff."
 msgstr ""
 "Vous avez été invité à être un bêta-testeur du cours %(course_name)s sur "
-"%(site_name)s par un membre de l'équipe pédagogique de ce cours."
+"%(site_name)s par un membre du personnel du cours."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt
@@ -6026,7 +6041,7 @@ msgid ""
 "of the course staff."
 msgstr ""
 "Vous avez été invité à rejoindre %(course_name)s sur %(site_name)s par un "
-"membre de l'équipe pédagogique de ce cours."
+"membre de l'équipe du personnel du cours."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html
 msgid "To access this course click on the button below and login:"
@@ -6102,7 +6117,7 @@ msgid ""
 msgstr ""
 "Pour terminer votre inscription, rendez-vous sur %(registration_url)s et "
 "complétez le formulaire d'inscription en vous assurant d'utiliser "
-"%(email_address)sdans le champ courriel."
+"%(email_address)s dans le champ Courriel."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt
 #, python-format
@@ -6132,9 +6147,8 @@ msgid ""
 "You have been unenrolled from the course %(course_name)s by a member of the "
 "course staff. Please disregard the invitation previously sent."
 msgstr ""
-"Vous avez été désinscrit de %(course_name)s par un membre de l'équipe "
-"pédagogique. Veuillez ne pas prendre en compte l'invitation envoyée "
-"précédemment."
+"Vous avez été désinscrit de %(course_name)s par un membre du personnel du "
+"cours. Veuillez ne pas prendre en compte l'invitation envoyée précédemment."
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt
 msgid "Dear Student,"
@@ -6160,8 +6174,8 @@ msgid ""
 " dashboard."
 msgstr ""
 "Vous avez été désinscrit de %(course_name)s sur %(site_name)s par un membre "
-"de l'équipe pédagogique. Le cours n'apparaitra plus sur votre tableau de "
-"bord %(site_name)s. "
+"du personnel du cours. Le cours n'apparaitra plus sur votre tableau de bord "
+"%(site_name)s. "
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt
@@ -6198,8 +6212,8 @@ msgid ""
 "the course staff. This course will now appear on your %(site_name)s "
 "dashboard."
 msgstr ""
-"Vous avez été inscrit à %(course_name)s sur %(site_name)s par un membre de "
-"l'équipe pédagogique. Le cours devrait maintenant apparaitre dans votre "
+"Vous avez été inscrit à %(course_name)s sur %(site_name)s par un membre du "
+"personnel du cours. Le cours devrait maintenant apparaitre dans votre "
 "tableau de bord %(site_name)s."
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
@@ -6221,7 +6235,7 @@ msgid ""
 "by a member of the course staff."
 msgstr ""
 "Vous avez été retiré comme bêta-testeur pour %(course_name)s sur "
-"%(site_name)s par un membre de l'équipe pédagogique du cours."
+"%(site_name)s par un membre du personnel du cours."
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html
 msgid ""
@@ -6239,7 +6253,7 @@ msgid ""
 "but you will no longer be part of the beta testing group."
 msgstr ""
 "Vous avez été retiré comme bêta-testeur pour %(course_name)s sur "
-"%(site_name)s par un membre de l'équipe pédagogique du cours. Ce cours "
+"%(site_name)s par un membre de l'équipe du personnel du cours. Ce cours "
 "restera sur votre tableau de bord, mais vous ne ferez plus partie du groupe "
 "de bêta test."
 
@@ -6325,7 +6339,6 @@ msgstr ""
 
 #: lms/templates/oauth2_provider/authorize.html
 #: openedx/core/djangoapps/user_api/admin.py
-#: xmodule/templates/library-sourced-block-studio-view.html
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 #: cms/templates/videos_index_pagination.html
@@ -6533,8 +6546,8 @@ msgid ""
 "articles with children. Try to remove the children manually one-by-one."
 msgstr ""
 "Vous ne pouvez pas supprimer cet article car vous n'avez pas la permission "
-"d'effacer des articles ayant des articles enfants. Essayez d'abord de "
-"supprimer les articles enfants manuellement, un par un."
+"de supprimer des articles ayant des articles enfants. Essayez d'abord de "
+"retirer les articles enfants manuellement, un par un."
 
 #: lms/templates/wiki/delete.html wiki/templates/wiki/delete.html
 msgid ""
@@ -6796,13 +6809,13 @@ msgid "Quotes"
 msgstr "Citations"
 
 #: lms/templates/wiki/includes/editor_widget.html
-#, python-format
+#, python-brace-format
 msgid ""
-"Markdown syntax is allowed. See the %(start_link)scheatsheet%(end_link)s for"
-" help."
+"Markdown syntax is allowed. See the {start_link}cheatsheet{end_link} for "
+"help."
 msgstr ""
-"Une syntaxe Markdown est permise. Regardez les %(start_link)saides mémoire "
-"%(end_link)s pour de l'aide."
+"La syntaxe Markdown est autorisée. Consultez {start_link}l'aide-"
+"mémoire{end_link} pour obtenir de l'aide."
 
 #: lms/templates/wiki/plugins/attachments/index.html
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html
@@ -7025,7 +7038,7 @@ msgstr "Se désabonner de ces courriels."
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_head.html
 #, python-format
 msgid "%(platform_name)s Email"
-msgstr "%(platform_name)s Email"
+msgstr "Courriel %(platform_name)s"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.html
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.txt
@@ -7101,7 +7114,7 @@ msgstr "Approuvé"
 
 #: openedx/core/djangoapps/api_admin/models.py
 msgid "Status of this API access request"
-msgstr "Statut de cette requête API d'accès"
+msgstr "Statut de cette demande d'accès API"
 
 #: openedx/core/djangoapps/api_admin/models.py
 msgid "The URL of the website associated with this API user."
@@ -7162,7 +7175,7 @@ msgid ""
 "remove some bookmarks before you can add new ones."
 msgstr ""
 "Vous pouvez créer jusqu'à {max_num_bookmarks_per_course} signets. Vous devez"
-" effacer certains signets avant que vous puissiez en ajouter de nouveaux."
+" retirer certains signets avant que vous puissiez en ajouter de nouveaux."
 
 #: openedx/core/djangoapps/bookmarks/views.py
 #, python-brace-format
@@ -7320,7 +7333,7 @@ msgstr "Séquences d'apprentissage et résumés"
 #: openedx/core/djangoapps/content_libraries/api.py
 msgid "Cannot change or remove the access level for the only admin."
 msgstr ""
-"Impossible de modifier ou de supprimer le niveau d'accès du seul "
+"Impossible de modifier ou de retirer le niveau d'accès du seul "
 "administrateur."
 
 #: openedx/core/djangoapps/content_libraries/api.py
@@ -7560,6 +7573,19 @@ msgstr ""
 "Clé d'utilisation/ID d'origine de l'élément qui se trouve dans le presse-"
 "papiers."
 
+#: openedx/core/djangoapps/content_tagging/models/base.py
+#: wiki/models/article.py
+msgid "owner"
+msgstr "propriétaire"
+
+#: openedx/core/djangoapps/content_tagging/models/base.py
+msgid ""
+"Organization that is related to this taxonomy.If None, then this taxonomy is"
+" related to all organizations."
+msgstr ""
+"Organisation associée à cette taxonomie. Si aucune, cette taxonomie est "
+"associée à toutes les organisations."
+
 #: openedx/core/djangoapps/cors_csrf/models.py
 msgid ""
 "List of domains that are allowed to make cross-domain requests to this site."
@@ -7623,7 +7649,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/credentials/apps.py
 msgid "Credentials"
-msgstr "Crédentiels"
+msgstr "Informations d'identification"
 
 #: openedx/core/djangoapps/credentials/models.py
 msgid "Internal Service URL"
@@ -7639,15 +7665,17 @@ msgstr "Activer la délivrance d'apprenant"
 
 #: openedx/core/djangoapps/credentials/models.py
 msgid "Enable issuance of credentials via Credential Service."
-msgstr "Activer la délivrance des crédentiels via le service de crédentiels."
+msgstr ""
+"Activer la délivrance des informations d'identification via le service "
+"d'informations d'identifications."
 
 #: openedx/core/djangoapps/credentials/models.py
 msgid "Enable Authoring of Credential in Studio"
-msgstr "Activer la création de crédentiels dans Studio"
+msgstr "Activer la création d'informations d'identification dans Studio"
 
 #: openedx/core/djangoapps/credentials/models.py
 msgid "Enable authoring of Credential Service credentials in Studio."
-msgstr "Activer la création de crédentiels dans Studio."
+msgstr "Activer la création d'informations d'identification dans Studio."
 
 #: openedx/core/djangoapps/credit/email_utils.py
 msgid "Course Credit Eligibility"
@@ -7867,11 +7895,11 @@ msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid ""
-"The Posting availabilty in discussions whether it will be enabled, scheduled"
-" or indefinitely disabled."
+"The Posting availability in discussions whether it will be enabled, "
+"scheduled or indefinitely disabled."
 msgstr ""
-"La disponibilité de la publication dans les discussions, qu'elle soit "
-"activée, planifiée ou indéfiniment désactivée."
+"La disponibilité de la publication dans les discussions, si elle sera "
+"activée, programmée ou désactivée indéfiniment."
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "The LTI configuration data for this context/provider."
@@ -7903,7 +7931,7 @@ msgstr ""
 #: openedx/core/djangoapps/discussions/models.py
 msgid "The plugin configuration data for this context/provider."
 msgstr ""
-"Les données de configuration du plugin pour ce contexte / fournisseur."
+"Les données de configuration du plugiciel pour ce contexte / fournisseur."
 
 #: openedx/core/djangoapps/discussions/models.py
 msgid "Discussion provider"
@@ -8054,6 +8082,14 @@ msgstr "Liste noire de {country} pour {course}"
 msgid "Learner Pathways"
 msgstr "Parcours des apprenants"
 
+#: openedx/core/djangoapps/notifications/admin.py
+msgid "Notification App"
+msgstr "Application de notifications"
+
+#: openedx/core/djangoapps/notifications/admin.py
+msgid "Notification Type"
+msgstr "Type de notification"
+
 #: openedx/core/djangoapps/notifications/base_notification.py
 #, python-brace-format
 msgid ""
@@ -8067,10 +8103,10 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> commented on "
-"<{strong}>{author_name}'s</{strong}> response to your post "
+"<{strong}>{author_name}</{strong}> response to your post "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"<{p}><{strong}>{replier_name}</{strong}> a commenté la réponse de "
+"<{p}><{strong}>{replier_name}</{strong}> a commenté la réponse de  "
 "<{strong}>{author_name}</{strong}> à votre message "
 "<{strong}>{post_title}</{strong}></{p}>"
 
@@ -8082,6 +8118,33 @@ msgid ""
 msgstr ""
 "<{p}><{strong}>{replier_name}</{strong}> a répondu à votre message "
 "<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{username}</{strong}> posted "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{username}</{strong}> a publié "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{username}</{strong}> asked "
+"<{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+"<{p}><{strong}>{username}</{strong}> a demandé "
+"<{strong}>{post_title}</{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py
+msgid ""
+"Notifications for responses and comments on your posts, and the ones you’re "
+"following, including endorsements to your responses and on your posts."
+msgstr ""
+"Notifications pour les réponses et les commentaires sur vos publications et "
+"celles que vous suivez, y compris les approbations de vos réponses et de vos"
+" publications."
 
 #: openedx/core/djangoapps/notifications/views.py
 msgid "The notification preference config version is not up to date."
@@ -8727,7 +8790,8 @@ msgstr "Dites-nous vos objectifs"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 msgid "Select the highest level of education you have completed"
-msgstr "Sélectionnez le niveau d'études le plus élevé que vous avez atteint"
+msgstr ""
+"Sélectionnez le niveau d'éducation le plus élevé que vous avez atteint"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 msgid "Select your year of birth"
@@ -8883,7 +8947,7 @@ msgid ""
 "this field blank."
 msgstr ""
 "Assurez-vous que vous fournissez un nom d'utilisateur valide ou une URL qui "
-"contient \"{url_stub}\". Pour supprimer le lien de votre profil "
+"contient \"{url_stub}\". Pour retirer le lien de votre profil "
 "{platform_name}, laissez ce champ vide."
 
 #: openedx/core/djangoapps/user_api/accounts/views.py
@@ -9329,7 +9393,7 @@ msgstr "Vous devez accepter les conditions d'utilisation."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "A level of education is required"
-msgstr "Un niveau d'études est requis"
+msgstr "Un niveau d'éducation est requis"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "Your gender is required"
@@ -9622,18 +9686,6 @@ msgid ""
 msgstr ""
 "Vous avez réussi à modifier votre horaire de cours et votre calendrier est à"
 " jour."
-
-#: openedx/features/content_tagging/models/base.py wiki/models/article.py
-msgid "owner"
-msgstr "propriétaire"
-
-#: openedx/features/content_tagging/models/base.py
-msgid ""
-"Organization that is related to this taxonomy.If None, then this taxonomy is"
-" related to all organizations."
-msgstr ""
-"Organisation associée à cette taxonomie. Si aucune, cette taxonomie est "
-"associée à toutes les organisations."
 
 #: openedx/features/content_type_gating/models.py
 #: openedx/features/course_duration_limits/models.py
@@ -9973,8 +10025,7 @@ msgstr "Données XML pour l'annotation"
 #: xmodule/annotatable_block.py xmodule/capa_block.py
 #: xmodule/conditional_block.py xmodule/discussion_block.py
 #: xmodule/html_block.py xmodule/library_content_block.py
-#: xmodule/library_root_xblock.py xmodule/library_sourced_block.py
-#: xmodule/poll_block.py xmodule/unit_block.py
+#: xmodule/library_root_xblock.py xmodule/poll_block.py xmodule/unit_block.py
 #: xmodule/video_block/video_xfields.py xmodule/word_cloud_block.py
 #: xmodule/x_module.py
 msgid "The display name for this component."
@@ -10224,9 +10275,7 @@ msgstr "Chiffres à saisir"
 
 #: xmodule/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
-msgstr ""
-"Il y avait un problème avec la réponse de l'équipe pédagogique à ce "
-"problème."
+msgstr "Il y avait un problème avec la réponse du personnel à ce problème."
 
 #: xmodule/capa/responsetypes.py
 #, python-brace-format
@@ -10258,8 +10307,8 @@ msgstr ""
 msgid ""
 "There was a problem with the staff answer to this problem: complex boundary."
 msgstr ""
-"Il y avait un problème avec la réponse de l'équipe pédagogique à ce problème"
-" : limite complexe."
+"Il y avait un problème avec la réponse du personnel à ce problème : limite "
+"complexe."
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. did not
@@ -10268,8 +10317,8 @@ msgstr ""
 msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
 msgstr ""
-"Il y avait un problème avec la réponse de l'équipe pédagogique à ce problème"
-" : limite vide."
+"Il y avait un problème avec la réponse du personnel à ce problème : limite "
+"vide."
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: Separator used in NumericalResponse to display multiple
@@ -10348,8 +10397,8 @@ msgstr ""
 #: xmodule/capa/responsetypes.py
 msgid "Invalid grader reply. Please contact the course staff."
 msgstr ""
-"Réponse d'évaluation invalide. S'il vous plaît contacter l'équipe "
-"pédagogique du cours."
+"Réponse d'évaluation invalide. S'il vous plaît contacter le personnel du "
+"cours."
 
 #: xmodule/capa/responsetypes.py
 msgid "External Grader"
@@ -10425,8 +10474,7 @@ msgstr "Réponse non fournie pour {input_type}"
 
 #: xmodule/capa/responsetypes.py
 msgid "The Staff answer could not be interpreted as a number."
-msgstr ""
-"La réponse de l'équipe pédagogique ne peut être interprétée comme un nombre."
+msgstr "La réponse du personnel ne peut être interprétée comme un nombre."
 
 #: xmodule/capa/responsetypes.py
 #, python-brace-format
@@ -10740,7 +10788,7 @@ msgstr ""
 
 #: xmodule/capa_block.py
 msgid "If this error persists, please contact the course staff."
-msgstr "Si cette erreur persiste, contacer l'équipe pédagogique du cours."
+msgstr "Si cette erreur persiste, contacter le personnel du cours."
 
 #. Translators: {previous_hints} is the HTML of hints that have already been
 #. generated, {hint_number_prefix}
@@ -11150,11 +11198,11 @@ msgstr ""
 
 #: xmodule/course_block.py
 msgid "Discussions Plugin Settings"
-msgstr "Paramètres du plugin Discussions"
+msgstr "Paramètres du plugiciel Discussions"
 
 #: xmodule/course_block.py
 msgid "Settings for discussions plugins."
-msgstr "Paramètres des plugins de discussion."
+msgstr "Paramètres des plugiciels de discussions."
 
 #: xmodule/course_block.py
 msgid "Course Announcement Date"
@@ -11205,7 +11253,7 @@ msgstr ""
 
 #: xmodule/course_block.py
 msgid "Video Upload Credentials"
-msgstr "Crédentiels de téléversement de vidéo"
+msgstr "Informations d'identification de téléversement de vidéo"
 
 #: xmodule/course_block.py
 #, python-brace-format
@@ -11333,7 +11381,7 @@ msgid ""
 msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, les étudiants pourront créer "
 "des messages anonymes pour les autres étudiants. Ce paramètre ne rend pas "
-"les messages anonymes pour l'équipe pédagogique du cours."
+"les messages anonymes pour le personnel du cours."
 
 #: xmodule/course_block.py xmodule/library_root_xblock.py
 msgid "Advanced Module List"
@@ -11520,7 +11568,7 @@ msgstr ""
 
 #: xmodule/course_block.py
 msgid "CSS Class for Course Reruns"
-msgstr "Classe CSS utilisée quand le cours est réédité"
+msgstr "Classe CSS utilisée quand le cours est relancé"
 
 #: xmodule/course_block.py
 msgid ""
@@ -11611,8 +11659,7 @@ msgstr "Sur invitation seulement"
 #: xmodule/course_block.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
 msgstr ""
-"Restreindre ou non l'inscription par invitation à l'équipe pédagogique du "
-"cours."
+"Restreindre ou non l'inscription par invitation au personnel du cours."
 
 #: xmodule/course_block.py
 msgid "Pre-Course Survey Name"
@@ -11749,9 +11796,9 @@ msgid ""
 "your course. Note that enabling proctored exams will also enable timed "
 "exams."
 msgstr ""
-"Entrer vrai (true) ou faux (false). Si cette valeur est vrai, les examens "
-"surveillés seront activés dans votre cours. Veuillez noter qu'activer les "
-"examens surveillés va aussi activer les examens minutés."
+"Entrer true ou false. Si cette valeur est vrai, les examens surveillés "
+"seront activés dans votre cours. Veuillez noter qu'activer les examens "
+"surveillés va aussi activer les examens chronométrés."
 
 #: xmodule/course_block.py
 msgid "Proctoring Provider"
@@ -11812,7 +11859,7 @@ msgstr ""
 
 #: xmodule/course_block.py
 msgid "Enable Timed Exams"
-msgstr "Activer les examens minutés"
+msgstr "Activer les examens chronométrés"
 
 #: xmodule/course_block.py
 msgid ""
@@ -11820,10 +11867,10 @@ msgid ""
 "course. Regardless of this setting, timed exams are enabled if Enable "
 "Proctored Exams is set to true."
 msgstr ""
-"Entrez true ou false. Si la valeur est true, les examens minutés sont "
+"Entrez true ou false. Si la valeur est true, les examens chronométrés sont "
 "activés dans votre cours. Indépendamment de ce paramètre, les examens "
-"minutés sont activés si l'option Activer les examens surveillés est définie "
-"sur true."
+"chronométrés sont activés si l'option Activer les examens surveillés est "
+"définie sur true."
 
 #: xmodule/course_block.py
 msgid "Minimum Grade for Credit"
@@ -12127,7 +12174,7 @@ msgid ""
 "role see this page."
 msgstr ""
 "Si vous choisissez cette option, seuls les membres de l'équipe du cours avec"
-" le rôle Staff ou Admin pourront voir cette page."
+" le rôle Personnel ou Admin pourront voir cette page."
 
 #: xmodule/html_block.py
 msgid "HTML for the additional pages"
@@ -12279,37 +12326,6 @@ msgstr "Nom d'affichage de la bibliothèque"
 msgid "Enter the names of the advanced components to use in your library."
 msgstr ""
 "Entrer les noms des composants avancés à utiliser dans votre bibliothèque."
-
-#: xmodule/library_sourced_block.py
-msgid "Library Blocks List"
-msgstr "Liste des blocs de la bibliothèque"
-
-#: xmodule/library_sourced_block.py
-msgid "Enter the IDs of the library XBlocks that you wish to use."
-msgstr "Entrez les ID de la bibliothèque XBlocks que vous souhaitez utiliser."
-
-#: xmodule/library_sourced_block.py
-#, python-brace-format
-msgid "A maximum of {0} components may be added."
-msgstr "Un maximum de {0} composants peut être ajouté."
-
-#: xmodule/library_sourced_block.py
-msgid ""
-"No XBlock has been configured for this component. Use the editor to select "
-"the target blocks."
-msgstr ""
-"Aucun XBlock n'a été configuré pour ce composant. Utilisez l'éditeur pour "
-"sélectionner les blocs cibles."
-
-#: xmodule/library_sourced_block.py
-msgid "Open Editor"
-msgstr "Ouvrir l'éditeur"
-
-#: xmodule/library_sourced_block.py
-msgid "Importing Library Block failed - are the IDs valid and readable?"
-msgstr ""
-"Échec de l'importation du Bloc Bibliothèque - est-ce que les ID sont valides"
-" et lisibles?"
 
 #: xmodule/lti_block.py
 msgid ""
@@ -12831,7 +12847,7 @@ msgid ""
 "date has passed."
 msgstr ""
 "Si définie, le contenu de séquence est caché pour les utilisateurs autre que"
-" ceux de l'équipe pédagogique après que la date d'échéance soit passée."
+" ceux du personnel après que la date d'échéance soit passée."
 
 #: xmodule/seq_block.py
 msgid "Is Entrance Exam"
@@ -13039,10 +13055,6 @@ msgstr ""
 msgid "External Discussion"
 msgstr "Discussion externe"
 
-#: xmodule/templates/library-sourced-block-studio-view.html
-msgid "Save and Import"
-msgstr "Enregistrer et importer"
-
 #: xmodule/vertical_block.py
 msgid "Enable in-context discussions for the Unit"
 msgstr "Activer les discussions contextuelles pour cet unité"
@@ -13204,7 +13216,7 @@ msgstr "ID YouTube pour la vitesse 1.25x"
 msgid "Optional, for older browsers: the YouTube ID for the 1.5x speed video."
 msgstr ""
 "Optionnel, pour les vieux navigateurs : l'identifiant YouTube pour la "
-"vitesse de vidéo 1.5x"
+"vitesse de vidéo 1.5x."
 
 #: xmodule/video_block/video_xfields.py
 msgid "YouTube ID for 1.5x speed"
@@ -13820,7 +13832,7 @@ msgstr "Besoin de fournir un tab_id valide ou un tab_location."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py
 msgid "True to hide the tab, and False to show it."
-msgstr "Vrai pour cacher l'onglet et Faux pour l'afficher"
+msgstr "Vrai pour cacher l'onglet et Faux pour l'afficher."
 
 #: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py
 msgid "Change the visibility of tabs in a course."
@@ -14294,8 +14306,7 @@ msgstr "`rôle` spécifié invalide."
 #: cms/djangoapps/contentstore/views/user.py
 msgid "You may not remove the last Admin. Add another Admin first."
 msgstr ""
-"Vous ne pouvez pas supprimer le dernier administrateur. Créez-en un autre "
-"afin de supprimer celui-ci."
+"Vous ne pouvez pas retirer le dernier Admin. Ajoutez d'abord un autre Admin."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py
 #, python-brace-format
@@ -14569,7 +14580,7 @@ msgstr "Cours dispensé :"
 #: themes/stanford-style/lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "example: username@domain.com"
-msgstr "exemple : jean.dupont@domaine.com"
+msgstr "exemple :  jean.dupont@domaine.com"
 
 #: cms/templates/settings.html lms/templates/courseware/program_marketing.html
 msgid "Instructors"
@@ -14911,7 +14922,7 @@ msgstr "Impossible d'envoyer le courriel de confirmation à {email}"
 #: lms/templates/invalid_email_key.html
 #: lms/templates/secondary_email_change_failed.html
 msgid "Go back to the {link_start}home page{link_end}."
-msgstr "Retour à {link_start}l'accueil{link_end}"
+msgstr "Retour à {link_start}l'accueil{link_end}."
 
 #: lms/templates/email_change_successful.html
 msgid "E-mail change successful!"
@@ -15085,28 +15096,6 @@ msgid "The keys are valid for a limited amount of time. Has the key expired?"
 msgstr ""
 "Les clés sont valides pour une durée limitée. Est ce que la clé est expirée?"
 
-#: lms/templates/library-block-author-preview-header.html
-msgid ""
-"Showing all matching content eligible to be added into {display_name}. Each "
-"student will be assigned {max_count} component drawn randomly from this "
-"list."
-msgid_plural ""
-"Showing all matching content eligible to be added into {display_name}. Each "
-"student will be assigned {max_count} components drawn randomly from this "
-"list."
-msgstr[0] ""
-"Affiche tout le contenu correspondant à être ajouté dans {display_name}. "
-"Chaque étudiant se verra assigné {max_count} composant tiré aléatoirement de"
-" cette liste."
-msgstr[1] ""
-"Affiche tout le contenu correspondant à être ajouté dans {display_name}. "
-"Chaque étudiant se verra assigné {max_count} composants tiré aléatoirement "
-"de cette liste."
-msgstr[2] ""
-"Affiche tout le contenu correspondant à être ajouté dans {display_name}. "
-"Chaque étudiant se verra assigné {max_count} composants tiré aléatoirement "
-"de cette liste."
-
 #. Translators:  "External resource" means that this learning module is hosted
 #. on a platform external to the edX LMS
 #: lms/templates/lti.html
@@ -15182,11 +15171,11 @@ msgstr "Réactiver le compte"
 
 #: lms/templates/manage_user_standing.html
 msgid "Remove Profile Image"
-msgstr "Supprimer l'image de profil"
+msgstr "Retirer l'image de profil"
 
 #: lms/templates/manage_user_standing.html
 msgid "Students whose accounts have been disabled"
-msgstr "Êtudiants dont les comptes ont été désactivés"
+msgstr "Étudiants dont les comptes ont été désactivés"
 
 #: lms/templates/manage_user_standing.html
 msgid "(reload your page to refresh)"
@@ -15224,7 +15213,7 @@ msgstr "Voir ce cours comme :"
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/preview_menu.html
 msgid "Staff"
-msgstr "Équipe pédagogique"
+msgstr "Personnel"
 
 #: lms/templates/preview_menu.html
 msgid "Learner"
@@ -15414,7 +15403,7 @@ msgstr "par exemple votrenom@domaine.com"
 
 #: lms/templates/signup_modal.html
 msgid "e.g. yourname (shown on forums)"
-msgstr "par exemple : votrenom (affiché sur les forums)"
+msgstr "par exemple : votrenom (affiché sur les forums)"
 
 #: lms/templates/signup_modal.html
 msgid "e.g. Your Name (for certificates)"
@@ -15485,7 +15474,7 @@ msgstr "Groupes inactifs"
 
 #: lms/templates/staff_problem_info.html
 msgid "Staff Debug Info"
-msgstr "Info de débogage pour l'équipe pédagogique"
+msgstr "Info de débogage pour le personnel"
 
 #: lms/templates/staff_problem_info.html
 msgid "Submission history"
@@ -15521,7 +15510,7 @@ msgstr "Ajouter un commentaire"
 
 #: lms/templates/staff_problem_info.html
 msgid "Staff Debug:"
-msgstr "Débogage pour l'équipe pédagogique :"
+msgstr "Débogage pour le personnel :"
 
 #: lms/templates/staff_problem_info.html
 msgid "Score (for override only)"
@@ -15608,7 +15597,7 @@ msgstr "Depuis :"
 
 #: lms/templates/studio_render_children_view.html
 msgid "What's in my clipboard?"
-msgstr "Qu'y a-t-il dans mon presse-papiers ?"
+msgstr "Qu'y a-t-il dans mon presse-papiers?"
 
 #: lms/templates/tracking_log.html
 msgid "Tracking Log"
@@ -15721,7 +15710,7 @@ msgstr "Jouer la vidéo"
 
 #: lms/templates/video.html
 msgid "No playable video sources found."
-msgstr "Aucune source vidéo jouable trouvée"
+msgstr "Aucune source vidéo jouable trouvée."
 
 #: lms/templates/video.html
 msgid ""
@@ -15781,12 +15770,12 @@ msgstr "Vos mots étaient :"
 
 #: lms/templates/api_admin/api_access_request_form.html
 msgid "API Access Request"
-msgstr "Requête d'accès API"
+msgstr "Demande d'accès API"
 
 #: lms/templates/api_admin/api_access_request_form.html
 #: lms/templates/api_admin/status.html
 msgid "{platform_name} API Access Request"
-msgstr "Requête d'accès API {platform_name}"
+msgstr "Demande d'accès API {platform_name}"
 
 #: lms/templates/api_admin/api_access_request_form.html
 msgid "Request API Access"
@@ -15794,7 +15783,7 @@ msgstr "Demander l'accès API"
 
 #: lms/templates/api_admin/status.html
 msgid "API Access Request Status"
-msgstr "Statut de la requête d'accès API"
+msgstr "Statut de la demande d'accès API"
 
 #. Translators: "platform_name" is the name of this Open edX installation.
 #: lms/templates/api_admin/status.html
@@ -15804,10 +15793,10 @@ msgid ""
 "when processing is complete. You can also return to this page to see the "
 "status of your API access request."
 msgstr ""
-"Votre requête d'accès à l'API du catalogue de cours {platform_name} est en "
+"Votre demande d'accès à l'API du catalogue de cours {platform_name} est en "
 "traitement. Vous recevrez un message à l'adresse courriel de votre profil "
 "quand elle sera complétée. Vous pouvez aussi revenir à cette page pour voir "
-"l'état de votre requête."
+"l'état de votre demande."
 
 #. Translators: "platform_name" is the name of this Open edX installation.
 #. "api_support_email_link" is HTML for a link to email the API support staff.
@@ -15817,7 +15806,7 @@ msgid ""
 "denied. If you think this is an error, or for other questions about using "
 "this API, contact {api_support_email_link}."
 msgstr ""
-"Votre requête d'accès à l'API du catalogue de cours {platform_name} a été "
+"Votre demande d'accès à l'API du catalogue de cours {platform_name} a été "
 "refusée. Si vous croyez que ce soit une erreur, ou pour d'autres questions "
 "sur l'utilisation de ce API, communiquer avec {api_support_email_link}."
 
@@ -15826,7 +15815,7 @@ msgid ""
 "Your request to access the {platform_name} Course Catalog API has been "
 "approved."
 msgstr ""
-"Votre requête d'accès à l'API du catalogue de cours {platform_name} a été "
+"Votre demande d'accès à l'API du catalogue de cours {platform_name} a été "
 "acceptée."
 
 #: lms/templates/api_admin/status.html
@@ -15855,7 +15844,7 @@ msgstr ""
 
 #: lms/templates/api_admin/status.html
 msgid "Generate API client credentials"
-msgstr "Générer les crédentiels client pour l'API"
+msgstr "Générer les informations d'identification du client API"
 
 #. Translators: "platform_name" is the name of this Open edX installation.
 #. "link_start" and "link_end" are the HTML for a link to the API
@@ -16618,7 +16607,7 @@ msgstr "Télécharger CSV"
 
 #: lms/templates/api_admin/catalogs/edit.html
 msgid "Delete this catalog"
-msgstr "Effacer ce catalogue"
+msgstr "Supprimer ce catalogue"
 
 #: lms/templates/api_admin/catalogs/edit.html
 msgid "Update Catalog"
@@ -16661,7 +16650,7 @@ msgstr "confirmer la désinscription des courriels de {org} {course}."
 
 #: lms/templates/bulk_email/confirm_unsubscribe.html
 msgid "Note:"
-msgstr "Note :"
+msgstr "Remarque :"
 
 #: lms/templates/bulk_email/confirm_unsubscribe.html
 msgid ""
@@ -17102,10 +17091,6 @@ msgstr "Télécharger les notes des étudiants"
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print or share your certificate:"
 msgstr "Imprimer ou partager votre attestation :"
-
-#: lms/templates/certificates/_accomplishment-banner.html
-msgid "Click the link to see my certificate."
-msgstr "Cliquer sur le lien pour voir mon attestation."
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Post on Facebook"
@@ -17625,7 +17610,7 @@ msgstr "Suivre un cours en ligne avec {platform}"
 #: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html
 msgid "Tweet that you've enrolled in this course"
 msgstr ""
-"Ecrire un message sur Twitter pour dire que vous êtes inscrit dans ce cours"
+"Écrire un message sur Twitter pour dire que vous êtes inscrit dans ce cours"
 
 #: lms/templates/courseware/course_about_sidebar_header.html
 msgid "Post a Facebook message to say you've enrolled in this course"
@@ -17636,7 +17621,7 @@ msgstr ""
 #: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html
 msgid "Email someone to say you've enrolled in this course"
 msgstr ""
-"Ecrire un courriel à quelqu'un pour dire que vous êtes inscrit dans ce cours"
+"Écrire un courriel à quelqu'un pour dire que vous êtes inscrit dans ce cours"
 
 #: lms/templates/courseware/course_navigation.html
 msgid "current location"
@@ -17688,8 +17673,8 @@ msgid ""
 "We're sorry, this module is temporarily unavailable. Our staff is working to"
 " fix it as soon as possible."
 msgstr ""
-"Nous sommes désolés, ce module est temporairement indisponible. Notre équipe"
-" travaille pour le réparer aussitôt que possible."
+"Nous sommes désolés, ce module est temporairement indisponible. Notre "
+"personnel travaille pour le réparer aussitôt que possible."
 
 #: lms/templates/courseware/courseware.html
 msgid "Course Search"
@@ -18554,8 +18539,8 @@ msgstr "Afficher la discussion"
 #: lms/templates/discussion/_discussion_inline_studio.html
 msgid "To view live discussions, click Preview or View Live in Unit Settings."
 msgstr ""
-"Pour voir les forums de discusssions en direct, cliquer sur Aperçu ou Voir "
-"en direct dans les paramètres de l'unité."
+"Pour voir les forums de discussions en direct, cliquer sur Aperçu ou Voir en"
+" direct dans les paramètres de l'unité."
 
 #: lms/templates/discussion/_discussion_inline_studio.html
 msgid "Discussion ID: {discussion_id}"
@@ -18647,7 +18632,7 @@ msgstr "par maximum de votes"
 
 #: lms/templates/edxnotes/edxnotes.html
 msgid "Student Notes"
-msgstr "Notes"
+msgstr "Notes de l'étudiant"
 
 #: lms/templates/edxnotes/edxnotes.html
 msgid "Highlights and notes you've made in course content"
@@ -18695,7 +18680,7 @@ msgid ""
 "{section_link}."
 msgstr ""
 "Commencez par créer une note sur quelque chose que vous venez de lire, comme"
-" {section_link}"
+" {section_link}."
 
 #: lms/templates/edxnotes/toggle_notes.html
 msgid "Hide notes"
@@ -18957,7 +18942,7 @@ msgstr "Bonjour {full_name},"
 
 #: lms/templates/emails/photo_submission_confirmation.txt
 msgid "Thanks for submitting your photos!"
-msgstr "Merci pour vos photos !"
+msgstr "Merci pour vos photos!"
 
 #: lms/templates/emails/photo_submission_confirmation.txt
 msgid ""
@@ -18977,9 +18962,9 @@ msgid ""
 "name from {old_name} to {new_name}. If you need further assistance, please "
 "e-mail the course staff at {email}."
 msgstr ""
-"Nous sommes désolés. L'équipe pédagogique n'a pas approuvé votre demande de "
-"changement de nom de {old_name} à {new_name}. Si vous avez besoin d'aide, "
-"vous pouvez contacter l'équipe pédagogique à {email}."
+"Nous sommes désolés. Le personnel du cours n'a pas approuvé votre demande de"
+" changement de nom de {old_name} à {new_name}. Si vous avez besoin d'aide, "
+"vous pouvez contacter l'équipe du cours à {email}."
 
 #: lms/templates/emails/reverification_processed.txt
 msgid ""
@@ -19188,7 +19173,7 @@ msgid ""
 "{begin_strong}Warning:{end_strong} Your browser is not fully supported. We "
 "strongly recommend using {chrome_link} or {ff_link}."
 msgstr ""
-"{begin_strong}Avertissement:{end_strong} Votre navigateur n'est pas "
+"{begin_strong}Avertissement : {end_strong} Votre navigateur n'est pas "
 "complètement supporté. Nous recommandons vivement d'utiliser {chrome_link} "
 "ou {ff_link}."
 
@@ -19353,7 +19338,7 @@ msgstr "L'état des tâches actives apparaît dans la table ci-dessous."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Regenerate Certificates"
-msgstr "Regénérez les attestations"
+msgstr "Régénérez les attestations"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid ""
@@ -19361,7 +19346,7 @@ msgid ""
 "receive regenerated certificates and click Regenerate Certificates."
 msgstr ""
 "Pour régénérer les attestation pour votre cours, choisir les apprenants qui "
-"recevront les attestations régénérées et cliquer sur Regénérer Attestations."
+"recevront les attestations régénérées et cliquer sur Régénérer Attestations."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Choose learner types for regeneration"
@@ -19413,7 +19398,7 @@ msgid ""
 msgstr ""
 "Appliquez les dérogations pour générer les attestations pour les apprenants "
 "qui ne se qualifient pas pour une attestation mais qui ont reçu une "
-"dérogation par l'équipe pédagogique. Après avoir ajouté ces apprenants à la "
+"dérogation par l'équipe de cours. Après avoir ajouté ces apprenants à la "
 "liste de dérogation, cliquez sur Générer les attestations de dérogation ci-"
 "dessous."
 
@@ -19427,7 +19412,7 @@ msgstr "Information d'inscription"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Number of enrollees (admins, staff, and students) by track"
-msgstr "Nombre d'inscrits (admins, équipe pédagogique, et étudiants) par mode"
+msgstr "Nombre d'inscrits (admins, personnel, et étudiants) par mode"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Audit"
@@ -19459,11 +19444,11 @@ msgstr "Maîtrise"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Unpaid Bootcamp"
-msgstr "Bootcamp non rémunéré"
+msgstr "Camp d'entraînement non rémunéré"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Paid Bootcamp"
-msgstr "Bootcamp payant"
+msgstr "Camp d'entraînement payant"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Basic Course Information"
@@ -19746,7 +19731,7 @@ msgid ""
 "store the files, in accordance with your institution's data security "
 "policies.{li_end}{ul_end}"
 msgstr ""
-"{strong_start} Note {strong_end} : {ul_start} {li_start} Pour protéger les "
+"{strong_start} Note {strong_end}  : {ul_start} {li_start} Pour protéger les "
 "données des étudiants, vous ne pouvez pas enregistrer ou envoyer ces liens "
 "par courrier électronique pour un accès direct. Les copies des liens "
 "expirent dans les 5 minutes. {li_end} {li_start} Les fichiers de rapport "
@@ -19775,7 +19760,7 @@ msgid ""
 "old reports, download and store the files,         in accordance with your "
 "institution's data security policies.{li_end}{ul_end}"
 msgstr ""
-"{strong_start}Note{strong_end}: {ul_start}{li_start}Pour sécuriser les "
+"{strong_start}Note{strong_end} : {ul_start}{li_start}Pour sécuriser les "
 "données des élèves, vous ne pouvez pas enregistrer ou envoyer par courriel "
 "ces liens pour un accès direct. Les copies des liens expirent dans les 5 "
 "minutes.{li_end}{li_start}Les fichiers de rapport sont supprimés 90 jours "
@@ -20125,8 +20110,8 @@ msgid ""
 "Note: Users must have an activated {platform_name} account before they can "
 "be enrolled as beta testers."
 msgstr ""
-"Note : Les utilisateurs doivent avoir activé leur compte {platform_name} "
-"avant de pouvoir être ajouté en bêta-testeur."
+"Remarque : Les utilisateurs doivent avoir activé leur compte {platform_name}"
+" avant de pouvoir être ajouté en bêta-testeur."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -20139,7 +20124,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Checking this box has no effect if 'Remove beta testers' is selected."
 msgstr ""
-"Cocher cette case n'a pas d'effet si \"Supprimer les bêta-testeurs\" est "
+"Cocher cette case n'a pas d'effet si \"Retirer les bêta-testeurs\" est "
 "sélectionné. "
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -20148,7 +20133,7 @@ msgstr "Ajouter des bêta-testeurs"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Remove beta testers"
-msgstr "Supprimer des bêta-testeurs"
+msgstr "Retirer des bêta-testeurs"
 
 #. Translators: an "Administration List" is a list, such as Course Staff, that
 #. users can be added to.
@@ -20161,7 +20146,7 @@ msgstr "Gestion de l'équipe du cours"
 #. users can be added to.
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Select a course team role:"
-msgstr "Sélectionner un rôle :"
+msgstr "Sélectionner un rôle dans l'équipe de cours :"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Getting available lists..."
@@ -20173,11 +20158,11 @@ msgid ""
 "Admin must give you the Admin role to add Staff or Beta Testers, or the "
 "Discussion Admin role to add discussion moderators and TAs."
 msgstr ""
-"L'équipe pédagogique ne peut modifier ces listes. Pour vous permettre de "
-"gérer l'adhésion à l'équipe du cours, un administrateur du cours doit vous "
-"assigner le rôle Admin pour ajouter des béta testeurs ou des membres de "
-"l'équipe pédagogique, ou le rôle de Discussion Admin role pour ajouter des "
-"modérateurs de discussions ou des assistants d'enseignement."
+"Le personnel ne peut modifier ces listes. Pour vous permettre de gérer "
+"l'adhésion à l'équipe du cours, un administrateur du cours doit vous "
+"assigner le rôle Admin pour ajouter des béta testeurs ou du personnel, ou le"
+" rôle de Discussion Admin role pour ajouter des modérateurs de discussions "
+"ou des assistants d'enseignement."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -20186,16 +20171,16 @@ msgid ""
 "all course data. Staff also have access to your course in Studio and "
 "Insights. You can only give course team roles to enrolled users."
 msgstr ""
-"Les membres de l'équipe avec le rôle équipe pédagogique aident à la gestion "
-"du cours. L'équipe pédagogique peut inscrire et désinscrire des "
+"Les membres de l'équipe avec le rôle équipe avec le rôle de personnel aident"
+" à la gestion du cours. Le personnel peut inscrire et désinscrire des "
 "participants, ainsi que modifier les notes aux exercices et accéder à "
-"l'ensemble des données du cours. L'équipe pédagogique a également accès au "
-"cours dans Studio. Vous ne pouvez affecter des rôles que pour les "
-"utilisateurs inscrits au cours."
+"l'ensemble des données du cours. Le personnel a également accès au cours "
+"dans Studio. Vous ne pouvez affecter des rôles que pour les utilisateurs "
+"inscrits au cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Staff"
-msgstr "Ajouter à l'équipe pédagogique"
+msgstr "Ajouter du personnel"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Limited Staff"
@@ -20208,7 +20193,7 @@ msgid ""
 "grades and access all course data. Limited Staff don't have access to your "
 "course in Studio. You can only give course team roles to enrolled users."
 msgstr ""
-"Les membres de l'équipe de cours avec le rôle Personnel restreint vous "
+"Les membres de l'équipe de cours avec le rôle personnel restreint vous "
 "aident à gérer votre cours. Le personnel restreint peut inscrire et "
 "désinscrire des apprenants, ainsi que modifier leurs notes et accéder à "
 "toutes les données du cours. Le personnel restreint n'a pas accès à votre "
@@ -20231,11 +20216,11 @@ msgid ""
 " to manage course team membership. You can only give course team roles to "
 "enrolled users."
 msgstr ""
-"Les membres de l'équipe avec le rôle Admin aident à la gestion du cours. Ils"
-" peuvent également effectuer toutes les actions comme l'équipe pédagogique, "
-"mais aussi ajouter ou supprimer des membres Admin, gérer les rôles de "
-"modérations des forums, l'ajout de bêta-testeurs. Vous ne pouvez affecter "
-"des rôles que pour les utilisateurs inscrits au cours."
+"Les membres de l'équipe de cours avec le rôle Admin aident à la gestion du "
+"cours. Ils peuvent également effectuer toutes les actions comme le "
+"personnel, mais aussi ajouter ou retirer des membres Admin, gérer les rôles "
+"de modérations des forums, l'ajout de bêta-testeurs. Vous ne pouvez affecter"
+" des rôles que pour les utilisateurs inscrits au cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Admin"
@@ -20275,9 +20260,9 @@ msgstr ""
 "Les Administrateurs de discussions peuvent modifier et supprimer tous les "
 "messages, les dénonciations abusives, fermer et ré-ouvrir des sujets, "
 "indiquer des réponses et voir les messages de tous les groupes. Leurs "
-"messages sont marqués comme 'Équipe pédagogique'. Ils peuvent aussi modifier"
-" les rôles de modération des utilisateurs. Vous pouvez donner un rôle "
-"d'Administrateur de discussions uniquement à des utilisateurs inscrits au "
+"messages sont marqués comme 'personnel'. Ils peuvent aussi ajouter et "
+"retirer les rôles de modération des utilisateurs. Vous pouvez donner un rôle"
+" d'Administrateur de discussions uniquement à des utilisateurs inscrits au "
 "cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -20313,10 +20298,9 @@ msgstr ""
 "Les Modérateurs de discussions peuvent modifier et supprimer tous les "
 "messages, les dénonciations abusives, fermer et ré-ouvrir des sujets, "
 "indiquer des réponses et voir les messages de tous les groupes. Leurs "
-"messages sont marqués comme 'Équipe pédagogique'. Ils ne peuvent pas "
-"modifier les rôles de modération des utilisateurs. Vous pouvez donner un "
-"rôle de Modérateur de discussions uniquement à des utilisateurs inscrits au "
-"cours."
+"messages sont marqués comme 'personnel'. Ils ne peuvent pas modifier les "
+"rôles de modération des utilisateurs. Vous pouvez donner un rôle de "
+"Modérateur de discussions uniquement à des utilisateurs inscrits au cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Moderator"
@@ -20405,7 +20389,7 @@ msgstr "Moi même"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Staff and Administrators"
-msgstr "Équipe pédagogique et administrateurs"
+msgstr "Le personnel et les administrateurs"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "All Learners"
@@ -20563,8 +20547,8 @@ msgid ""
 "Note: This feature is available only to courses with a small number of "
 "enrolled learners."
 msgstr ""
-"Note : Cette fonctionnalité est seulement disponible pour les cours avec de "
-"petits nombres d'étudiants inscrits."
+"Remarque : Cette fonctionnalité est seulement disponible pour les cours avec"
+" de petits nombres d'étudiants inscrits."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View a specific learner's enrollment status"
@@ -20951,7 +20935,7 @@ msgstr ""
 "{p_tag}Vous n'avez actuellement aucune évaluation par les pairs à effectuer. Afin d'avoir des évaluations par les pairs à effectuer : \n"
 "{ul_tag}\n"
 "{li_tag}Vous devez avoir soumis une réponse à un problème avec évaluation par les pairs.{end_li_tag}\n"
-"{li_tag}L'équipe pédagogique doit évaluer les compositions qui seront utilisés pour vous aider à mieux comprendre les critères\n"
+"{li_tag}L'équipe de cours doit évaluer les compositions qui seront utilisés pour vous aider à mieux comprendre les critères\n"
 "d'évaluation.{end_li_tag}\n"
 "{li_tag}Il doit y avoir des soumissions qui sont en attente d'évaluation.{end_li_tag}\n"
 "{end_ul_tag}\n"
@@ -21103,7 +21087,7 @@ msgstr ""
 
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Remove Flag"
-msgstr "Enlever le marquage"
+msgstr "Retirer le marquage"
 
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Keep Flag"
@@ -21235,7 +21219,7 @@ msgstr "Les serveurs de {platform_name} sont actuellement hors-service"
 #: lms/templates/static_templates/server-overloaded.html
 msgid ""
 "Our staff is currently working to get the site back up as soon as possible. "
-msgstr "Notre équipe travaille pour ramener le site aussitôt que possible."
+msgstr "Notre personnel travaille pour ramener le site aussitôt que possible."
 
 #: lms/templates/static_templates/server-error.html
 msgid "There has been a 500 error on the {platform_name} servers"
@@ -21822,7 +21806,7 @@ msgstr "Bienvenue {username}"
 
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "Enter a Public Display Name:"
-msgstr "Ecrire un nom qui sera affiché publiquement :"
+msgstr "Écrire un nom qui sera affiché publiquement :"
 
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "Public Display Name"
@@ -21987,9 +21971,9 @@ msgid ""
 "name from {old_name} to {new_name}. If you need further assistance, please "
 "e-mail the tech support at {email}"
 msgstr ""
-"Nous sommes désolés. L'équipe pédagogique n'a pas approuvé votre demande de "
-"changement de nom de {old_name} à {new_name}. Si vous avez besoin d'aide, "
-"vous pouvez contacter l'équipe pédagogique à {email}"
+"Nous sommes désolés. Le personnel du cours n'a pas approuvé votre demande de"
+" changement de nom de {old_name} à {new_name}. Si vous avez besoin d'aide, "
+"vous pouvez contacter le support technique à {email}"
 
 #: themes/stanford-style/lms/templates/static_templates/tos.html
 msgid "Put your Terms of Service here!"
@@ -22041,8 +22025,8 @@ msgid ""
 "We've logged the error and our staff is currently working to resolve this "
 "error as soon as possible."
 msgstr ""
-"Nous avons consigné l'erreur dans un journal et notre équipe tâchera de la "
-"résoudre le plus rapidement possible."
+"Nous avons consigné l'erreur dans un journal et notre personnel tâchera de "
+"la résoudre le plus rapidement possible."
 
 #: cms/templates/accessibility.html
 msgid "Studio Accessibility Policy"
@@ -22113,7 +22097,7 @@ msgid ""
 "members with these roles can edit or delete an activated certificate."
 msgstr ""
 "Pour commencer à émettre des attestations de cours, un membre de l'équipe du"
-" cours avec le rôle Staff ou Admin doit sélectionner "
+" cours avec le rôle Personnel ou Admin doit sélectionner "
 "{em_start}Activer{em_end}. Seuls les membres de l'équipe du cours ayant ces "
 "rôles peuvent éditer ou supprimer une attestation activée."
 
@@ -22147,7 +22131,7 @@ msgstr "Évaluation"
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 #: cms/templates/widgets/header.html
 msgid "Course Team"
-msgstr "Équipe pédagogique"
+msgstr "Équipe de cours"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
 #: cms/templates/settings.html cms/templates/settings_advanced.html
@@ -22298,20 +22282,19 @@ msgstr "Créer une nouvelle session du cours :"
 
 #: cms/templates/course-create-rerun.html
 msgid "Create a re-run of a course"
-msgstr "Créer une nouvelle session d'un cours"
+msgstr "Créer une relance d'un cours"
 
 #: cms/templates/course-create-rerun.html
 msgid "You are creating a re-run from:"
-msgstr "Vous créez une nouvelle session à partir de :"
+msgstr "Vous créez une nouvelle relance à partir de :"
 
 #: cms/templates/course-create-rerun.html
 msgid ""
 "Provide identifying information for this re-run of the course. The original "
 "course is not affected in any way by a re-run."
 msgstr ""
-"Fournissez des informations d'identification pour cette nouvelle session du "
-"cours. Le cours original n'est affecté en aucune façon par une nouvelle "
-"session."
+"Fournissez des informations d'identification pour cette relance du cours. Le"
+" cours original n'est affecté en aucune façon par une relance."
 
 #: cms/templates/course-create-rerun.html
 msgid ""
@@ -22323,7 +22306,7 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html
 msgid "Required Information to Create a re-run of a course"
-msgstr "Informations requises pour créer une nouvelle session d'un cours"
+msgstr "Informations requises pour créer une relance d'un cours"
 
 #. Translators: This is an example name for a new course, seen when
 #. filling out the form to create a new course.
@@ -22399,7 +22382,7 @@ msgstr "Créer une relance"
 
 #: cms/templates/course-create-rerun.html
 msgid "When will my course re-run start?"
-msgstr "Quand la nouvelle session de mon cours démarre-t-elle?"
+msgstr "Quand la relance de mon cours démarre-t-elle?"
 
 #: cms/templates/course-create-rerun.html
 msgid "The new course is set to start on January 1, 2030 at midnight (UTC)."
@@ -22429,9 +22412,9 @@ msgid ""
 "in the course, and there is no student data. There is no content in the "
 "discussion topics or wiki."
 msgstr ""
-"Vous êtes le seul membre de du nouveau cours. Aucun-e élève n'est encore "
-"inscrit-e, et il n'y a aucune donnée étudiante. Il n'y a aucun contenu dans "
-"le wiki ou les sujets de discussion."
+"Vous êtes le seul membre du personnel du nouveau cours. Aucun-e élève n'est "
+"encore inscrit-e, et il n'y a aucune donnée étudiante. Il n'y a aucun "
+"contenu dans le wiki ou les sujets de discussion."
 
 #: cms/templates/course-create-rerun.html
 msgid "Learn more about Course Re-runs"
@@ -22465,8 +22448,8 @@ msgstr "Plan de cours"
 msgid ""
 "This course was created as a re-run. Some manual configuration is needed."
 msgstr ""
-"Ce cours a été conçu comme un cours dérivé. Un peu de configuration manuelle"
-" est requise."
+"Ce cours a été conçu comme une relance. Un peu de configuration manuelle est"
+" requise."
 
 #: cms/templates/course_outline.html
 msgid ""
@@ -22529,10 +22512,10 @@ msgid ""
 "Module List\" setting, and then delete the following modules from the list."
 msgstr ""
 "Afin d'éviter les erreurs, {platform_name} recommande fortement que vous "
-"supprimiez les fonctionnalités non supportées des paramètres avancés du "
-"cours. Pour ce faire, allez à la page des {link_start}Paramètres "
+"retiriez les fonctionnalités non supportées des paramètres avancés du cours."
+" Pour ce faire, allez à la page des {link_start}Paramètres "
 "avancés{link_end}, trouver le paramètre \"Liste des modules avancés\", et "
-"ensuite effacer les modules suivants de la liste."
+"ensuite supprimer les modules suivants de la liste."
 
 #: cms/templates/course_outline.html
 msgid "Unsupported Advance Modules"
@@ -23027,7 +23010,7 @@ msgstr "Données utilisateur"
 
 #: cms/templates/export.html
 msgid "Course Team Data"
-msgstr "Données sur l’équipe pédagogique"
+msgstr "Données sur l’équipe de cours"
 
 #: cms/templates/export.html
 msgid "Forum/discussion Data"
@@ -23067,7 +23050,7 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Learn more about exporting a library"
-msgstr "Apprenez-en plus sur l'export de cours"
+msgstr "En savoir plus sur l'exportation d'une bibliothèque"
 
 #: cms/templates/export.html
 msgid "Why export a course?"
@@ -23130,7 +23113,7 @@ msgstr ""
 
 #: cms/templates/export.html cms/templates/import.html
 msgid "The course team"
-msgstr "L'équipe pédagogique"
+msgstr "L'équipe de cours"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html
@@ -23767,8 +23750,8 @@ msgstr ""
 #: cms/templates/import.html
 msgid "Note: Library content is not automatically updated in courses"
 msgstr ""
-"Prendre note : le contenu des bibliothèques n'est pas automatiquement mis à "
-"jour dans les cours"
+"Remarque : le contenu des bibliothèques n'est pas automatiquement mis à jour"
+" dans les cours"
 
 #: cms/templates/import.html
 msgid ""
@@ -23844,7 +23827,7 @@ msgstr "Nouveau cours"
 
 #: cms/templates/index.html
 msgid "Email staff to create course"
-msgstr "Envoyez un courriel à l'équipe pédagogique pour créer un cours"
+msgstr "Envoyez un courriel au personnel pour créer un cours"
 
 #: cms/templates/index.html
 msgid "New Library"
@@ -23877,10 +23860,10 @@ msgid ""
 "changed, but you can set a different display name in Advanced Settings "
 "later."
 msgstr ""
-"Le nom de l'organisation qui commandite ce cours. {strong_start}Note : Le "
-"nom de l'organisation fait partie du URL de votre cours.{strong_end} Il ne "
-"peut être modifié, mais vous pouvez indiquer un autre nom d'affichage plus "
-"tard dans les paramètres avancés."
+"Le nom de l'organisation qui commandite ce cours. {strong_start}Remarque : "
+"Le nom de l'organisation fait partie du URL de votre cours.{strong_end} Il "
+"ne peut être modifié, mais vous pouvez indiquer un autre nom d'affichage "
+"plus tard dans les paramètres avancés."
 
 #: cms/templates/index.html
 msgid ""
@@ -23889,8 +23872,9 @@ msgid ""
 " characters are allowed and it cannot be changed.{strong_end}"
 msgstr ""
 "Le nombre unique qui identifie votre cours au sein de votre organisation. "
-"{strong_start}Note : Ceci fait partie du URL de votre cours, aucun espace ou"
-" caractères spéciaux ne sont permis et il ne peux être modifié.{strong_end}"
+"{strong_start}Remarque : Ceci fait partie du URL de votre cours, aucun "
+"espace ou caractères spéciaux ne sont permis et il ne peux être "
+"modifié.{strong_end}"
 
 #: cms/templates/index.html
 msgid ""
@@ -23898,9 +23882,9 @@ msgid ""
 "your course URL, so no spaces or special characters are allowed and it "
 "cannot be changed.{strong_end}"
 msgstr ""
-"Le trimestre durant lequel le cours va s'exécuter. {strong_start}Note : Ceci"
-" fait partie du URL de votre cours, aucun espace ou caractères spéciaux ne "
-"sont permis et il ne peux être modifié.{strong_end}"
+"Le trimestre durant lequel le cours va s'exécuter. {strong_start}Remarque : "
+"Ceci fait partie du URL de votre cours, aucun espace ou caractères spéciaux "
+"ne sont permis et il ne peux être modifié.{strong_end}"
 
 #: cms/templates/index.html
 msgid "Create"
@@ -23958,8 +23942,8 @@ msgid ""
 "part of your library URL, so no spaces or special characters are "
 "allowed.{strong_end} This cannot be changed."
 msgstr ""
-"Le code unique qui identifie votre bibliothèque. {strong_start}Note : Ceci "
-"fait partie du URL de votre bibliothèque, aucun espace ou caractères "
+"Le code unique qui identifie votre bibliothèque. {strong_start}Remarque : "
+"Ceci fait partie du URL de votre bibliothèque, aucun espace ou caractères "
 "spéciaux ne sont permis.{strong_end}Ne peux être modifié."
 
 #: cms/templates/index.html
@@ -23989,7 +23973,7 @@ msgstr "Création de cette session de cours."
 #. so that it can be re-run.
 #: cms/templates/index.html
 msgid "Configuring as re-run"
-msgstr "Configuré comme relancé"
+msgstr "Configuré comme une relance"
 
 #: cms/templates/index.html
 msgid ""
@@ -24035,7 +24019,7 @@ msgstr "Bibliothèques"
 
 #: cms/templates/index.html
 msgid "Are you staff on an existing {studio_name} course?"
-msgstr "Êtes vous membre de l'équipe pédagogique d'un cours {studio_name}?"
+msgstr "Êtes vous membre du personnel d'un cours existant {studio_name}?"
 
 #: cms/templates/index.html
 msgid ""
@@ -24074,7 +24058,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Your Course Creator Request Status:"
-msgstr "Statut de votre requête de création de cours :"
+msgstr "Statut de votre demande de créateur de cours :"
 
 #: cms/templates/index.html
 msgid "Request the Ability to Create Courses"
@@ -24082,7 +24066,7 @@ msgstr "Demander la permission de créer des cours"
 
 #: cms/templates/index.html
 msgid "Your Course Creator Request Status"
-msgstr "Statut de votre requête de création de cours"
+msgstr "Statut de votre demande de créateur de cours"
 
 #: cms/templates/index.html
 msgid ""
@@ -24099,15 +24083,15 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Your Course Creator request is:"
-msgstr "Votre requête de création de cours est :"
+msgstr "Votre demande de créateur de cours est :"
 
 #: cms/templates/index.html
 msgid ""
 "Your request did not meet the criteria/guidelines specified by "
 "{platform_name} Staff."
 msgstr ""
-"Votre requête ne satisfait pas les critères/directives spécifiées par "
-"l'équipe {platform_name}."
+"Votre demande ne satisfait pas les critères/directives spécifiées par le "
+"personnel {platform_name}."
 
 #: cms/templates/index.html
 msgid ""
@@ -24127,7 +24111,7 @@ msgid ""
 "Your request is currently being reviewed by {platform_name} staff and should"
 " be updated shortly."
 msgstr ""
-"Votre demande est en cours de révision par l'équipe {platform_name} et "
+"Votre demande est en cours de révision par le personnel {platform_name} et "
 "devrait être mise à jour prochainement."
 
 #: cms/templates/index.html
@@ -24184,8 +24168,8 @@ msgid ""
 "In order to create courses in {studio_name}, you must {link_start}contact "
 "{platform_name} staff to help you create a course{link_end}."
 msgstr ""
-"Pour créer des cours dans {studio_name}, vous devez {link_start}contacter "
-"l'équipe {platform_name} pour vous aider à créer un cours{link_end}."
+"Pour créer des cours dans {studio_name}, vous devez {link_start}contacter le"
+" personnel {platform_name} pour vous aider à créer un cours{link_end}."
 
 #: cms/templates/index.html
 msgid ""
@@ -24201,8 +24185,8 @@ msgid ""
 "{link_start}contact {platform_name} Staff with further questions{link_end}."
 msgstr ""
 "Votre demande pour obtenir les droits de création de cours dans "
-"{studio_name} a été refusée. S'il vous plaît {link_start}contacter l'équipe "
-"pédagogique de {platform_name} avec vos questions{link_end}."
+"{studio_name} a été refusée. S'il vous plaît {link_start}contacter le "
+"personnel de {platform_name} avec vos questions{link_end}."
 
 #: cms/templates/index.html
 msgid "Thanks for signing up, {name}!"
@@ -24236,6 +24220,28 @@ msgstr ""
 "mail ne se trouve pas dans votre boite de réception. Vous ne trouvez "
 "toujours pas le mail de vérification? Demandez de l'aide via le lien ci-"
 "dessous."
+
+#: cms/templates/library-block-author-preview-header.html
+msgid ""
+"Showing all matching content eligible to be added into {display_name}. Each "
+"student will be assigned {max_count} component drawn randomly from this "
+"list."
+msgid_plural ""
+"Showing all matching content eligible to be added into {display_name}. Each "
+"student will be assigned {max_count} components drawn randomly from this "
+"list."
+msgstr[0] ""
+"Affiche tout le contenu correspondant à être ajouté dans {display_name}. "
+"Chaque étudiant se verra assigné {max_count} composant tiré aléatoirement de"
+" cette liste."
+msgstr[1] ""
+"Affiche tout le contenu correspondant à être ajouté dans {display_name}. "
+"Chaque étudiant se verra assigné {max_count} composants tiré aléatoirement "
+"de cette liste."
+msgstr[2] ""
+"Affiche tout le contenu correspondant à être ajouté dans {display_name}. "
+"Chaque étudiant se verra assigné {max_count} composants tiré aléatoirement "
+"de cette liste."
 
 #: cms/templates/library.html
 msgid "Content Library"
@@ -24295,7 +24301,7 @@ msgstr "En savoir plus à propos des bibliothèques de contenu"
 
 #: cms/templates/manage_users.html
 msgid "Course Team Settings"
-msgstr "Paramètres de l'équipe pédagogique"
+msgstr "Paramètres de l'équipe de cours"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "New Team Member"
@@ -24316,8 +24322,8 @@ msgstr "Adresse courriel utilisateur"
 #: cms/templates/manage_users.html
 msgid "Provide the email address of the user you want to add as Staff"
 msgstr ""
-"Fournir l'adresse courriel de l'utilisateur que vous souhaitez ajouter à "
-"l'équipe pédagogique"
+"Fournir l'adresse courriel de l'utilisateur que vous souhaitez ajouter au "
+"personnel"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "Add User"
@@ -24342,23 +24348,24 @@ msgstr "Ajout d'un nouveau membre d'équipe"
 
 #: cms/templates/manage_users.html
 msgid "Course Team Roles"
-msgstr "Rôles dans l'équipe pédagogique"
+msgstr "Rôles dans l'équipe de cours"
 
 #: cms/templates/manage_users.html
 msgid ""
 "Course team members with the Staff role are course co-authors. They have "
 "full writing and editing privileges on all course content."
 msgstr ""
-"Les membres de l'équipe pédagogique du cours sont co-auteurs de cours. Ils "
-"ont droits complets d'écriture et d'édition sur tout le contenu du cours."
+"Les membres de l'équipe du cours avec le rôle de personnel sont co-auteurs "
+"du cours. Ils ont les droits complets d'écriture et d'édition sur tout le "
+"contenu du cours."
 
 #: cms/templates/manage_users.html
 msgid ""
 "Admins are course team members who can add and remove other course team "
 "members."
 msgstr ""
-"Les administrateurs sont des membres de l'équipe pédagogique qui peuvent "
-"ajouter ou supprimer des membres à cette équipe."
+"Les administrateurs sont des membres de l'équipe de cours qui peuvent "
+"ajouter ou retirer des membres à cette équipe."
 
 #: cms/templates/manage_users.html
 msgid ""
@@ -24382,7 +24389,7 @@ msgstr ""
 "Chaque cours doit avoir un administrateur. Si vous êtes l'administrateur et "
 "que vous désirez transférer l'administration du cours, cliquer "
 "<strong>ajoutez accès administrateur</strong> afin d'ajouter un "
-"administrateur, et demander à cet utilisateur de vous enlever de la liste de"
+"administrateur, et demander à cet utilisateur de vous retirer de la liste de"
 " l'équipe du cours."
 
 #: cms/templates/manage_users_lib.html
@@ -24391,7 +24398,7 @@ msgstr "Accès utilisateur à la bibliothèque"
 
 #: cms/templates/manage_users_lib.html cms/templates/widgets/header.html
 msgid "User Access"
-msgstr "Permettre l'accès à cette bibliothèque"
+msgstr "Accès utilisateur"
 
 #: cms/templates/manage_users_lib.html
 msgid "Grant Access to This Library"
@@ -24425,7 +24432,8 @@ msgstr "Rôles d'accès à la bibliothèque"
 #: cms/templates/manage_users_lib.html
 msgid "There are three access roles for libraries: User, Staff, and Admin."
 msgstr ""
-"Il y a trois rôles d'accès pour les bibliothèques : User, Staff et Admin."
+"Il y a trois rôles d'accès pour les bibliothèques : Utilisateur, Personnel "
+"et Admin."
 
 #: cms/templates/manage_users_lib.html
 msgid ""
@@ -24441,8 +24449,8 @@ msgid ""
 "Library Staff are content co-authors. They have full editing privileges on "
 "the contents of a library."
 msgstr ""
-"Les membres des bibliothèques sont co-auteurs de contenu. Ils ont les droits"
-" complets d'édition sur le contenu d'une bibliothèque."
+"Le personnel des bibliothèques sont co-auteurs de contenu. Ils ont les "
+"droits complets d'édition sur le contenu d'une bibliothèque."
 
 #: cms/templates/manage_users_lib.html
 msgid ""
@@ -24451,8 +24459,8 @@ msgid ""
 " library."
 msgstr ""
 "Les administrateurs de bibliothèques ont les droits d'édition complets et "
-"peuvent aussi ajouter et supprimer les autres membres de l'équipe. Il doit y"
-" avoir au minimum un utilisateur avec le rôle Admin dans la bibliothèque."
+"peuvent aussi ajouter et retirer les autres membres de l'équipe. Il doit y "
+"avoir au minimum un utilisateur avec le rôle Admin dans la bibliothèque."
 
 #: cms/templates/settings.html
 msgid "Schedule & Details Settings"
@@ -24873,7 +24881,7 @@ msgid ""
 "or PNG format supported)"
 msgstr ""
 "Veuillez fournir un chemin et un nom valides à l'illustration de votre cours"
-" (attention : seuls les formats JPEG et PNG sont supportés)"
+" (Remarque : seuls les formats JPEG et PNG sont supportés)"
 
 #: cms/templates/settings.html
 msgid "Upload Course Card Image"
@@ -24900,7 +24908,7 @@ msgid ""
 "or PNG format supported)"
 msgstr ""
 "S'il vous plaît fournir un chemin valide et un nom pour l'image de votre "
-"bannière (Note : seuls les formats JPEG ou PNG sont supportés)"
+"bannière (Remarque : seuls les formats JPEG ou PNG sont supportés)"
 
 #: cms/templates/settings.html
 msgid "Upload Course Banner Image"
@@ -24932,7 +24940,7 @@ msgid ""
 "only JPEG or PNG format supported)"
 msgstr ""
 "S'il vous plaît fournir un chemin valide et un nom pour l'image de votre "
-"vignette vidéo (Note : seuls les formats JPEG ou PNG sont supportés)"
+"vignette vidéo (Remarque : seuls les formats JPEG ou PNG sont supportés)"
 
 #: cms/templates/settings.html
 msgid "Upload Video Thumbnail Image"
@@ -25145,8 +25153,8 @@ msgid ""
 " you use double quotation marks (\") around the string. Do not use single "
 "quotation marks (')."
 msgstr ""
-"{em_start}Note : {em_end} Quand vous insérez des chaînes de caractère en "
-"tant que valeur pour une politique, assurez vous que vous utilisez des "
+"{em_start}Remarque : {em_end} Quand vous insérez des chaînes de caractère en"
+" tant que valeur pour une politique, assurez vous que vous utilisez des "
 "guillemets (\") autour de la chaîne de caractère. N'utilisez pas de simples "
 "apostrophes (')."
 
@@ -25247,14 +25255,6 @@ msgstr ""
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Expand or Collapse"
 msgstr "Déplier ou Replier"
-
-#: cms/templates/studio_xblock_wrapper.html
-msgid "Access Settings"
-msgstr "Paramètres d'accès"
-
-#: cms/templates/studio_xblock_wrapper.html
-msgid "Set Access"
-msgstr "Définir l'accès"
 
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Copy to Clipboard"
@@ -25403,7 +25403,7 @@ msgstr "Sélectionnez un type de groupe"
 
 #: cms/templates/visibility_editor.html
 msgid "All Learners and Staff"
-msgstr "Tous les apprenants et membres de l'équipe pédagogique"
+msgstr "Tous les apprenants et le personnel"
 
 #: cms/templates/visibility_editor.html
 msgid "Select one or more groups:"
@@ -25414,7 +25414,7 @@ msgid ""
 "This group no longer exists.  Choose another group or remove the access "
 "restriction."
 msgstr ""
-"Ce groupe n'existe plus. Choisissez un autre groupe ou enlevez la "
+"Ce groupe n'existe plus. Choisissez un autre groupe ou retirez la "
 "restriction d'accès."
 
 #: cms/templates/emails/course_creator_admin_subject.txt
@@ -25585,11 +25585,11 @@ msgstr "Retour à la {link_start}page d'accueil{link_end}."
 
 #: cms/templates/widgets/deprecated-course-key-warning.html
 msgid "Support will be removed in an upcoming release."
-msgstr "Le support sera supprimé dans une prochaine version."
+msgstr "Le support sera retiré dans une prochaine version."
 
 #: cms/templates/widgets/deprecated-course-key-warning.html
 msgid "Support will be removed on {expiration_date}."
-msgstr "L'assistance sera supprimée le {expiration_date}."
+msgstr "L'assistance sera retirée le {expiration_date}."
 
 #: cms/templates/widgets/deprecated-course-key-warning.html
 msgid "This course uses a legacy storage format."
@@ -25625,11 +25625,7 @@ msgstr "Navigation du cours"
 
 #: cms/templates/widgets/header.html
 msgid "Outline"
-msgstr "Plan du Cours"
-
-#: cms/templates/widgets/header.html
-msgid "Files & Media"
-msgstr "Fichiers et médias"
+msgstr "Plan de cours"
 
 #: cms/templates/widgets/header.html
 msgid "Publisher"
@@ -25808,8 +25804,8 @@ msgid ""
 "articles etc..."
 msgstr ""
 "Ceci est le contenu initial de votre article. Après l'avoir créé, vous "
-"pourrez utiliser des fonctionnalités plus complexes, comme ajouter un "
-"module, des méta-données, des articles liés, etc."
+"pourrez utiliser des fonctionnalités plus complexes, comme ajouter des "
+"plugiciels, des méta-données, des articles liés, etc."
 
 #: wiki/forms.py
 msgid "Contents"
@@ -25886,10 +25882,10 @@ msgid ""
 " Purging is a good idea if you want to free the slug such that users can "
 "create new articles in its place."
 msgstr ""
-"Purger l'article : Le supprimer complètement et définitivement (ainsi que "
-"son contenu) sans retour en arrière possible. Purger est une bonne idée si "
-"vous voulez libérer l'identifiant de telle sorte que les utilisateurs "
-"puissent créer de nouveaux articles à sa place."
+"Purger l'article : Le retirer complètement et définitivement (ainsi que son "
+"contenu) sans retour en arrière possible. Purger est une bonne idée si vous "
+"voulez libérer l'identifiant de telle sorte que les utilisateurs puissent "
+"créer de nouveaux articles à sa place."
 
 #: wiki/forms.py wiki/plugins/attachments/forms.py
 #: wiki/plugins/images/forms.py
@@ -25900,7 +25896,7 @@ msgstr "Vous n'êtes pas suffisamment certain!"
 msgid "While you tried to delete this article, it was modified. TAKE CARE!"
 msgstr ""
 "Pendant que vous essayiez de supprimer cet article, il a été modifié. FAITES"
-" ATTENTION !"
+" ATTENTION!"
 
 #: wiki/forms.py
 msgid "Lock article"
@@ -25965,7 +25961,7 @@ msgstr "Filtrer"
 
 #: wiki/core/plugins/base.py
 msgid "Settings for plugin"
-msgstr "Paramètres pour le plugin"
+msgstr "Paramètres pour le plugiciel"
 
 #: wiki/models/article.py wiki/models/pluginbase.py
 #: wiki/plugins/attachments/models.py
@@ -26093,15 +26089,15 @@ msgstr "Les permissions sont héritées à partir de cet article"
 
 #: wiki/models/pluginbase.py
 msgid "A plugin was changed"
-msgstr "Un plugin a été modifié"
+msgstr "Un plugiciel a été modifié"
 
 #: wiki/models/pluginbase.py
 msgid ""
 "The revision being displayed for this plugin.If you need to do a roll-back, "
 "simply change the value of this field."
 msgstr ""
-"La révision a été affichée pour ce plugin. Si vous devez faire un retour en "
-"arrière, changez simplement la valeur de ce champ."
+"La révision a été affichée pour ce plugiciel. Si vous devez faire un retour "
+"en arrière, changez simplement la valeur de ce champ."
 
 #: wiki/models/urlpath.py
 msgid "Cache lookup value for articles"
@@ -26117,11 +26113,11 @@ msgstr "(racine)"
 
 #: wiki/models/urlpath.py
 msgid "URL path"
-msgstr "chemin de l'URL"
+msgstr "Chemin de l'URL"
 
 #: wiki/models/urlpath.py
 msgid "URL paths"
-msgstr "chemins de l'URL"
+msgstr "Chemins de l'URL"
 
 #: wiki/models/urlpath.py
 msgid "Sorry but you cannot have a root article with a slug."
@@ -26276,19 +26272,19 @@ msgstr "Supprimer le!"
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html
 msgid "Remove"
-msgstr "Supprimer"
+msgstr "Retirer"
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html
 msgid ""
 "You can remove a reference to a file, but it will retain its references on "
 "other articles."
 msgstr ""
-"Vous pouvez supprimer une référence à un fichier, mais il conservera ses "
+"Vous pouvez retirer une référence à un fichier, mais il conservera ses "
 "références dans les autres articles."
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html
 msgid "Remove reference"
-msgstr "Effacer la référence"
+msgstr "Retirer la référence"
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html
 msgid "History of"
@@ -26511,7 +26507,7 @@ msgstr "Restaurer l'image"
 
 #: wiki/plugins/images/templates/wiki/plugins/images/index.html
 msgid "Remove image"
-msgstr "Supprimer l'image"
+msgstr "Retirer l'image"
 
 #: wiki/plugins/images/templates/wiki/plugins/images/index.html
 msgid "Completely delete"
@@ -26533,7 +26529,7 @@ msgstr "Purger la suppression"
 #: wiki/plugins/images/templates/wiki/plugins/images/purge.html
 msgid "Purge image: Completely remove image file and all revisions."
 msgstr ""
-"Purger l'image : Supprimer complètement le fichier image et toutes les "
+"Purger l'image : Retirer complètement le fichier image et toutes les "
 "révisions."
 
 #: wiki/plugins/images/templates/wiki/plugins/images/purge.html
@@ -26628,7 +26624,7 @@ msgid ""
 "or http://example.com or by using the markdown syntax:"
 msgstr ""
 "Vous pouvez créer un lien vers un autre site en insérant simplement une "
-"adresse example.com ou http://example.com ou en utilisant la syntaxe "
+"adresse exemple.com ou http://exemple.com ou en utilisant la syntaxe "
 "markdown :"
 
 #: wiki/plugins/notifications/forms.py
@@ -26717,8 +26713,8 @@ msgid ""
 "You may remove this article and any children permanently and free their "
 "slugs by clicking the below button. This action cannot be undone."
 msgstr ""
-"Vous pouvez supprimer cet article et tous ses enfants de façon permanente et"
-" libérer leurs identifiants en cliquant sur le bouton ci-dessous. Cette "
+"Vous pouvez retirer cet article et tous ses enfants de façon permanente et "
+"libérer leurs identifiants en cliquant sur le bouton ci-dessous. Cette "
 "action ne peut être annulée."
 
 #: wiki/templates/wiki/dir.html
