@@ -61,7 +61,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-10-08 20:43+0000\n"
+"POT-Creation-Date: 2023-11-12 20:43+0000\n"
 "PO-Revision-Date: 2014-02-06 03:04+0000\n"
 "Last-Translator: Alena A. Bencsik-Theilen <alenabencsik@hotmail.com>, 2021\n"
 "Language-Team: Romanian (http://app.transifex.com/open-edx/edx-platform/language/ro/)\n"
@@ -1950,74 +1950,6 @@ msgstr ""
 msgid "This value must be all lowercase."
 msgstr "Această valoare trebuie să fie cu minuscule."
 
-#: lms/djangoapps/badges/models.py
-msgid "The course mode for this badge image. For example, \"verified\" or \"honor\"."
-msgstr ""
-"Modul curs pentru această imagine insignă. De exemplu, „verificat” sau "
-"„onoare”."
-
-#: lms/djangoapps/badges/models.py
-msgid ""
-"Badge images must be square PNG files. The file size should be under 250KB."
-msgstr ""
-"Imaginile insignelor trebuie să fie fișiere PNG standard. Dimensiunea "
-"fișierului ar trebui să fie sub 250 KB."
-
-#: lms/djangoapps/badges/models.py
-msgid ""
-"Set this value to True if you want this image to be the default image for "
-"any course modes that do not have a specified badge image. You can have only"
-" one default image."
-msgstr ""
-"Setați această valoare la „Adevărat” dacă doriți ca această imagine să fie "
-"imaginea implicită pentru orice modul de curs care nu are o imagine cu logo-"
-"ul specificat. Puteți avea o singură imagine implicită"
-
-#: lms/djangoapps/badges/models.py
-msgid "There can be only one default image."
-msgstr "Poate exista o singură imagine implicită."
-
-#: lms/djangoapps/badges/models.py
-msgid ""
-"On each line, put the number of completed courses to award a badge for, a "
-"comma, and the slug of a badge class you have created that has the issuing "
-"component 'openedx__course'. For example: 3,enrolled_3_courses"
-msgstr ""
-"Introduceți pe fiecare rând, numărul cursurilor înscrise pentru care "
-"primești o insignă, o virgulă și slug-ul unei insigne de curs pe care ați "
-"creat-o și care are o componentă emitentă 'openedx__course'. De exemplu: "
-"3,enrolled_3_courses"
-
-#: lms/djangoapps/badges/models.py
-msgid ""
-"On each line, put the number of enrolled courses to award a badge for, a "
-"comma, and the slug of a badge class you have created that has the issuing "
-"component 'openedx__course'. For example: 3,enrolled_3_courses"
-msgstr ""
-"Introduceți pe fiecare rând,  numărul cursurilor înscrise pentru care "
-"primești o insignă, o virgulă și slug-ul unei insigne de curs pe care ați "
-"creat-o și care are o componentă emitentă 'openedx__course'. De exemplu: "
-"3,enrolled_3_courses"
-
-#: lms/djangoapps/badges/models.py
-msgid ""
-"Each line is a comma-separated list. The first item in each line is the slug"
-" of a badge class you have created that has an issuing component of "
-"'openedx__course'. The remaining items in each line are the course keys the "
-"learner needs to complete to be awarded the badge. For example: "
-"slug_for_compsci_courses_group_badge,course-v1:CompSci+Course+First,course-v1:CompsSci+Course+Second"
-msgstr ""
-"Fiecare rând este o listă separată prin virgulă. Primul element din fiecare "
-"rând este slug-ul unei insigne de curs pe care ați creat-o și care are o "
-"componentă emitentă de \\'openedx__curs\\'. Elementele rămase în fiecare "
-"rând sunt cheile de curs pe care elevul trebuie să le completeze pentru a "
-"primi insigna. De exemplu: "
-"slug_for_compsci_courses_group_badge,course-v1:CompSci+Course+First,course-v1:CompsSci+Course+Second"
-
-#: lms/djangoapps/badges/models.py
-msgid "Please check the syntax of your entry."
-msgstr "Vă rugăm să verificați sintaxa intrării dvs."
-
 #. Translators: This string is used across Open edX installations
 #. as a callback to edX. Please do not translate `edX.org`
 #: lms/djangoapps/branding/api.py
@@ -3475,12 +3407,12 @@ msgid "Good"
 msgstr "Bine"
 
 #. Translators: Replier commented on "your" response to your post
-#: lms/djangoapps/discussion/rest_api/utils.py
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py
 msgid "your"
 msgstr ""
 
 #. Translators: Replier commented on "their" response to your post
-#: lms/djangoapps/discussion/rest_api/utils.py
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py
 msgid "their"
 msgstr ""
 
@@ -7172,6 +7104,20 @@ msgid ""
 msgstr ""
 
 #: openedx/core/djangoapps/notifications/base_notification.py
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> responded to a post you’re "
+"following: <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> commented on {author_name}'s "
+"response in a post you’re following <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py
 msgid ""
 "Notifications for responses and comments on your posts, and the ones you’re "
 "following, including endorsements to your responses and on your posts."
@@ -10235,18 +10181,6 @@ msgid ""
 msgstr ""
 "Editați numele imaginii în miniatură a videoclipului. Puteți seta imaginea "
 "în miniatură a videoclipului pe pagina Setări și Detalii."
-
-#: xmodule/course_block.py
-msgid "Issue Open Badges"
-msgstr ""
-
-#: xmodule/course_block.py
-msgid ""
-"Issue Open Badges badges for this course. Badges are generated when "
-"certificates are created."
-msgstr ""
-"Publicare Începere Recompense insignă pentru acest curs. Insignele sunt "
-"generate când sunt create certificatele."
 
 #: xmodule/course_block.py
 msgid ""
@@ -13652,10 +13586,10 @@ msgid "Welcome to {platform_name}"
 msgstr "Bine ai venit pe {platform_name}"
 
 #. Translators: 'Open edX' is a registered trademark, please keep this
-#. untranslated. See https://open.edx.org for more information.
+#. untranslated. See https://openedx.org for more information.
 #: lms/templates/index_overlay.html
-msgid "It works! Powered by Open edX{registered_trademark}"
-msgstr "Funcționează! Powered by Open edX{registered_trademark}"
+msgid "It works! Powered by the Open edX{registered_trademark} Platform"
+msgstr ""
 
 #: lms/templates/invalid_email_key.html
 msgid "Invalid email change key"
@@ -14340,6 +14274,10 @@ msgstr "Prospecte"
 #: lms/templates/video.html
 msgid "Download Handout"
 msgstr "Descărcați fișa"
+
+#: lms/templates/video.html
+msgid "How is the transcript quality ?"
+msgstr ""
 
 #: lms/templates/word_cloud.html
 msgid "{num} of {total}"
@@ -20421,8 +20359,8 @@ msgid "Studio Accessibility Policy"
 msgstr "Politica de accesibilitate la Studio"
 
 #: cms/templates/asset_index.html cms/templates/widgets/header.html
-msgid "Files & Uploads"
-msgstr "Fișiere și încărcări"
+msgid "Files"
+msgstr ""
 
 #: cms/templates/certificates.html
 msgid "Course Certificates"
@@ -22085,6 +22023,10 @@ msgstr "Cursuri Arhivate"
 
 #: cms/templates/index.html
 msgid "Libraries"
+msgstr ""
+
+#: cms/templates/index.html
+msgid "Taxonomies"
 msgstr ""
 
 #: cms/templates/index.html
