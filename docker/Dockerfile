@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 FROM ubuntu:20.04
 
 # System requirements
@@ -27,10 +28,10 @@ RUN mkdir /openedx && chown -R openedx /openedx
 USER openedx
 
 # Checkout code
+RUN mkdir -p /openedx/edx-platform
 ARG EDX_PLATFORM_REPOSITORY=https://github.com/openedx/edx-platform.git
-ARG EDX_PLATFORM_VERSION=open-release/palm.4
-RUN mkdir -p /openedx/edx-platform && \
-    git clone $EDX_PLATFORM_REPOSITORY --branch $EDX_PLATFORM_VERSION --depth 1 /openedx/edx-platform
+ARG EDX_PLATFORM_VERSION=open-release/quince.master
+ADD --keep-git-dir $EDX_PLATFORM_REPOSITORY#$EDX_PLATFORM_VERSION /openedx/edx-platform
 WORKDIR /openedx/edx-platform
 
 # Install python requirements
